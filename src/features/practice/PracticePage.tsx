@@ -1,0 +1,322 @@
+import { useEffect, useMemo, useRef, useState } from 'react';
+import type { Institution, Subject, Track } from '../../types/content';
+import {
+  blocksForSubject,
+  filterItems,
+  subjectsInBank,
+  topicsForBlock,
+  type ItemFilters,
+} from '../../content';
+import { ItemCard } from '../../components/ItemCard';
+import { recordAttempt } from '../../lib/storage/progress';
+import { useAppStore } from '../../store';
+
+const SUBJECT_LABEL: Record<Subject, string> = {
+  introduccion: 'Introduccion',
+  biologia: 'Biologia',
+  quimica: 'Quimica',
+  fisica: 'Fisica',
+  matematica: 'Matematica',
+  comprension_textos: 'Comprension de textos',
+  alfabetizacion: 'Alfabetizacion',
+};
+
+export function PracticePage() {
+  const [institution, setInstitution] = useState<Institution | ''>('');
+  const [subject, setSubject] = useState<Subject | ''>('');
+  const [block, setBlock] = useState('');
+  const [topic, setTopic] = useState('');
+  const [track, setTrack] = useState<Track | ''>('');
+  const [index, setIndex] = useState(0);
+  const [session, setSession] = useState({ answered: 0, correct: 0 });
+
+  const filters: ItemFilters = useMemo(
+    () => ({
+      institution: institution || undefined,
+      subject: subject || undefined,
+      block: block || undefined,
+      topic: topic || undefined,
+      track: track || undefined,
+    }),
+    [institution, subject, block, topic, track],
+  );
+
+  // La lista se recalcula al cambiar filtros; reiniciamos el mazo.
+  const items = useMemo(() => {
+    const list = filterItems(filters);
+    return list;
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [filters]);
+
+  const current = items[index];
+  const sessionAccuracy = session.answered
+    ? Math.round((session.correct / session.answered) * 100)
+    : 0;
+
+  function resetDeck() {
+    setIndex(0);
+    setSession({ answered: 0, correct: 0 });
+  }
+
+  const blocks = subject ? blocksForSubject(subject) : [];
+  const topics = subject && block ? topicsForBlock(subject, block) : [];
+
+  return (
+    <div className="mx-auto max-w-5xl space-y-6">
+      <section className="flex flex-col gap-4 rounded-lg border border-white/10 bg-slate-900/68 p-5 shadow-2xl shadow-black/25 backdrop-blur-xl lg:flex-row lg:items-end lg:justify-between">
+        <div>
+          <div className="mb-3 inline-flex rounded-md border border-sky-400/20 bg-sky-400/10 px-3 py-1 text-xs font-bold uppercase tracking-[0.16em] text-sky-200">
+            Practica guiada
+          </div>
+          <h1 className="text-3xl font-black text-white sm:text-4xl">Mazo de entrenamiento</h1>
+          <p className="mt-2 max-w-2xl text-sm leading-6 text-slate-400">
+            Ajusta el banco, responde y revisa feedback inmediato para detectar
+            patrones de error.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-3 overflow-hidden rounded-lg border border-white/10 bg-black/24 text-center">
+          <SessionStat label="Items" value={items.length} />
+          <SessionStat label="Sesion" value={`${session.correct}/${session.answered}`} />
+          <SessionStat label="Precision" value={`${sessionAccuracy}%`} />
+        </div>
+      </section>
+
+      <section className="rounded-lg border border-white/10 bg-black/24 p-4 backdrop-blur-xl">
+        <div className="grid grid-cols-2 gap-3 text-sm lg:grid-cols-5">
+          <Select
+            label="Institucion"
+            value={institution}
+            onChange={(v) => {
+              setInstitution(v as Institution | '');
+              resetDeck();
+            }}
+            options={[
+              ['', 'Todas'],
+              ['UNC', 'UNC'],
+              ['UNSa', 'UNSa'],
+            ]}
+          />
+          <Select
+            label="Materia"
+            value={subject}
+            onChange={(v) => {
+              setSubject(v as Subject | '');
+              setBlock('');
+              setTopic('');
+              resetDeck();
+            }}
+            options={[
+              ['', 'Todas'],
+              ...subjectsInBank.map((s) => [s, SUBJECT_LABEL[s]] as [string, string]),
+            ]}
+          />
+          <Select
+            label="Track"
+            value={track}
+            onChange={(v) => {
+              setTrack(v as Track | '');
+              resetDeck();
+            }}
+            options={[
+              ['', 'Ambos'],
+              ['teorico', 'Teorico'],
+              ['practico', 'Practico'],
+            ]}
+          />
+          <Select
+            label="Bloque"
+            value={block}
+            disabled={!subject}
+            onChange={(v) => {
+              setBlock(v);
+              setTopic('');
+              resetDeck();
+            }}
+            options={[
+              ['', 'Todos'],
+              ...blocks.map((b) => [b, b.replaceAll('_', ' ')] as [string, string]),
+            ]}
+          />
+          <Select
+            label="Tema"
+            value={topic}
+            disabled={!block}
+            onChange={(v) => {
+              setTopic(v);
+              resetDeck();
+            }}
+            options={[
+              ['', 'Todos'],
+              ...topics.map((t) => [t, t.replaceAll('_', ' ')] as [string, string]),
+            ]}
+          />
+        </div>
+      </section>
+
+      <div className="flex items-center justify-between gap-3 text-sm text-slate-400">
+        <p>
+          {items.length === 0
+            ? 'No hay items con estos filtros.'
+            : `Item ${Math.min(index + 1, items.length)} de ${items.length}`}
+        </p>
+        {items.length > 0 && (
+          <div className="h-2 min-w-28 flex-1 overflow-hidden rounded-full bg-slate-800 sm:max-w-xs">
+            <div
+              className="h-full rounded-full bg-sky-400 transition-all"
+              style={{ width: `${Math.min(100, ((index + 1) / items.length) * 100)}%` }}
+            />
+          </div>
+        )}
+      </div>
+
+      {current ? (
+        <ItemCard
+          key={current.id}
+          item={current}
+          onAnswered={({ item, correct, given, grade, timeMs }) => {
+            setSession((s) => ({
+              answered: s.answered + 1,
+              correct: s.correct + (correct ? 1 : 0),
+            }));
+            void recordAttempt({
+              item,
+              correct,
+              givenAnswer: given,
+              chosenMisconception: grade.chosenMisconception,
+              timeMs,
+            }).then(({ progress }) => useAppStore.getState().setProgress(progress));
+          }}
+          onNext={() => setIndex((i) => i + 1)}
+        />
+      ) : (
+        items.length > 0 && (
+          <div className="rounded-lg border border-white/10 bg-slate-900/70 px-6 py-12 text-center shadow-xl shadow-black/20">
+            <p className="text-2xl font-black text-white">Mazo completado</p>
+            <p className="mt-2 text-slate-400">
+              {session.correct} de {session.answered} correctas.
+            </p>
+            <button
+              type="button"
+              onClick={resetDeck}
+              className="aulirex-primary-button mt-5 rounded-md px-5 py-2.5 text-sm font-black transition"
+            >
+              Reiniciar
+            </button>
+          </div>
+        )
+      )}
+    </div>
+  );
+}
+
+function SessionStat({ label, value }: { label: string; value: string | number }) {
+  return (
+    <div className="min-w-24 px-4 py-3">
+      <div className="aulirex-gradient-number aulirex-gradient-number--sky text-lg font-black">{value}</div>
+      <div className="text-[0.68rem] font-bold uppercase tracking-[0.14em] text-slate-500">
+        {label}
+      </div>
+    </div>
+  );
+}
+
+function Select({
+  label,
+  value,
+  onChange,
+  options,
+  disabled,
+}: {
+  label: string;
+  value: string;
+  onChange: (v: string) => void;
+  options: [string, string][];
+  disabled?: boolean;
+}) {
+  const [open, setOpen] = useState(false);
+  const wrapperRef = useRef<HTMLDivElement | null>(null);
+  const selectedLabel = options.find(([optionValue]) => optionValue === value)?.[1] ?? options[0]?.[1] ?? '';
+
+  useEffect(() => {
+    if (!open) return;
+
+    const closeFromOutside = (event: PointerEvent) => {
+      if (!wrapperRef.current?.contains(event.target as Node)) {
+        setOpen(false);
+      }
+    };
+
+    const closeWithKeyboard = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') setOpen(false);
+    };
+
+    document.addEventListener('pointerdown', closeFromOutside);
+    document.addEventListener('keydown', closeWithKeyboard);
+
+    return () => {
+      document.removeEventListener('pointerdown', closeFromOutside);
+      document.removeEventListener('keydown', closeWithKeyboard);
+    };
+  }, [open]);
+
+  useEffect(() => {
+    if (disabled) setOpen(false);
+  }, [disabled]);
+
+  return (
+    <div ref={wrapperRef} className="relative flex flex-col gap-1.5">
+      <span className="text-xs font-bold uppercase tracking-[0.12em] text-slate-500">
+        {label}
+      </span>
+      <button
+        type="button"
+        disabled={disabled}
+        aria-haspopup="listbox"
+        aria-expanded={open}
+        onClick={() => setOpen((isOpen) => !isOpen)}
+        onKeyDown={(event) => {
+          if (event.key === 'ArrowDown' || event.key === 'ArrowUp') {
+            event.preventDefault();
+            setOpen(true);
+          }
+        }}
+        className="aulirex-control-button flex h-10 w-full items-center justify-between gap-3 rounded-md border border-slate-700 bg-slate-950/80 px-3 text-left text-sm font-semibold text-slate-100 outline-none transition hover:border-sky-400/70 focus:border-sky-400 focus:ring-2 focus:ring-sky-400/20 disabled:opacity-35"
+      >
+        <span className="min-w-0 truncate">{selectedLabel}</span>
+        <span className={`h-2 w-2 flex-none rotate-45 border-b-2 border-r-2 border-sky-200/80 transition ${open ? '-translate-y-0 rotate-[225deg]' : '-translate-y-0.5'}`} />
+      </button>
+
+      {open && !disabled && (
+        <div
+          role="listbox"
+          className="absolute left-0 right-0 top-full z-40 mt-1 max-h-64 overflow-auto rounded-md border border-sky-400/45 bg-slate-950 py-1 text-sm shadow-[0_18px_45px_rgba(2,6,23,0.72),0_0_22px_rgba(14,165,233,0.2)]"
+        >
+          {options.map(([optionValue, optionLabel]) => {
+            const selected = optionValue === value;
+
+            return (
+              <button
+                key={optionValue}
+                type="button"
+                role="option"
+                aria-selected={selected}
+                onClick={() => {
+                  onChange(optionValue);
+                  setOpen(false);
+                }}
+                className={`flex w-full items-center px-3 py-2 text-left font-semibold transition ${
+                  selected
+                    ? 'bg-sky-400/22 text-sky-100'
+                    : 'text-slate-100 hover:bg-sky-400/14 hover:text-white'
+                }`}
+              >
+                {optionLabel}
+              </button>
+            );
+          })}
+        </div>
+      )}
+    </div>
+  );
+}

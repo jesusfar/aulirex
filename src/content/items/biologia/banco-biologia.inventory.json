@@ -1,0 +1,676 @@
+{
+  "importados": 450,
+  "excluidos": 110,
+  "porMotivo": {
+    "tipo true_false_series (requiere conversión estructural)": 37,
+    "figura no extraída (necesita imagen)": 4,
+    "menos de 2 opciones parseadas": 11,
+    "tipo unknown (requiere conversión estructural)": 14,
+    "tipo freeform (requiere conversión estructural)": 38,
+    "duplicado": 2,
+    "tipo ordering (requiere conversión estructural)": 3,
+    "la opción correcta (a) no está entre las parseadas": 1
+  },
+  "detalle": [
+    {
+      "number": 44,
+      "section": "Protoplasma",
+      "kind": "true_false_series",
+      "reason": "tipo true_false_series (requiere conversión estructural)"
+    },
+    {
+      "number": 45,
+      "section": "Protoplasma",
+      "kind": "single_choice",
+      "reason": "figura no extraída (necesita imagen)"
+    },
+    {
+      "number": 78,
+      "section": "Difusión, Ósmosis, pH, Teorías Biológicas",
+      "kind": "true_false_series",
+      "reason": "tipo true_false_series (requiere conversión estructural)"
+    },
+    {
+      "number": 79,
+      "section": "Difusión, Ósmosis, pH, Teorías Biológicas",
+      "kind": "true_false_series",
+      "reason": "tipo true_false_series (requiere conversión estructural)"
+    },
+    {
+      "number": 81,
+      "section": "Difusión, Ósmosis, pH, Teorías Biológicas",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 85,
+      "section": "Difusión, Ósmosis, pH, Teorías Biológicas",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 93,
+      "section": "Membrana Plasmática",
+      "kind": "true_false_series",
+      "reason": "tipo true_false_series (requiere conversión estructural)"
+    },
+    {
+      "number": 94,
+      "section": "Membrana Plasmática",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 95,
+      "section": "Membrana Plasmática",
+      "kind": "freeform",
+      "reason": "tipo freeform (requiere conversión estructural)"
+    },
+    {
+      "number": 96,
+      "section": "Membrana Plasmática",
+      "kind": "true_false_series",
+      "reason": "tipo true_false_series (requiere conversión estructural)"
+    },
+    {
+      "number": 97,
+      "section": "Membrana Plasmática",
+      "kind": "true_false_series",
+      "reason": "tipo true_false_series (requiere conversión estructural)"
+    },
+    {
+      "number": 98,
+      "section": "Membrana Plasmática",
+      "kind": "true_false_series",
+      "reason": "tipo true_false_series (requiere conversión estructural)"
+    },
+    {
+      "number": 99,
+      "section": "Membrana Plasmática",
+      "kind": "freeform",
+      "reason": "tipo freeform (requiere conversión estructural)"
+    },
+    {
+      "number": 102,
+      "section": "Membrana Plasmática",
+      "kind": "freeform",
+      "reason": "tipo freeform (requiere conversión estructural)"
+    },
+    {
+      "number": 105,
+      "section": "Membrana Plasmática",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 107,
+      "section": "Membrana Plasmática",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 124,
+      "section": "Citosol - Citoesqueleto",
+      "kind": "true_false_series",
+      "reason": "tipo true_false_series (requiere conversión estructural)"
+    },
+    {
+      "number": 125,
+      "section": "Citosol - Citoesqueleto",
+      "kind": "freeform",
+      "reason": "tipo freeform (requiere conversión estructural)"
+    },
+    {
+      "number": 127,
+      "section": "Citosol - Citoesqueleto",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 130,
+      "section": "Citosol - Citoesqueleto",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 131,
+      "section": "Citosol - Citoesqueleto",
+      "kind": "true_false_series",
+      "reason": "tipo true_false_series (requiere conversión estructural)"
+    },
+    {
+      "number": 134,
+      "section": "Citosol - Citoesqueleto",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 157,
+      "section": "Sistema de Endomembranas",
+      "kind": "true_false_series",
+      "reason": "tipo true_false_series (requiere conversión estructural)"
+    },
+    {
+      "number": 159,
+      "section": "Sistema de Endomembranas",
+      "kind": "true_false_series",
+      "reason": "tipo true_false_series (requiere conversión estructural)"
+    },
+    {
+      "number": 161,
+      "section": "Sistema de Endomembranas",
+      "kind": "single_choice",
+      "reason": "duplicado"
+    },
+    {
+      "number": 162,
+      "section": "Sistema de Endomembranas",
+      "kind": "true_false_series",
+      "reason": "tipo true_false_series (requiere conversión estructural)"
+    },
+    {
+      "number": 163,
+      "section": "Sistema de Endomembranas",
+      "kind": "true_false_series",
+      "reason": "tipo true_false_series (requiere conversión estructural)"
+    },
+    {
+      "number": 167,
+      "section": "Sistema de Endomembranas",
+      "kind": "freeform",
+      "reason": "tipo freeform (requiere conversión estructural)"
+    },
+    {
+      "number": 168,
+      "section": "Sistema de Endomembranas",
+      "kind": "freeform",
+      "reason": "tipo freeform (requiere conversión estructural)"
+    },
+    {
+      "number": 171,
+      "section": "Sistema de Endomembranas",
+      "kind": "true_false_series",
+      "reason": "tipo true_false_series (requiere conversión estructural)"
+    },
+    {
+      "number": 176,
+      "section": "Sistema de Endomembranas",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 191,
+      "section": "Mitocondria",
+      "kind": "true_false_series",
+      "reason": "tipo true_false_series (requiere conversión estructural)"
+    },
+    {
+      "number": 194,
+      "section": "Mitocondria",
+      "kind": "ordering",
+      "reason": "tipo ordering (requiere conversión estructural)"
+    },
+    {
+      "number": 198,
+      "section": "Mitocondria",
+      "kind": "freeform",
+      "reason": "tipo freeform (requiere conversión estructural)"
+    },
+    {
+      "number": 202,
+      "section": "Mitocondria",
+      "kind": "freeform",
+      "reason": "tipo freeform (requiere conversión estructural)"
+    },
+    {
+      "number": 203,
+      "section": "Mitocondria",
+      "kind": "true_false_series",
+      "reason": "tipo true_false_series (requiere conversión estructural)"
+    },
+    {
+      "number": 204,
+      "section": "Mitocondria",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 205,
+      "section": "Mitocondria",
+      "kind": "ordering",
+      "reason": "tipo ordering (requiere conversión estructural)"
+    },
+    {
+      "number": 208,
+      "section": "Mitocondria",
+      "kind": "true_false_series",
+      "reason": "tipo true_false_series (requiere conversión estructural)"
+    },
+    {
+      "number": 211,
+      "section": "Microcuerpos, Cloroplastos y Ribosomas",
+      "kind": "true_false_series",
+      "reason": "tipo true_false_series (requiere conversión estructural)"
+    },
+    {
+      "number": 222,
+      "section": "Microcuerpos, Cloroplastos y Ribosomas",
+      "kind": "true_false_series",
+      "reason": "tipo true_false_series (requiere conversión estructural)"
+    },
+    {
+      "number": 227,
+      "section": "Microcuerpos, Cloroplastos y Ribosomas",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 231,
+      "section": "Núcleo Celular",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 236,
+      "section": "Núcleo Celular",
+      "kind": "true_false_series",
+      "reason": "tipo true_false_series (requiere conversión estructural)"
+    },
+    {
+      "number": 246,
+      "section": "Núcleo Celular",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 250,
+      "section": "Núcleo Celular",
+      "kind": "freeform",
+      "reason": "tipo freeform (requiere conversión estructural)"
+    },
+    {
+      "number": 251,
+      "section": "Núcleo Celular",
+      "kind": "freeform",
+      "reason": "tipo freeform (requiere conversión estructural)"
+    },
+    {
+      "number": 252,
+      "section": "Núcleo Celular",
+      "kind": "freeform",
+      "reason": "tipo freeform (requiere conversión estructural)"
+    },
+    {
+      "number": 253,
+      "section": "Núcleo Celular",
+      "kind": "freeform",
+      "reason": "tipo freeform (requiere conversión estructural)"
+    },
+    {
+      "number": 255,
+      "section": "Núcleo Celular",
+      "kind": "freeform",
+      "reason": "tipo freeform (requiere conversión estructural)"
+    },
+    {
+      "number": 256,
+      "section": "Núcleo Celular",
+      "kind": "ordering",
+      "reason": "tipo ordering (requiere conversión estructural)"
+    },
+    {
+      "number": 264,
+      "section": "Núcleo Celular",
+      "kind": "true_false_series",
+      "reason": "tipo true_false_series (requiere conversión estructural)"
+    },
+    {
+      "number": 269,
+      "section": "Núcleo Celular",
+      "kind": "true_false_series",
+      "reason": "tipo true_false_series (requiere conversión estructural)"
+    },
+    {
+      "number": 273,
+      "section": "Núcleo Celular",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 276,
+      "section": "Núcleo Celular",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 303,
+      "section": "Ciclo celular, Mitosis, Meiosis",
+      "kind": "freeform",
+      "reason": "tipo freeform (requiere conversión estructural)"
+    },
+    {
+      "number": 304,
+      "section": "Ciclo celular, Mitosis, Meiosis",
+      "kind": "single_choice",
+      "reason": "figura no extraída (necesita imagen)"
+    },
+    {
+      "number": 305,
+      "section": "Ciclo celular, Mitosis, Meiosis",
+      "kind": "freeform",
+      "reason": "tipo freeform (requiere conversión estructural)"
+    },
+    {
+      "number": 306,
+      "section": "Ciclo celular, Mitosis, Meiosis",
+      "kind": "freeform",
+      "reason": "tipo freeform (requiere conversión estructural)"
+    },
+    {
+      "number": 308,
+      "section": "Ciclo celular, Mitosis, Meiosis",
+      "kind": "freeform",
+      "reason": "tipo freeform (requiere conversión estructural)"
+    },
+    {
+      "number": 310,
+      "section": "Ciclo celular, Mitosis, Meiosis",
+      "kind": "true_false_series",
+      "reason": "tipo true_false_series (requiere conversión estructural)"
+    },
+    {
+      "number": 316,
+      "section": "Ciclo celular, Mitosis, Meiosis",
+      "kind": "freeform",
+      "reason": "tipo freeform (requiere conversión estructural)"
+    },
+    {
+      "number": 318,
+      "section": "Ciclo celular, Mitosis, Meiosis",
+      "kind": "freeform",
+      "reason": "tipo freeform (requiere conversión estructural)"
+    },
+    {
+      "number": 320,
+      "section": "Ciclo celular, Mitosis, Meiosis",
+      "kind": "single_choice",
+      "reason": "duplicado"
+    },
+    {
+      "number": 321,
+      "section": "Ciclo celular, Mitosis, Meiosis",
+      "kind": "freeform",
+      "reason": "tipo freeform (requiere conversión estructural)"
+    },
+    {
+      "number": 322,
+      "section": "Ciclo celular, Mitosis, Meiosis",
+      "kind": "single_choice",
+      "reason": "figura no extraída (necesita imagen)"
+    },
+    {
+      "number": 324,
+      "section": "Ciclo celular, Mitosis, Meiosis",
+      "kind": "freeform",
+      "reason": "tipo freeform (requiere conversión estructural)"
+    },
+    {
+      "number": 327,
+      "section": "Ciclo celular, Mitosis, Meiosis",
+      "kind": "freeform",
+      "reason": "tipo freeform (requiere conversión estructural)"
+    },
+    {
+      "number": 331,
+      "section": "Ciclo celular, Mitosis, Meiosis",
+      "kind": "freeform",
+      "reason": "tipo freeform (requiere conversión estructural)"
+    },
+    {
+      "number": 341,
+      "section": "Genética - Mutaciones",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 352,
+      "section": "Genética - Mutaciones",
+      "kind": "true_false_series",
+      "reason": "tipo true_false_series (requiere conversión estructural)"
+    },
+    {
+      "number": 372,
+      "section": "Herencia - Leyes de Mendel (problemas)",
+      "kind": "freeform",
+      "reason": "tipo freeform (requiere conversión estructural)"
+    },
+    {
+      "number": 373,
+      "section": "Herencia - Leyes de Mendel (problemas)",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 376,
+      "section": "Herencia - Leyes de Mendel (problemas)",
+      "kind": "freeform",
+      "reason": "tipo freeform (requiere conversión estructural)"
+    },
+    {
+      "number": 377,
+      "section": "Herencia - Leyes de Mendel (problemas)",
+      "kind": "freeform",
+      "reason": "tipo freeform (requiere conversión estructural)"
+    },
+    {
+      "number": 388,
+      "section": "Herencia - Leyes de Mendel (problemas)",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 390,
+      "section": "Herencia - Leyes de Mendel (problemas)",
+      "kind": "freeform",
+      "reason": "tipo freeform (requiere conversión estructural)"
+    },
+    {
+      "number": 391,
+      "section": "Herencia - Leyes de Mendel (problemas)",
+      "kind": "single_choice",
+      "reason": "la opción correcta (a) no está entre las parseadas"
+    },
+    {
+      "number": 392,
+      "section": "Herencia - Leyes de Mendel (problemas)",
+      "kind": "freeform",
+      "reason": "tipo freeform (requiere conversión estructural)"
+    },
+    {
+      "number": 393,
+      "section": "Herencia - Leyes de Mendel (problemas)",
+      "kind": "freeform",
+      "reason": "tipo freeform (requiere conversión estructural)"
+    },
+    {
+      "number": 394,
+      "section": "Herencia - Leyes de Mendel (problemas)",
+      "kind": "freeform",
+      "reason": "tipo freeform (requiere conversión estructural)"
+    },
+    {
+      "number": 395,
+      "section": "Herencia - Leyes de Mendel (problemas)",
+      "kind": "freeform",
+      "reason": "tipo freeform (requiere conversión estructural)"
+    },
+    {
+      "number": 399,
+      "section": "Evolución + Repaso",
+      "kind": "true_false_series",
+      "reason": "tipo true_false_series (requiere conversión estructural)"
+    },
+    {
+      "number": 401,
+      "section": "Evolución + Repaso",
+      "kind": "freeform",
+      "reason": "tipo freeform (requiere conversión estructural)"
+    },
+    {
+      "number": 429,
+      "section": "Evolución + Repaso",
+      "kind": "freeform",
+      "reason": "tipo freeform (requiere conversión estructural)"
+    },
+    {
+      "number": 432,
+      "section": "Evolución + Repaso",
+      "kind": "true_false_series",
+      "reason": "tipo true_false_series (requiere conversión estructural)"
+    },
+    {
+      "number": 433,
+      "section": "Evolución + Repaso",
+      "kind": "freeform",
+      "reason": "tipo freeform (requiere conversión estructural)"
+    },
+    {
+      "number": 439,
+      "section": "Ecología",
+      "kind": "freeform",
+      "reason": "tipo freeform (requiere conversión estructural)"
+    },
+    {
+      "number": 442,
+      "section": "Ecología",
+      "kind": "true_false_series",
+      "reason": "tipo true_false_series (requiere conversión estructural)"
+    },
+    {
+      "number": 445,
+      "section": "Ecología",
+      "kind": "true_false_series",
+      "reason": "tipo true_false_series (requiere conversión estructural)"
+    },
+    {
+      "number": 447,
+      "section": "Sistemas de la Nutrición",
+      "kind": "freeform",
+      "reason": "tipo freeform (requiere conversión estructural)"
+    },
+    {
+      "number": 452,
+      "section": "Sistemas de la Nutrición",
+      "kind": "true_false_series",
+      "reason": "tipo true_false_series (requiere conversión estructural)"
+    },
+    {
+      "number": 455,
+      "section": "Sistemas de la Nutrición",
+      "kind": "true_false_series",
+      "reason": "tipo true_false_series (requiere conversión estructural)"
+    },
+    {
+      "number": 457,
+      "section": "Sistemas de la Nutrición",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 458,
+      "section": "Sistemas de la Nutrición",
+      "kind": "true_false_series",
+      "reason": "tipo true_false_series (requiere conversión estructural)"
+    },
+    {
+      "number": 462,
+      "section": "Sistemas de la Nutrición",
+      "kind": "true_false_series",
+      "reason": "tipo true_false_series (requiere conversión estructural)"
+    },
+    {
+      "number": 463,
+      "section": "Sistemas de la Nutrición",
+      "kind": "true_false_series",
+      "reason": "tipo true_false_series (requiere conversión estructural)"
+    },
+    {
+      "number": 466,
+      "section": "Sistemas de la Nutrición",
+      "kind": "true_false_series",
+      "reason": "tipo true_false_series (requiere conversión estructural)"
+    },
+    {
+      "number": 481,
+      "section": "Sistemas de la Nutrición",
+      "kind": "true_false_series",
+      "reason": "tipo true_false_series (requiere conversión estructural)"
+    },
+    {
+      "number": 498,
+      "section": "Sistemas de la Nutrición",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 506,
+      "section": "Sistemas de la Nutrición",
+      "kind": "single_choice",
+      "reason": "figura no extraída (necesita imagen)"
+    },
+    {
+      "number": 508,
+      "section": "Sistemas de la Nutrición",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 537,
+      "section": "Sistemas de la Relación",
+      "kind": "true_false_series",
+      "reason": "tipo true_false_series (requiere conversión estructural)"
+    },
+    {
+      "number": 539,
+      "section": "Sistemas de la Relación",
+      "kind": "freeform",
+      "reason": "tipo freeform (requiere conversión estructural)"
+    },
+    {
+      "number": 545,
+      "section": "Sistemas de la Relación",
+      "kind": "freeform",
+      "reason": "tipo freeform (requiere conversión estructural)"
+    },
+    {
+      "number": 552,
+      "section": "Sistemas de la Relación",
+      "kind": "true_false_series",
+      "reason": "tipo true_false_series (requiere conversión estructural)"
+    },
+    {
+      "number": 553,
+      "section": "Sistemas de la Relación",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 556,
+      "section": "Sistemas de la Relación",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 558,
+      "section": "Sistemas de la Relación",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 559,
+      "section": "Sistemas de la Relación",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    }
+  ]
+}

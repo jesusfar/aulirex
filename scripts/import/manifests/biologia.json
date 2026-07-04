@@ -1,0 +1,236 @@
+[
+  {
+    "number": 33,
+    "section": "Protoplasma",
+    "status": "con_figura",
+    "image": "/figures/bio-fig-659eae257a.png",
+    "stemKey": "Mire el siguiente esquema y elija el conjunto de a",
+    "w": 558,
+    "h": 441,
+    "page": 8
+  },
+  {
+    "number": 45,
+    "section": "Protoplasma",
+    "status": "sin_figura",
+    "stemKey": "La siguiente molécula orgánica representa un:"
+  },
+  {
+    "number": 94,
+    "section": "Membrana Plasmática",
+    "status": "sin_figura",
+    "stemKey": "El movimiento de moléculas de agua a través de una"
+  },
+  {
+    "number": 95,
+    "section": "Mayor concentración de agua",
+    "status": "con_figura",
+    "image": "/figures/bio-fig-cf37569f2d.png",
+    "stemKey": "La glucosa es la principal fuente de energía direc",
+    "w": 579,
+    "h": 366,
+    "page": 23
+  },
+  {
+    "number": 97,
+    "section": "Concentración de sustrato",
+    "status": "con_figura",
+    "image": "/figures/bio-fig-0e733b8663.png",
+    "stemKey": "De acuerdo al siguiente esquema en donde se observ",
+    "w": 574,
+    "h": 311,
+    "page": 24
+  },
+  {
+    "number": 125,
+    "section": "Citosol - Citoesqueleto",
+    "status": "sin_figura",
+    "stemKey": "Una con flechas los conceptos que se relacionan en"
+  },
+  {
+    "number": 167,
+    "section": "Sistema de Endomembranas",
+    "status": "con_figura",
+    "image": "/figures/bio-fig-deb1361aad.png",
+    "stemKey": "En relación al siguiente esquema de lisosomas:",
+    "w": 602,
+    "h": 452,
+    "page": 40
+  },
+  {
+    "number": 176,
+    "section": "Sistema de Endomembranas",
+    "status": "sin_figura",
+    "stemKey": "Una con flechas las relaciones correctas respecto "
+  },
+  {
+    "number": 227,
+    "section": "Microcuerpos, Cloroplastos y Ribosomas",
+    "status": "sin_figura",
+    "stemKey": "Una con flechas cada una de las siguientes proteín"
+  },
+  {
+    "number": 231,
+    "section": "Núcleo Celular",
+    "status": "con_figura",
+    "image": "/figures/bio-fig-c6b9c0ff16.png",
+    "stemKey": "A continuación se observa el esquema de un núcleo ",
+    "w": 437,
+    "h": 378,
+    "page": 56
+  },
+  {
+    "number": 237,
+    "section": "C   F",
+    "status": "con_figura",
+    "image": "/figures/bio-fig-9401fedaec.png",
+    "stemKey": "La siguiente es una micrografía electrónica de dos",
+    "w": 365,
+    "h": 421,
+    "page": 57
+  },
+  {
+    "number": 245,
+    "section": "C   F",
+    "status": "con_figura",
+    "image": "/figures/bio-fig-794a45e06d.png",
+    "stemKey": "La siguiente imagen de micrografía electrónica mue",
+    "w": 339,
+    "h": 338,
+    "page": 59
+  },
+  {
+    "number": 267,
+    "section": "C   F",
+    "status": "sin_figura",
+    "stemKey": "Identifique la opción falsa respecto al ARNt:"
+  },
+  {
+    "number": 269,
+    "section": "C   F",
+    "status": "sin_figura",
+    "stemKey": "Respecto a la traducción, marque V o F según corre"
+  },
+  {
+    "number": 273,
+    "section": "C   F",
+    "status": "sin_figura",
+    "stemKey": "Para construir una casa se requiere de ladrillos q"
+  },
+  {
+    "number": 276,
+    "section": "C   F",
+    "status": "sin_figura",
+    "stemKey": "La regulación de la síntesis proteica se hace prin"
+  },
+  {
+    "number": 294,
+    "section": "Pistas:",
+    "status": "sin_figura",
+    "stemKey": "En qué fase de la mitosis se encuentra la célula d"
+  },
+  {
+    "number": 295,
+    "section": "Pistas:",
+    "status": "con_figura",
+    "image": "/figures/bio-fig-a0f8c4d977.png",
+    "stemKey": "Respecto a la célula de la siguiente imagen, marqu",
+    "w": 194,
+    "h": 203,
+    "page": 72
+  },
+  {
+    "number": 303,
+    "section": "Pistas:",
+    "status": "con_figura",
+    "image": "/figures/bio-fig-c70f562e1e.png",
+    "stemKey": "A continuación se esquematizan las fases de la mit",
+    "w": 704,
+    "h": 102,
+    "page": 74
+  },
+  {
+    "number": 304,
+    "section": "A                       B  C   D  E",
+    "status": "sin_figura",
+    "stemKey": "Respecto a los esquemas de la pregunta anterior, e"
+  },
+  {
+    "number": 307,
+    "section": "A                       B  C   D  E",
+    "status": "con_figura",
+    "image": "/figures/bio-fig-42597e8713.png",
+    "stemKey": "A continuación se ofrece un esquema sintético de l",
+    "w": 482,
+    "h": 298,
+    "page": 75
+  },
+  {
+    "number": 310,
+    "section": "A                       B  C   D  E",
+    "status": "sin_figura",
+    "stemKey": "Respecto a la replicación del ADN, marque V o F se"
+  },
+  {
+    "number": 313,
+    "section": "A                       B  C   D  E",
+    "status": "con_figura",
+    "image": "/figures/bio-fig-0bd687a28b.png",
+    "stemKey": "Observe el siguiente esquema y elija la opción ver",
+    "w": 544,
+    "h": 328,
+    "page": 77
+  },
+  {
+    "number": 318,
+    "section": "A                       B  C   D  E",
+    "status": "sin_figura",
+    "stemKey": "Las células somáticas poseen 23 pares de cromosoma"
+  },
+  {
+    "number": 321,
+    "section": "A                       B  C   D  E",
+    "status": "sin_figura",
+    "stemKey": "Si el óvulo del esquema fuese fecundado por el esp"
+  },
+  {
+    "number": 322,
+    "section": "A                       B  C   D  E",
+    "status": "sin_figura",
+    "stemKey": "En el hipotético caso de que los cuatro espermatoz"
+  },
+  {
+    "number": 394,
+    "section": "Árboles genealógicos",
+    "status": "con_figura",
+    "image": "/figures/bio-fig-530bf30248.png",
+    "stemKey": "El pelo negro de los cobayas está determinado por ",
+    "w": 556,
+    "h": 288,
+    "page": 98
+  },
+  {
+    "number": 410,
+    "section": "Evolución + Repaso",
+    "status": "sin_figura",
+    "stemKey": "La especiación es la formación de nuevas especies "
+  },
+  {
+    "number": 447,
+    "section": "Sistemas de la Nutrición",
+    "status": "sin_figura",
+    "stemKey": "Una con flechas a los distintos órganos o estructu"
+  },
+  {
+    "number": 457,
+    "section": "Sistemas de la Nutrición",
+    "status": "sin_figura",
+    "stemKey": "Las vitaminas deben estar presentes en la dieta, c"
+  },
+  {
+    "number": 506,
+    "section": "Sistemas de la Nutrición",
+    "status": "sin_figura",
+    "stemKey": "Observar el siguiente gráfico Según la numeración "
+  }
+]

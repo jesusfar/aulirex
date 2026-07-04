@@ -1,0 +1,454 @@
+[
+  {
+    "number": 6,
+    "section": "funciones no lineales y repaso",
+    "status": "sin_figura",
+    "stemKey": "Dada la función y = x2 +10 , el gráfico de la mism"
+  },
+  {
+    "number": 17,
+    "section": "funciones no lineales y repaso",
+    "status": "sin_figura",
+    "stemKey": "Dada la función y = log ( 2 + x ), el gráfico de l"
+  },
+  {
+    "number": 18,
+    "section": "funciones no lineales y repaso",
+    "status": "sin_figura",
+    "stemKey": "Dada la función y = log ( 2 + x ), el gráfico de l"
+  },
+  {
+    "number": 19,
+    "section": "funciones no lineales y repaso",
+    "status": "sin_figura",
+    "stemKey": "Dada la función y = e2+x , el gráfico de la misma "
+  },
+  {
+    "number": 22,
+    "section": "funciones no lineales y repaso",
+    "status": "sin_figura",
+    "stemKey": "Del siguiente gráfico, se puede afirmar que la fun"
+  },
+  {
+    "number": 23,
+    "section": "funciones no lineales y repaso",
+    "status": "sin_figura",
+    "stemKey": "Dada la siguiente función y = 0,25x2 - 0,4x - 2, ¿"
+  },
+  {
+    "number": 24,
+    "section": "funciones no lineales y repaso",
+    "status": "con_figura",
+    "image": "/figures/fis-fig-d70621537b.png",
+    "stemKey": "Para la función cuadrática cuyo gráfico es el sigu",
+    "w": 242,
+    "h": 210,
+    "page": 36
+  },
+  {
+    "number": 25,
+    "section": "funciones no lineales y repaso",
+    "status": "con_figura",
+    "image": "/figures/fis-fig-d70621537b.png",
+    "stemKey": "Para la función cuadrática cuyo gráfico es el sigu",
+    "w": 243,
+    "h": 220,
+    "page": 36
+  },
+  {
+    "number": 26,
+    "section": "funciones no lineales y repaso",
+    "status": "con_figura",
+    "image": "/figures/fis-fig-c60fdaa7ee.png",
+    "stemKey": "Para la función cuadrática cuyo gráfico es el sigu",
+    "w": 257,
+    "h": 216,
+    "page": 36
+  },
+  {
+    "number": 35,
+    "section": "funciones no lineales y repaso",
+    "status": "sin_figura",
+    "stemKey": "¿Cuál de las siguientes funciones podría represent"
+  },
+  {
+    "number": 37,
+    "section": "funciones no lineales y repaso",
+    "status": "con_figura",
+    "image": "/figures/fis-fig-411c470626.png",
+    "stemKey": "¿Cuál de los siguientes gráficos representa mejor ",
+    "w": 748,
+    "h": 168,
+    "page": 38
+  },
+  {
+    "number": 39,
+    "section": "funciones no lineales y repaso",
+    "status": "sin_figura",
+    "stemKey": "El siguiente gráfico, corresponde a la función:"
+  },
+  {
+    "number": 40,
+    "section": "funciones no lineales y repaso",
+    "status": "sin_figura",
+    "stemKey": "La recta de la función y =27 se corta con el gráfi"
+  },
+  {
+    "number": 46,
+    "section": "funciones no lineales y repaso",
+    "status": "con_figura",
+    "image": "/figures/fis-fig-f326c425f9.png",
+    "stemKey": "Teniendo en cuenta la ecuación de la recta obtenid",
+    "w": 847,
+    "h": 162,
+    "page": 40
+  },
+  {
+    "number": 50,
+    "section": "funciones no lineales y repaso",
+    "status": "con_figura",
+    "image": "/figures/fis-fig-4552616eed.png",
+    "stemKey": "Luego de determinar el comportamiento de una varia",
+    "w": 788,
+    "h": 165,
+    "page": 42
+  },
+  {
+    "number": 51,
+    "section": "funciones no lineales y repaso",
+    "status": "con_figura",
+    "image": "/figures/fis-fig-5943ae3ff4.png",
+    "stemKey": "El perímetro de una circunferencia está dado por l",
+    "w": 971,
+    "h": 305,
+    "page": 42
+  },
+  {
+    "number": 24,
+    "section": "guía Estática",
+    "status": "con_figura",
+    "image": "/figures/fis-fig-d7a003a48f.png",
+    "stemKey": "Se sabe que para mover el cuerpo mostrado en la fi",
+    "w": 210,
+    "h": 193,
+    "page": 53
+  },
+  {
+    "number": 26,
+    "section": "guía Estática",
+    "status": "con_figura",
+    "image": "/figures/fis-fig-fedc6382fb.png",
+    "stemKey": "En el dibujo que se muestra a continuación, la esf",
+    "w": 306,
+    "h": 204,
+    "page": 54
+  },
+  {
+    "number": 27,
+    "section": "guía Estática",
+    "status": "con_figura",
+    "image": "/figures/fis-fig-82ca0a3761.png",
+    "stemKey": "Un bloque de 8.163 gr se desliza con velocidad con",
+    "w": 624,
+    "h": 495,
+    "page": 54
+  },
+  {
+    "number": 30,
+    "section": "guía Estática",
+    "status": "sin_figura",
+    "stemKey": "En el esquema siguiente, la esfera de 800 gr le tr"
+  },
+  {
+    "number": 31,
+    "section": "guía Estática",
+    "status": "sin_figura",
+    "stemKey": "Un cuerpo de 8,7 Kg está sujetado por 2 cuerdas co"
+  },
+  {
+    "number": 32,
+    "section": "guía Estática",
+    "status": "sin_figura",
+    "stemKey": "En el siguiente esquema, el objeto P está suspendi"
+  },
+  {
+    "number": 34,
+    "section": "guía Estática",
+    "status": "con_figura",
+    "image": "/figures/fis-fig-4695109129.png",
+    "stemKey": "Para el siguiente gráfico, ¿cuánto debe valer el á",
+    "w": 235,
+    "h": 120,
+    "page": 55
+  },
+  {
+    "number": 10,
+    "section": "Guía Cinemática",
+    "status": "con_figura",
+    "image": "/figures/fis-fig-d01876c827.png",
+    "stemKey": "El siguiente gráfico muestra el movimiento de un m",
+    "w": 463,
+    "h": 318,
+    "page": 60
+  },
+  {
+    "number": 13,
+    "section": "Guía Cinemática",
+    "status": "con_figura",
+    "image": "/figures/fis-fig-920997a4ba.png",
+    "stemKey": "Analizar el siguiente gráfico que describe el movi",
+    "w": 932,
+    "h": 364,
+    "page": 60
+  },
+  {
+    "number": 14,
+    "section": "Guía Cinemática",
+    "status": "con_figura",
+    "image": "/figures/fis-fig-5580ceb72c.png",
+    "stemKey": "Respecto al problema anterior, y observando el grá",
+    "w": 932,
+    "h": 364,
+    "page": 60
+  },
+  {
+    "number": 23,
+    "section": "Guía Cinemática",
+    "status": "con_figura",
+    "image": "/figures/fis-fig-a4afb9cff9.png",
+    "stemKey": "Analizar el siguiente gráfico que describe la velo",
+    "w": 932,
+    "h": 364,
+    "page": 60
+  },
+  {
+    "number": 37,
+    "section": "Guía Cinemática",
+    "status": "con_figura",
+    "image": "/figures/fis-fig-3a2b49bb8f.png",
+    "stemKey": "De acuerdo al gráfico de la figura, para este movi",
+    "w": 591,
+    "h": 345,
+    "page": 66
+  },
+  {
+    "number": 46,
+    "section": "Guía Cinemática",
+    "status": "con_figura",
+    "image": "/figures/fis-fig-223f8e4f98.png",
+    "stemKey": "Para el movimiento de un móvil que avanza en línea",
+    "w": 719,
+    "h": 356,
+    "page": 68
+  },
+  {
+    "number": 47,
+    "section": "Guía Cinemática",
+    "status": "sin_figura",
+    "stemKey": "Si el gráfico del problema anterior representara v"
+  },
+  {
+    "number": 25,
+    "section": "Dinámica",
+    "status": "con_figura",
+    "image": "/figures/fis-fig-d47159c85f.png",
+    "stemKey": "Se tienen 3 bloques de masas 5 kg, 12 kg y 15 kg, ",
+    "w": 528,
+    "h": 134,
+    "page": 76
+  },
+  {
+    "number": 26,
+    "section": "Dinámica",
+    "status": "con_figura",
+    "image": "/figures/fis-fig-77e75f1058.png",
+    "stemKey": "Los siguientes cuerpos A, B y C se encuentran en c",
+    "w": 350,
+    "h": 134,
+    "page": 76
+  },
+  {
+    "number": 52,
+    "section": "Dinámica",
+    "status": "con_figura",
+    "image": "/figures/fis-fig-3c5f73f19c.png",
+    "stemKey": "Un cuerpo de masa desconocida cae por un plano inc",
+    "w": 320,
+    "h": 182,
+    "page": 81
+  },
+  {
+    "number": 27,
+    "section": "Guía Trabajo y Energía",
+    "status": "con_figura",
+    "image": "/figures/fis-fig-10ae469810.png",
+    "stemKey": "El gráfico de la figura representa la fuerza resul",
+    "w": 726,
+    "h": 306,
+    "page": 87
+  },
+  {
+    "number": 44,
+    "section": "Guía Trabajo y Energía",
+    "status": "con_figura",
+    "image": "/figures/fis-fig-e01a0fc70d.png",
+    "stemKey": "Tres remolcadores R1, R2 y R3, llevan un barco hac",
+    "w": 338,
+    "h": 174,
+    "page": 90
+  },
+  {
+    "number": 53,
+    "section": "Guía Trabajo y Energía",
+    "status": "con_figura",
+    "image": "/figures/fis-fig-025d89712d.png",
+    "stemKey": "Nicolás corre 4 m tirando de su carrito (C), con l",
+    "w": 410,
+    "h": 237,
+    "page": 92
+  },
+  {
+    "number": 54,
+    "section": "Guía Trabajo y Energía",
+    "status": "con_figura",
+    "image": "/figures/fis-fig-dee2e749ec.png",
+    "stemKey": "El siguiente gráfico representa la velocidad de un",
+    "w": 826,
+    "h": 365,
+    "page": 92
+  },
+  {
+    "number": 62,
+    "section": "Guía Trabajo y Energía",
+    "status": "con_figura",
+    "image": "/figures/fis-fig-23eefd93c0.png",
+    "stemKey": "La siguiente figura representa la ladera de una mo",
+    "w": 653,
+    "h": 287,
+    "page": 94
+  },
+  {
+    "number": 14,
+    "section": "Hidrostática",
+    "status": "con_figura",
+    "image": "/figures/fis-fig-352c7b3625.png",
+    "stemKey": "Los vasos comunicantes mostrados en la figura se e",
+    "w": 300,
+    "h": 229,
+    "page": 99
+  },
+  {
+    "number": 18,
+    "section": "Hidrostática",
+    "status": "con_figura",
+    "image": "/figures/fis-fig-da85737eea.png",
+    "stemKey": "En un recipiente cilíndrico de 18 cm de alto, abie",
+    "w": 183,
+    "h": 268,
+    "page": 100
+  },
+  {
+    "number": 30,
+    "section": "Hidrostática",
+    "status": "con_figura",
+    "image": "/figures/fis-fig-1a55185f28.png",
+    "stemKey": "En el tubo en U mostrado en la figura se han coloc",
+    "w": 409,
+    "h": 382,
+    "page": 102
+  },
+  {
+    "number": 58,
+    "section": "Hidrostática",
+    "status": "con_figura",
+    "image": "/figures/fis-fig-d8db914f99.png",
+    "stemKey": "La superficie de un líquido tiene propiedades espe",
+    "w": 269,
+    "h": 233,
+    "page": 107
+  },
+  {
+    "number": 8,
+    "section": "guía Hidrodinámica",
+    "status": "sin_figura",
+    "stemKey": "Un tanque abierto en su parte superior, como muest"
+  },
+  {
+    "number": 54,
+    "section": "guía Hidrodinámica",
+    "status": "con_figura",
+    "image": "/figures/fis-fig-3a7cc59788.png",
+    "stemKey": "Observe la figura: por el caño circula agua. Se sa",
+    "w": 348,
+    "h": 307,
+    "page": 119
+  },
+  {
+    "number": 55,
+    "section": "guía Hidrodinámica",
+    "status": "sin_figura",
+    "stemKey": "Determinar cuál es la presión que se debe generar "
+  },
+  {
+    "number": 62,
+    "section": "Gases",
+    "status": "con_figura",
+    "image": "/figures/fis-fig-d5160882d2.png",
+    "stemKey": "¿Cuáles de los siguientes gráficos representa corr",
+    "w": 475,
+    "h": 142,
+    "page": 132
+  },
+  {
+    "number": 63,
+    "section": "Gases",
+    "status": "con_figura",
+    "image": "/figures/fis-fig-c0a7deef29.png",
+    "stemKey": "Analizar el siguiente gráfico que relaciona las tr",
+    "w": 932,
+    "h": 364,
+    "page": 60
+  },
+  {
+    "number": 64,
+    "section": "Gases",
+    "status": "con_figura",
+    "image": "/figures/fis-fig-9e21096869.png",
+    "stemKey": "Las transformaciones de presión, volumen y tempera",
+    "w": 940,
+    "h": 1220,
+    "page": 134
+  },
+  {
+    "number": 21,
+    "section": "Guía Electrostática",
+    "status": "con_figura",
+    "image": "/figures/fis-fig-1064b394b7.png",
+    "stemKey": "Se tiene una carga q1 inserta fija en la pared, y ",
+    "w": 372,
+    "h": 197,
+    "page": 140
+  },
+  {
+    "number": 9,
+    "section": "Guía Electrodinámica",
+    "status": "sin_figura",
+    "stemKey": "Calcule la diferencia de potencial que hay entre d"
+  },
+  {
+    "number": 17,
+    "section": "Guía Electrodinámica",
+    "status": "sin_figura",
+    "stemKey": "¿Qué potencia transmite al ambiente un resistor de"
+  },
+  {
+    "number": 21,
+    "section": "Guía Electrodinámica",
+    "status": "con_figura",
+    "image": "/figures/fis-fig-a824770ee5.png",
+    "stemKey": "Calcular la potencia disipada por la fuente (poten",
+    "w": 446,
+    "h": 287,
+    "page": 149
+  }
+]

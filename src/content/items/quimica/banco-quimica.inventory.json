@@ -1,0 +1,1745 @@
+{
+  "importados": 285,
+  "excluidos": 288,
+  "porMotivo": {
+    "duplicado": 8,
+    "tipo unknown (requiere conversión estructural)": 174,
+    "menos de 2 opciones parseadas": 22,
+    "tipo ordering (requiere conversión estructural)": 28,
+    "la opción correcta (d) no está entre las parseadas": 4,
+    "figura no extraída (necesita imagen)": 37,
+    "la opción correcta (c) no está entre las parseadas": 8,
+    "la opción correcta (e) no está entre las parseadas": 3,
+    "corrupto (símbolos ilegibles / preguntas fusionadas)": 4
+  },
+  "detalle": [
+    {
+      "number": 2,
+      "section": "Conceptos básicos y sistemas materiales -Ejercitación:",
+      "kind": "single_choice",
+      "reason": "duplicado"
+    },
+    {
+      "number": 7,
+      "section": "Conceptos básicos y sistemas materiales -Ejercitación:",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 8,
+      "section": "Conceptos básicos y sistemas materiales -Ejercitación:",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 9,
+      "section": "Conceptos básicos y sistemas materiales -Ejercitación:",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 10,
+      "section": "Conceptos básicos y sistemas materiales -Ejercitación:",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 11,
+      "section": "Conceptos básicos y sistemas materiales -Ejercitación:",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 12,
+      "section": "Conceptos básicos y sistemas materiales -Ejercitación:",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 13,
+      "section": "Conceptos básicos y sistemas materiales -Ejercitación:",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 14,
+      "section": "Conceptos básicos y sistemas materiales -Ejercitación:",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 16,
+      "section": "Conceptos básicos y sistemas materiales -Ejercitación:",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 17,
+      "section": "Conceptos básicos y sistemas materiales -Ejercitación:",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 19,
+      "section": "Conceptos básicos y sistemas materiales -Ejercitación:",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 20,
+      "section": "Conceptos básicos y sistemas materiales -Ejercitación:",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 24,
+      "section": "Conceptos básicos y sistemas materiales -Ejercitación:",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 25,
+      "section": "Conceptos básicos y sistemas materiales -Ejercitación:",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 26,
+      "section": "Conceptos básicos y sistemas materiales -Ejercitación:",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 4,
+      "section": "Leyes de la Química",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 8,
+      "section": "Leyes de la Química",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 10,
+      "section": "Leyes de la Química",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 14,
+      "section": "Leyes de la Química",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 16,
+      "section": "Leyes de la Química",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 20,
+      "section": "Leyes de la Química",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 22,
+      "section": "Leyes de la Química",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 23,
+      "section": "Leyes de la Química",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 1,
+      "section": "guía Unidades Químicas        6",
+      "kind": "ordering",
+      "reason": "tipo ordering (requiere conversión estructural)"
+    },
+    {
+      "number": 2,
+      "section": "guía Unidades Químicas        6",
+      "kind": "ordering",
+      "reason": "tipo ordering (requiere conversión estructural)"
+    },
+    {
+      "number": 3,
+      "section": "guía Unidades Químicas        6",
+      "kind": "ordering",
+      "reason": "tipo ordering (requiere conversión estructural)"
+    },
+    {
+      "number": 5,
+      "section": "guía Unidades Químicas        6",
+      "kind": "ordering",
+      "reason": "tipo ordering (requiere conversión estructural)"
+    },
+    {
+      "number": 6,
+      "section": "guía Unidades Químicas        6",
+      "kind": "ordering",
+      "reason": "tipo ordering (requiere conversión estructural)"
+    },
+    {
+      "number": 7,
+      "section": "guía Unidades Químicas        6",
+      "kind": "ordering",
+      "reason": "tipo ordering (requiere conversión estructural)"
+    },
+    {
+      "number": 8,
+      "section": "guía Unidades Químicas        6",
+      "kind": "ordering",
+      "reason": "tipo ordering (requiere conversión estructural)"
+    },
+    {
+      "number": 9,
+      "section": "guía Unidades Químicas        6",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 10,
+      "section": "guía Unidades Químicas        6",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 11,
+      "section": "guía Unidades Químicas        6",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 14,
+      "section": "guía Unidades Químicas        6",
+      "kind": "single_choice",
+      "reason": "duplicado"
+    },
+    {
+      "number": 16,
+      "section": "guía Unidades Químicas        6",
+      "kind": "single_choice",
+      "reason": "duplicado"
+    },
+    {
+      "number": 18,
+      "section": "guía Unidades Químicas        6",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 19,
+      "section": "guía Unidades Químicas        6",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 20,
+      "section": "guía Unidades Químicas        6",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 21,
+      "section": "guía Unidades Químicas        6",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 22,
+      "section": "guía Unidades Químicas        6",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 23,
+      "section": "guía Unidades Químicas        6",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 33,
+      "section": "guía Unidades Químicas        6",
+      "kind": "single_choice",
+      "reason": "la opción correcta (d) no está entre las parseadas"
+    },
+    {
+      "number": 51,
+      "section": "guía Unidades Químicas        6",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 52,
+      "section": "guía Unidades Químicas        6",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 53,
+      "section": "guía Unidades Químicas        6",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 54,
+      "section": "guía Unidades Químicas        6",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 55,
+      "section": "guía Unidades Químicas        6",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 56,
+      "section": "guía Unidades Químicas        6",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 57,
+      "section": "guía Unidades Químicas        6",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 58,
+      "section": "guía Unidades Químicas        6",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 59,
+      "section": "guía Unidades Químicas        6",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 6,
+      "section": "Teoría Atómica",
+      "kind": "single_choice",
+      "reason": "figura no extraída (necesita imagen)"
+    },
+    {
+      "number": 11,
+      "section": "Teoría Atómica",
+      "kind": "single_choice",
+      "reason": "figura no extraída (necesita imagen)"
+    },
+    {
+      "number": 12,
+      "section": "Teoría Atómica",
+      "kind": "single_choice",
+      "reason": "figura no extraída (necesita imagen)"
+    },
+    {
+      "number": 13,
+      "section": "Teoría Atómica",
+      "kind": "single_choice",
+      "reason": "figura no extraída (necesita imagen)"
+    },
+    {
+      "number": 14,
+      "section": "Teoría Atómica",
+      "kind": "single_choice",
+      "reason": "figura no extraída (necesita imagen)"
+    },
+    {
+      "number": 15,
+      "section": "Teoría Atómica",
+      "kind": "single_choice",
+      "reason": "figura no extraída (necesita imagen)"
+    },
+    {
+      "number": 16,
+      "section": "Teoría Atómica",
+      "kind": "single_choice",
+      "reason": "figura no extraída (necesita imagen)"
+    },
+    {
+      "number": 18,
+      "section": "Teoría Atómica",
+      "kind": "single_choice",
+      "reason": "figura no extraída (necesita imagen)"
+    },
+    {
+      "number": 19,
+      "section": "Teoría Atómica",
+      "kind": "single_choice",
+      "reason": "figura no extraída (necesita imagen)"
+    },
+    {
+      "number": 20,
+      "section": "Teoría Atómica",
+      "kind": "single_choice",
+      "reason": "figura no extraída (necesita imagen)"
+    },
+    {
+      "number": 21,
+      "section": "Teoría Atómica",
+      "kind": "single_choice",
+      "reason": "figura no extraída (necesita imagen)"
+    },
+    {
+      "number": 22,
+      "section": "Teoría Atómica",
+      "kind": "single_choice",
+      "reason": "figura no extraída (necesita imagen)"
+    },
+    {
+      "number": 23,
+      "section": "Teoría Atómica",
+      "kind": "single_choice",
+      "reason": "figura no extraída (necesita imagen)"
+    },
+    {
+      "number": 24,
+      "section": "Teoría Atómica",
+      "kind": "single_choice",
+      "reason": "figura no extraída (necesita imagen)"
+    },
+    {
+      "number": 25,
+      "section": "Teoría Atómica",
+      "kind": "single_choice",
+      "reason": "figura no extraída (necesita imagen)"
+    },
+    {
+      "number": 28,
+      "section": "Teoría Atómica",
+      "kind": "single_choice",
+      "reason": "figura no extraída (necesita imagen)"
+    },
+    {
+      "number": 29,
+      "section": "Teoría Atómica",
+      "kind": "single_choice",
+      "reason": "figura no extraída (necesita imagen)"
+    },
+    {
+      "number": 34,
+      "section": "Teoría Atómica",
+      "kind": "single_choice",
+      "reason": "figura no extraída (necesita imagen)"
+    },
+    {
+      "number": 35,
+      "section": "Teoría Atómica",
+      "kind": "single_choice",
+      "reason": "figura no extraída (necesita imagen)"
+    },
+    {
+      "number": 36,
+      "section": "Teoría Atómica",
+      "kind": "single_choice",
+      "reason": "figura no extraída (necesita imagen)"
+    },
+    {
+      "number": 40,
+      "section": "Teoría Atómica",
+      "kind": "single_choice",
+      "reason": "la opción correcta (c) no está entre las parseadas"
+    },
+    {
+      "number": 41,
+      "section": "Teoría Atómica",
+      "kind": "single_choice",
+      "reason": "la opción correcta (c) no está entre las parseadas"
+    },
+    {
+      "number": 53,
+      "section": "Teoría Atómica",
+      "kind": "single_choice",
+      "reason": "figura no extraída (necesita imagen)"
+    },
+    {
+      "number": 12,
+      "section": "Tabla Periódica",
+      "kind": "single_choice",
+      "reason": "figura no extraída (necesita imagen)"
+    },
+    {
+      "number": 13,
+      "section": "Tabla Periódica",
+      "kind": "single_choice",
+      "reason": "figura no extraída (necesita imagen)"
+    },
+    {
+      "number": 14,
+      "section": "Tabla Periódica",
+      "kind": "single_choice",
+      "reason": "la opción correcta (c) no está entre las parseadas"
+    },
+    {
+      "number": 15,
+      "section": "Tabla Periódica",
+      "kind": "single_choice",
+      "reason": "figura no extraída (necesita imagen)"
+    },
+    {
+      "number": 20,
+      "section": "Tabla Periódica",
+      "kind": "single_choice",
+      "reason": "la opción correcta (c) no está entre las parseadas"
+    },
+    {
+      "number": 22,
+      "section": "Tabla Periódica",
+      "kind": "single_choice",
+      "reason": "figura no extraída (necesita imagen)"
+    },
+    {
+      "number": 25,
+      "section": "Tabla Periódica",
+      "kind": "single_choice",
+      "reason": "la opción correcta (e) no está entre las parseadas"
+    },
+    {
+      "number": 27,
+      "section": "Tabla Periódica",
+      "kind": "single_choice",
+      "reason": "la opción correcta (d) no está entre las parseadas"
+    },
+    {
+      "number": 28,
+      "section": "Tabla Periódica",
+      "kind": "single_choice",
+      "reason": "la opción correcta (e) no está entre las parseadas"
+    },
+    {
+      "number": 29,
+      "section": "Tabla Periódica",
+      "kind": "single_choice",
+      "reason": "la opción correcta (c) no está entre las parseadas"
+    },
+    {
+      "number": 30,
+      "section": "Tabla Periódica",
+      "kind": "single_choice",
+      "reason": "la opción correcta (c) no está entre las parseadas"
+    },
+    {
+      "number": 31,
+      "section": "Tabla Periódica",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 32,
+      "section": "Tabla Periódica",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 33,
+      "section": "Tabla Periódica",
+      "kind": "single_choice",
+      "reason": "la opción correcta (d) no está entre las parseadas"
+    },
+    {
+      "number": 34,
+      "section": "Tabla Periódica",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 35,
+      "section": "Tabla Periódica",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 3,
+      "section": "Enlace Químico",
+      "kind": "single_choice",
+      "reason": "duplicado"
+    },
+    {
+      "number": 6,
+      "section": "Enlace Químico",
+      "kind": "single_choice",
+      "reason": "figura no extraída (necesita imagen)"
+    },
+    {
+      "number": 17,
+      "section": "Enlace Químico",
+      "kind": "single_choice",
+      "reason": "figura no extraída (necesita imagen)"
+    },
+    {
+      "number": 19,
+      "section": "Enlace Químico",
+      "kind": "single_choice",
+      "reason": "figura no extraída (necesita imagen)"
+    },
+    {
+      "number": 22,
+      "section": "Enlace Químico",
+      "kind": "single_choice",
+      "reason": "figura no extraída (necesita imagen)"
+    },
+    {
+      "number": 23,
+      "section": "Enlace Químico",
+      "kind": "single_choice",
+      "reason": "figura no extraída (necesita imagen)"
+    },
+    {
+      "number": 24,
+      "section": "Enlace Químico",
+      "kind": "single_choice",
+      "reason": "corrupto (símbolos ilegibles / preguntas fusionadas)"
+    },
+    {
+      "number": 25,
+      "section": "Enlace Químico",
+      "kind": "single_choice",
+      "reason": "figura no extraída (necesita imagen)"
+    },
+    {
+      "number": 26,
+      "section": "Enlace Químico",
+      "kind": "single_choice",
+      "reason": "figura no extraída (necesita imagen)"
+    },
+    {
+      "number": 27,
+      "section": "Enlace Químico",
+      "kind": "single_choice",
+      "reason": "figura no extraída (necesita imagen)"
+    },
+    {
+      "number": 28,
+      "section": "Enlace Químico",
+      "kind": "single_choice",
+      "reason": "corrupto (símbolos ilegibles / preguntas fusionadas)"
+    },
+    {
+      "number": 30,
+      "section": "Enlace Químico",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 31,
+      "section": "Enlace Químico",
+      "kind": "single_choice",
+      "reason": "figura no extraída (necesita imagen)"
+    },
+    {
+      "number": 32,
+      "section": "Enlace Químico",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 1,
+      "section": "guía Formuleo",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 3,
+      "section": "guía Formuleo",
+      "kind": "single_choice",
+      "reason": "la opción correcta (c) no está entre las parseadas"
+    },
+    {
+      "number": 4,
+      "section": "guía Formuleo",
+      "kind": "single_choice",
+      "reason": "la opción correcta (d) no está entre las parseadas"
+    },
+    {
+      "number": 5,
+      "section": "guía Formuleo",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 6,
+      "section": "guía Formuleo",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 7,
+      "section": "guía Formuleo",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 8,
+      "section": "guía Formuleo",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 12,
+      "section": "- Estequiometria",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 17,
+      "section": "- Estequiometria",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 37,
+      "section": "- Estequiometria",
+      "kind": "ordering",
+      "reason": "tipo ordering (requiere conversión estructural)"
+    },
+    {
+      "number": 38,
+      "section": "- Estequiometria",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 39,
+      "section": "- Estequiometria",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 40,
+      "section": "- Estequiometria",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 41,
+      "section": "- Estequiometria",
+      "kind": "ordering",
+      "reason": "tipo ordering (requiere conversión estructural)"
+    },
+    {
+      "number": 42,
+      "section": "- Estequiometria",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 43,
+      "section": "- Estequiometria",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 44,
+      "section": "- Estequiometria",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 1,
+      "section": "guía Redox",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 2,
+      "section": "guía Redox",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 4,
+      "section": "guía Redox",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 5,
+      "section": "guía Redox",
+      "kind": "single_choice",
+      "reason": "la opción correcta (e) no está entre las parseadas"
+    },
+    {
+      "number": 12,
+      "section": "guía Redox",
+      "kind": "single_choice",
+      "reason": "corrupto (símbolos ilegibles / preguntas fusionadas)"
+    },
+    {
+      "number": 21,
+      "section": "guía Redox",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 22,
+      "section": "guía Redox",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 23,
+      "section": "Soluciones",
+      "kind": "ordering",
+      "reason": "tipo ordering (requiere conversión estructural)"
+    },
+    {
+      "number": 24,
+      "section": "Soluciones",
+      "kind": "ordering",
+      "reason": "tipo ordering (requiere conversión estructural)"
+    },
+    {
+      "number": 25,
+      "section": "Soluciones",
+      "kind": "ordering",
+      "reason": "tipo ordering (requiere conversión estructural)"
+    },
+    {
+      "number": 27,
+      "section": "Soluciones",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 28,
+      "section": "Soluciones",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 29,
+      "section": "Soluciones",
+      "kind": "ordering",
+      "reason": "tipo ordering (requiere conversión estructural)"
+    },
+    {
+      "number": 30,
+      "section": "Soluciones",
+      "kind": "ordering",
+      "reason": "tipo ordering (requiere conversión estructural)"
+    },
+    {
+      "number": 31,
+      "section": "Soluciones",
+      "kind": "ordering",
+      "reason": "tipo ordering (requiere conversión estructural)"
+    },
+    {
+      "number": 32,
+      "section": "Soluciones",
+      "kind": "ordering",
+      "reason": "tipo ordering (requiere conversión estructural)"
+    },
+    {
+      "number": 33,
+      "section": "Soluciones",
+      "kind": "ordering",
+      "reason": "tipo ordering (requiere conversión estructural)"
+    },
+    {
+      "number": 34,
+      "section": "Soluciones",
+      "kind": "ordering",
+      "reason": "tipo ordering (requiere conversión estructural)"
+    },
+    {
+      "number": 35,
+      "section": "Soluciones",
+      "kind": "ordering",
+      "reason": "tipo ordering (requiere conversión estructural)"
+    },
+    {
+      "number": 36,
+      "section": "Soluciones",
+      "kind": "ordering",
+      "reason": "tipo ordering (requiere conversión estructural)"
+    },
+    {
+      "number": 37,
+      "section": "Soluciones",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 38,
+      "section": "Soluciones",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 39,
+      "section": "Soluciones",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 40,
+      "section": "Soluciones",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 41,
+      "section": "Soluciones",
+      "kind": "ordering",
+      "reason": "tipo ordering (requiere conversión estructural)"
+    },
+    {
+      "number": 42,
+      "section": "Soluciones",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 43,
+      "section": "Soluciones",
+      "kind": "ordering",
+      "reason": "tipo ordering (requiere conversión estructural)"
+    },
+    {
+      "number": 44,
+      "section": "Soluciones",
+      "kind": "ordering",
+      "reason": "tipo ordering (requiere conversión estructural)"
+    },
+    {
+      "number": 45,
+      "section": "Soluciones",
+      "kind": "ordering",
+      "reason": "tipo ordering (requiere conversión estructural)"
+    },
+    {
+      "number": 46,
+      "section": "Soluciones",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 48,
+      "section": "Soluciones",
+      "kind": "ordering",
+      "reason": "tipo ordering (requiere conversión estructural)"
+    },
+    {
+      "number": 49,
+      "section": "Soluciones",
+      "kind": "ordering",
+      "reason": "tipo ordering (requiere conversión estructural)"
+    },
+    {
+      "number": 51,
+      "section": "Soluciones",
+      "kind": "ordering",
+      "reason": "tipo ordering (requiere conversión estructural)"
+    },
+    {
+      "number": 56,
+      "section": "Soluciones",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 58,
+      "section": "Soluciones",
+      "kind": "single_choice",
+      "reason": "la opción correcta (c) no está entre las parseadas"
+    },
+    {
+      "number": 63,
+      "section": "Soluciones",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 3,
+      "section": "Propiedades Coligativas",
+      "kind": "single_choice",
+      "reason": "duplicado"
+    },
+    {
+      "number": 4,
+      "section": "Propiedades Coligativas",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 13,
+      "section": "Propiedades Coligativas",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 28,
+      "section": "Propiedades Coligativas",
+      "kind": "single_choice",
+      "reason": "figura no extraída (necesita imagen)"
+    },
+    {
+      "number": 37,
+      "section": "Propiedades Coligativas",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 3,
+      "section": "guía Equilibrio Químico",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 8,
+      "section": "guía Equilibrio Químico",
+      "kind": "ordering",
+      "reason": "tipo ordering (requiere conversión estructural)"
+    },
+    {
+      "number": 9,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 10,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 11,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 12,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 13,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 14,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 15,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 16,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 17,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 18,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 19,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 20,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 21,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 22,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 23,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 24,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 25,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 26,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 27,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 28,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 29,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 30,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 31,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 32,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 33,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 34,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 35,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 36,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 37,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 38,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 39,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 40,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 41,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 42,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 43,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 44,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 45,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 46,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 47,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 48,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 49,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 50,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 51,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 52,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 53,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 54,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 55,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 56,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 57,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 58,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 59,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 60,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 61,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 62,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 63,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 64,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 65,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 66,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 67,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 68,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 69,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 70,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 71,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 72,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 73,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 74,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 75,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 76,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 77,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 78,
+      "section": "guía Equilibrio Químico",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 9,
+      "section": "guía Química Orgánica          i) ciclo propano",
+      "kind": "single_choice",
+      "reason": "duplicado"
+    },
+    {
+      "number": 26,
+      "section": "guía Química Orgánica          i) ciclo propano",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 37,
+      "section": "guía Química Orgánica          i) ciclo propano",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 38,
+      "section": "guía Química Orgánica          i) ciclo propano",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 42,
+      "section": "guía Química Orgánica          i) ciclo propano",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 43,
+      "section": "guía Química Orgánica          i) ciclo propano",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 49,
+      "section": "guía Química Orgánica          i) ciclo propano",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 50,
+      "section": "guía Química Orgánica          i) ciclo propano",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 51,
+      "section": "guía Química Orgánica          i) ciclo propano",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 52,
+      "section": "guía Química Orgánica          i) ciclo propano",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 54,
+      "section": "guía Química Orgánica          i) ciclo propano",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 55,
+      "section": "guía Química Orgánica          i) ciclo propano",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 56,
+      "section": "guía Química Orgánica          i) ciclo propano",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 57,
+      "section": "guía Química Orgánica          i) ciclo propano",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 58,
+      "section": "guía Química Orgánica          i) ciclo propano",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 59,
+      "section": "guía Química Orgánica          i) ciclo propano",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 60,
+      "section": "guía Química Orgánica          i) ciclo propano",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 62,
+      "section": "guía Química Orgánica          i) ciclo propano",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 63,
+      "section": "guía Química Orgánica          i) ciclo propano",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 64,
+      "section": "guía Química Orgánica          i) ciclo propano",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 65,
+      "section": "guía Química Orgánica          i) ciclo propano",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 66,
+      "section": "guía Química Orgánica          i) ciclo propano",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 67,
+      "section": "guía Química Orgánica          i) ciclo propano",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 68,
+      "section": "guía Química Orgánica          i) ciclo propano",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 69,
+      "section": "guía Química Orgánica          i) ciclo propano",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 70,
+      "section": "guía Química Orgánica          i) ciclo propano",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 71,
+      "section": "guía Química Orgánica          i) ciclo propano",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 72,
+      "section": "guía Química Orgánica          i) ciclo propano",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 73,
+      "section": "guía Química Orgánica          i) ciclo propano",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 74,
+      "section": "guía Química Orgánica          i) ciclo propano",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 75,
+      "section": "guía Química Orgánica          i) ciclo propano",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 76,
+      "section": "guía Química Orgánica          i) ciclo propano",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 77,
+      "section": "guía Química Orgánica          i) ciclo propano",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 78,
+      "section": "guía Química Orgánica          i) ciclo propano",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 1,
+      "section": "guía Química Orgánica          i) ciclo propano",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 2,
+      "section": "guía Química Orgánica          i) ciclo propano",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 3,
+      "section": "guía Química Orgánica          i) ciclo propano",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 4,
+      "section": "guía Química Orgánica          i) ciclo propano",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 8,
+      "section": "guía Química Orgánica          i) ciclo propano",
+      "kind": "single_choice",
+      "reason": "figura no extraída (necesita imagen)"
+    },
+    {
+      "number": 11,
+      "section": "guía Química Orgánica          i) ciclo propano",
+      "kind": "single_choice",
+      "reason": "figura no extraída (necesita imagen)"
+    },
+    {
+      "number": 14,
+      "section": "guía Química Orgánica          i) ciclo propano",
+      "kind": "single_choice",
+      "reason": "duplicado"
+    },
+    {
+      "number": 33,
+      "section": "guía Química Orgánica          i) ciclo propano",
+      "kind": "single_choice",
+      "reason": "duplicado"
+    },
+    {
+      "number": 1,
+      "section": "x) 4 etil, 4 metil 2 hexino",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 2,
+      "section": "x) 4 etil, 4 metil 2 hexino",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 3,
+      "section": "x) 4 etil, 4 metil 2 hexino",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 4,
+      "section": "x) 4 etil, 4 metil 2 hexino",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 5,
+      "section": "x) 4 etil, 4 metil 2 hexino",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 6,
+      "section": "x) 4 etil, 4 metil 2 hexino",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 7,
+      "section": "x) 4 etil, 4 metil 2 hexino",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 4,
+      "section": "C sp3  C sp2       C sp",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 5,
+      "section": "C sp3  C sp2       C sp",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 6,
+      "section": "C sp3  C sp2       C sp",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 7,
+      "section": "C sp3  C sp2       C sp",
+      "kind": "unknown",
+      "reason": "corrupto (símbolos ilegibles / preguntas fusionadas)"
+    }
+  ]
+}

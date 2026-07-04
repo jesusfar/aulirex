@@ -1,0 +1,574 @@
+{
+  "importados": 621,
+  "excluidos": 93,
+  "porMotivo": {
+    "menos de 2 opciones parseadas": 34,
+    "figura no extraída (necesita imagen)": 13,
+    "duplicado": 4,
+    "la opción correcta (e) no está entre las parseadas": 2,
+    "corrupto (símbolos ilegibles / preguntas fusionadas)": 19,
+    "tipo unknown (requiere conversión estructural)": 14,
+    "tipo ordering (requiere conversión estructural)": 6,
+    "la opción correcta (c) no está entre las parseadas": 1
+  },
+  "detalle": [
+    {
+      "number": 1,
+      "section": "Función Lineal",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 6,
+      "section": "Función Lineal",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 8,
+      "section": "Función Lineal",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 10,
+      "section": "Función Lineal",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 29,
+      "section": "Función Lineal",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 31,
+      "section": "Función Lineal",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 32,
+      "section": "Función Lineal",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 33,
+      "section": "Función Lineal",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 37,
+      "section": "Función Lineal",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 41,
+      "section": "Función Lineal",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 3,
+      "section": "funciones no lineales y repaso",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 6,
+      "section": "funciones no lineales y repaso",
+      "kind": "single_choice",
+      "reason": "figura no extraída (necesita imagen)"
+    },
+    {
+      "number": 17,
+      "section": "funciones no lineales y repaso",
+      "kind": "single_choice",
+      "reason": "figura no extraída (necesita imagen)"
+    },
+    {
+      "number": 18,
+      "section": "funciones no lineales y repaso",
+      "kind": "single_choice",
+      "reason": "figura no extraída (necesita imagen)"
+    },
+    {
+      "number": 19,
+      "section": "funciones no lineales y repaso",
+      "kind": "single_choice",
+      "reason": "figura no extraída (necesita imagen)"
+    },
+    {
+      "number": 22,
+      "section": "funciones no lineales y repaso",
+      "kind": "single_choice",
+      "reason": "figura no extraída (necesita imagen)"
+    },
+    {
+      "number": 25,
+      "section": "funciones no lineales y repaso",
+      "kind": "single_choice",
+      "reason": "duplicado"
+    },
+    {
+      "number": 35,
+      "section": "funciones no lineales y repaso",
+      "kind": "single_choice",
+      "reason": "figura no extraída (necesita imagen)"
+    },
+    {
+      "number": 37,
+      "section": "funciones no lineales y repaso",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 39,
+      "section": "funciones no lineales y repaso",
+      "kind": "single_choice",
+      "reason": "figura no extraída (necesita imagen)"
+    },
+    {
+      "number": 40,
+      "section": "funciones no lineales y repaso",
+      "kind": "single_choice",
+      "reason": "figura no extraída (necesita imagen)"
+    },
+    {
+      "number": 43,
+      "section": "funciones no lineales y repaso",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 47,
+      "section": "funciones no lineales y repaso",
+      "kind": "single_choice",
+      "reason": "duplicado"
+    },
+    {
+      "number": 50,
+      "section": "funciones no lineales y repaso",
+      "kind": "single_choice",
+      "reason": "la opción correcta (e) no está entre las parseadas"
+    },
+    {
+      "number": 51,
+      "section": "funciones no lineales y repaso",
+      "kind": "single_choice",
+      "reason": "corrupto (símbolos ilegibles / preguntas fusionadas)"
+    },
+    {
+      "number": 7,
+      "section": "guía Estática",
+      "kind": "single_choice",
+      "reason": "duplicado"
+    },
+    {
+      "number": 8,
+      "section": "guía Estática",
+      "kind": "single_choice",
+      "reason": "duplicado"
+    },
+    {
+      "number": 27,
+      "section": "guía Estática",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 30,
+      "section": "guía Estática",
+      "kind": "single_choice",
+      "reason": "figura no extraída (necesita imagen)"
+    },
+    {
+      "number": 31,
+      "section": "guía Estática",
+      "kind": "single_choice",
+      "reason": "figura no extraída (necesita imagen)"
+    },
+    {
+      "number": 32,
+      "section": "guía Estática",
+      "kind": "single_choice",
+      "reason": "figura no extraída (necesita imagen)"
+    },
+    {
+      "number": 33,
+      "section": "guía Estática",
+      "kind": "single_choice",
+      "reason": "corrupto (símbolos ilegibles / preguntas fusionadas)"
+    },
+    {
+      "number": 34,
+      "section": "guía Estática",
+      "kind": "single_choice",
+      "reason": "corrupto (símbolos ilegibles / preguntas fusionadas)"
+    },
+    {
+      "number": 35,
+      "section": "guía Estática",
+      "kind": "single_choice",
+      "reason": "corrupto (símbolos ilegibles / preguntas fusionadas)"
+    },
+    {
+      "number": 36,
+      "section": "guía Estática",
+      "kind": "single_choice",
+      "reason": "corrupto (símbolos ilegibles / preguntas fusionadas)"
+    },
+    {
+      "number": 37,
+      "section": "guía Estática",
+      "kind": "single_choice",
+      "reason": "corrupto (símbolos ilegibles / preguntas fusionadas)"
+    },
+    {
+      "number": 38,
+      "section": "guía Estática",
+      "kind": "single_choice",
+      "reason": "corrupto (símbolos ilegibles / preguntas fusionadas)"
+    },
+    {
+      "number": 6,
+      "section": "Guía Cinemática",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 13,
+      "section": "Guía Cinemática",
+      "kind": "single_choice",
+      "reason": "la opción correcta (e) no está entre las parseadas"
+    },
+    {
+      "number": 15,
+      "section": "Guía Cinemática",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 25,
+      "section": "Guía Cinemática",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 43,
+      "section": "Guía Cinemática",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 44,
+      "section": "Guía Cinemática",
+      "kind": "single_choice",
+      "reason": "corrupto (símbolos ilegibles / preguntas fusionadas)"
+    },
+    {
+      "number": 47,
+      "section": "Guía Cinemática",
+      "kind": "single_choice",
+      "reason": "figura no extraída (necesita imagen)"
+    },
+    {
+      "number": 50,
+      "section": "Guía Cinemática",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 51,
+      "section": "Guía Cinemática",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 53,
+      "section": "Guía Cinemática",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 54,
+      "section": "Guía Cinemática",
+      "kind": "ordering",
+      "reason": "tipo ordering (requiere conversión estructural)"
+    },
+    {
+      "number": 57,
+      "section": "Guía Cinemática",
+      "kind": "ordering",
+      "reason": "tipo ordering (requiere conversión estructural)"
+    },
+    {
+      "number": 58,
+      "section": "Guía Cinemática",
+      "kind": "ordering",
+      "reason": "tipo ordering (requiere conversión estructural)"
+    },
+    {
+      "number": 60,
+      "section": "Guía Cinemática",
+      "kind": "ordering",
+      "reason": "tipo ordering (requiere conversión estructural)"
+    },
+    {
+      "number": 25,
+      "section": "Dinámica",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 26,
+      "section": "Dinámica",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 1,
+      "section": "Guía Trabajo y Energía",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 21,
+      "section": "Guía Trabajo y Energía",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 29,
+      "section": "Guía Trabajo y Energía",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 47,
+      "section": "Guía Trabajo y Energía",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 49,
+      "section": "Guía Trabajo y Energía",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 50,
+      "section": "Guía Trabajo y Energía",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 53,
+      "section": "Guía Trabajo y Energía",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 54,
+      "section": "Guía Trabajo y Energía",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 55,
+      "section": "Guía Trabajo y Energía",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 62,
+      "section": "Guía Trabajo y Energía",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 36,
+      "section": "Hidrostática",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 58,
+      "section": "Hidrostática",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 8,
+      "section": "guía Hidrodinámica",
+      "kind": "single_choice",
+      "reason": "figura no extraída (necesita imagen)"
+    },
+    {
+      "number": 12,
+      "section": "guía Hidrodinámica",
+      "kind": "single_choice",
+      "reason": "corrupto (símbolos ilegibles / preguntas fusionadas)"
+    },
+    {
+      "number": 34,
+      "section": "guía Hidrodinámica",
+      "kind": "single_choice",
+      "reason": "corrupto (símbolos ilegibles / preguntas fusionadas)"
+    },
+    {
+      "number": 52,
+      "section": "guía Hidrodinámica",
+      "kind": "single_choice",
+      "reason": "corrupto (símbolos ilegibles / preguntas fusionadas)"
+    },
+    {
+      "number": 55,
+      "section": "guía Hidrodinámica",
+      "kind": "single_choice",
+      "reason": "corrupto (símbolos ilegibles / preguntas fusionadas)"
+    },
+    {
+      "number": 35,
+      "section": "Gases",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 36,
+      "section": "Gases",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 38,
+      "section": "Gases",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 39,
+      "section": "Gases",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 40,
+      "section": "Gases",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 41,
+      "section": "Gases",
+      "kind": "ordering",
+      "reason": "tipo ordering (requiere conversión estructural)"
+    },
+    {
+      "number": 45,
+      "section": "Gases",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 46,
+      "section": "Gases",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 47,
+      "section": "Gases",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 48,
+      "section": "Gases",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 49,
+      "section": "Gases",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 52,
+      "section": "Gases",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 62,
+      "section": "Gases",
+      "kind": "single_choice",
+      "reason": "la opción correcta (c) no está entre las parseadas"
+    },
+    {
+      "number": 64,
+      "section": "Gases",
+      "kind": "single_choice",
+      "reason": "corrupto (símbolos ilegibles / preguntas fusionadas)"
+    },
+    {
+      "number": 19,
+      "section": "Guía Electrostática",
+      "kind": "single_choice",
+      "reason": "corrupto (símbolos ilegibles / preguntas fusionadas)"
+    },
+    {
+      "number": 21,
+      "section": "Guía Electrostática",
+      "kind": "single_choice",
+      "reason": "corrupto (símbolos ilegibles / preguntas fusionadas)"
+    },
+    {
+      "number": 23,
+      "section": "Guía Electrostática",
+      "kind": "single_choice",
+      "reason": "corrupto (símbolos ilegibles / preguntas fusionadas)"
+    },
+    {
+      "number": 33,
+      "section": "Guía Electrostática",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 34,
+      "section": "Guía Electrostática",
+      "kind": "single_choice",
+      "reason": "corrupto (símbolos ilegibles / preguntas fusionadas)"
+    },
+    {
+      "number": 37,
+      "section": "Guía Electrostática",
+      "kind": "single_choice",
+      "reason": "corrupto (símbolos ilegibles / preguntas fusionadas)"
+    },
+    {
+      "number": 6,
+      "section": "Guía Electrodinámica",
+      "kind": "ordering",
+      "reason": "tipo ordering (requiere conversión estructural)"
+    },
+    {
+      "number": 25,
+      "section": "Guía Electrodinámica",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 29,
+      "section": "Guía Electrodinámica",
+      "kind": "single_choice",
+      "reason": "corrupto (símbolos ilegibles / preguntas fusionadas)"
+    }
+  ]
+}
