@@ -5,6 +5,8 @@ import { misconceptionById } from '../content/misconceptions';
 import { MathText } from './MathText';
 import { ProcessMapView } from './ProcessMapView';
 import { processMapById } from '../content/process-maps';
+import { FormulaCard } from './FormulaCard';
+import { formulaById } from '../content/formulas';
 
 interface ItemCardProps {
   item: Item;
@@ -86,6 +88,13 @@ export function ItemCard({ item, onAnswered, onNext }: ItemCardProps) {
         ? processMapById.get(misconception.processMapId)
         : undefined)
     : undefined;
+
+  // Fórmulas relevantes al ítem (para reforzar la proporcionalidad en el feedback).
+  const formulas = answered
+    ? (item.formulaIds ?? [])
+        .map((id) => formulaById.get(id))
+        .filter((f) => f !== undefined)
+    : [];
 
   return (
     <article className="mx-auto max-w-3xl overflow-hidden rounded-lg border border-white/10 bg-slate-900/82 text-left shadow-2xl shadow-black/30 backdrop-blur-xl">
@@ -235,6 +244,13 @@ export function ItemCard({ item, onAnswered, onNext }: ItemCardProps) {
               <MathText>{item.explanation}</MathText>
             </p>
             {processMap && <ProcessMapView map={processMap} />}
+            {formulas.length > 0 && (
+              <div className="mt-3 space-y-2">
+                {formulas.map((f) => (
+                  <FormulaCard key={f.id} formula={f} compact />
+                ))}
+              </div>
+            )}
           </div>
         )}
 

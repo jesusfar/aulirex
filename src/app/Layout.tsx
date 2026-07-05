@@ -153,6 +153,9 @@ export function Layout() {
             <NavLink to="/errores" className={linkClass}>
               Errores
             </NavLink>
+            <NavLink to="/formulario" className={linkClass}>
+              Formulario
+            </NavLink>
           </nav>
         </div>
       </header>

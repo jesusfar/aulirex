@@ -122,13 +122,24 @@ export interface ProcessMap {
   steps: { id: string; label: string; detail: string }[];
 }
 
+// Relación de proporcionalidad entre dos variables de una fórmula. Es el foco
+// pedagógico: el examen pregunta "si X sube, ¿qué le pasa a Y?".
+export interface FormulaRelation {
+  a: string; // variable A (símbolo)
+  b: string; // variable B (símbolo); puede escribirse "1/d²", "m₁·m₂", etc.
+  kind: 'directa' | 'inversa';
+  hold?: string; // variable que se mantiene constante (si aplica)
+  note?: string; // ley o aclaración (ej. "Boyle", "inversa al cuadrado")
+}
+
 export interface Formula {
   id: string;
   subject: Subject;
   name: string;
-  latex: string;
+  latex: string; // KaTeX
   variables: { symbol: string; name: string; unit: string }[];
-  proportionality?: string;
+  relations?: FormulaRelation[];
+  proportionality?: string; // (compat) texto libre opcional
 }
 
 export interface TopicNode {

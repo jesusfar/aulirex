@@ -9,6 +9,7 @@ import {
 } from '../../content';
 import { ItemCard } from '../../components/ItemCard';
 import { recordAttempt } from '../../lib/storage/progress';
+import { buildTestDeck } from '../../lib/deck';
 import { useAppStore } from '../../store';
 
 const SUBJECT_LABEL: Record<Subject, string> = {
@@ -21,14 +22,21 @@ const SUBJECT_LABEL: Record<Subject, string> = {
   alfabetizacion: 'Alfabetizacion',
 };
 
+const SIZES = [10, 20, 50, 100, 250];
+
 export function PracticePage() {
   const [institution, setInstitution] = useState<Institution | ''>('');
   const [subject, setSubject] = useState<Subject | ''>('');
   const [block, setBlock] = useState('');
   const [topic, setTopic] = useState('');
   const [track, setTrack] = useState<Track | ''>('');
+  const [testSize, setTestSize] = useState(20);
+
+  // deck = null → pantalla de setup; deck = [] tras cargar → test en curso.
+  const [deck, setDeck] = useState<Item[] | null>(null);
   const [index, setIndex] = useState(0);
   const [session, setSession] = useState({ answered: 0, correct: 0 });
+  const [starting, setStarting] = useState(false);
 
   const filters: ItemFilters = useMemo(
     () => ({
@@ -41,33 +49,19 @@ export function PracticePage() {
     [institution, subject, block, topic, track],
   );
 
-  // La lista se carga (lazy, por materia) al cambiar filtros; reinicia el mazo.
-  const [items, setItems] = useState<Item[]>([]);
-  const [loading, setLoading] = useState(true);
-  useEffect(() => {
-    let alive = true;
-    setLoading(true);
-    loadItems(filters).then((list) => {
-      if (!alive) return;
-      setItems(list);
-      setIndex(0);
-      setSession({ answered: 0, correct: 0 });
-      setLoading(false);
-    });
-    return () => {
-      alive = false;
-    };
-  }, [filters]);
+  async function startTest() {
+    setStarting(true);
+    const list = await loadItems(filters);
+    setDeck(buildTestDeck(list, testSize));
+    setIndex(0);
+    setSession({ answered: 0, correct: 0 });
+    setStarting(false);
+  }
 
-  const current = items[index];
+  const current = deck?.[index];
   const sessionAccuracy = session.answered
     ? Math.round((session.correct / session.answered) * 100)
     : 0;
-
-  function resetDeck() {
-    setIndex(0);
-    setSession({ answered: 0, correct: 0 });
-  }
 
   const blocks = subject ? blocksForSubject(subject) : [];
   const topics = subject && block ? topicsForBlock(subject, block) : [];
@@ -81,143 +75,171 @@ export function PracticePage() {
           </div>
           <h1 className="text-3xl font-black text-white sm:text-4xl">Mazo de entrenamiento</h1>
           <p className="mt-2 max-w-2xl text-sm leading-6 text-slate-400">
-            Ajusta el banco, responde y revisa feedback inmediato para detectar
-            patrones de error.
+            Elegí el foco y la cantidad; las preguntas salen al azar y, si vas por
+            todo, con al menos una de cada tema.
           </p>
         </div>
 
         <div className="grid grid-cols-3 overflow-hidden rounded-lg border border-white/10 bg-black/24 text-center">
-          <SessionStat label="Items" value={items.length} />
+          <SessionStat label="Preguntas" value={deck ? deck.length : testSize} />
           <SessionStat label="Sesion" value={`${session.correct}/${session.answered}`} />
           <SessionStat label="Precision" value={`${sessionAccuracy}%`} />
         </div>
       </section>
 
-      <section className="rounded-lg border border-white/10 bg-black/24 p-4 backdrop-blur-xl">
-        <div className="grid grid-cols-2 gap-3 text-sm lg:grid-cols-5">
-          <Select
-            label="Institucion"
-            value={institution}
-            onChange={(v) => {
-              setInstitution(v as Institution | '');
-              resetDeck();
-            }}
-            options={[
-              ['', 'Todas'],
-              ['UNC', 'UNC'],
-              ['UNSa', 'UNSa'],
-            ]}
-          />
-          <Select
-            label="Materia"
-            value={subject}
-            onChange={(v) => {
-              setSubject(v as Subject | '');
-              setBlock('');
-              setTopic('');
-              resetDeck();
-            }}
-            options={[
-              ['', 'Todas'],
-              ...subjectsInBank.map((s) => [s, SUBJECT_LABEL[s]] as [string, string]),
-            ]}
-          />
-          <Select
-            label="Track"
-            value={track}
-            onChange={(v) => {
-              setTrack(v as Track | '');
-              resetDeck();
-            }}
-            options={[
-              ['', 'Ambos'],
-              ['teorico', 'Teorico'],
-              ['practico', 'Practico'],
-            ]}
-          />
-          <Select
-            label="Bloque"
-            value={block}
-            disabled={!subject}
-            onChange={(v) => {
-              setBlock(v);
-              setTopic('');
-              resetDeck();
-            }}
-            options={[
-              ['', 'Todos'],
-              ...blocks.map((b) => [b, b.replaceAll('_', ' ')] as [string, string]),
-            ]}
-          />
-          <Select
-            label="Tema"
-            value={topic}
-            disabled={!block}
-            onChange={(v) => {
-              setTopic(v);
-              resetDeck();
-            }}
-            options={[
-              ['', 'Todos'],
-              ...topics.map((t) => [t, t.replaceAll('_', ' ')] as [string, string]),
-            ]}
-          />
-        </div>
-      </section>
+      {deck === null ? (
+        <>
+          <section className="rounded-lg border border-white/10 bg-black/24 p-4 backdrop-blur-xl">
+            <div className="grid grid-cols-2 gap-3 text-sm lg:grid-cols-5">
+              <Select
+                label="Institucion"
+                value={institution}
+                onChange={(v) => setInstitution(v as Institution | '')}
+                options={[
+                  ['', 'Todas'],
+                  ['UNC', 'UNC'],
+                  ['UNSa', 'UNSa'],
+                ]}
+              />
+              <Select
+                label="Materia"
+                value={subject}
+                onChange={(v) => {
+                  setSubject(v as Subject | '');
+                  setBlock('');
+                  setTopic('');
+                }}
+                options={[
+                  ['', 'Todas'],
+                  ...subjectsInBank.map((s) => [s, SUBJECT_LABEL[s]] as [string, string]),
+                ]}
+              />
+              <Select
+                label="Track"
+                value={track}
+                onChange={(v) => setTrack(v as Track | '')}
+                options={[
+                  ['', 'Ambos'],
+                  ['teorico', 'Teorico'],
+                  ['practico', 'Practico'],
+                ]}
+              />
+              <Select
+                label="Bloque"
+                value={block}
+                disabled={!subject}
+                onChange={(v) => {
+                  setBlock(v);
+                  setTopic('');
+                }}
+                options={[
+                  ['', 'Todos'],
+                  ...blocks.map((b) => [b, b.replaceAll('_', ' ')] as [string, string]),
+                ]}
+              />
+              <Select
+                label="Tema"
+                value={topic}
+                disabled={!block}
+                onChange={(v) => setTopic(v)}
+                options={[
+                  ['', 'Todos'],
+                  ...topics.map((t) => [t, t.replaceAll('_', ' ')] as [string, string]),
+                ]}
+              />
+            </div>
+          </section>
 
-      <div className="flex items-center justify-between gap-3 text-sm text-slate-400">
-        <p>
-          {loading
-            ? 'Cargando ítems…'
-            : items.length === 0
-              ? 'No hay items con estos filtros.'
-              : `Item ${Math.min(index + 1, items.length)} de ${items.length}`}
-        </p>
-        {items.length > 0 && (
-          <div className="h-2 min-w-28 flex-1 overflow-hidden rounded-full bg-slate-800 sm:max-w-xs">
-            <div
-              className="h-full rounded-full bg-sky-400 transition-all"
-              style={{ width: `${Math.min(100, ((index + 1) / items.length) * 100)}%` }}
-            />
-          </div>
-        )}
-      </div>
-
-      {current ? (
-        <ItemCard
-          key={current.id}
-          item={current}
-          onAnswered={({ item, correct, given, grade, timeMs }) => {
-            setSession((s) => ({
-              answered: s.answered + 1,
-              correct: s.correct + (correct ? 1 : 0),
-            }));
-            void recordAttempt({
-              item,
-              correct,
-              givenAnswer: given,
-              chosenMisconception: grade.chosenMisconception,
-              timeMs,
-            }).then(({ progress }) => useAppStore.getState().setProgress(progress));
-          }}
-          onNext={() => setIndex((i) => i + 1)}
-        />
-      ) : (
-        items.length > 0 && (
-          <div className="rounded-lg border border-white/10 bg-slate-900/70 px-6 py-12 text-center shadow-xl shadow-black/20">
-            <p className="text-2xl font-black text-white">Mazo completado</p>
-            <p className="mt-2 text-slate-400">
-              {session.correct} de {session.answered} correctas.
+          <section className="rounded-lg border border-white/10 bg-black/24 p-4 backdrop-blur-xl">
+            <p className="mb-3 text-xs font-bold uppercase tracking-[0.12em] text-slate-500">
+              Cantidad de preguntas
             </p>
+            <div className="flex flex-wrap gap-2">
+              {SIZES.map((n) => (
+                <button
+                  key={n}
+                  type="button"
+                  onClick={() => setTestSize(n)}
+                  className={`h-10 min-w-16 rounded-md border px-4 text-sm font-black transition ${
+                    testSize === n
+                      ? 'border-sky-400/60 bg-sky-400/15 text-sky-100'
+                      : 'border-slate-700 bg-slate-950/70 text-slate-300 hover:border-sky-400/50'
+                  }`}
+                >
+                  {n}
+                </button>
+              ))}
+            </div>
             <button
               type="button"
-              onClick={resetDeck}
-              className="aulirex-primary-button mt-5 rounded-md px-5 py-2.5 text-sm font-black transition"
+              onClick={startTest}
+              disabled={starting}
+              className="aulirex-primary-button mt-5 h-12 w-full rounded-md text-sm font-black transition disabled:opacity-50 sm:w-auto sm:px-8"
             >
-              Reiniciar
+              {starting ? 'Preparando…' : `Empezar test de ${testSize}`}
             </button>
+          </section>
+        </>
+      ) : (
+        <>
+          <div className="flex items-center justify-between gap-3 text-sm text-slate-400">
+            <p>
+              {current
+                ? `Item ${Math.min(index + 1, deck.length)} de ${deck.length}`
+                : 'Test finalizado'}
+            </p>
+            <div className="flex items-center gap-3">
+              <div className="hidden h-2 w-40 overflow-hidden rounded-full bg-slate-800 sm:block">
+                <div
+                  className="h-full rounded-full bg-sky-400 transition-all"
+                  style={{ width: `${Math.min(100, (index / deck.length) * 100)}%` }}
+                />
+              </div>
+              <button
+                type="button"
+                onClick={() => setDeck(null)}
+                className="rounded-md border border-slate-700 px-3 py-1.5 text-xs font-bold text-slate-300 transition hover:border-sky-400/50"
+              >
+                Nuevo test
+              </button>
+            </div>
           </div>
-        )
+
+          {current ? (
+            <ItemCard
+              key={current.id}
+              item={current}
+              onAnswered={({ item, correct, given, grade, timeMs }) => {
+                setSession((s) => ({
+                  answered: s.answered + 1,
+                  correct: s.correct + (correct ? 1 : 0),
+                }));
+                void recordAttempt({
+                  item,
+                  correct,
+                  givenAnswer: given,
+                  chosenMisconception: grade.chosenMisconception,
+                  timeMs,
+                }).then(({ progress }) => useAppStore.getState().setProgress(progress));
+              }}
+              onNext={() => setIndex((i) => i + 1)}
+            />
+          ) : (
+            <div className="rounded-lg border border-white/10 bg-slate-900/70 px-6 py-12 text-center shadow-xl shadow-black/20">
+              <p className="text-2xl font-black text-white">Test completado</p>
+              <p className="mt-2 text-slate-400">
+                {session.correct} de {session.answered} correctas ({sessionAccuracy}%).
+              </p>
+              <button
+                type="button"
+                onClick={() => setDeck(null)}
+                className="aulirex-primary-button mt-5 rounded-md px-5 py-2.5 text-sm font-black transition"
+              >
+                Nuevo test
+              </button>
+            </div>
+          )}
+        </>
       )}
     </div>
   );
