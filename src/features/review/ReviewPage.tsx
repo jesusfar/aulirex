@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ItemCard } from '../../components/ItemCard';
-import { itemById } from '../../content';
+import { loadItemMap } from '../../content';
 import { getReviewCards, recordAttempt } from '../../lib/storage/progress';
 import { dueQueue } from '../../lib/spaced-repetition/scheduler';
 import { useAppStore } from '../../store';
@@ -13,9 +13,9 @@ export function ReviewPage() {
   const [done, setDone] = useState({ answered: 0, correct: 0 });
 
   useEffect(() => {
-    getReviewCards().then((cards) => {
+    Promise.all([getReviewCards(), loadItemMap()]).then(([cards, byId]) => {
       const items = dueQueue(cards)
-        .map((c) => itemById.get(c.itemId))
+        .map((c) => byId.get(c.itemId))
         .filter((i): i is Item => Boolean(i));
       setQueue(items);
     });

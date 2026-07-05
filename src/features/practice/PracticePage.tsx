@@ -1,8 +1,8 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import type { Institution, Subject, Track } from '../../types/content';
+import type { Institution, Item, Subject, Track } from '../../types/content';
 import {
   blocksForSubject,
-  filterItems,
+  loadItems,
   subjectsInBank,
   topicsForBlock,
   type ItemFilters,
@@ -41,11 +41,22 @@ export function PracticePage() {
     [institution, subject, block, topic, track],
   );
 
-  // La lista se recalcula al cambiar filtros; reiniciamos el mazo.
-  const items = useMemo(() => {
-    const list = filterItems(filters);
-    return list;
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+  // La lista se carga (lazy, por materia) al cambiar filtros; reinicia el mazo.
+  const [items, setItems] = useState<Item[]>([]);
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    let alive = true;
+    setLoading(true);
+    loadItems(filters).then((list) => {
+      if (!alive) return;
+      setItems(list);
+      setIndex(0);
+      setSession({ answered: 0, correct: 0 });
+      setLoading(false);
+    });
+    return () => {
+      alive = false;
+    };
   }, [filters]);
 
   const current = items[index];
@@ -156,9 +167,11 @@ export function PracticePage() {
 
       <div className="flex items-center justify-between gap-3 text-sm text-slate-400">
         <p>
-          {items.length === 0
-            ? 'No hay items con estos filtros.'
-            : `Item ${Math.min(index + 1, items.length)} de ${items.length}`}
+          {loading
+            ? 'Cargando ítems…'
+            : items.length === 0
+              ? 'No hay items con estos filtros.'
+              : `Item ${Math.min(index + 1, items.length)} de ${items.length}`}
         </p>
         {items.length > 0 && (
           <div className="h-2 min-w-28 flex-1 overflow-hidden rounded-full bg-slate-800 sm:max-w-xs">

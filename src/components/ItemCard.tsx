@@ -3,6 +3,8 @@ import type { Item } from '../types/content';
 import { gradeItem, type GivenAnswer, type GradeResult } from '../lib/scoring';
 import { misconceptionById } from '../content/misconceptions';
 import { MathText } from './MathText';
+import { ProcessMapView } from './ProcessMapView';
+import { processMapById } from '../content/process-maps';
 
 interface ItemCardProps {
   item: Item;
@@ -75,6 +77,14 @@ export function ItemCard({ item, onAnswered, onNext }: ItemCardProps) {
 
   const misconception = result?.chosenMisconception
     ? misconceptionById.get(result.chosenMisconception)
+    : undefined;
+
+  // Mapa de proceso del ítem o, si no tiene, el de la misconcepción elegida.
+  const processMap = answered
+    ? processMapById.get(item.processMapId ?? '') ??
+      (misconception?.processMapId
+        ? processMapById.get(misconception.processMapId)
+        : undefined)
     : undefined;
 
   return (
@@ -224,6 +234,7 @@ export function ItemCard({ item, onAnswered, onNext }: ItemCardProps) {
               <span className="font-bold">Explicacion:</span>{' '}
               <MathText>{item.explanation}</MathText>
             </p>
+            {processMap && <ProcessMapView map={processMap} />}
           </div>
         )}
 

@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { db } from '../../lib/storage/db';
 import { useAppStore } from '../../store';
-import { allItems } from '../../content';
+import { BANK_TOTAL } from '../../content';
 import { getAllAttempts } from '../../lib/storage/attempts';
 import { getProgress, getReviewCards } from '../../lib/storage/progress';
 import { dueQueue } from '../../lib/spaced-repetition/scheduler';
@@ -54,8 +54,8 @@ export function DashboardPage() {
   const countdown = useMemo(() => getExamCountdown(examDate), [examDate]);
   const accuracy =
     stats.total > 0 ? Math.round((stats.correct / stats.total) * 100) : 0;
-  const bankProgress = allItems.length
-    ? Math.round((stats.solved / allItems.length) * 100)
+  const bankProgress = BANK_TOTAL
+    ? Math.round((stats.solved / BANK_TOTAL) * 100)
     : 0;
 
   return (
@@ -163,7 +163,7 @@ export function DashboardPage() {
             <Stat label="Aciertos" value={`${accuracy}%`} accent="emerald" />
             <Stat
               label="Items dominados"
-              value={`${stats.solved}/${allItems.length}`}
+              value={`${stats.solved}/${BANK_TOTAL}`}
               accent="amber"
             />
           </div>
@@ -176,7 +176,7 @@ export function DashboardPage() {
               Empezar practica
             </Link>
             <span className="text-sm text-slate-400">
-              Base local {hydrated ? 'lista' : 'iniciando...'} - {allItems.length}{' '}
+              Base local {hydrated ? 'lista' : 'iniciando...'} - {BANK_TOTAL}{' '}
               items disponibles
             </span>
           </div>

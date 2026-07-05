@@ -1,8 +1,9 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { itemById, misconceptionById } from '../../content';
+import { loadItemMap, misconceptionById } from '../../content';
 import { getErrorLog, type ErrorEntry } from '../../lib/storage/progress';
 import { MathText } from '../../components/MathText';
+import type { Item } from '../../types/content';
 
 interface Group {
   misconceptionId?: string;
@@ -13,16 +14,18 @@ interface Group {
 
 export function ErrorNotebookPage() {
   const [entries, setEntries] = useState<ErrorEntry[] | null>(null);
+  const [byId, setById] = useState<Map<string, Item> | null>(null);
 
   useEffect(() => {
     getErrorLog().then(setEntries);
+    loadItemMap().then(setById);
   }, []);
 
   const groups = useMemo<Group[]>(() => {
-    if (!entries) return [];
+    if (!entries || !byId) return [];
     const byMc = new Map<string, Group>();
     for (const e of entries) {
-      const item = itemById.get(e.itemId);
+      const item = byId.get(e.itemId);
       if (!item) continue;
       const key = e.chosenMisconception ?? '__sin__';
       const mc = e.chosenMisconception
@@ -39,9 +42,10 @@ export function ErrorNotebookPage() {
       byMc.get(key)!.entries.push({ ...e, stem: item.stem, subject: item.subject });
     }
     return [...byMc.values()].sort((a, b) => b.entries.length - a.entries.length);
-  }, [entries]);
+  }, [entries, byId]);
 
-  if (entries === null) return <p className="text-slate-400">Cargando…</p>;
+  if (entries === null || byId === null)
+    return <p className="text-slate-400">Cargando…</p>;
 
   return (
     <div className="mx-auto max-w-3xl">
