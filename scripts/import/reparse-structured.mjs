@@ -101,11 +101,21 @@ for (const q of parsed) {
   if (q.kind === 'true_false_series') {
     const key = String(q.correct).replace(/\s/g, '').toUpperCase();
     // Formato 1: sub-afirmaciones con "___" en el stem.
-    // Formato 2: "a) ___ ..." → quedaron como opciones (≤5 afirmaciones).
+    // Formato 2: "a) ___ ..." → quedaron como opciones. Como optionRe solo llega
+    // hasta 'e', las afirmaciones f),g),... quedan lumpeadas en la última opción;
+    // se recuperan partiendo por esos marcadores.
     let statements = null;
     if (subs.length === key.length && subs.length >= 2) statements = subs;
-    else if ((q.options?.length ?? 0) === key.length && key.length >= 2)
-      statements = q.options.map((o) => o.text);
+    else if ((q.options?.length ?? 0) >= 2) {
+      const opts = q.options.map((o) => o.text.trim());
+      const tail = opts[opts.length - 1]
+        .split(/\s+[f-zñ]\)\s+/i)
+        .map((s) => s.trim())
+        .filter(Boolean);
+      const all = [...opts.slice(0, -1), ...tail];
+      if (all.length === key.length && all.length >= 2) statements = all;
+      else if (opts.length === key.length && key.length >= 2) statements = opts;
+    }
     if (!statements) { skipped.vf_desalineado++; continue; }
     item = {
       ...base,

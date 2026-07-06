@@ -21212,6 +21212,56 @@
       "UNSa"
     ],
     "subject": "biologia",
+    "block": "protoplasma",
+    "topic": "protoplasma",
+    "track": "teorico",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Respecto a los nucleótidos determine qué afirmaciones son V y cuáles son F:",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado del preguntero (nº 44, sección \"Protoplasma\").",
+    "type": "true_false_series",
+    "statements": [
+      {
+        "text": "Los nucleótidos sólo existen formando polímeros como el ADN y el ARN",
+        "correct": false
+      },
+      {
+        "text": "El AMPc es un nucleótido con función energética",
+        "correct": false
+      },
+      {
+        "text": "NAD es un dinucleótido con función relacionada a las enzimas",
+        "correct": true
+      },
+      {
+        "text": "DAG es un dinucleótido con función relacionada a las enzimas",
+        "correct": false
+      },
+      {
+        "text": "Un nucleótido puede tener 1, 2 ó 3 moléculas de ácido fosfórico",
+        "correct": true
+      },
+      {
+        "text": "GTP es un intermediario energético",
+        "correct": true
+      },
+      {
+        "text": "El enlace entre 2 nucleótidos se llama fosfodiéster",
+        "correct": true
+      }
+    ],
+    "explanation": "Clave: 1) F · 2) F · 3) V · 4) F · 5) V · 6) V · 7) V."
+  },
+  {
+    "id": "bio-vfo-0002",
+    "institutions": [
+      "UNC",
+      "UNSa"
+    ],
+    "subject": "biologia",
     "block": "difusion_osmosis_ph_teorias_biologicas",
     "topic": "difusion_osmosis_ph_teorias_biologicas",
     "track": "practico",
@@ -21248,7 +21298,7 @@
     "explanation": "Clave: 1) F · 2) V · 3) F · 4) V · 5) V."
   },
   {
-    "id": "bio-vfo-0002",
+    "id": "bio-vfo-0003",
     "institutions": [
       "UNC",
       "UNSa"
@@ -21290,7 +21340,7 @@
     "explanation": "Clave: 1) F · 2) V · 3) V · 4) F · 5) F."
   },
   {
-    "id": "bio-vfo-0003",
+    "id": "bio-vfo-0004",
     "institutions": [
       "UNC",
       "UNSa"
@@ -21332,7 +21382,167 @@
     "explanation": "Clave: 1) F · 2) V · 3) F · 4) V · 5) V."
   },
   {
-    "id": "bio-vfo-0004",
+    "id": "bio-vfo-0005",
+    "institutions": [
+      "UNC",
+      "UNSa"
+    ],
+    "subject": "biologia",
+    "block": "membrana_plasmatica",
+    "topic": "membrana_plasmatica",
+    "track": "teorico",
+    "frequency": "alta",
+    "difficulty": 2,
+    "stem": "Señale verdadero o falso acerca de la membrana plasmática:",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado del preguntero (nº 96, sección \"Membrana Plasmática\").",
+    "type": "true_false_series",
+    "statements": [
+      {
+        "text": "La membrana plasmática tiene la capacidad de mantener el medio interno celular.",
+        "correct": true
+      },
+      {
+        "text": "Lo anterior se logra bloqueando el intercambio de iones y moléculas con el líquido extracelular.",
+        "correct": false
+      },
+      {
+        "text": "A través de la membrana plasmática las células se comunican entre sí.",
+        "correct": true
+      },
+      {
+        "text": "A través de la membrana plasmática las células se comunican con el líquido extracelular.",
+        "correct": true
+      },
+      {
+        "text": "Está conformada en su mayoría por moléculas glucídicas.",
+        "correct": false
+      },
+      {
+        "text": "Los componentes de ambas mitades se distribuyen de manera dispar (asimetría).",
+        "correct": true
+      },
+      {
+        "text": "Los fosfolípidos de membrana son moléculas anfipáticas.",
+        "correct": true
+      },
+      {
+        "text": "Las proteínas transmembrana son moléculas anfipáticas.",
+        "correct": true
+      },
+      {
+        "text": "El componente hidrofílico de una proteína es no polar.",
+        "correct": false
+      },
+      {
+        "text": "Las proteínas periféricas o extrínsecas pueden asociarse con los grupos polares de los fosfolípidos. 22 QUANTUM - Ingreso a Medicina Biología",
+        "correct": true
+      }
+    ],
+    "explanation": "Clave: 1) V · 2) F · 3) V · 4) V · 5) F · 6) V · 7) V · 8) V · 9) F · 10) V."
+  },
+  {
+    "id": "bio-vfo-0006",
+    "institutions": [
+      "UNC",
+      "UNSa"
+    ],
+    "subject": "biologia",
+    "block": "membrana_plasmatica",
+    "topic": "membrana_plasmatica",
+    "track": "teorico",
+    "frequency": "alta",
+    "difficulty": 2,
+    "stem": "De acuerdo al siguiente esquema en donde se observa el transporte de los cationes sodio y potasio, incluida la bomba Na+/K+, señale verdadero o falso:",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado del preguntero (nº 97, sección \"Membrana Plasmática\").",
+    "type": "true_false_series",
+    "statements": [
+      {
+        "text": "Na+ ingresa por difusión facilitada.",
+        "correct": true
+      },
+      {
+        "text": "El Na+ ingresa por difusión simple.",
+        "correct": false
+      },
+      {
+        "text": "El Na+ ingresa a favor de un gradiente electroquímico.",
+        "correct": true
+      },
+      {
+        "text": "El Na+ sale por transporte activo.",
+        "correct": true
+      },
+      {
+        "text": "El Na+ sale por difusión facilitada.",
+        "correct": false
+      },
+      {
+        "text": "El Na+ sale con gasto de energía.",
+        "correct": true
+      },
+      {
+        "text": "El Na+ sale en contra de un gradiente.",
+        "correct": true
+      },
+      {
+        "text": "El Na+ está más concentrado en el líquido extracelular.",
+        "correct": true
+      },
+      {
+        "text": "El Na+ está menos concentrado en el líquido extracelular.",
+        "correct": false
+      },
+      {
+        "text": "El K+ sale por difusión facilitada.",
+        "correct": true
+      },
+      {
+        "text": "El K+ ingresa por transporte activo.",
+        "correct": true
+      },
+      {
+        "text": "El K+ ingresa en contra de un gradiente electroquímico.",
+        "correct": true
+      },
+      {
+        "text": "El K+ sale a favor de un gradiente.",
+        "correct": true
+      },
+      {
+        "text": "El K+ sale con gasto de energía.",
+        "correct": false
+      },
+      {
+        "text": "El K+ ingresa con gasto de energía.",
+        "correct": true
+      },
+      {
+        "text": "Cada molécula de ATP aporta la energía para que ingresen 2 K+ por cada 3 Na+ que egresan.",
+        "correct": true
+      },
+      {
+        "text": "La cara intracelular de la membrana es ligeramente más negativa que la extracelular.",
+        "correct": true
+      },
+      {
+        "text": "La bomba Na+/K+ tiene actividad ATPasa.",
+        "correct": true
+      },
+      {
+        "text": "La bomba Na+/K+ es una forma de transporte activo.",
+        "correct": true
+      }
+    ],
+    "explanation": "Clave: 1) V · 2) F · 3) V · 4) V · 5) F · 6) V · 7) V · 8) V · 9) F · 10) V · 11) V · 12) V · 13) V · 14) F · 15) V · 16) V · 17) V · 18) V · 19) V."
+  },
+  {
+    "id": "bio-vfo-0007",
     "institutions": [
       "UNC",
       "UNSa"
@@ -21370,7 +21580,111 @@
     "explanation": "Clave: 1) V · 2) V · 3) V · 4) V."
   },
   {
-    "id": "bio-vfo-0005",
+    "id": "bio-vfo-0008",
+    "institutions": [
+      "UNC",
+      "UNSa"
+    ],
+    "subject": "biologia",
+    "block": "citosol_citoesqueleto",
+    "topic": "citosol_citoesqueleto",
+    "track": "teorico",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Indique si las siguientes afirmaciones son VERDADERAS o FALSAS acerca del citoesqueleto.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado del preguntero (nº 124, sección \"Citosol - Citoesqueleto\").",
+    "type": "true_false_series",
+    "statements": [
+      {
+        "text": "Las proteínas reguladoras conectan los filamentos entre sí y con otros componentes celulares.",
+        "correct": false
+      },
+      {
+        "text": "Los filamentos intermedios miden 10 nm de diámetro.",
+        "correct": true
+      },
+      {
+        "text": "Los microtúbulos y los microfilamentos de actina están conformados por una secuencia de proteínas globulares.",
+        "correct": true
+      },
+      {
+        "text": "Los filamentos intermedios forman una malla continua sobre la cara interna de la envoltura nuclear.",
+        "correct": true
+      },
+      {
+        "text": "Los laminofilamentos son un tipo de microfilamentos.",
+        "correct": false
+      },
+      {
+        "text": "Los filamentos del citoesqueleto son microtúbulos.",
+        "correct": false
+      },
+      {
+        "text": "Los microtúbulos se polimerizan desde el centrosoma hacia la periferia.",
+        "correct": true
+      },
+      {
+        "text": "Las MAP pueden ser reguladoras, motoras y ligadoras.",
+        "correct": true
+      },
+      {
+        "text": "Los microtúbulos están formados por una secuencia de proteínas filamentosas apolares. 29 QUANTUM - Ingreso a Medicina Biología",
+        "correct": false
+      }
+    ],
+    "explanation": "Clave: 1) F · 2) V · 3) V · 4) V · 5) F · 6) F · 7) V · 8) V · 9) F."
+  },
+  {
+    "id": "bio-vfo-0009",
+    "institutions": [
+      "UNC",
+      "UNSa"
+    ],
+    "subject": "biologia",
+    "block": "citosol_citoesqueleto",
+    "topic": "citosol_citoesqueleto",
+    "track": "teorico",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Señale cuál de las siguientes opciones es verdadera o falsa.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado del preguntero (nº 131, sección \"Citosol - Citoesqueleto\").",
+    "type": "true_false_series",
+    "statements": [
+      {
+        "text": "Los monómeros de actina son globulares. 30 QUANTUM - Ingreso a Medicina Biología",
+        "correct": true
+      },
+      {
+        "text": "Los monómeros de los microtúbulos son globulares.",
+        "correct": true
+      },
+      {
+        "text": "Los monómeros de los filamentos intermedios son globulares.",
+        "correct": false
+      },
+      {
+        "text": "El diámetro de los microtúbulos es aproximadamente de 8 nm.",
+        "correct": false
+      },
+      {
+        "text": "El diámetro de la actina es aproximadamente de 8 nm.",
+        "correct": true
+      },
+      {
+        "text": "Un protofilamento de filamento intermedio es una secuencia de tetrámeros.",
+        "correct": true
+      }
+    ],
+    "explanation": "Clave: 1) V · 2) V · 3) F · 4) F · 5) V · 6) V."
+  },
+  {
+    "id": "bio-vfo-0010",
     "institutions": [
       "UNC",
       "UNSa"
@@ -21408,7 +21722,159 @@
     "explanation": "Clave: 1) V · 2) V · 3) V · 4) F."
   },
   {
-    "id": "bio-vfo-0006",
+    "id": "bio-vfo-0011",
+    "institutions": [
+      "UNC",
+      "UNSa"
+    ],
+    "subject": "biologia",
+    "block": "sistema_de_endomembranas",
+    "topic": "sistema_de_endomembranas",
+    "track": "teorico",
+    "frequency": "alta",
+    "difficulty": 2,
+    "stem": "En base al funcionamiento del Sistema de Endomembranas, responda verdadero o falso:",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado del preguntero (nº 159, sección \"Sistema de Endomembranas\").",
+    "type": "true_false_series",
+    "statements": [
+      {
+        "text": "En el transporte CIS-TRANS del aparato de Golgi, siempre se secretan proteínas constitutivas de la membrana plasmática.",
+        "correct": false
+      },
+      {
+        "text": "Las vesículas destinadas a los lisosomas son de secreción regulada.",
+        "correct": false
+      },
+      {
+        "text": "La secreción constitutiva es aquella que necesita de un estímulo, como por ejemplo hormonal, para liberar las vesículas almacenadas en el citoplasma.",
+        "correct": false
+      },
+      {
+        "text": "No existen en el Sistema de Endomembranas un transporte retrogrado o de tipo TRANS-CIS.",
+        "correct": false
+      },
+      {
+        "text": "Las enzimas digestivas secretadas por los acinos pancreáticos es de tipo secreción constitutiva.",
+        "correct": false
+      },
+      {
+        "text": "Las enzimas producidas por las células se sintetizan en el RER y tienen siempre como fin ser secretadas al exterior. 36 QUANTUM - Ingreso a Medicina Biología",
+        "correct": false
+      },
+      {
+        "text": "Las proteínas secretadas de forma regulada son siempre enzimas.",
+        "correct": false
+      },
+      {
+        "text": "Los ribosomas que se adhieren al RER sintetizan proteínas con una secuencia señal.",
+        "correct": true
+      },
+      {
+        "text": "Existen proteínas sintetizadas en el citoplasma, que forman parte de los dictiosomas del RER.",
+        "correct": false
+      },
+      {
+        "text": "El aparato de Golgi recibe proteínas sintetizadas por el RER y tiene como principal función modificar las mismas.",
+        "correct": true
+      },
+      {
+        "text": "El transporte del aparato de Golgi CIS-TRANS también es llamado retrógrado.",
+        "correct": false
+      },
+      {
+        "text": "Las células hepáticas no tienen Sistema de Endomembranas.",
+        "correct": false
+      },
+      {
+        "text": "Las inclusiones de glucógeno citoplasmático forman parte del Sistema de Endomembranas.",
+        "correct": false
+      }
+    ],
+    "explanation": "Clave: 1) F · 2) F · 3) F · 4) F · 5) F · 6) F · 7) F · 8) V · 9) F · 10) V · 11) F · 12) F · 13) F."
+  },
+  {
+    "id": "bio-vfo-0012",
+    "institutions": [
+      "UNC",
+      "UNSa"
+    ],
+    "subject": "biologia",
+    "block": "sistema_de_endomembranas",
+    "topic": "sistema_de_endomembranas",
+    "track": "teorico",
+    "frequency": "alta",
+    "difficulty": 2,
+    "stem": "Marque verdadero o falso en las siguientes afirmaciones:",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado del preguntero (nº 162, sección \"Sistema de Endomembranas\").",
+    "type": "true_false_series",
+    "statements": [
+      {
+        "text": "El RER posee carriers y su membrana no es fluida.",
+        "correct": false
+      },
+      {
+        "text": "Existe un transporte electrolítico en el REL, pero este no es significativo para la homeostasis celular.",
+        "correct": false
+      },
+      {
+        "text": "Para la biogénesis de la membrana plasmática, el único organito involucrado en el Sistema de Endomembranas es el REL.",
+        "correct": false
+      },
+      {
+        "text": "Dentro del REL encontramos glucosa, porque en su membrana se encuentra la enzima glucosa-6-fosfatasa que permite desdoblar glucógeno.",
+        "correct": false
+      },
+      {
+        "text": "Las vesículas del sistema de endomembranas presentan los hidratos de carbono hacia la cara citosólica.",
+        "correct": false
+      },
+      {
+        "text": "El aparato de Golgi está formado por 30 a 40 dictiosomas.",
+        "correct": false
+      },
+      {
+        "text": "Las enzimas lisosomales son sintetizadas en el RER y almacenadas en vesículas por el aparato de Golgi.",
+        "correct": false
+      },
+      {
+        "text": "Todas las células presentan REL, con excepción de las células neuronales.",
+        "correct": false
+      },
+      {
+        "text": "La clatrina es una proteína celular involucrada en la adhesión de las subunidades ribosomales. 37 QUANTUM - Ingreso a Medicina Biología",
+        "correct": false
+      },
+      {
+        "text": "La matriz en la síntesis de proteínas es el ARNt.",
+        "correct": false
+      },
+      {
+        "text": "Las concentraciones intracitoplasmáticas de Ca++ están reguladas por los depósito de este ión en el REL.",
+        "correct": true
+      },
+      {
+        "text": "La vida celular no es posible sin la existencia del sistema de endomembranas, existiendo algunas excepciones.",
+        "correct": true
+      },
+      {
+        "text": "El aparato de Golgi se ubica en el citoplasma basal de las células polarizadas.",
+        "correct": false
+      },
+      {
+        "text": "Las células procariotas presentan un sistema de endomembranas similar al de células eucariotas.",
+        "correct": false
+      }
+    ],
+    "explanation": "Clave: 1) F · 2) F · 3) F · 4) F · 5) F · 6) F · 7) F · 8) F · 9) F · 10) F · 11) V · 12) V · 13) F · 14) F."
+  },
+  {
+    "id": "bio-vfo-0013",
     "institutions": [
       "UNC",
       "UNSa"
@@ -21458,7 +21924,73 @@
     "explanation": "Clave: 1) V · 2) F · 3) V · 4) F · 5) V · 6) F · 7) V."
   },
   {
-    "id": "bio-vfo-0007",
+    "id": "bio-vfo-0014",
+    "institutions": [
+      "UNC",
+      "UNSa"
+    ],
+    "subject": "biologia",
+    "block": "sistema_de_endomembranas",
+    "topic": "sistema_de_endomembranas",
+    "track": "teorico",
+    "frequency": "alta",
+    "difficulty": 2,
+    "stem": "Ante las siguientes afirmaciones acerca del sistema de endomembranas, señale si son verdaderas o falsas:",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado del preguntero (nº 171, sección \"Sistema de Endomembranas\").",
+    "type": "true_false_series",
+    "statements": [
+      {
+        "text": "Las vesículas recicladoras devuelven al donante porciones de membranas con sus receptores.",
+        "correct": true
+      },
+      {
+        "text": "En el sistema de endomembranas se transfieren porciones de membrana y contenido en sucesivas estaciones.",
+        "correct": true
+      },
+      {
+        "text": "El citoesqueleto sostiene en su sitio al RER.",
+        "correct": true
+      },
+      {
+        "text": "El ergastoplasma se colorea con azul de toluidina.",
+        "correct": true
+      },
+      {
+        "text": "Los dictiosomas son las unidades funcionales del aparato de golgi. 40 QUANTUM - Ingreso a Medicina Biología",
+        "correct": true
+      },
+      {
+        "text": "El REL cumple diversas funciones entre las cuales se destaca la síntesis de hormonas esteroideas.",
+        "correct": true
+      },
+      {
+        "text": "El RE es el responsable de la biogénesis de membrana.",
+        "correct": true
+      },
+      {
+        "text": "En el golgi se forman glucolípidos y glucoproteínas mediante la acción de glucosiltransferasas.",
+        "correct": true
+      },
+      {
+        "text": "En el espermatozoide se observa el acrosoma que interviene en el proceso de fecundación.",
+        "correct": true
+      },
+      {
+        "text": "El REL provee de membranas a los autofagosomas.",
+        "correct": true
+      },
+      {
+        "text": "Las enzimas hidrolíticas destinadas a los endosomas poseen como señal a la manosa-6-fosfato.",
+        "correct": true
+      }
+    ],
+    "explanation": "Clave: 1) V · 2) V · 3) V · 4) V · 5) V · 6) V · 7) V · 8) V · 9) V · 10) V · 11) V."
+  },
+  {
+    "id": "bio-vfo-0015",
     "institutions": [
       "UNC",
       "UNSa"
@@ -21536,7 +22068,7 @@
     "explanation": "Clave: 1) V · 2) F · 3) V · 4) V · 5) F · 6) F · 7) V · 8) V · 9) F · 10) V · 11) F · 12) F · 13) V · 14) V."
   },
   {
-    "id": "bio-vfo-0008",
+    "id": "bio-vfo-0016",
     "institutions": [
       "UNC",
       "UNSa"
@@ -21567,7 +22099,7 @@
     "explanation": "Orden correcto: 1) Digestión en el tubo digestivo → 2) Absorción a nivel intestinal → 3) Ingreso de la glucosa a las células a través de difusión facilitada → 4) Glucólisis anaeróbica → 5) Descarboxilación oxidativa del piruvato → 6) Formación de Acetil-CoA → 7) Ciclo de Krebs → 8) Cadena transportadora de electrones → 9) Fosforilación oxidativa."
   },
   {
-    "id": "bio-vfo-0009",
+    "id": "bio-vfo-0017",
     "institutions": [
       "UNC",
       "UNSa"
@@ -21609,7 +22141,7 @@
     "explanation": "Clave: 1) V · 2) F · 3) V · 4) V · 5) F."
   },
   {
-    "id": "bio-vfo-0010",
+    "id": "bio-vfo-0018",
     "institutions": [
       "UNC",
       "UNSa"
@@ -21637,7 +22169,7 @@
     "explanation": "Orden correcto: 1) Ingestión de alimentos → 2) Degradación enzimática en el tubo digestivo → 3) Glucólisis → 4) Descarboxilación oxidativa → 5) Incorporación al ciclo de Krebs → 6) Fosforilación oxidativa."
   },
   {
-    "id": "bio-vfo-0011",
+    "id": "bio-vfo-0019",
     "institutions": [
       "UNC",
       "UNSa"
@@ -21687,7 +22219,7 @@
     "explanation": "Clave: 1) F · 2) F · 3) F · 4) F · 5) V · 6) V · 7) F."
   },
   {
-    "id": "bio-vfo-0012",
+    "id": "bio-vfo-0020",
     "institutions": [
       "UNC",
       "UNSa"
@@ -21729,7 +22261,7 @@
     "explanation": "Clave: 1) F · 2) V · 3) V · 4) V · 5) F."
   },
   {
-    "id": "bio-vfo-0013",
+    "id": "bio-vfo-0021",
     "institutions": [
       "UNC",
       "UNSa"
@@ -21795,7 +22327,7 @@
     "explanation": "Clave: 1) V · 2) V · 3) F · 4) V · 5) V · 6) V · 7) F · 8) F · 9) F · 10) F · 11) V."
   },
   {
-    "id": "bio-vfo-0014",
+    "id": "bio-vfo-0022",
     "institutions": [
       "UNC",
       "UNSa"
@@ -21841,7 +22373,7 @@
     "explanation": "Clave: 1) F · 2) V · 3) V · 4) F · 5) V · 6) F."
   },
   {
-    "id": "bio-vfo-0015",
+    "id": "bio-vfo-0023",
     "institutions": [
       "UNC",
       "UNSa"
@@ -21899,7 +22431,7 @@
     "explanation": "Clave: 1) F · 2) V · 3) F · 4) V · 5) F · 6) F · 7) V · 8) V · 9) V."
   },
   {
-    "id": "bio-vfo-0016",
+    "id": "bio-vfo-0024",
     "institutions": [
       "UNC",
       "UNSa"
@@ -21961,7 +22493,7 @@
     "explanation": "Clave: 1) V · 2) F · 3) F · 4) F · 5) F · 6) V · 7) V · 8) F · 9) V · 10) V."
   },
   {
-    "id": "bio-vfo-0017",
+    "id": "bio-vfo-0025",
     "institutions": [
       "UNC",
       "UNSa"
@@ -22023,7 +22555,127 @@
     "explanation": "Clave: 1) V · 2) V · 3) F · 4) F · 5) V · 6) V · 7) F · 8) F · 9) V · 10) V."
   },
   {
-    "id": "bio-vfo-0018",
+    "id": "bio-vfo-0026",
+    "institutions": [
+      "UNC",
+      "UNSa"
+    ],
+    "subject": "biologia",
+    "block": "ecologia",
+    "topic": "ecologia",
+    "track": "teorico",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Indique si las siguientes afirmaciones son verdaderas o falsas acerca de la ecología.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado del preguntero (nº 442, sección \"Ecología\").",
+    "type": "true_false_series",
+    "statements": [
+      {
+        "text": "El término comunidad se refiere a todas las especies que se encuentran en un ambiente determinado.",
+        "correct": true
+      },
+      {
+        "text": "Dentro de los constituyentes abióticos existen los detritívoros.",
+        "correct": false
+      },
+      {
+        "text": "En el proceso de fotosíntesis, la energía solar se transforma en energía química.",
+        "correct": true
+      },
+      {
+        "text": "La entropía es el contenido de energía total de un sistema.",
+        "correct": false
+      },
+      {
+        "text": "La función de la cadena trófica es la de transferir energía de un organismo a otro.",
+        "correct": true
+      },
+      {
+        "text": "La 2da ley de la Termodinámica expresa: “la energía no se crea ni se destruye, sino que se transforma de una forma a otra”.",
+        "correct": false
+      },
+      {
+        "text": "La oxidación ocurre cuando una sustancia gana electrones o hidrógenos o pierde oxígeno.",
+        "correct": false
+      },
+      {
+        "text": "Los organismos que tienen al oxígeno como aceptor final de los procesos de óxido-reducción se denominan aerobios.",
+        "correct": true
+      },
+      {
+        "text": "Las reacciones anabólicas son exergónicas y pueden ocurrir sin energía adicional.",
+        "correct": false
+      },
+      {
+        "text": "La energía se mueve en forma de flujo partiendo desde el sol hasta los consumidores.",
+        "correct": true
+      }
+    ],
+    "explanation": "Clave: 1) V · 2) F · 3) V · 4) F · 5) V · 6) F · 7) F · 8) V · 9) F · 10) V."
+  },
+  {
+    "id": "bio-vfo-0027",
+    "institutions": [
+      "UNC",
+      "UNSa"
+    ],
+    "subject": "biologia",
+    "block": "ecologia",
+    "topic": "ecologia",
+    "track": "teorico",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Marque VERDADERO o FALSO acerca de los siguientes enunciados:",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado del preguntero (nº 445, sección \"Ecología\").",
+    "type": "true_false_series",
+    "statements": [
+      {
+        "text": "La acción de un antibiótico natural como la penicilina se basa en una relación intraespecífica.",
+        "correct": false
+      },
+      {
+        "text": "El virus Junín es el causante de la enfermedad de Chagas-Mazza.",
+        "correct": false
+      },
+      {
+        "text": "La diferencia entre endemia y pandemia es la cantidad de años que dura la enfermedad.",
+        "correct": false
+      },
+      {
+        "text": "La lluvia ácida se relaciona con lluvias moderadas que producen un incremento de óxidos en la atmósfera.",
+        "correct": false
+      },
+      {
+        "text": "Existen especies cuyos nichos ecológicos pueden ser idénticos.",
+        "correct": false
+      },
+      {
+        "text": "Los depredadores verdaderos necesitan consumir un valor umbral mínimo de presas, por encima del cual logran aumentar de peso y reproducirse.",
+        "correct": true
+      },
+      {
+        "text": "La depredación es una relación perjudicial para una de las poblaciones. Sin embargo, los trabajos realizados por Gause mostraron que esta interacción puede resultar beneficiosa a depredadores y presas, pues permite su coexistencia.",
+        "correct": false
+      },
+      {
+        "text": "La pérdida de la biodiversidad significa que los humanos están perdiendo importantes fuentes naturales.",
+        "correct": true
+      },
+      {
+        "text": "Los ciclos de los nutrientes involucran componentes bióticos y abióticos de los ecosistemas, ellos se denominan ciclos biogeoquímicos. 112 QUANTUM - Ingreso a Medicina Biología",
+        "correct": true
+      }
+    ],
+    "explanation": "Clave: 1) F · 2) F · 3) F · 4) F · 5) F · 6) V · 7) F · 8) V · 9) V."
+  },
+  {
+    "id": "bio-vfo-0028",
     "institutions": [
       "UNC",
       "UNSa"
@@ -22061,7 +22713,7 @@
     "explanation": "Clave: 1) F · 2) V · 3) F · 4) V."
   },
   {
-    "id": "bio-vfo-0019",
+    "id": "bio-vfo-0029",
     "institutions": [
       "UNC",
       "UNSa"
@@ -22103,7 +22755,7 @@
     "explanation": "Clave: 1) V · 2) V · 3) F · 4) V · 5) F."
   },
   {
-    "id": "bio-vfo-0020",
+    "id": "bio-vfo-0030",
     "institutions": [
       "UNC",
       "UNSa"
@@ -22145,7 +22797,7 @@
     "explanation": "Clave: 1) V · 2) V · 3) F · 4) F · 5) V."
   },
   {
-    "id": "bio-vfo-0021",
+    "id": "bio-vfo-0031",
     "institutions": [
       "UNC",
       "UNSa"
@@ -22187,7 +22839,7 @@
     "explanation": "Clave: 1) V · 2) V · 3) F · 4) F · 5) F."
   },
   {
-    "id": "bio-vfo-0022",
+    "id": "bio-vfo-0032",
     "institutions": [
       "UNC",
       "UNSa"
@@ -22229,7 +22881,7 @@
     "explanation": "Clave: 1) V · 2) V · 3) V · 4) F · 5) F."
   },
   {
-    "id": "bio-vfo-0023",
+    "id": "bio-vfo-0033",
     "institutions": [
       "UNC",
       "UNSa"
@@ -22283,7 +22935,7 @@
     "explanation": "Clave: 1) V · 2) V · 3) F · 4) F · 5) V · 6) F · 7) V · 8) V."
   },
   {
-    "id": "bio-vfo-0024",
+    "id": "bio-vfo-0034",
     "institutions": [
       "UNC",
       "UNSa"

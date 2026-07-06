@@ -42,9 +42,10 @@ export function ItemCard({ item, onAnswered, onNext }: ItemCardProps) {
   const [result, setResult] = useState<GradeResult | null>(null);
   const answered = result !== null;
 
-  // Opciones (derecha) barajadas para matching, estables por ítem.
+  // Opciones (derecha) barajadas y sin repetir para matching (varios ítems de la
+  // izquierda pueden compartir la misma respuesta), estables por ítem.
   const matchRights = useMemo(
-    () => shuffle((item.pairs ?? []).map((p) => p[1])),
+    () => shuffle([...new Set((item.pairs ?? []).map((p) => p[1]))]),
     // eslint-disable-next-line react-hooks/exhaustive-deps
     [item.id],
   );
