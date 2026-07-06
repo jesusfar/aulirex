@@ -1,6 +1,7 @@
 import { useMemo, useState, type ReactNode } from 'react';
 import type { Item } from '../types/content';
 import { gradeItem, type GivenAnswer, type GradeResult } from '../lib/scoring';
+import { shuffle } from '../lib/deck';
 import { misconceptionById } from '../content/misconceptions';
 import { MathText } from './MathText';
 import { ProcessMapView } from './ProcessMapView';
@@ -31,8 +32,32 @@ export function ItemCard({ item, onAnswered, onNext }: ItemCardProps) {
   const [choiceId, setChoiceId] = useState<string | null>(null);
   const [multi, setMulti] = useState<Set<string>>(new Set());
   const [numeric, setNumeric] = useState('');
+  // ordering: orden propuesto (arranca barajado). matching: izq→der.
+  // tf_series: V/F por afirmación (null = sin responder).
+  const [order, setOrder] = useState<string[]>(() => shuffle(item.steps ?? []));
+  const [assignments, setAssignments] = useState<Record<string, string>>({});
+  const [tf, setTf] = useState<(boolean | null)[]>(() =>
+    (item.statements ?? []).map(() => null),
+  );
   const [result, setResult] = useState<GradeResult | null>(null);
   const answered = result !== null;
+
+  // Opciones (derecha) barajadas para matching, estables por ítem.
+  const matchRights = useMemo(
+    () => shuffle((item.pairs ?? []).map((p) => p[1])),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [item.id],
+  );
+
+  function moveStep(i: number, delta: number) {
+    setOrder((prev) => {
+      const j = i + delta;
+      if (j < 0 || j >= prev.length) return prev;
+      const next = [...prev];
+      [next[i], next[j]] = [next[j], next[i]];
+      return next;
+    });
+  }
 
   function buildGiven(): GivenAnswer | null {
     switch (item.type) {
@@ -45,6 +70,16 @@ export function ItemCard({ item, onAnswered, onNext }: ItemCardProps) {
         const value = parseFloat(numeric.replace(',', '.'));
         return Number.isNaN(value) ? null : { kind: 'numeric', value };
       }
+      case 'ordering':
+        return order.length > 0 ? { kind: 'ordering', order } : null;
+      case 'matching':
+        return Object.keys(assignments).length === (item.pairs?.length ?? 0)
+          ? { kind: 'matching', assignments }
+          : null;
+      case 'true_false_series':
+        return tf.every((v) => v !== null)
+          ? { kind: 'tf_series', answers: tf as boolean[] }
+          : null;
       default:
         return null;
     }
@@ -64,18 +99,16 @@ export function ItemCard({ item, onAnswered, onNext }: ItemCardProps) {
     });
   }
 
-  const canCheck =
-    !answered &&
-    ((item.type === 'numeric' && numeric.trim() !== '') ||
-      (item.type === 'multiple_response' && multi.size > 0) ||
-      ((item.type === 'single_choice' || item.type === 'true_false') &&
-        choiceId !== null));
+  const canCheck = !answered && buildGiven() !== null;
 
   const isSupported =
     item.type === 'single_choice' ||
     item.type === 'true_false' ||
     item.type === 'multiple_response' ||
-    item.type === 'numeric';
+    item.type === 'numeric' ||
+    item.type === 'ordering' ||
+    item.type === 'matching' ||
+    item.type === 'true_false_series';
 
   const misconception = result?.chosenMisconception
     ? misconceptionById.get(result.chosenMisconception)
@@ -209,6 +242,159 @@ export function ItemCard({ item, onAnswered, onNext }: ItemCardProps) {
               </span>
             )}
           </div>
+        )}
+
+        {item.type === 'ordering' && (
+          <div className="mt-5">
+            <p className="mb-2 text-xs font-bold uppercase tracking-wide text-slate-500">
+              Ordená con las flechas
+            </p>
+            <ol className="space-y-2">
+              {order.map((step, i) => {
+                const ok = answered && item.steps?.[i] === step;
+                return (
+                  <li
+                    key={step}
+                    className={`flex items-center gap-3 rounded-md border px-3 py-2 ${
+                      answered
+                        ? ok
+                          ? 'border-emerald-500/50 bg-emerald-400/10'
+                          : 'border-rose-500/40 bg-rose-400/10'
+                        : 'border-white/10 bg-white/5'
+                    }`}
+                  >
+                    <span className="grid size-7 shrink-0 place-items-center rounded-md bg-sky-500/20 text-xs font-black text-sky-100">
+                      {i + 1}
+                    </span>
+                    <span className="flex-1 text-sm leading-6 text-slate-100">
+                      <MathText>{step}</MathText>
+                    </span>
+                    {!answered && (
+                      <span className="flex shrink-0 gap-1">
+                        <button
+                          type="button"
+                          aria-label="Subir"
+                          disabled={i === 0}
+                          onClick={() => moveStep(i, -1)}
+                          className="grid size-7 place-items-center rounded border border-white/10 text-slate-300 transition hover:border-sky-400/60 disabled:opacity-25"
+                        >
+                          ↑
+                        </button>
+                        <button
+                          type="button"
+                          aria-label="Bajar"
+                          disabled={i === order.length - 1}
+                          onClick={() => moveStep(i, 1)}
+                          className="grid size-7 place-items-center rounded border border-white/10 text-slate-300 transition hover:border-sky-400/60 disabled:opacity-25"
+                        >
+                          ↓
+                        </button>
+                      </span>
+                    )}
+                  </li>
+                );
+              })}
+            </ol>
+          </div>
+        )}
+
+        {item.type === 'matching' && (
+          <ul className="mt-5 space-y-2">
+            {(item.pairs ?? []).map(([left, right]) => {
+              const chosen = assignments[left];
+              const ok = answered && chosen === right;
+              return (
+                <li
+                  key={left}
+                  className={`flex flex-col gap-2 rounded-md border px-3 py-2 sm:flex-row sm:items-center ${
+                    answered
+                      ? ok
+                        ? 'border-emerald-500/50 bg-emerald-400/10'
+                        : 'border-rose-500/40 bg-rose-400/10'
+                      : 'border-white/10 bg-white/5'
+                  }`}
+                >
+                  <span className="flex-1 text-sm font-semibold text-slate-100">
+                    <MathText>{left}</MathText>
+                  </span>
+                  <span className="hidden text-slate-500 sm:inline">→</span>
+                  <select
+                    disabled={answered}
+                    value={chosen ?? ''}
+                    onChange={(e) =>
+                      setAssignments((a) => ({ ...a, [left]: e.target.value }))
+                    }
+                    className="h-9 rounded-md border border-slate-700 bg-slate-950/80 px-2 text-sm text-slate-100 outline-none focus:border-sky-400 disabled:opacity-70 sm:w-64"
+                  >
+                    <option value="" disabled>
+                      Elegí…
+                    </option>
+                    {matchRights.map((r) => (
+                      <option key={r} value={r} className="text-black">
+                        {r}
+                      </option>
+                    ))}
+                  </select>
+                  {answered && !ok && (
+                    <span className="text-xs font-bold text-emerald-300">✓ {right}</span>
+                  )}
+                </li>
+              );
+            })}
+          </ul>
+        )}
+
+        {item.type === 'true_false_series' && (
+          <ul className="mt-5 space-y-2">
+            {(item.statements ?? []).map((s, i) => {
+              const val = tf[i];
+              const ok = answered && val === s.correct;
+              return (
+                <li
+                  key={i}
+                  className={`flex items-center gap-3 rounded-md border px-3 py-2 ${
+                    answered
+                      ? ok
+                        ? 'border-emerald-500/50 bg-emerald-400/10'
+                        : 'border-rose-500/40 bg-rose-400/10'
+                      : 'border-white/10 bg-white/5'
+                  }`}
+                >
+                  <span className="flex-1 text-sm leading-6 text-slate-100">
+                    <MathText>{s.text}</MathText>
+                  </span>
+                  <span className="flex shrink-0 gap-1">
+                    {([['V', true], ['F', false]] as const).map(([letter, bv]) => (
+                      <button
+                        key={letter}
+                        type="button"
+                        disabled={answered}
+                        onClick={() =>
+                          setTf((prev) => {
+                            const n = [...prev];
+                            n[i] = bv;
+                            return n;
+                          })
+                        }
+                        className={`grid size-8 place-items-center rounded-md border text-sm font-black transition ${
+                          val === bv
+                            ? 'border-sky-400 bg-sky-400/20 text-sky-100'
+                            : 'border-white/10 text-slate-300 hover:border-sky-400/50'
+                        }`}
+                      >
+                        {letter}
+                      </button>
+                    ))}
+                  </span>
+                  {answered && (
+                    <span className="w-4 shrink-0 text-xs font-black text-emerald-300">
+                      {s.correct ? 'V' : 'F'}
+                    </span>
+                  )}
+                </li>
+              );
+            })}
+          </ul>
         )}
 
         {item.hint && !answered && (

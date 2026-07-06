@@ -1,8 +1,8 @@
 import { useEffect, useRef } from 'react';
-import { NavLink, Outlet } from 'react-router-dom';
+import { NavLink, Outlet, useLocation } from 'react-router-dom';
 
 const linkClass = ({ isActive }: { isActive: boolean }) =>
-  `aulirex-header-tab inline-flex flex-none rounded-md px-3 py-2 text-sm font-semibold transition-all duration-200 ${
+  `aulirex-header-tab inline-flex min-h-10 flex-none items-center justify-center rounded-md px-2.5 py-2 text-xs font-semibold transition-all duration-200 sm:px-3 sm:text-sm ${
     isActive ? 'aulirex-header-tab--active' : 'text-slate-300'
   }`;
 
@@ -12,6 +12,26 @@ interface EcgSample {
 }
 
 export function Layout() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    if ('scrollRestoration' in window.history) {
+      window.history.scrollRestoration = 'manual';
+    }
+  }, []);
+
+  useEffect(() => {
+    const scrollToTop = () => {
+      window.scrollTo({ top: 0, left: 0, behavior: 'auto' });
+      document.documentElement.scrollTop = 0;
+      document.body.scrollTop = 0;
+    };
+
+    scrollToTop();
+    const frame = window.requestAnimationFrame(scrollToTop);
+    return () => window.cancelAnimationFrame(frame);
+  }, [pathname]);
+
   useEffect(() => {
     const showBloodiedCursor = () => {
       document.documentElement.classList.add('scalpel-clicked');
@@ -118,19 +138,19 @@ export function Layout() {
       <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(rgba(148,163,184,0.055)_1px,transparent_1px),linear-gradient(90deg,rgba(148,163,184,0.055)_1px,transparent_1px)] bg-[size:44px_44px]" />
       <div className="pointer-events-none absolute inset-x-0 top-0 h-72 bg-[radial-gradient(circle_at_50%_0%,rgba(14,165,233,0.22),transparent_58%)]" />
 
-      <header className="sticky top-0 z-50 border-b border-white/10 bg-slate-950/78 px-4 py-3 backdrop-blur-xl">
-        <div className="mx-auto flex max-w-6xl items-center justify-between gap-4">
-          <div className="flex min-w-0 shrink-0 items-center gap-3">
+      <header className="sticky top-0 z-50 border-b border-white/10 bg-slate-950/78 px-3 py-2 backdrop-blur-xl sm:px-4 sm:py-3">
+        <div className="mx-auto flex max-w-6xl flex-wrap items-center gap-3 md:gap-4">
+          <div className="flex min-w-0 flex-1 items-center gap-2 sm:gap-3 md:flex-none md:shrink-0">
             <img
               src="/brand/aulirex-mark.png"
               alt="Aulirex"
-              className="size-12 rounded-full object-contain shadow-[0_0_22px_rgba(34,211,238,0.32)]"
+              className="size-10 rounded-full object-contain shadow-[0_0_22px_rgba(34,211,238,0.32)] sm:size-12"
             />
             <div className="min-w-0">
               <img
                 src="/brand/aulirex-wordmark.png?v=corrected-20260703"
                 alt="Aulirex"
-                className="h-7 w-auto max-w-[10.5rem] object-contain drop-shadow-[0_0_10px_rgba(125,211,252,0.35)] sm:h-8"
+                className="h-6 w-auto max-w-[8.25rem] object-contain drop-shadow-[0_0_10px_rgba(125,211,252,0.35)] sm:h-8 sm:max-w-[10.5rem]"
               />
               <span className="hidden text-xs font-medium text-slate-400 sm:block">
                 Entrenamiento para Medicina
@@ -140,7 +160,7 @@ export function Layout() {
 
           <EcgHeaderMonitor />
 
-          <nav className="flex max-w-[45vw] shrink-0 overflow-x-auto whitespace-nowrap rounded-lg border border-white/10 bg-black/24 p-1 shadow-[inset_0_1px_0_rgba(255,255,255,0.08)] [scrollbar-width:none]">
+          <nav aria-label="Navegacion principal" className="order-3 flex w-full min-w-0 overflow-x-auto overscroll-x-contain whitespace-nowrap rounded-lg border border-white/10 bg-black/24 p-1 shadow-[inset_0_1px_0_rgba(255,255,255,0.08)] [scrollbar-width:none] lg:order-none lg:ml-auto lg:w-auto lg:max-w-[34rem] lg:shrink-0">
             <NavLink to="/" end className={linkClass}>
               Dashboard
             </NavLink>
@@ -154,7 +174,7 @@ export function Layout() {
               Errores
             </NavLink>
             <NavLink to="/formulario" className={linkClass}>
-              Formulario
+              Formulas
             </NavLink>
           </nav>
         </div>
@@ -475,7 +495,7 @@ function EcgHeaderMonitor() {
 
   return (
     <div
-      className="ecg-header-strip pointer-events-none mx-auto hidden h-11 min-w-44 flex-1 basis-[34rem] overflow-hidden rounded-lg border border-sky-300/10 bg-slate-950/46 shadow-[inset_0_1px_0_rgba(255,255,255,0.05)] md:block"
+      className="ecg-header-strip pointer-events-none mx-auto hidden h-11 min-w-40 flex-1 basis-[14rem] overflow-hidden xl:basis-[28rem] rounded-lg border border-sky-300/10 bg-slate-950/46 shadow-[inset_0_1px_0_rgba(255,255,255,0.05)] lg:block"
       aria-hidden="true"
     >
       <canvas ref={canvasRef} className="ecg-monitor-canvas" />

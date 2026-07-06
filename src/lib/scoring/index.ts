@@ -1,11 +1,14 @@
 import type { Item } from '../../types/content';
 import { scoreNumeric } from './numeric';
 
-// Respuesta del alumno según el tipo de ítem soportado en la Fase 1.
+// Respuesta del alumno según el tipo de ítem.
 export type GivenAnswer =
   | { kind: 'choice'; choiceId: string } // single_choice / true_false
   | { kind: 'multi'; choiceIds: string[] } // multiple_response
-  | { kind: 'numeric'; value: number };
+  | { kind: 'numeric'; value: number }
+  | { kind: 'ordering'; order: string[] } // orden propuesto de los pasos
+  | { kind: 'matching'; assignments: Record<string, string> } // izq → der
+  | { kind: 'tf_series'; answers: boolean[] }; // V/F por afirmación
 
 export interface GradeResult {
   correct: boolean;
@@ -43,6 +46,25 @@ export function gradeItem(item: Item, given: GivenAnswer): GradeResult {
     case 'numeric': {
       if (!item.numeric) return { correct: false };
       return { correct: scoreNumeric(given.value, item.numeric) };
+    }
+    case 'ordering': {
+      const correctOrder = item.steps ?? [];
+      const correct =
+        given.order.length === correctOrder.length &&
+        given.order.every((s, i) => s === correctOrder[i]);
+      return { correct };
+    }
+    case 'matching': {
+      const pairs = item.pairs ?? [];
+      const correct = pairs.every(([left, right]) => given.assignments[left] === right);
+      return { correct };
+    }
+    case 'tf_series': {
+      const statements = item.statements ?? [];
+      const correct =
+        given.answers.length === statements.length &&
+        statements.every((s, i) => s.correct === given.answers[i]);
+      return { correct };
     }
   }
 }

@@ -176,7 +176,7 @@ export function PracticePage() {
               disabled={starting}
               className="aulirex-primary-button mt-5 h-12 w-full rounded-md text-sm font-black transition disabled:opacity-50 sm:w-auto sm:px-8"
             >
-              {starting ? 'Preparando…' : `Empezar test de ${testSize}`}
+              {starting ? 'Preparando…' : 'Empezar Test'}
             </button>
           </section>
         </>

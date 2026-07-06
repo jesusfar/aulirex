@@ -6,6 +6,7 @@ import { items as bioOrganelas } from './items/biologia/organelas';
 import { items as bioDogma } from './items/biologia/dogma';
 import { items as bioGenetica } from './items/biologia/genetica';
 import { items as bioSistemas } from './items/biologia/sistemas';
+import { items as bioVF } from './items/biologia/verdadero-falso';
 import { items as quiOrganica } from './items/quimica/organica';
 import { items as quiAcidoBase } from './items/quimica/acido-base';
 import { items as quiSoluciones } from './items/quimica/soluciones';
@@ -22,6 +23,7 @@ export const curatedItems: Item[] = [
   ...bioDogma,
   ...bioGenetica,
   ...bioSistemas,
+  ...bioVF,
   ...quiOrganica,
   ...quiAcidoBase,
   ...quiSoluciones,

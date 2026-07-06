@@ -20,6 +20,7 @@ export type ItemType =
   | 'single_choice'
   | 'multiple_response'
   | 'true_false'
+  | 'true_false_series'
   | 'numeric'
   | 'ordering'
   | 'matching'
@@ -69,8 +70,9 @@ export interface Item {
   media?: Media[];
   choices?: Choice[]; // choice / true_false / multiple_response
   numeric?: NumericAnswer; // numeric
-  steps?: string[]; // ordering
+  steps?: string[]; // ordering (en el orden correcto)
   pairs?: [string, string][]; // matching
+  statements?: { text: string; correct: boolean }[]; // true_false_series
   regions?: ClickRegion[]; // label_diagram / annotate_molecule
   explanation: string;
   hint?: string;

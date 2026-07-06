@@ -19,7 +19,7 @@ export function FormularioPage() {
   return (
     <div className="mx-auto max-w-3xl">
       <div className="mb-4">
-        <h2 className="text-2xl font-black text-white">Formulario</h2>
+        <h2 className="text-2xl font-black text-white">Formulas</h2>
         <p className="mt-1 text-sm text-slate-400">
           Cada fórmula con sus variables y —lo que más se toma— qué es{' '}
           <span className="text-emerald-300">directa</span> o{' '}

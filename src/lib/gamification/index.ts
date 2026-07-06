@@ -38,15 +38,16 @@ export function levelProgress(xp: number): {
   return { level, intoLevel: into, levelSpan: span, ratio: span ? into / span : 0 };
 }
 
-// Rangos médicos por nivel. Da identidad y sensación de progreso clínico.
+// Rangos medicos por nivel. Desde Residente, la curva esta calibrada para
+// una preparacion larga: 100 preguntas/dia durante unos 4 meses.
 const RANKS: { minLevel: number; name: string; emoji: string }[] = [
   { minLevel: 1, name: 'Aspirante', emoji: '🩹' },
   { minLevel: 3, name: 'Practicante', emoji: '💉' },
   { minLevel: 6, name: 'Interno', emoji: '🩺' },
-  { minLevel: 10, name: 'Residente', emoji: '🏥' },
-  { minLevel: 15, name: 'Médico/a', emoji: '⚕️' },
-  { minLevel: 22, name: 'Especialista', emoji: '🧠' },
-  { minLevel: 30, name: 'Jefe/a de Servicio', emoji: '👑' },
+  { minLevel: 25, name: 'Residente', emoji: '🏥' },
+  { minLevel: 40, name: 'Médico/a', emoji: '⚕️' },
+  { minLevel: 50, name: 'Especialista', emoji: '🧠' },
+  { minLevel: 61, name: 'Jefe/a de Servicio', emoji: '👑' },
 ];
 
 export function rankForLevel(level: number): { name: string; emoji: string } {
