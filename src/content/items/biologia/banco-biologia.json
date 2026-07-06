@@ -21204,5 +21204,1128 @@
     "version": 1,
     "status": "active",
     "authorNote": "Importado del preguntero (nº 560, sección \"Sistemas de la Relación\")."
+  },
+  {
+    "id": "bio-vfo-0001",
+    "institutions": [
+      "UNC",
+      "UNSa"
+    ],
+    "subject": "biologia",
+    "block": "difusion_osmosis_ph_teorias_biologicas",
+    "topic": "difusion_osmosis_ph_teorias_biologicas",
+    "track": "practico",
+    "frequency": "alta",
+    "difficulty": 2,
+    "stem": "Señale si las siguientes afirmaciones referidas a virus son VERDADERAS o FALSAS:",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado del preguntero (nº 78, sección \"Difusión, Ósmosis, pH, Teorías Biológicas\").",
+    "type": "true_false_series",
+    "statements": [
+      {
+        "text": "Los virus ADN presentan una enzima llamada transcriptasa inversa. 17 QUANTUM - Ingreso a Medicina Biología",
+        "correct": false
+      },
+      {
+        "text": "Las partículas virales se ensamblan en el interior celular.",
+        "correct": true
+      },
+      {
+        "text": "Los virus no requieren de la maquinaria metabólica de la célula huésped.",
+        "correct": false
+      },
+      {
+        "text": "Cuando se ha completado el ensamble de las partículas virales, estas lisan la célula huésped.",
+        "correct": true
+      },
+      {
+        "text": "La reproducción viral sólo puede ocurrir dentro de las células hospedadoras.",
+        "correct": true
+      }
+    ],
+    "explanation": "Clave: 1) F · 2) V · 3) F · 4) V · 5) V."
+  },
+  {
+    "id": "bio-vfo-0002",
+    "institutions": [
+      "UNC",
+      "UNSa"
+    ],
+    "subject": "biologia",
+    "block": "difusion_osmosis_ph_teorias_biologicas",
+    "topic": "difusion_osmosis_ph_teorias_biologicas",
+    "track": "practico",
+    "frequency": "alta",
+    "difficulty": 2,
+    "stem": "Señale si las siguientes afirmaciones referidas a viroides son verdaderas o falsas:",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado del preguntero (nº 79, sección \"Difusión, Ósmosis, pH, Teorías Biológicas\").",
+    "type": "true_false_series",
+    "statements": [
+      {
+        "text": "Son moléculas de ADN recubiertas por proteínas.",
+        "correct": false
+      },
+      {
+        "text": "Son pequeñas moléculas de ARN.",
+        "correct": true
+      },
+      {
+        "text": "Infectan a células eucariotas vegetales.",
+        "correct": true
+      },
+      {
+        "text": "Están constituidos sólo por proteínas.",
+        "correct": false
+      },
+      {
+        "text": "Sus células huésped son las eucariotas animales.",
+        "correct": false
+      }
+    ],
+    "explanation": "Clave: 1) F · 2) V · 3) V · 4) F · 5) F."
+  },
+  {
+    "id": "bio-vfo-0003",
+    "institutions": [
+      "UNC",
+      "UNSa"
+    ],
+    "subject": "biologia",
+    "block": "membrana_plasmatica",
+    "topic": "membrana_plasmatica",
+    "track": "teorico",
+    "frequency": "alta",
+    "difficulty": 2,
+    "stem": "Identifique si las siguientes afirmaciones acerca de la membrana plasmática son verdaderas o falsas:",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado del preguntero (nº 93, sección \"Membrana Plasmática\").",
+    "type": "true_false_series",
+    "statements": [
+      {
+        "text": "La membrana plasmática no presenta colesterol en su composición lipídica.",
+        "correct": false
+      },
+      {
+        "text": "Los lípidos pueden desplazarse de una capa a otra de la membrana plasmática.",
+        "correct": true
+      },
+      {
+        "text": "Las proteínas periféricas se encuentran sólo en la cara citosólica.",
+        "correct": false
+      },
+      {
+        "text": "Muchas proteínas transmembranas atraviesan la bicapa más de una vez.",
+        "correct": true
+      },
+      {
+        "text": "En el lado exterior hay cortas cadenas de glúcidos.",
+        "correct": true
+      }
+    ],
+    "explanation": "Clave: 1) F · 2) V · 3) F · 4) V · 5) V."
+  },
+  {
+    "id": "bio-vfo-0004",
+    "institutions": [
+      "UNC",
+      "UNSa"
+    ],
+    "subject": "biologia",
+    "block": "membrana_plasmatica",
+    "topic": "membrana_plasmatica",
+    "track": "teorico",
+    "frequency": "alta",
+    "difficulty": 2,
+    "stem": "Lea el siguiente texto: Las células del tejido epitelial descansan sobre una membrana basal. Por debajo de ella se encuentran los vasos sanguíneos y linfáticos que nutren a los tejidos y a dichas células por imbibición. Cuando de las células epiteliales se origina un tumor maligno (carcinoma) será en un principio de localización “in situ”; esto significa que el tumor está creciendo, pero aún no ha atravesado la membrana basal. Cuando esto sucede, es decir que el tumor rompe las membranas e infiltra el tejido subyacente, se considera invasor. En esta última instancia las células pueden ingresar a los vasos, viajar por ellos a diferentes sitios del cuerpo y originar focos metastásicos del mismo tumor que les dio origen. Estas características, infiltración y metástasis son las más importantes para considerar como maligno a un tumor. A continuación, determine VERDADERO o FALSO las afirmaciones siguientes (V/F): 23 QUANTUM - Ingreso a Medicina Biología",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado del preguntero (nº 98, sección \"Membrana Plasmática\").",
+    "type": "true_false_series",
+    "statements": [
+      {
+        "text": "La membrana basal es una barrera para las células neoplásicas.",
+        "correct": true
+      },
+      {
+        "text": "La metástasis indica que el tumor es maligno.",
+        "correct": true
+      },
+      {
+        "text": "Los vasos sanguíneos y linfáticos pueden transportar células malignas a otros sitios lejanos al origen.",
+        "correct": true
+      },
+      {
+        "text": "Las células neoplásicas se comportan de manera independiente ya que pueden no estar presentes las diferenciaciones de membrana.",
+        "correct": true
+      }
+    ],
+    "explanation": "Clave: 1) V · 2) V · 3) V · 4) V."
+  },
+  {
+    "id": "bio-vfo-0005",
+    "institutions": [
+      "UNC",
+      "UNSa"
+    ],
+    "subject": "biologia",
+    "block": "sistema_de_endomembranas",
+    "topic": "sistema_de_endomembranas",
+    "track": "teorico",
+    "frequency": "alta",
+    "difficulty": 2,
+    "stem": "De las siguientes afirmaciones referidas al citosol señale verdadero o falso:",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado del preguntero (nº 157, sección \"Sistema de Endomembranas\").",
+    "type": "true_false_series",
+    "statements": [
+      {
+        "text": "Cuando una proteína citosólica debe desaparecer (porque se ha plegado mal, se ha dañado o ha concluido su función) es degradada por un complejo enzimático llamado proteasoma.",
+        "correct": true
+      },
+      {
+        "text": "Las chaperonas asisten a las proteínas para su oportuno y adecuado plegamiento.",
+        "correct": true
+      },
+      {
+        "text": "Cuando se acumulan en el citosol en grandes cantidades ciertas macromoléculas forman estructuras detectables con el microscopio óptico llamadas inclusiones.",
+        "correct": true
+      },
+      {
+        "text": "El pH citosólico es de 4, similar al de la luz lisosomal",
+        "correct": false
+      }
+    ],
+    "explanation": "Clave: 1) V · 2) V · 3) V · 4) F."
+  },
+  {
+    "id": "bio-vfo-0006",
+    "institutions": [
+      "UNC",
+      "UNSa"
+    ],
+    "subject": "biologia",
+    "block": "sistema_de_endomembranas",
+    "topic": "sistema_de_endomembranas",
+    "track": "teorico",
+    "frequency": "alta",
+    "difficulty": 2,
+    "stem": "En relación a los procesos celulares biosintéticos y endocíticos señale cuáles afirmaciones son verdaderas o falsas. I)",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado del preguntero (nº 163, sección \"Sistema de Endomembranas\").",
+    "type": "true_false_series",
+    "statements": [
+      {
+        "text": "El sistema de endomembranas se encuentra constituido por RE, complejo de golgi, lisosomas, endosomas y vacuolas formando una red dinámica integrada en la cual se intercambian materiales desde una parte de la célula a otra. II)",
+        "correct": true
+      },
+      {
+        "text": "Los vehículos que transportan los materiales entre el RER y complejo de golgi son los gránulos secretorios. III)",
+        "correct": false
+      },
+      {
+        "text": "El citoplasma de células eucariotas se encuentra subdividido en varios compartimientos rodeado por estructuras membranosas. IV)",
+        "correct": true
+      },
+      {
+        "text": "El RER está constituido por elementos membranosos tubulares, de superficie lisa y está muy desarrollado en células de glándulas endocrinas productoras de esteroides (como por ejemplo la hormona testosterona). V)",
+        "correct": false
+      },
+      {
+        "text": "La vía endocítica hace referencia al desplazamiento de materiales desde el exterior celular (y desde la superficie de la membrana celular) a compartimientos como endosomas y lisosomas localizados en el interior de la célula. VI)",
+        "correct": true
+      },
+      {
+        "text": "Las actividades secretorias de una célula se circunscriben exclusivamente a un tipo de vía ya sea constitutiva o regulada. VII)",
+        "correct": false
+      },
+      {
+        "text": "El citoesqueleto celular participa en el movimiento de vesículas de transporte.",
+        "correct": true
+      }
+    ],
+    "explanation": "Clave: 1) V · 2) F · 3) V · 4) F · 5) V · 6) F · 7) V."
+  },
+  {
+    "id": "bio-vfo-0007",
+    "institutions": [
+      "UNC",
+      "UNSa"
+    ],
+    "subject": "biologia",
+    "block": "mitocondria",
+    "topic": "mitocondria",
+    "track": "teorico",
+    "frequency": "alta",
+    "difficulty": 2,
+    "stem": "Respecto a las mitocondrias, marque V o F según corresponda:",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado del preguntero (nº 191, sección \"Mitocondria\").",
+    "type": "true_false_series",
+    "statements": [
+      {
+        "text": "Poseen dos membranas una externa lisa y una interna rugosa",
+        "correct": true
+      },
+      {
+        "text": "Se multiplican por mitosis",
+        "correct": false
+      },
+      {
+        "text": "La matriz mitocondrial es un reservorio de Ca+2",
+        "correct": true
+      },
+      {
+        "text": "La cámara externa tiene mayor concentración de protones que la cámara interna",
+        "correct": true
+      },
+      {
+        "text": "En la matriz encontramos ADN circular y asociado a histonas",
+        "correct": false
+      },
+      {
+        "text": "En la matriz encontramos ribosomas 70S",
+        "correct": false
+      },
+      {
+        "text": "Las crestas de la membrana interna permiten aumentar la superficie membranosa para albergar mayor cantidad de partículas fosforilantes",
+        "correct": true
+      },
+      {
+        "text": "La enzima marcadora de la membrana externa es la MAO",
+        "correct": true
+      },
+      {
+        "text": "Son sintetizadas en el RE",
+        "correct": false
+      },
+      {
+        "text": "Si deben ser autofagocitadas, la membrana la aporta el REL",
+        "correct": true
+      },
+      {
+        "text": "Abundarán en células con bajos requerimientos energéticos",
+        "correct": false
+      },
+      {
+        "text": "No intervienen en el metabolismo de lípidos",
+        "correct": false
+      },
+      {
+        "text": "Las encontramos acumuladas en laberintos basales de la célula",
+        "correct": true
+      },
+      {
+        "text": "La teoría endosimbiótica se fundamenta en la similitud de esta organela con las bacterias.",
+        "correct": true
+      }
+    ],
+    "explanation": "Clave: 1) V · 2) F · 3) V · 4) V · 5) F · 6) F · 7) V · 8) V · 9) F · 10) V · 11) F · 12) F · 13) V · 14) V."
+  },
+  {
+    "id": "bio-vfo-0008",
+    "institutions": [
+      "UNC",
+      "UNSa"
+    ],
+    "subject": "biologia",
+    "block": "mitocondria",
+    "topic": "mitocondria",
+    "track": "teorico",
+    "frequency": "alta",
+    "difficulty": 2,
+    "stem": "Ordene los siguientes eventos según su cronología en el metabolismo de los glúcidos:",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado del preguntero (nº 194, sección \"Mitocondria\").",
+    "type": "ordering",
+    "steps": [
+      "Digestión en el tubo digestivo",
+      "Absorción a nivel intestinal",
+      "Ingreso de la glucosa a las células a través de difusión facilitada",
+      "Glucólisis anaeróbica",
+      "Descarboxilación oxidativa del piruvato",
+      "Formación de Acetil-CoA",
+      "Ciclo de Krebs",
+      "Cadena transportadora de electrones",
+      "Fosforilación oxidativa"
+    ],
+    "explanation": "Orden correcto: 1) Digestión en el tubo digestivo → 2) Absorción a nivel intestinal → 3) Ingreso de la glucosa a las células a través de difusión facilitada → 4) Glucólisis anaeróbica → 5) Descarboxilación oxidativa del piruvato → 6) Formación de Acetil-CoA → 7) Ciclo de Krebs → 8) Cadena transportadora de electrones → 9) Fosforilación oxidativa."
+  },
+  {
+    "id": "bio-vfo-0009",
+    "institutions": [
+      "UNC",
+      "UNSa"
+    ],
+    "subject": "biologia",
+    "block": "mitocondria",
+    "topic": "mitocondria",
+    "track": "teorico",
+    "frequency": "alta",
+    "difficulty": 2,
+    "stem": "En relación con las mitocondrias, señale verdadero o falso.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado del preguntero (nº 203, sección \"Mitocondria\").",
+    "type": "true_false_series",
+    "statements": [
+      {
+        "text": "Se encuentran en todas las células procariotas",
+        "correct": true
+      },
+      {
+        "text": "No se reproducen",
+        "correct": false
+      },
+      {
+        "text": "En ellas se degradan ácidos grasos",
+        "correct": true
+      },
+      {
+        "text": "Algunas proteínas mitocondriales son sintetizadas en su matriz",
+        "correct": true
+      },
+      {
+        "text": "No contienen ADN",
+        "correct": false
+      }
+    ],
+    "explanation": "Clave: 1) V · 2) F · 3) V · 4) V · 5) F."
+  },
+  {
+    "id": "bio-vfo-0010",
+    "institutions": [
+      "UNC",
+      "UNSa"
+    ],
+    "subject": "biologia",
+    "block": "mitocondria",
+    "topic": "mitocondria",
+    "track": "teorico",
+    "frequency": "alta",
+    "difficulty": 2,
+    "stem": "Las sustancias alimenticias se clasifican en hidratos de carbono, grasas, proteínas, minerales y H₂O, a los cuales debe agregarse el O₂. Los alimentos ingresan en el organismo por el sistema digestivo, el O₂ en cambio lo hace por el aparato respiratorio. Una vez que la energía ha sido extraída de los alimentos, quedan como productos de desecho CO₂ y H₂O, a los que deben sumarse algunas sustancias nitrogenadas derivadas del catabolismo de las proteínas. En base a lo expuesto previamente, ordene adecuadamente la secuencia seguida por los alimentos una vez incorporados al organismo.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado del preguntero (nº 205, sección \"Mitocondria\").",
+    "type": "ordering",
+    "steps": [
+      "Ingestión de alimentos",
+      "Degradación enzimática en el tubo digestivo",
+      "Glucólisis",
+      "Descarboxilación oxidativa",
+      "Incorporación al ciclo de Krebs",
+      "Fosforilación oxidativa"
+    ],
+    "explanation": "Orden correcto: 1) Ingestión de alimentos → 2) Degradación enzimática en el tubo digestivo → 3) Glucólisis → 4) Descarboxilación oxidativa → 5) Incorporación al ciclo de Krebs → 6) Fosforilación oxidativa."
+  },
+  {
+    "id": "bio-vfo-0011",
+    "institutions": [
+      "UNC",
+      "UNSa"
+    ],
+    "subject": "biologia",
+    "block": "mitocondria",
+    "topic": "mitocondria",
+    "track": "teorico",
+    "frequency": "alta",
+    "difficulty": 2,
+    "stem": "Respecto a las proteínas mitocondriales, marque V o F según corresponda:",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado del preguntero (nº 208, sección \"Mitocondria\").",
+    "type": "true_false_series",
+    "statements": [
+      {
+        "text": "Son sintetizadas en ribosomas adheridos al RER",
+        "correct": false
+      },
+      {
+        "text": "La mayoría de las proteínas mitocondriales son producidas por la misma organela ya que es semiautónoma",
+        "correct": false
+      },
+      {
+        "text": "No requieren péptido señal",
+        "correct": false
+      },
+      {
+        "text": "Algunos ejemplos son: enzimas del ciclo de Krebs, enzimas de la DOP, enzimas de la glucólisis.",
+        "correct": false
+      },
+      {
+        "text": "Adquieren su estructura secundaria y terciaria gracias a una chaperona mitocondrial HSP₆₀.",
+        "correct": true
+      },
+      {
+        "text": "El ingreso de proteínas desde el citosol hacia la organela requiere de chaperonas y consume ATP",
+        "correct": true
+      },
+      {
+        "text": "No poseen estructura primaria",
+        "correct": false
+      }
+    ],
+    "explanation": "Clave: 1) F · 2) F · 3) F · 4) F · 5) V · 6) V · 7) F."
+  },
+  {
+    "id": "bio-vfo-0012",
+    "institutions": [
+      "UNC",
+      "UNSa"
+    ],
+    "subject": "biologia",
+    "block": "microcuerpos_cloroplastos_y_ribosomas",
+    "topic": "microcuerpos_cloroplastos_y_ribosomas",
+    "track": "teorico",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Identifique si las siguientes afirmaciones acerca de la estructura de los ribosomas son VERDADERAS o FALSAS:",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado del preguntero (nº 222, sección \"Microcuerpos, Cloroplastos y Ribosomas\").",
+    "type": "true_false_series",
+    "statements": [
+      {
+        "text": "Cada ribosoma está compuesto por dos subunidades, una mayor y otra menor. Juntas forman la subunidad 80S, que representa la suma de los coeficientes de sedimentación de cada subunidad.",
+        "correct": false
+      },
+      {
+        "text": "Las subunidades mayor y menor se encuentran en el citosol de manera individual, y no formarán un ribosoma hasta que se inicie la síntesis de proteínas. 52 QUANTUM - Ingreso a Medicina Biología",
+        "correct": true
+      },
+      {
+        "text": "Cada ARNm suele ser traducido por varios ribosomas simultáneamente, que se deslizan por él en dirección 5’ → 3’",
+        "correct": true
+      },
+      {
+        "text": "Los ribosomas que se anclan a la membrana del RER lo hacen a través de su subunidad mayor",
+        "correct": true
+      },
+      {
+        "text": "La asociación de los aa entre sí para construir una proteína se produce mediante “uniones fosfodiéster” catalizadas por los ribosomas.",
+        "correct": false
+      }
+    ],
+    "explanation": "Clave: 1) F · 2) V · 3) V · 4) V · 5) F."
+  },
+  {
+    "id": "bio-vfo-0013",
+    "institutions": [
+      "UNC",
+      "UNSa"
+    ],
+    "subject": "biologia",
+    "block": "nucleo_celular",
+    "topic": "nucleo_celular",
+    "track": "teorico",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Respecto al proceso de transcripción marque V o F:",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado del preguntero (nº 264, sección \"Núcleo Celular\").",
+    "type": "true_false_series",
+    "statements": [
+      {
+        "text": "El gen regulador que se encuentra en el extremo 5’ de la secuencia, sintetiza represores, evitando así la síntesis",
+        "correct": true
+      },
+      {
+        "text": "El gen promotor le indica cuándo y dónde comenzar la lectura a la ARN polimerasa",
+        "correct": true
+      },
+      {
+        "text": "Son necesarios factores de iniciación, elongación y terminación que se encuentran en el ribosoma",
+        "correct": false
+      },
+      {
+        "text": "La ARN polimerasa lee -se mueve- de 3’ a 5’ la cadena no sense del ADN y sintetiza una hebra de ARN en sentido 5’ a 3’",
+        "correct": true
+      },
+      {
+        "text": "El fragmento del gen que es copiado se llama estructural",
+        "correct": true
+      },
+      {
+        "text": "Las zonas de la cromatina más condensadas no son transcripcionalmente activas",
+        "correct": true
+      },
+      {
+        "text": "Las cajas CAAT y TATA del gen promotor se ubican 75 y 25 nucleótidos hacia el extremo 3’ con respecto al estructural",
+        "correct": false
+      },
+      {
+        "text": "Es necesaria la presencia de enzimas como la ARN polimerasa, iones como el Mg+2, nucleótidos como ATP, GTP, TTP, etc. además del ADN que funciona como molde",
+        "correct": false
+      },
+      {
+        "text": "La transcripción de ARNt se lleva a cabo con la ARN polimerasa II.",
+        "correct": false
+      },
+      {
+        "text": "La ARN polimerasa cataliza enlaces peptídicos",
+        "correct": false
+      },
+      {
+        "text": "Para que la ARN polimerasa pueda copiar por complementariedad las bases, las dos cadenas del ADN se deben separar momentáneamente lo que forma una “burbuja de transcripción”, mediante ruptura de los puentes H.",
+        "correct": true
+      }
+    ],
+    "explanation": "Clave: 1) V · 2) V · 3) F · 4) V · 5) V · 6) V · 7) F · 8) F · 9) F · 10) F · 11) V."
+  },
+  {
+    "id": "bio-vfo-0014",
+    "institutions": [
+      "UNC",
+      "UNSa"
+    ],
+    "subject": "biologia",
+    "block": "nucleo_celular",
+    "topic": "nucleo_celular",
+    "track": "teorico",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Respecto a la traducción, marque V o F según corresponde",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado del preguntero (nº 269, sección \"Núcleo Celular\").",
+    "type": "true_false_series",
+    "statements": [
+      {
+        "text": "Si la proteína posee un péptido señal específico para el RER, una PRS lo reconoce y todo el complejo ARNm + ribosoma se traslada hasta la organela, como sucede en la síntesis de la actina",
+        "correct": false
+      },
+      {
+        "text": "Cuando el ribosoma debe anclarse al RER, lo hace por la subunidad mayor y gracias a una proteína riboforina",
+        "correct": true
+      },
+      {
+        "text": "La PRS es una molécula de ARNpc asociado a 6 proteínas, y posee un receptor específico en la membrana del RER",
+        "correct": true
+      },
+      {
+        "text": "Para las proteínas de exportación, el primer aminoácido -metionina- se coloca con el ribosoma ya adherido a la membrana del RER",
+        "correct": false
+      },
+      {
+        "text": "Aproximadamente cada 30 codones se ubica un nuevo ribosoma para realizar la traducción simultánea de varias copias de la misma proteína a partir de una sola molécula de ARNm",
+        "correct": true
+      },
+      {
+        "text": "El CAP es necesario en el extremo 3’ del ARNm para que pueda ser traducido 64 QUANTUM - Ingreso a Medicina Biología",
+        "correct": false
+      }
+    ],
+    "explanation": "Clave: 1) F · 2) V · 3) V · 4) F · 5) V · 6) F."
+  },
+  {
+    "id": "bio-vfo-0015",
+    "institutions": [
+      "UNC",
+      "UNSa"
+    ],
+    "subject": "biologia",
+    "block": "genetica_mutaciones",
+    "topic": "genetica_mutaciones",
+    "track": "teorico",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Respecto a mutaciones, marcar V o F:",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado del preguntero (nº 352, sección \"Genética - Mutaciones\").",
+    "type": "true_false_series",
+    "statements": [
+      {
+        "text": "Es un cambio a nivel de la información genética que siempre es visible al cariotipo",
+        "correct": false
+      },
+      {
+        "text": "Son repentinas, aleatorias y discontinuas",
+        "correct": true
+      },
+      {
+        "text": "Siempre generan cambios en el fenotipo",
+        "correct": false
+      },
+      {
+        "text": "La sustitución de la tercera base de un triplete del ADN (futuro codón en el ARNm) es probable que sea silenciosa",
+        "correct": true
+      },
+      {
+        "text": "La pérdida de la tercera base de un triplete del ADN (futuro codón en el ARNm) es probable que sea silenciosa",
+        "correct": false
+      },
+      {
+        "text": "Nunca las mutaciones pueden tener efectos positivos",
+        "correct": false
+      },
+      {
+        "text": "El profesor X-avier, Tormenta, Magneto, son ejemplos de mutaciones con efecto positivo",
+        "correct": true
+      },
+      {
+        "text": "Daltonismo y hemofilia son causadas por mutaciones que ocurren en el sector heterólogo del cromosoma X",
+        "correct": true
+      },
+      {
+        "text": "Las mutaciones son factores evolutivos",
+        "correct": true
+      }
+    ],
+    "explanation": "Clave: 1) F · 2) V · 3) F · 4) V · 5) F · 6) F · 7) V · 8) V · 9) V."
+  },
+  {
+    "id": "bio-vfo-0016",
+    "institutions": [
+      "UNC",
+      "UNSa"
+    ],
+    "subject": "biologia",
+    "block": "evolucion_repaso",
+    "topic": "evolucion_repaso",
+    "track": "teorico",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Respecto a las teorías del origen del universo y de la vida, marcar V o F:",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado del preguntero (nº 399, sección \"Evolución + Repaso\").",
+    "type": "true_false_series",
+    "statements": [
+      {
+        "text": "La teoría actual del origen del universo es la del Big-Bang",
+        "correct": true
+      },
+      {
+        "text": "El agua en el planeta primero estuvo es estado líquido y luego surgió el agua como vapor",
+        "correct": false
+      },
+      {
+        "text": "La atmósfera inicialmente tenía oxígeno libre y luego aparecieron compuestos como CO₂ y CO",
+        "correct": false
+      },
+      {
+        "text": "El idealismo propone que las especies surgen por mutaciones",
+        "correct": false
+      },
+      {
+        "text": "La teoría de la generación espontánea no trascendió mucho",
+        "correct": false
+      },
+      {
+        "text": "Pasteur propone la teoría de la Bio-génesis: todo ser vivo proviene de otro",
+        "correct": true
+      },
+      {
+        "text": "La teoría de Oparín-Haldane explica la evolución química como fundamento de la aparición de la primera forma de vida",
+        "correct": true
+      },
+      {
+        "text": "Primero surgieron organismos eucariotas y luego procariotas",
+        "correct": false
+      },
+      {
+        "text": "La aparición de organismos fotosintéticos permitió oxigenar la atmósfera",
+        "correct": true
+      },
+      {
+        "text": "Las mitocondrias actuales podrían ser ex-bacterias aeróbicas (teoría endo- simbiótica)",
+        "correct": true
+      }
+    ],
+    "explanation": "Clave: 1) V · 2) F · 3) F · 4) F · 5) F · 6) V · 7) V · 8) F · 9) V · 10) V."
+  },
+  {
+    "id": "bio-vfo-0017",
+    "institutions": [
+      "UNC",
+      "UNSa"
+    ],
+    "subject": "biologia",
+    "block": "evolucion_repaso",
+    "topic": "evolucion_repaso",
+    "track": "teorico",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Respecto a las fuerzas o factores evolutivos, determinar V ó F:",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado del preguntero (nº 432, sección \"Evolución + Repaso\").",
+    "type": "true_false_series",
+    "statements": [
+      {
+        "text": "Son fuerzas que rompen el equilibrio de Hardy-Weinberg",
+        "correct": true
+      },
+      {
+        "text": "La reproducción sexual origina variabilidad por ejemplo porque durante la formación de gametas se recombinan genes",
+        "correct": true
+      },
+      {
+        "text": "La reproducción asexual origina variabilidad",
+        "correct": false
+      },
+      {
+        "text": "Las mutaciones tienen la finalidad de adaptar mejor al individuo a su ambiente",
+        "correct": false
+      },
+      {
+        "text": "Las mutaciones generan variabilidad",
+        "correct": true
+      },
+      {
+        "text": "Las migraciones implican flujo de genes",
+        "correct": true
+      },
+      {
+        "text": "El efecto fundador es la supervivencia de un grupo de individuos a un efecto biológico que da origen a una nueva población, mientras que el fenómeno cuello de botella se da cuando parte de una población coloniza una nueva área geográfica",
+        "correct": false
+      },
+      {
+        "text": "La selección natural es según Lamarck el mecanismo de la evolución",
+        "correct": false
+      },
+      {
+        "text": "La selección natural puede permitir la continuidad de una línea evolutiva, o eliminarla.",
+        "correct": true
+      },
+      {
+        "text": "Para que la deriva génica y la selección natural tengan efectos en la composición génica de una población es necesario que haya primero variabilidad genética en la misma 107 QUANTUM - Ingreso a Medicina Biología",
+        "correct": true
+      }
+    ],
+    "explanation": "Clave: 1) V · 2) V · 3) F · 4) F · 5) V · 6) V · 7) F · 8) F · 9) V · 10) V."
+  },
+  {
+    "id": "bio-vfo-0018",
+    "institutions": [
+      "UNC",
+      "UNSa"
+    ],
+    "subject": "biologia",
+    "block": "sistemas_de_la_nutricion",
+    "topic": "sistemas_de_la_nutricion",
+    "track": "teorico",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Sobre los requerimientos nutricionales del ser humano indique si las siguientes sentencias son VERDADERAS o FALSAS.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado del preguntero (nº 452, sección \"Sistemas de la Nutrición\").",
+    "type": "true_false_series",
+    "statements": [
+      {
+        "text": "Las grasas y las proteínas suministran aproximadamente el mismo número de calorías por gramo de peso seco.",
+        "correct": false
+      },
+      {
+        "text": "Además de calorías, las células del cuerpo necesitan 20 tipos diferentes de aminoácidos para ensamblar proteínas. 114 QUANTUM - Ingreso a Medicina Biología",
+        "correct": true
+      },
+      {
+        "text": "Los 20 aminoácidos necesarios para ensamblar proteínas, deben ser suministrados por la dieta, ya que el ser humano no los puede sintetizar.",
+        "correct": false
+      },
+      {
+        "text": "Las vitaminas son un grupo de moléculas que funcionan como coenzimas son requeridas en cantidades pequeñas y deben ser aportadas por la dieta.",
+        "correct": true
+      }
+    ],
+    "explanation": "Clave: 1) F · 2) V · 3) F · 4) V."
+  },
+  {
+    "id": "bio-vfo-0019",
+    "institutions": [
+      "UNC",
+      "UNSa"
+    ],
+    "subject": "biologia",
+    "block": "sistemas_de_la_nutricion",
+    "topic": "sistemas_de_la_nutricion",
+    "track": "teorico",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Las vitaminas son moléculas orgánicas necesarias en la dieta en cantidades bastante reducidas en comparación con otras moléculas. Indique cuáles de las siguientes:",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado del preguntero (nº 455, sección \"Sistemas de la Nutrición\").",
+    "type": "true_false_series",
+    "statements": [
+      {
+        "text": "Las vitaminas liposolubles (vit. A, D, E y K) tienen una gran variedad de funciones, el exceso de las mismas no se excreta sino que se deposita en la grasa corporal, lo que puede producir acumulación de estos compuestos a niveles tóxicos.",
+        "correct": true
+      },
+      {
+        "text": "El complejo B de vitaminas, son moléculas hidrosolubles, el exceso se excreta por orina y en general, funcionan como coenzimas.",
+        "correct": true
+      },
+      {
+        "text": "El aporte de vitaminas hidrosolubles, en dosis mayores de la Ingesta Diaria Recomendada (IDR), confiere beneficios para la salud.",
+        "correct": false
+      },
+      {
+        "text": "La vitamina D, es liposoluble, elaborada en la piel del ser humano en presencia de luz solar y participa en la absorción del calcio y en la formación de los huesos.",
+        "correct": true
+      },
+      {
+        "text": "La vitamina K es hidrosoluble, por los que los excesos en su aporte se excretan por orina, y su función principal es la de ser antioxidante.",
+        "correct": false
+      }
+    ],
+    "explanation": "Clave: 1) V · 2) V · 3) F · 4) V · 5) F."
+  },
+  {
+    "id": "bio-vfo-0020",
+    "institutions": [
+      "UNC",
+      "UNSa"
+    ],
+    "subject": "biologia",
+    "block": "sistemas_de_la_nutricion",
+    "topic": "sistemas_de_la_nutricion",
+    "track": "teorico",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Defina si las siguientes afirmaciones son falsas o verdaderas con respecto a los procesos que se dan en la digestión de los lípidos.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado del preguntero (nº 462, sección \"Sistemas de la Nutrición\").",
+    "type": "true_false_series",
+    "statements": [
+      {
+        "text": "Los triglicéridos de cadena larga, fosfolípidos y colesterol se combinan con las sales biliares y forman micelas.",
+        "correct": true
+      },
+      {
+        "text": "Sobre las micelas actúan diversas enzimas pancreáticas que digieren su contenido de lípidos.",
+        "correct": true
+      },
+      {
+        "text": "Los ácidos grasos largos, glicerol y los otros compuestos lipídicos entran a la célula de la mucosa intestinal por difusión pasiva con gasto de ATP.",
+        "correct": false
+      },
+      {
+        "text": "El colesterol y fosfolípidos son modificados en el retículo endoplasmático rugoso de la célula para formar los quilomicrones.",
+        "correct": false
+      },
+      {
+        "text": "Los quilomicrones son estructuras lipoproteicas que son secretados al sistema linfático del intestino.",
+        "correct": true
+      }
+    ],
+    "explanation": "Clave: 1) V · 2) V · 3) F · 4) F · 5) V."
+  },
+  {
+    "id": "bio-vfo-0021",
+    "institutions": [
+      "UNC",
+      "UNSa"
+    ],
+    "subject": "biologia",
+    "block": "sistemas_de_la_nutricion",
+    "topic": "sistemas_de_la_nutricion",
+    "track": "teorico",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Si observamos una célula de la porción exócrina del páncreas, cuya función es producir la enzima tripsina, con un microscopio electrónico, veríamos ciertas características ultraestructurales. Teniendo en cuenta lo anterior, determina si las siguientes afirmaciones son verdaderas o falsas.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado del preguntero (nº 463, sección \"Sistemas de la Nutrición\").",
+    "type": "true_false_series",
+    "statements": [
+      {
+        "text": "Gran desarrollo del RE rugoso por la intensa síntesis de proteínas.",
+        "correct": true
+      },
+      {
+        "text": "Numerosos gránulos de secreción en el citoplasma cercano a la superficie celular.",
+        "correct": true
+      },
+      {
+        "text": "Núcleo con gran proporción de heterocromatina.",
+        "correct": false
+      },
+      {
+        "text": "Escasas mitocondrias asociadas a un gran gasto energético.",
+        "correct": false
+      },
+      {
+        "text": "Numerosos ribosomas libres en el citoplasma.",
+        "correct": false
+      }
+    ],
+    "explanation": "Clave: 1) V · 2) V · 3) F · 4) F · 5) F."
+  },
+  {
+    "id": "bio-vfo-0022",
+    "institutions": [
+      "UNC",
+      "UNSa"
+    ],
+    "subject": "biologia",
+    "block": "sistemas_de_la_nutricion",
+    "topic": "sistemas_de_la_nutricion",
+    "track": "teorico",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Respecto a las funciones del sistema cardiovascular, marque V o F:",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado del preguntero (nº 481, sección \"Sistemas de la Nutrición\").",
+    "type": "true_false_series",
+    "statements": [
+      {
+        "text": "Transporta no sólo nutrientes y gases, si no también hormonas, glóbulos blancos, inmunoglobulinas, desechos, etc. por lo que tiene función no sólo respiratoria sino también hormonal, inmunitaria, excretora, etc.",
+        "correct": true
+      },
+      {
+        "text": "Participa en la regulación de la temperatura corporal",
+        "correct": true
+      },
+      {
+        "text": "Puede derivar el flujo sanguíneo selectivamente hacia sitios donde es más necesario en determinados momentos, y dismunuirlo en otros",
+        "correct": true
+      },
+      {
+        "text": "Sintetiza factores de coagulación teniendo función de coagular la sangre",
+        "correct": false
+      },
+      {
+        "text": "Forma los elementos formes de la sangre: eritrocitos, leucocitos y plaquetas",
+        "correct": false
+      }
+    ],
+    "explanation": "Clave: 1) V · 2) V · 3) V · 4) F · 5) F."
+  },
+  {
+    "id": "bio-vfo-0023",
+    "institutions": [
+      "UNC",
+      "UNSa"
+    ],
+    "subject": "biologia",
+    "block": "sistemas_de_la_relacion",
+    "topic": "sistemas_de_la_relacion",
+    "track": "teorico",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Respecto a los pares craneales, marcar V o F:",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado del preguntero (nº 537, sección \"Sistemas de la Relación\").",
+    "type": "true_false_series",
+    "statements": [
+      {
+        "text": "Los primeros dos pares craneales son sensoriales",
+        "correct": true
+      },
+      {
+        "text": "Los pares III, IV y VI permiten la motricidad del ojo",
+        "correct": true
+      },
+      {
+        "text": "El nervio trigémino (V par) es el principal nervio motor de los músculos faciales",
+        "correct": false
+      },
+      {
+        "text": "El nervio facial (VII par) es el principal nervio sensitivo de la cara 132 QUANTUM - Ingreso a Medicina Biología",
+        "correct": false
+      },
+      {
+        "text": "El par VIII es un nervio de conducción aferente",
+        "correct": true
+      },
+      {
+        "text": "El nervio glosofaríngeo (IX par) permite el habla",
+        "correct": false
+      },
+      {
+        "text": "El neumogástrico (X par) es el más largo y principal efector parasimpático del cuerpo",
+        "correct": true
+      },
+      {
+        "text": "El XI par y el XII par son nervios de conducción eferente",
+        "correct": true
+      }
+    ],
+    "explanation": "Clave: 1) V · 2) V · 3) F · 4) F · 5) V · 6) F · 7) V · 8) V."
+  },
+  {
+    "id": "bio-vfo-0024",
+    "institutions": [
+      "UNC",
+      "UNSa"
+    ],
+    "subject": "biologia",
+    "block": "sistemas_de_la_relacion",
+    "topic": "sistemas_de_la_relacion",
+    "track": "teorico",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Determine si las siguientes aseveraciones referentes a la hipófisis son V o F.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado del preguntero (nº 552, sección \"Sistemas de la Relación\").",
+    "type": "true_false_series",
+    "statements": [
+      {
+        "text": "Regula a otras glándulas a través de estimulinas",
+        "correct": false
+      },
+      {
+        "text": "Produce una hormona que controla el crecimiento general del organismo",
+        "correct": true
+      },
+      {
+        "text": "Produce una hormona que regula la reabsorción del agua a nivel de los túbulos renales",
+        "correct": false
+      },
+      {
+        "text": "Es el nexo entre el hipotálamo y el resto de las glándulas del cuerpo",
+        "correct": true
+      },
+      {
+        "text": "Si se lesiona la hipófisis posterior, aumenta la glucosa en sangre",
+        "correct": false
+      },
+      {
+        "text": "Por hipersecreción de la hormona antidiurética se produce retención de agua en el organismo",
+        "correct": true
+      }
+    ],
+    "explanation": "Clave: 1) F · 2) V · 3) F · 4) V · 5) F · 6) V."
   }
 ]
