@@ -12,6 +12,7 @@ import { items as quiOrganica } from './items/quimica/organica';
 import { items as quiAcidoBase } from './items/quimica/acido-base';
 import { items as quiSoluciones } from './items/quimica/soluciones';
 
+import { generatedItems } from './templates';
 import bankMeta from './bank-meta.json';
 import { IMPORTED_SUBJECTS, loadImportedSubject } from './imported';
 
@@ -29,6 +30,7 @@ export const curatedItems: Item[] = [
   ...quiOrganica,
   ...quiAcidoBase,
   ...quiSoluciones,
+  ...generatedItems,
 ].filter((i) => i.status === 'active');
 
 // --- Metadata sincrónica (para filtros y contadores sin cargar los bancos) ---

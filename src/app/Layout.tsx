@@ -176,6 +176,9 @@ export function Layout() {
             <NavLink to="/formulario" className={linkClass}>
               Formulas
             </NavLink>
+            <NavLink to="/moleculas" className={linkClass}>
+              Moleculas
+            </NavLink>
           </nav>
         </div>
       </header>
