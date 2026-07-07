@@ -20,6 +20,8 @@ interface ItemCardProps {
     timeMs: number;
   }) => void;
   onNext?: () => void;
+  // Modo examen (simulacro): sin feedback inmediato, avanza al responder.
+  exam?: boolean;
 }
 
 const FREQ_LABEL: Record<Item['frequency'], string> = {
@@ -28,7 +30,7 @@ const FREQ_LABEL: Record<Item['frequency'], string> = {
   baja: 'Ocasional',
 };
 
-export function ItemCard({ item, onAnswered, onNext }: ItemCardProps) {
+export function ItemCard({ item, onAnswered, onNext, exam = false }: ItemCardProps) {
   const startedAt = useMemo(() => Date.now(), [item.id]);
   const [choiceId, setChoiceId] = useState<string | null>(null);
   const [multi, setMulti] = useState<Set<string>>(new Set());
@@ -91,7 +93,6 @@ export function ItemCard({ item, onAnswered, onNext }: ItemCardProps) {
     const given = buildGiven();
     if (!given) return;
     const grade = gradeItem(item, given);
-    setResult(grade);
     onAnswered?.({
       item,
       correct: grade.correct,
@@ -99,6 +100,9 @@ export function ItemCard({ item, onAnswered, onNext }: ItemCardProps) {
       grade,
       timeMs: Date.now() - startedAt,
     });
+    // En examen no se muestra el feedback: se avanza directo.
+    if (exam) onNext?.();
+    else setResult(grade);
   }
 
   const canCheck = !answered && buildGiven() !== null;
@@ -450,7 +454,7 @@ export function ItemCard({ item, onAnswered, onNext }: ItemCardProps) {
               onClick={handleCheck}
               className="aulirex-primary-button rounded-md px-5 py-2.5 text-sm font-black transition"
             >
-              Comprobar
+              {exam ? 'Responder' : 'Comprobar'}
             </button>
           ) : (
             onNext && (
