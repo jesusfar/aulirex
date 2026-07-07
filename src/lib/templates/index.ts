@@ -49,12 +49,19 @@ export function instantiate(tpl: ItemTemplate, seed: number): Item {
   } as Item;
 }
 
-// Genera `count` variantes con semillas fijas (deterministas y estables).
-export function generateVariants(tpl: ItemTemplate, count: number): Item[] {
+// Genera `count` variantes distintas. Con `baseSeed` aleatorio (por sesión), los
+// números cambian en cada visita → el alumno no memoriza el resultado. El engine
+// sigue siendo determinista (mismo baseSeed → mismas variantes) para el simulacro.
+export function generateVariants(
+  tpl: ItemTemplate,
+  count: number,
+  baseSeed = 1,
+): Item[] {
   const seen = new Set<string>();
   const items: Item[] = [];
-  let seed = 1;
-  while (items.length < count && seed < count * 20) {
+  let seed = baseSeed;
+  const limit = seed + count * 40;
+  while (items.length < count && seed < limit) {
     const it = instantiate(tpl, seed++);
     if (!seen.has(it.stem)) {
       seen.add(it.stem);

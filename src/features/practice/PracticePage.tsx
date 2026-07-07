@@ -10,6 +10,7 @@ import {
 import { ItemCard } from '../../components/ItemCard';
 import { recordAttempt } from '../../lib/storage/progress';
 import { buildTestDeck } from '../../lib/deck';
+import { formatContentLabel } from '../../lib/contentLabels';
 import { useAppStore } from '../../store';
 
 const SUBJECT_LABEL: Record<Subject, string> = {
@@ -134,7 +135,7 @@ export function PracticePage() {
                 }}
                 options={[
                   ['', 'Todos'],
-                  ...blocks.map((b) => [b, b.replaceAll('_', ' ')] as [string, string]),
+                  ...blocks.map((b) => [b, formatContentLabel(b)] as [string, string]),
                 ]}
               />
               <Select
@@ -144,7 +145,7 @@ export function PracticePage() {
                 onChange={(v) => setTopic(v)}
                 options={[
                   ['', 'Todos'],
-                  ...topics.map((t) => [t, t.replaceAll('_', ' ')] as [string, string]),
+                  ...topics.map((t) => [t, formatContentLabel(t)] as [string, string]),
                 ]}
               />
             </div>

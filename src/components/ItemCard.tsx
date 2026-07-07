@@ -6,6 +6,7 @@ import { misconceptionById } from '../content/misconceptions';
 import { MathText } from './MathText';
 import { ProcessMapView } from './ProcessMapView';
 import { processMapById } from '../content/process-maps';
+import { formatContentLabel } from '../lib/contentLabels';
 import { FormulaCard } from './FormulaCard';
 import { formulaById } from '../content/formulas';
 
@@ -135,7 +136,7 @@ export function ItemCard({ item, onAnswered, onNext }: ItemCardProps) {
       <div className="border-b border-white/10 bg-black/20 px-5 py-4 sm:px-6">
         <div className="flex flex-wrap gap-2 text-xs">
           <Badge>{item.subject.replaceAll('_', ' ')}</Badge>
-          <Badge>{item.topic.replaceAll('_', ' ')}</Badge>
+          <Badge>{formatContentLabel(item.topic)}</Badge>
           <Badge>{item.track}</Badge>
           <Badge tone="freq">{FREQ_LABEL[item.frequency]}</Badge>
         </div>
