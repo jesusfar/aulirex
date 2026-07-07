@@ -7,31 +7,32 @@ import { useAppStore } from '../../store';
 import {
   buildSimulacro,
   scoreExam,
-  PASS_THRESHOLD,
+  EXAM_PROFILES,
+  type ExamProfile,
   type ExamResult,
   type Simulacro,
 } from '../../lib/exam';
 
-const DURATION_S = 50 * 60; // 50 minutos para 50 preguntas
 const fmt = (s: number) =>
   `${String(Math.floor(s / 60)).padStart(2, '0')}:${String(s % 60).padStart(2, '0')}`;
 
 export function SimulacroPage() {
   const [phase, setPhase] = useState<'setup' | 'running' | 'done'>('setup');
   const [loading, setLoading] = useState(false);
+  const [profile, setProfile] = useState<ExamProfile>(EXAM_PROFILES[0]);
   const [sim, setSim] = useState<Simulacro | null>(null);
   const [index, setIndex] = useState(0);
   const [correctById, setCorrectById] = useState<Record<string, boolean>>({});
-  const [secondsLeft, setSecondsLeft] = useState(DURATION_S);
+  const [secondsLeft, setSecondsLeft] = useState(0);
 
   async function start() {
     setLoading(true);
     const all = await loadItems({});
-    const s = buildSimulacro(all, 25, 25);
+    const s = buildSimulacro(all, profile);
     setSim(s);
     setIndex(0);
     setCorrectById({});
-    setSecondsLeft(DURATION_S);
+    setSecondsLeft(profile.durationMin * 60);
     setPhase('running');
     setLoading(false);
   }
@@ -66,20 +67,46 @@ export function SimulacroPage() {
   if (phase === 'setup') {
     return (
       <div className="mx-auto max-w-2xl">
-        <h2 className="text-2xl font-black text-white">Simulacro CONEUM</h2>
+        <h2 className="text-2xl font-black text-white">Simulacro de examen</h2>
         <p className="mt-2 text-sm leading-6 text-slate-400">
-          Examen realista: <strong>25 teóricas + 25 prácticas</strong>, {DURATION_S / 60}{' '}
-          minutos, sin feedback hasta el final. Se aprueba con{' '}
-          <strong>≥ {PASS_THRESHOLD}% en cada track</strong> (teórico y práctico por
-          separado).
+          Elegí el examen que estás preparando. Se responde sin feedback hasta el
+          final, con tiempo límite.
         </p>
+
+        <div className="mt-5 grid gap-3 sm:grid-cols-2">
+          {EXAM_PROFILES.map((p) => {
+            const active = p.id === profile.id;
+            return (
+              <button
+                key={p.id}
+                type="button"
+                onClick={() => setProfile(p)}
+                className={`rounded-lg border p-4 text-left transition ${
+                  active
+                    ? 'border-sky-400/60 bg-sky-400/10'
+                    : 'border-white/10 bg-slate-900/72 hover:border-white/25'
+                }`}
+              >
+                <p className="text-sm font-black text-white">{p.label}</p>
+                <p className="mt-1 text-xs text-slate-400">
+                  {p.teorico} teóricas + {p.practico} prácticas · {p.durationMin} min
+                </p>
+                <p className="mt-1 text-xs text-slate-400">
+                  Aprueba con {p.passThreshold}%{' '}
+                  {p.splitByTrack ? 'en cada track' : 'global'}
+                </p>
+              </button>
+            );
+          })}
+        </div>
+
         <button
           type="button"
           disabled={loading}
           onClick={start}
           className="aulirex-primary-button mt-6 rounded-md px-6 py-3 text-sm font-black transition"
         >
-          {loading ? 'Preparando…' : 'Comenzar simulacro'}
+          {loading ? 'Preparando…' : `Comenzar ${profile.label}`}
         </button>
       </div>
     );
@@ -89,17 +116,29 @@ export function SimulacroPage() {
   if (phase === 'done' && result) {
     return (
       <div className="mx-auto max-w-2xl">
-        <h2 className="text-2xl font-black text-white">Resultado del simulacro</h2>
+        <h2 className="text-2xl font-black text-white">
+          Resultado · {sim!.profile.label}
+        </h2>
         <p
           className={`mt-2 text-lg font-black ${
             result.passed ? 'text-emerald-300' : 'text-rose-300'
           }`}
         >
           {result.passed ? '✅ Aprobado' : '❌ No aprobado'}
-          {!result.passed && ' (hay que aprobar ambos tracks)'}
+          {!result.passed &&
+            (sim!.profile.splitByTrack
+              ? ' (hay que aprobar ambos tracks)'
+              : ` (necesitás ${sim!.profile.passThreshold}% global)`)}
         </p>
+        {sim!.fellBack && (
+          <p className="mt-1 text-xs text-amber-300/80">
+            No hay ítems específicos de {sim!.profile.institution}; se usó el banco
+            general de ciencias.
+          </p>
+        )}
 
-        <div className="mt-5 grid gap-3 sm:grid-cols-2">
+        <div className="mt-5 grid gap-3 sm:grid-cols-3">
+          <TrackCard title="Global" s={result.overall} />
           <TrackCard title="Teórico" s={result.teorico} />
           <TrackCard title="Práctico" s={result.practico} />
         </div>

@@ -1,31 +1,81 @@
-import type { Item } from '../types/content';
+import type { Institution, Item } from '../types/content';
 import { buildTestDeck } from './deck';
 
-// Simulacro tipo CONEUM: se aprueba por track (teórico y práctico) por separado,
-// con umbral del 60 % en CADA uno (plan §Fase 4).
+// Perfiles de examen. UNC (CONEUM) puntúa por track y aprueba con 60% en cada
+// uno; la variante UNSa usa un umbral global sobre el examen combinado. El
+// contenido de ciencias se comparte entre ambas instituciones (plan §Fase 4).
 export const PASS_THRESHOLD = 60;
+
+export interface ExamProfile {
+  id: 'unc' | 'unsa';
+  label: string;
+  institution: Institution;
+  teorico: number;
+  practico: number;
+  durationMin: number;
+  passThreshold: number;
+  splitByTrack: boolean; // true = aprueba por track; false = umbral global
+}
+
+export const EXAM_PROFILES: ExamProfile[] = [
+  {
+    id: 'unc',
+    label: 'UNC · CONEUM',
+    institution: 'UNC',
+    teorico: 25,
+    practico: 25,
+    durationMin: 50,
+    passThreshold: 60,
+    splitByTrack: true,
+  },
+  {
+    id: 'unsa',
+    label: 'UNSa',
+    institution: 'UNSa',
+    teorico: 20,
+    practico: 20,
+    durationMin: 40,
+    passThreshold: 60,
+    splitByTrack: false,
+  },
+];
+
+export function profileById(id: string): ExamProfile {
+  return EXAM_PROFILES.find((p) => p.id === id) ?? EXAM_PROFILES[0];
+}
 
 export interface Simulacro {
   items: Item[]; // teóricas primero, luego prácticas
   teoricoIds: Set<string>;
   practicoIds: Set<string>;
+  profile: ExamProfile;
+  fellBack: boolean; // true si no había ítems suficientes de la institución
 }
 
-// Arma el examen: nT teóricas + nP prácticas, al azar y estratificadas por tema,
-// sin repetir. Si no hay suficientes de un track, usa las que haya.
-export function buildSimulacro(all: Item[], nT = 25, nP = 25): Simulacro {
+// Arma el examen del perfil: filtra por institución (con fallback al banco
+// completo si no alcanza), estratifica por tema y no repite.
+export function buildSimulacro(all: Item[], profile: ExamProfile): Simulacro {
+  const forInstitution = all.filter((i) =>
+    i.institutions.includes(profile.institution),
+  );
+  const needed = profile.teorico + profile.practico;
+  const fellBack = forInstitution.length < needed;
+  const pool = fellBack ? all : forInstitution;
+
   const teorico = buildTestDeck(
-    all.filter((i) => i.track === 'teorico'),
-    nT,
+    pool.filter((i) => i.track === 'teorico'),
+    profile.teorico,
   );
   const practico = buildTestDeck(
-    all.filter((i) => i.track === 'practico'),
-    nP,
+    pool.filter((i) => i.track === 'practico'),
+    profile.practico,
   );
   return {
     items: [...teorico, ...practico],
     teoricoIds: new Set(teorico.map((i) => i.id)),
     practicoIds: new Set(practico.map((i) => i.id)),
+    profile,
+    fellBack,
   };
 }
 
@@ -38,21 +88,27 @@ export interface TrackScore {
 export interface ExamResult {
   teorico: TrackScore;
   practico: TrackScore;
-  passed: boolean; // aprobado sólo si AMBOS tracks ≥ 60 %
+  overall: TrackScore;
+  passed: boolean;
 }
 
 export function scoreExam(
   sim: Simulacro,
   correctById: Record<string, boolean>,
 ): ExamResult {
+  const threshold = sim.profile.passThreshold;
   const tally = (ids: Set<string>): TrackScore => {
     let correct = 0;
     for (const id of ids) if (correctById[id]) correct++;
     const total = ids.size;
     const pct = total ? Math.round((correct / total) * 100) : 0;
-    return { correct, total, pct, passed: pct >= PASS_THRESHOLD };
+    return { correct, total, pct, passed: pct >= threshold };
   };
   const teorico = tally(sim.teoricoIds);
   const practico = tally(sim.practicoIds);
-  return { teorico, practico, passed: teorico.passed && practico.passed };
+  const overall = tally(new Set([...sim.teoricoIds, ...sim.practicoIds]));
+  const passed = sim.profile.splitByTrack
+    ? teorico.passed && practico.passed
+    : overall.passed;
+  return { teorico, practico, overall, passed };
 }

@@ -8,12 +8,35 @@ import { getProgress, getReviewCards } from '../../lib/storage/progress';
 import { dueQueue } from '../../lib/spaced-repetition/scheduler';
 import { levelProgress, rankForLevel } from '../../lib/gamification';
 import { buildForecast, type Forecast, type TrackForecast } from '../../lib/forecast';
+import { masteryByTopic, masteryBySubject } from '../../lib/mastery';
+import { buildStudyPlan, type TopicStatus } from '../../lib/planner';
+import { prerequisiteGraph } from '../../content/prerequisites';
+import {
+  abilityLabel,
+  loadDiagnostic,
+  type DiagnosticResult,
+} from '../../lib/diagnostic';
+import type { ReviewCard } from '../../types/progress';
+import type { Subject } from '../../types/content';
 import {
   buildReviewInsights,
   humanizeTopic,
   subjectLabel,
   type ReviewInsights,
 } from '../review/reviewInsights';
+import { ForgettingCurve } from './ForgettingCurve';
+
+const CORE_SUBJECTS: Subject[] = ['biologia', 'fisica', 'quimica'];
+
+interface SubjectStat {
+  subject: Subject;
+  mastery: number;
+  attempts: number;
+  total: number;
+  ready: number;
+  blocked: number;
+  mastered: number;
+}
 
 const EXAM_DATE_STORAGE_KEY = 'aulirex.examDate';
 
@@ -26,6 +49,10 @@ export function DashboardPage() {
   const [dueCount, setDueCount] = useState(0);
   const [forecast, setForecast] = useState<Forecast | null>(null);
   const [insights, setInsights] = useState<ReviewInsights | null>(null);
+  const [reviewCards, setReviewCards] = useState<ReviewCard[]>([]);
+  const [subjectStats, setSubjectStats] = useState<SubjectStat[]>([]);
+  const [recommended, setRecommended] = useState<TopicStatus[]>([]);
+  const [diagnostic] = useState<DiagnosticResult | null>(() => loadDiagnostic());
   const [examDate, setExamDate] = useState(() => {
     if (typeof window === 'undefined') return '';
     return window.localStorage.getItem(EXAM_DATE_STORAGE_KEY) ?? '';
@@ -45,6 +72,7 @@ export function DashboardPage() {
         solved: new Set(correct.map((a) => a.itemId)).size,
       });
       setProgress(await getProgress());
+      setReviewCards(reviewCards);
       setDueCount(dueQueue(reviewCards).length);
 
       // Pronóstico + plan: necesitan el track/tema de cada ítem → mapa del banco
@@ -52,6 +80,26 @@ export function DashboardPage() {
       const byId = await loadItemMap();
       setForecast(buildForecast(attempts, byId));
       setInsights(buildReviewInsights({ attempts, reviewCards, byId }));
+
+      const mastery = masteryByTopic(attempts, byId);
+      const bySubject = masteryBySubject(mastery);
+      const plan = buildStudyPlan(prerequisiteGraph, mastery);
+      setRecommended(plan.recommended);
+      setSubjectStats(
+        CORE_SUBJECTS.map((subject) => {
+          const sm = bySubject.get(subject);
+          const statuses = plan.statuses.filter((s) => s.subject === subject);
+          return {
+            subject,
+            mastery: sm?.mastery ?? 0,
+            attempts: sm?.attempts ?? 0,
+            total: statuses.length,
+            ready: statuses.filter((s) => s.state === 'ready').length,
+            blocked: statuses.filter((s) => s.state === 'blocked').length,
+            mastered: statuses.filter((s) => s.state === 'mastered').length,
+          };
+        }),
+      );
     });
   }, [setHydrated, setProgress]);
 
@@ -70,7 +118,10 @@ export function DashboardPage() {
   }, [examDate]);
 
   const countdown = useMemo(() => getExamCountdown(examDate), [examDate]);
-  const todayPlan = useMemo(() => buildTodayPlan(insights), [insights]);
+  const todayPlan = useMemo(
+    () => buildTodayPlan(insights, recommended, stats.total),
+    [insights, recommended, stats.total],
+  );
   const accuracy =
     stats.total > 0 ? Math.round((stats.correct / stats.total) * 100) : 0;
   const bankProgress = BANK_TOTAL
@@ -162,7 +213,7 @@ export function DashboardPage() {
         </Link>
       </div>
 
-      {/* Pronóstico de hoy + Plan de hoy */}
+      {/* Fila 1: Pronóstico + Diagnóstico */}
       <div className="grid gap-4 lg:grid-cols-2 lg:items-stretch">
         <div className="rounded-lg border border-white/10 bg-slate-900/72 p-5">
           <div className="flex items-baseline justify-between">
@@ -178,10 +229,17 @@ export function DashboardPage() {
             <ForecastCard title="Práctico" f={forecast?.practico} />
           </div>
           <p className="mt-3 text-xs leading-5 text-slate-500">
-            Estimación sobre lo que practicaste, con curva de olvido. Se aprueba con
-            60% en cada track.
+            Estimación sobre lo que practicaste, con curva de olvido. Aprobar el
+            CONEUM pide 60% en cada track.
           </p>
         </div>
+
+        <DiagnosticPanel diagnostic={diagnostic} />
+      </div>
+
+      {/* Fila 2: Curva de olvido + Plan de hoy */}
+      <div className="grid gap-4 lg:grid-cols-2 lg:items-stretch">
+        <ForgettingCurve cards={reviewCards} />
 
         <div className="rounded-lg border border-white/10 bg-slate-900/72 p-5">
           <h2 className="text-sm font-bold uppercase tracking-[0.16em] text-slate-400">
@@ -208,6 +266,27 @@ export function DashboardPage() {
             ))}
           </ul>
         </div>
+      </div>
+
+      {/* Fila 3: Dominio por materia */}
+      <div className="rounded-lg border border-white/10 bg-slate-900/72 p-5">
+        <div className="flex items-baseline justify-between">
+          <h2 className="text-sm font-bold uppercase tracking-[0.16em] text-slate-400">
+            Dominio por materia
+          </h2>
+          <span className="text-xs text-slate-500">
+            temas listos · a reforzar · bloqueados
+          </span>
+        </div>
+        <div className="mt-4 grid gap-3 sm:grid-cols-3">
+          {subjectStats.map((s) => (
+            <SubjectMasteryCard key={s.subject} stat={s} />
+          ))}
+        </div>
+        <p className="mt-3 text-xs leading-5 text-slate-500">
+          Un tema se desbloquea cuando dominás sus prerrequisitos. Los bloqueados
+          esperan a que reforcés lo anterior.
+        </p>
       </div>
 
       <div className="grid gap-6 lg:grid-cols-2 lg:items-start">
@@ -287,7 +366,11 @@ interface PlanStep {
   to: string;
 }
 
-function buildTodayPlan(insights: ReviewInsights | null): PlanStep[] {
+function buildTodayPlan(
+  insights: ReviewInsights | null,
+  recommended: TopicStatus[],
+  totalAttempts: number,
+): PlanStep[] {
   if (!insights) {
     return [
       {
@@ -300,6 +383,15 @@ function buildTodayPlan(insights: ReviewInsights | null): PlanStep[] {
   }
 
   const steps: PlanStep[] = [];
+
+  if (totalAttempts < 8) {
+    steps.push({
+      icon: '🧭',
+      title: 'Hacé el diagnóstico',
+      detail: 'Medí tu nivel por materia para orientar el plan',
+      to: '/diagnostico',
+    });
+  }
 
   if (insights.dueCount > 0) {
     steps.push({
@@ -319,22 +411,15 @@ function buildTodayPlan(insights: ReviewInsights | null): PlanStep[] {
     });
   }
 
-  for (const topic of insights.weakTopics.slice(0, 3 - Math.min(steps.length, 2))) {
-    if (steps.length >= 3) break;
+  for (const topic of recommended) {
+    if (steps.length >= 4) break;
+    const unlocks =
+      topic.unlocks > 0 ? ` · desbloquea ${topic.unlocks}` : '';
     steps.push({
-      icon: '🎯',
-      title: `Reforzá ${humanizeTopic(topic.topic || topic.block)}`,
-      detail: `${subjectLabel(topic.subject)} · ${topic.accuracy}% de aciertos`,
+      icon: topic.started ? '🎯' : '🚀',
+      title: `${topic.started ? 'Reforzá' : 'Empezá'} ${humanizeTopic(topic.topic)}`,
+      detail: `${subjectLabel(topic.subject)} · ${Math.round(topic.mastery * 100)}% dominio${unlocks}`,
       to: '/practica',
-    });
-  }
-
-  if (insights.totalAttempts < 12) {
-    steps.push({
-      icon: '🧭',
-      title: 'Hacé un simulacro para calibrar',
-      detail: 'Todavía hay pocos datos para estimar tu nivel',
-      to: '/simulacro',
     });
   }
 
@@ -348,6 +433,111 @@ function buildTodayPlan(insights: ReviewInsights | null): PlanStep[] {
   }
 
   return steps.slice(0, 4);
+}
+
+function DiagnosticPanel({
+  diagnostic,
+}: {
+  diagnostic: DiagnosticResult | null;
+}) {
+  if (!diagnostic) {
+    return (
+      <div className="flex flex-col rounded-lg border border-white/10 bg-slate-900/72 p-5">
+        <h2 className="text-sm font-bold uppercase tracking-[0.16em] text-slate-400">
+          Nivel de partida
+        </h2>
+        <p className="mt-3 flex-1 text-sm leading-6 text-slate-400">
+          Todavía no hiciste el diagnóstico. Son 15 preguntas que se adaptan a tu
+          nivel y estiman tu habilidad por materia.
+        </p>
+        <Link
+          to="/diagnostico"
+          className="aulirex-primary-button mt-4 inline-flex w-fit items-center justify-center rounded-md px-5 py-2.5 text-sm font-black"
+        >
+          Hacer diagnóstico
+        </Link>
+      </div>
+    );
+  }
+  return (
+    <div className="rounded-lg border border-white/10 bg-slate-900/72 p-5">
+      <div className="flex items-baseline justify-between">
+        <h2 className="text-sm font-bold uppercase tracking-[0.16em] text-slate-400">
+          Nivel de partida
+        </h2>
+        <Link
+          to="/diagnostico"
+          className="text-xs font-bold text-sky-300 hover:text-sky-200"
+        >
+          Rehacer →
+        </Link>
+      </div>
+      <div className="mt-4 space-y-2.5">
+        {CORE_SUBJECTS.map((s) => {
+          const v = diagnostic.ability[s] ?? 0;
+          const pct = Math.round(v * 100);
+          return (
+            <div key={s}>
+              <div className="mb-1 flex items-center justify-between text-xs">
+                <span className="font-semibold text-slate-300">
+                  {subjectLabel(s)}
+                </span>
+                <span className="text-slate-400">
+                  {pct}% · {abilityLabel(v)}
+                </span>
+              </div>
+              <div className="h-1.5 overflow-hidden rounded-full bg-slate-800">
+                <div
+                  className={`h-full rounded-full ${masteryTone(v)}`}
+                  style={{ width: `${pct}%` }}
+                />
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
+function SubjectMasteryCard({ stat }: { stat: SubjectStat }) {
+  const pct = Math.round(stat.mastery * 100);
+  return (
+    <div className="rounded-lg border border-white/10 bg-slate-950/40 p-4">
+      <div className="flex items-center justify-between">
+        <span className="text-sm font-black text-white">
+          {subjectLabel(stat.subject)}
+        </span>
+        <span className="text-sm font-black text-slate-300">
+          {stat.attempts > 0 ? `${pct}%` : '—'}
+        </span>
+      </div>
+      <div className="mt-2 h-2 overflow-hidden rounded-full bg-slate-800">
+        <div
+          className={`h-full rounded-full ${masteryTone(stat.mastery)}`}
+          style={{ width: `${stat.attempts > 0 ? pct : 0}%` }}
+        />
+      </div>
+      <div className="mt-2.5 flex flex-wrap gap-1.5 text-xs">
+        <span className="rounded border border-emerald-400/30 bg-emerald-400/10 px-1.5 py-0.5 text-emerald-300">
+          {stat.mastered} dom.
+        </span>
+        <span className="rounded border border-sky-400/30 bg-sky-400/10 px-1.5 py-0.5 text-sky-300">
+          {stat.ready} listos
+        </span>
+        <span className="rounded border border-slate-500/30 bg-slate-500/10 px-1.5 py-0.5 text-slate-400">
+          {stat.blocked} bloq.
+        </span>
+      </div>
+    </div>
+  );
+}
+
+function masteryTone(v: number): string {
+  if (v >= 0.8) return 'bg-emerald-400';
+  if (v >= 0.6) return 'bg-sky-400';
+  if (v >= 0.35) return 'bg-amber-400';
+  return 'bg-rose-400';
 }
 
 function ForecastCard({ title, f }: { title: string; f?: TrackForecast }) {

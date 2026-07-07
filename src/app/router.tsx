@@ -6,6 +6,7 @@ import { ReviewPage } from '../features/review/ReviewPage';
 import { FormularioPage } from '../features/formulario/FormularioPage';
 import { MoleculasPage } from '../features/moleculas/MoleculasPage';
 import { SimulacroPage } from '../features/simulacro/SimulacroPage';
+import { DiagnosticoPage } from '../features/diagnostico/DiagnosticoPage';
 
 export function AppRouter() {
   return (
@@ -19,6 +20,7 @@ export function AppRouter() {
           <Route path="/formulario" element={<FormularioPage />} />
           <Route path="/moleculas" element={<MoleculasPage />} />
           <Route path="/simulacro" element={<SimulacroPage />} />
+          <Route path="/diagnostico" element={<DiagnosticoPage />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Route>
       </Routes>

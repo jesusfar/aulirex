@@ -1,15 +1,10 @@
 import type { Item, Track } from '../types/content';
 import type { Attempt } from '../types/progress';
+import { retentionOf } from './retention';
 
 // Pronóstico "hoy sacarías ~X%": estima, por track, la probabilidad de acertar
-// cada ítem practicado y promedia. Aplica una curva de olvido (los intentos
-// viejos pesan menos) y un prior que arrastra hacia una retención base cuando la
-// evidencia es escasa o antigua. Es una estimación, no una promesa (plan §Fase 4).
-
-const DAY = 86_400_000;
-const HALFLIFE_DAYS = 21; // a los 21 días un intento pesa la mitad
-const FLOOR = 0.3; // retención base al olvidar (algo mejor que el azar de 5 opciones)
-const PRIOR_W = 1; // peso del pseudo-intento base (no decae)
+// cada ítem practicado y promedia. Usa la curva de olvido compartida
+// (lib/retention). Es una estimación, no una promesa (plan §Fase 4).
 
 export interface TrackForecast {
   track: Track;
@@ -23,18 +18,6 @@ export interface TrackForecast {
 export interface Forecast {
   teorico: TrackForecast;
   practico: TrackForecast;
-}
-
-function retention(list: Attempt[], now: number): number {
-  let weightedCorrect = FLOOR * PRIOR_W;
-  let weight = PRIOR_W;
-  for (const a of list) {
-    const ageDays = Math.max(0, (now - a.at) / DAY);
-    const w = Math.pow(0.5, ageDays / HALFLIFE_DAYS);
-    weightedCorrect += w * (a.correct ? 1 : 0);
-    weight += w;
-  }
-  return weightedCorrect / weight;
 }
 
 export function buildForecast(
@@ -56,7 +39,7 @@ export function buildForecast(
   const probs: Record<Track, number[]> = { teorico: [], practico: [] };
   for (const [id, list] of perItem) {
     const item = byId.get(id)!;
-    probs[item.track].push(retention(list, now));
+    probs[item.track].push(retentionOf(list, now));
   }
 
   const mk = (track: Track): TrackForecast => {
