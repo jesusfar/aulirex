@@ -2,11 +2,18 @@ import { useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { db } from '../../lib/storage/db';
 import { useAppStore } from '../../store';
-import { BANK_TOTAL } from '../../content';
+import { BANK_TOTAL, loadItemMap } from '../../content';
 import { getAllAttempts } from '../../lib/storage/attempts';
 import { getProgress, getReviewCards } from '../../lib/storage/progress';
 import { dueQueue } from '../../lib/spaced-repetition/scheduler';
 import { levelProgress, rankForLevel } from '../../lib/gamification';
+import { buildForecast, type Forecast, type TrackForecast } from '../../lib/forecast';
+import {
+  buildReviewInsights,
+  humanizeTopic,
+  subjectLabel,
+  type ReviewInsights,
+} from '../review/reviewInsights';
 
 const EXAM_DATE_STORAGE_KEY = 'aulirex.examDate';
 
@@ -17,6 +24,8 @@ export function DashboardPage() {
   const setProgress = useAppStore((s) => s.setProgress);
   const [stats, setStats] = useState({ total: 0, correct: 0, solved: 0 });
   const [dueCount, setDueCount] = useState(0);
+  const [forecast, setForecast] = useState<Forecast | null>(null);
+  const [insights, setInsights] = useState<ReviewInsights | null>(null);
   const [examDate, setExamDate] = useState(() => {
     if (typeof window === 'undefined') return '';
     return window.localStorage.getItem(EXAM_DATE_STORAGE_KEY) ?? '';
@@ -25,7 +34,10 @@ export function DashboardPage() {
   useEffect(() => {
     db.open().then(async () => {
       setHydrated(true);
-      const attempts = await getAllAttempts();
+      const [attempts, reviewCards] = await Promise.all([
+        getAllAttempts(),
+        getReviewCards(),
+      ]);
       const correct = attempts.filter((a) => a.correct);
       setStats({
         total: attempts.length,
@@ -33,7 +45,13 @@ export function DashboardPage() {
         solved: new Set(correct.map((a) => a.itemId)).size,
       });
       setProgress(await getProgress());
-      setDueCount(dueQueue(await getReviewCards()).length);
+      setDueCount(dueQueue(reviewCards).length);
+
+      // Pronóstico + plan: necesitan el track/tema de cada ítem → mapa del banco
+      // (lazy y cacheado; se comparte con la pantalla de Repaso).
+      const byId = await loadItemMap();
+      setForecast(buildForecast(attempts, byId));
+      setInsights(buildReviewInsights({ attempts, reviewCards, byId }));
     });
   }, [setHydrated, setProgress]);
 
@@ -52,6 +70,7 @@ export function DashboardPage() {
   }, [examDate]);
 
   const countdown = useMemo(() => getExamCountdown(examDate), [examDate]);
+  const todayPlan = useMemo(() => buildTodayPlan(insights), [insights]);
   const accuracy =
     stats.total > 0 ? Math.round((stats.correct / stats.total) * 100) : 0;
   const bankProgress = BANK_TOTAL
@@ -143,6 +162,54 @@ export function DashboardPage() {
         </Link>
       </div>
 
+      {/* Pronóstico de hoy + Plan de hoy */}
+      <div className="grid gap-4 lg:grid-cols-2 lg:items-stretch">
+        <div className="rounded-lg border border-white/10 bg-slate-900/72 p-5">
+          <div className="flex items-baseline justify-between">
+            <h2 className="text-sm font-bold uppercase tracking-[0.16em] text-slate-400">
+              Si rindieras hoy
+            </h2>
+            <Link to="/simulacro" className="text-xs font-bold text-sky-300 hover:text-sky-200">
+              Simulacro →
+            </Link>
+          </div>
+          <div className="mt-4 grid gap-3 sm:grid-cols-2">
+            <ForecastCard title="Teórico" f={forecast?.teorico} />
+            <ForecastCard title="Práctico" f={forecast?.practico} />
+          </div>
+          <p className="mt-3 text-xs leading-5 text-slate-500">
+            Estimación sobre lo que practicaste, con curva de olvido. Se aprueba con
+            60% en cada track.
+          </p>
+        </div>
+
+        <div className="rounded-lg border border-white/10 bg-slate-900/72 p-5">
+          <h2 className="text-sm font-bold uppercase tracking-[0.16em] text-slate-400">
+            Plan de hoy
+          </h2>
+          <ul className="mt-4 space-y-2.5">
+            {todayPlan.map((step) => (
+              <li key={step.title}>
+                <Link
+                  to={step.to}
+                  className="flex items-center gap-3 rounded-md border border-white/10 bg-slate-950/40 px-3 py-2.5 transition hover:border-sky-400/40"
+                >
+                  <span className="text-lg">{step.icon}</span>
+                  <span className="min-w-0">
+                    <span className="block text-sm font-bold text-white">
+                      {step.title}
+                    </span>
+                    <span className="block truncate text-xs text-slate-400">
+                      {step.detail}
+                    </span>
+                  </span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+
       <div className="grid gap-6 lg:grid-cols-2 lg:items-start">
         <div className="rounded-lg border border-white/10 bg-slate-900/72 p-6 shadow-2xl shadow-black/30 backdrop-blur-xl sm:p-8">
           <div className="mb-7 max-w-2xl">
@@ -210,6 +277,107 @@ export function DashboardPage() {
         </aside>
       </div>
     </section>
+  );
+}
+
+interface PlanStep {
+  icon: string;
+  title: string;
+  detail: string;
+  to: string;
+}
+
+function buildTodayPlan(insights: ReviewInsights | null): PlanStep[] {
+  if (!insights) {
+    return [
+      {
+        icon: '⏳',
+        title: 'Cargando tu plan…',
+        detail: 'Analizando intentos y repaso',
+        to: '/practica',
+      },
+    ];
+  }
+
+  const steps: PlanStep[] = [];
+
+  if (insights.dueCount > 0) {
+    steps.push({
+      icon: '🔁',
+      title: `Repasá ${insights.dueCount} ${insights.dueCount === 1 ? 'ítem' : 'ítems'} de hoy`,
+      detail: 'Toca repasarlos antes de que se olviden',
+      to: '/repaso',
+    });
+  }
+
+  if (insights.activeErrorCount > 0) {
+    steps.push({
+      icon: '🩹',
+      title: `Cerrá ${insights.activeErrorCount} ${insights.activeErrorCount === 1 ? 'error abierto' : 'errores abiertos'}`,
+      detail: 'Preguntas que fallaste y aún no recuperaste',
+      to: '/repaso',
+    });
+  }
+
+  for (const topic of insights.weakTopics.slice(0, 3 - Math.min(steps.length, 2))) {
+    if (steps.length >= 3) break;
+    steps.push({
+      icon: '🎯',
+      title: `Reforzá ${humanizeTopic(topic.topic || topic.block)}`,
+      detail: `${subjectLabel(topic.subject)} · ${topic.accuracy}% de aciertos`,
+      to: '/practica',
+    });
+  }
+
+  if (insights.totalAttempts < 12) {
+    steps.push({
+      icon: '🧭',
+      title: 'Hacé un simulacro para calibrar',
+      detail: 'Todavía hay pocos datos para estimar tu nivel',
+      to: '/simulacro',
+    });
+  }
+
+  if (steps.length === 0) {
+    steps.push({
+      icon: '✅',
+      title: 'Vas al día',
+      detail: 'Sin repasos vencidos ni errores abiertos. Sumá práctica nueva.',
+      to: '/practica',
+    });
+  }
+
+  return steps.slice(0, 4);
+}
+
+function ForecastCard({ title, f }: { title: string; f?: TrackForecast }) {
+  if (!f || f.practiced === 0) {
+    return (
+      <div className="rounded-lg border border-white/10 bg-slate-950/40 p-4">
+        <p className="text-xs font-bold uppercase tracking-wide text-slate-400">
+          {title}
+        </p>
+        <p className="mt-1 text-2xl font-black text-slate-500">—</p>
+        <p className="text-xs text-slate-500">Sin práctica todavía</p>
+      </div>
+    );
+  }
+  const tone =
+    f.expectedPct >= 60
+      ? 'text-emerald-300 border-emerald-400/30'
+      : f.expectedPct >= 40
+        ? 'text-amber-300 border-amber-400/30'
+        : 'text-rose-300 border-rose-400/30';
+  return (
+    <div className={`rounded-lg border bg-slate-950/40 p-4 ${tone}`}>
+      <p className="text-xs font-bold uppercase tracking-wide text-slate-400">
+        {title}
+      </p>
+      <p className="mt-1 text-3xl font-black">~{f.expectedPct}%</p>
+      <p className="text-xs text-slate-400">
+        cobertura {f.coverage}% · confianza {f.confidence}
+      </p>
+    </div>
   );
 }
 
