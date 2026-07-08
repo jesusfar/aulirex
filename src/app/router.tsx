@@ -7,6 +7,7 @@ import { FormularioPage } from '../features/formulario/FormularioPage';
 import { MoleculasPage } from '../features/moleculas/MoleculasPage';
 import { SimulacroPage } from '../features/simulacro/SimulacroPage';
 import { DiagnosticoPage } from '../features/diagnostico/DiagnosticoPage';
+import { ComprensionPage } from '../features/comprension/ComprensionPage';
 
 export function AppRouter() {
   return (
@@ -21,6 +22,7 @@ export function AppRouter() {
           <Route path="/moleculas" element={<MoleculasPage />} />
           <Route path="/simulacro" element={<SimulacroPage />} />
           <Route path="/diagnostico" element={<DiagnosticoPage />} />
+          <Route path="/comprension" element={<ComprensionPage />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Route>
       </Routes>

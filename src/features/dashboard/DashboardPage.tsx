@@ -72,12 +72,16 @@ export function DashboardPage() {
         solved: new Set(correct.map((a) => a.itemId)).size,
       });
       setProgress(await getProgress());
-      setReviewCards(reviewCards);
-      setDueCount(dueQueue(reviewCards).length);
 
       // Pronóstico + plan: necesitan el track/tema de cada ítem → mapa del banco
       // (lazy y cacheado; se comparte con la pantalla de Repaso).
       const byId = await loadItemMap();
+
+      // "Para repasar" cuenta solo cards del banco de ciencias (comprensión
+      // lectora no entra a Repaso), consistente con la pantalla de Repaso.
+      const scienceCards = reviewCards.filter((c) => byId.has(c.itemId));
+      setReviewCards(scienceCards);
+      setDueCount(dueQueue(scienceCards).length);
       setForecast(buildForecast(attempts, byId));
       setInsights(buildReviewInsights({ attempts, reviewCards, byId }));
 

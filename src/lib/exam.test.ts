@@ -41,18 +41,19 @@ describe('simulacro por perfil', () => {
     expect(res.passed).toBe(false); // un track reprobado → reprueba
   });
 
-  it('UNSa usa umbral global (no por track)', () => {
+  it('UNSa usa umbral global de 80% (no por track)', () => {
     const sim = buildSimulacro(bank(20, ['UNSa']), profileById('unsa'));
     expect(sim.profile.splitByTrack).toBe(false);
+    expect(sim.profile.passThreshold).toBe(80);
     const correct: Record<string, boolean> = {};
-    // 100% teórico, 40% práctico → global 70% ≥ 60 → aprueba pese a track flojo
+    // 100% teórico, 65% práctico → global ~83% ≥ 80 → aprueba pese al track flojo
     for (const id of sim.teoricoIds) correct[id] = true;
     let k = 0;
-    for (const id of sim.practicoIds) correct[id] = k++ < 8; // 8/20 = 40%
+    for (const id of sim.practicoIds) correct[id] = k++ < 13; // 13/20 = 65%
     const res = scoreExam(sim, correct);
-    expect(res.practico.passed).toBe(false);
-    expect(res.overall.pct).toBe(70);
-    expect(res.passed).toBe(true);
+    expect(res.practico.passed).toBe(false); // 65% < 80% por track
+    expect(res.overall.pct).toBeGreaterThanOrEqual(80);
+    expect(res.passed).toBe(true); // pero global ≥ 80 → aprobado
   });
 
   it('cae al banco completo si faltan ítems de la institución', () => {

@@ -32,10 +32,13 @@ export const EXAM_PROFILES: ExamProfile[] = [
     id: 'unsa',
     label: 'UNSa',
     institution: 'UNSa',
-    teorico: 20,
-    practico: 20,
-    durationMin: 40,
-    passThreshold: 60,
+    // Programa oficial (Res. 089-20): régimen promocional, cada parcial se
+    // aprueba con 80/100. El parcial real combina Bio+Quí+Fís (~45) + AAU
+    // (comprensión lectora, aún no integrada al simulacro).
+    teorico: 23,
+    practico: 22,
+    durationMin: 50,
+    passThreshold: 80,
     splitByTrack: false,
   },
 ];
