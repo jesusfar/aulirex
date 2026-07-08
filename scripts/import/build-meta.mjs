@@ -12,7 +12,7 @@ const meta = {};
 for (const s of subjects) {
   const items = JSON.parse(
     readFileSync(`src/content/items/${s}/banco-${s}.json`, 'utf8'),
-  );
+  ).filter((i) => i.status === 'active'); // los deprecados no cuentan ni filtran
   const blocks = {};
   for (const i of items) {
     (blocks[i.block] ??= new Set()).add(i.topic);

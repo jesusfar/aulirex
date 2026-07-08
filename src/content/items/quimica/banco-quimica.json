@@ -179,8 +179,8 @@
     "explanation": "Respuesta correcta: c) Densidad g) Olor.",
     "source": "original",
     "version": 1,
-    "status": "active",
-    "authorNote": "Importado del preguntero (nº 5, sección \"Conceptos básicos y sistemas materiales\")."
+    "status": "deprecated",
+    "authorNote": "Importado del preguntero (nº 5, sección \"Conceptos básicos y sistemas materiales\"). [Deprecado: ítem multi-parte/columnas fusionadas mal parseado del preguntero]"
   },
   {
     "id": "qui-imp-0005",
@@ -211,8 +211,8 @@
     "explanation": "Respuesta correcta: a) Densidad c) Volumen e) Área.",
     "source": "original",
     "version": 1,
-    "status": "active",
-    "authorNote": "Importado del preguntero (nº 6, sección \"Conceptos básicos y sistemas materiales\")."
+    "status": "deprecated",
+    "authorNote": "Importado del preguntero (nº 6, sección \"Conceptos básicos y sistemas materiales\"). [Deprecado: ítem multi-parte/columnas fusionadas mal parseado del preguntero]"
   },
   {
     "id": "qui-imp-0006",
@@ -248,8 +248,8 @@
     "explanation": "Respuesta correcta: a) Volatilización d) Solidificación.",
     "source": "original",
     "version": 1,
-    "status": "active",
-    "authorNote": "Importado del preguntero (nº 15, sección \"Conceptos básicos y sistemas materiales\")."
+    "status": "deprecated",
+    "authorNote": "Importado del preguntero (nº 15, sección \"Conceptos básicos y sistemas materiales\"). [Deprecado: ítem multi-parte/columnas fusionadas mal parseado del preguntero]"
   },
   {
     "id": "qui-imp-0007",
@@ -382,7 +382,7 @@
       },
       {
         "id": "e",
-        "text": "Agua y azúcar 3 Ejercitación QUIMICA-",
+        "text": "Agua y azúcar",
         "correct": false
       }
     ],
@@ -523,7 +523,7 @@
       },
       {
         "id": "e",
-        "text": "Si en un sistema se registran distintas propiedades intensivas en distintos puntos del mismo, el mismo es heterogéneo. 4 Ejercitación QUIMICA-",
+        "text": "Si en un sistema se registran distintas propiedades intensivas en distintos puntos del mismo, el mismo es heterogéneo.",
         "correct": false
       }
     ],
@@ -617,7 +617,7 @@
       },
       {
         "id": "e",
-        "text": "Ninguna es correcta 5 Ejercitación QUIMICA-",
+        "text": "Ninguna es correcta",
         "correct": false
       }
     ],
@@ -785,7 +785,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "4gr de H y 38gr de O 7 Ejercitación QUIMICA-",
+        "text": "4gr de H y 38gr de O",
         "correct": false
       },
       {
@@ -1275,7 +1275,7 @@
       },
       {
         "id": "e",
-        "text": "Las propiedades intensivas de los reactivos y los productos son iguales 10 Ejercitación QUIMICA-",
+        "text": "Las propiedades intensivas de los reactivos y los productos son iguales",
         "correct": false
       }
     ],
@@ -1517,8 +1517,8 @@
     "explanation": "Respuesta correcta: b) En 32 gr de O₂ hay una molécula-gramo de O₂.",
     "source": "original",
     "version": 1,
-    "status": "active",
-    "authorNote": "Importado del preguntero (nº 13, sección \"Unidades Químicas\")."
+    "status": "deprecated",
+    "authorNote": "Importado del preguntero (nº 13, sección \"Unidades Químicas\"). [Deprecado: ítem multi-parte/columnas fusionadas mal parseado del preguntero]"
   },
   {
     "id": "qui-imp-0034",
@@ -1552,7 +1552,7 @@
       },
       {
         "id": "d",
-        "text": "Un átomo de Fe ocupa un volumen de 22,4 litros en CNPyT 14 Ejercitación QUIMICA-",
+        "text": "Un átomo de Fe ocupa un volumen de 22,4 litros en CNPyT",
         "correct": false
       },
       {
@@ -1658,8 +1658,8 @@
     "explanation": "Respuesta correcta: b) En 3 moles de NH₃ hay 1 mol de átomos de N y 3 moles de átomos de H.",
     "source": "original",
     "version": 1,
-    "status": "active",
-    "authorNote": "Importado del preguntero (nº 24, sección \"Unidades Químicas\")."
+    "status": "deprecated",
+    "authorNote": "Importado del preguntero (nº 24, sección \"Unidades Químicas\"). [Deprecado: ítem multi-parte/columnas fusionadas mal parseado del preguntero]"
   },
   {
     "id": "qui-imp-0037",
@@ -1745,7 +1745,7 @@
       },
       {
         "id": "e",
-        "text": "Ninguna es correcta 16 Ejercitación QUIMICA-",
+        "text": "Ninguna es correcta",
         "correct": false
       }
     ],
@@ -2118,8 +2118,8 @@
     "explanation": "Respuesta correcta: b) C₂H₄ e) H₃PO₄.",
     "source": "original",
     "version": 1,
-    "status": "active",
-    "authorNote": "Importado del preguntero (nº 35, sección \"Unidades Químicas\")."
+    "status": "deprecated",
+    "authorNote": "Importado del preguntero (nº 35, sección \"Unidades Químicas\"). [Deprecado: ítem multi-parte/columnas fusionadas mal parseado del preguntero]"
   },
   {
     "id": "qui-imp-0047",
@@ -2212,8 +2212,8 @@
     "explanation": "Respuesta correcta: b) En 31 gr de H₂CO₃ hay 9,03×10²³ átomos de O.",
     "source": "original",
     "version": 1,
-    "status": "active",
-    "authorNote": "Importado del preguntero (nº 37, sección \"Unidades Químicas\")."
+    "status": "deprecated",
+    "authorNote": "Importado del preguntero (nº 37, sección \"Unidades Químicas\"). [Deprecado: ítem multi-parte/columnas fusionadas mal parseado del preguntero]"
   },
   {
     "id": "qui-imp-0049",
@@ -2299,7 +2299,7 @@
       },
       {
         "id": "e",
-        "text": "1,08×10²⁵ 18 Ejercitación QUIMICA-",
+        "text": "1,08×10²⁵",
         "correct": false
       }
     ],
@@ -2628,7 +2628,7 @@
       },
       {
         "id": "e",
-        "text": "Ninguna es correcta 19 Ejercitación QUIMICA-",
+        "text": "Ninguna es correcta",
         "correct": false
       }
     ],
@@ -2816,7 +2816,7 @@
       },
       {
         "id": "e",
-        "text": "2×10²⁷ 20 Ejercitación QUIMICA-",
+        "text": "2×10²⁷",
         "correct": false
       }
     ],
@@ -2863,7 +2863,7 @@
       },
       {
         "id": "e",
-        "text": "C₃H₁₀ON₂ 22 Ejercitación QUIMICA-",
+        "text": "C₃H₁₀ON₂",
         "correct": false
       }
     ],
@@ -3356,7 +3356,7 @@
     "type": "single_choice",
     "frequency": "media",
     "difficulty": 2,
-    "stem": "Seleccione en el listado, todas las especies a las cuales les corresponde la siguiente distribución: 1s2 2s2 2p6 3s2 3p6 I. K+ II. Ca+2 III. Cl- IV. Ar V. Mg 28 Ejercitación QUIMICA-",
+    "stem": "Seleccione en el listado, todas las especies a las cuales les corresponde la siguiente distribución: 1s2 2s2 2p6 3s2 3p6 I. K+ II. Ca+2 III. Cl- IV. Ar V. Mg",
     "choices": [
       {
         "id": "a",
@@ -3568,7 +3568,7 @@
       },
       {
         "id": "e",
-        "text": "2, 5, 7 y 9 29 Ejercitación QUIMICA-",
+        "text": "2, 5, 7 y 9",
         "correct": false
       }
     ],
@@ -3741,7 +3741,7 @@
       },
       {
         "id": "b",
-        "text": "110 30 Ejercitación QUIMICA-",
+        "text": "110",
         "correct": false
       },
       {
@@ -3795,8 +3795,8 @@
     "explanation": "Respuesta correcta: a) 40 c) 20 e) Ninguna es.",
     "source": "original",
     "version": 1,
-    "status": "active",
-    "authorNote": "Importado del preguntero (nº 42, sección \"Teoría Atómica\")."
+    "status": "deprecated",
+    "authorNote": "Importado del preguntero (nº 42, sección \"Teoría Atómica\"). [Deprecado: ítem multi-parte/columnas fusionadas mal parseado del preguntero]"
   },
   {
     "id": "qui-imp-0083",
@@ -3827,8 +3827,8 @@
     "explanation": "Respuesta correcta: a) 35 c) 45 e) Ninguna es.",
     "source": "original",
     "version": 1,
-    "status": "active",
-    "authorNote": "Importado del preguntero (nº 43, sección \"Teoría Atómica\")."
+    "status": "deprecated",
+    "authorNote": "Importado del preguntero (nº 43, sección \"Teoría Atómica\"). [Deprecado: ítem multi-parte/columnas fusionadas mal parseado del preguntero]"
   },
   {
     "id": "qui-imp-0084",
@@ -4008,7 +4008,7 @@
       },
       {
         "id": "e",
-        "text": "Su corteza gana electrones 31 Ejercitación QUIMICA-",
+        "text": "Su corteza gana electrones",
         "correct": false
       }
     ],
@@ -4595,7 +4595,7 @@
     "type": "single_choice",
     "frequency": "media",
     "difficulty": 2,
-    "stem": "Respecto al elemento de la pregunta anterior, marcar el conjunto de afirmaciones falsas: I. Es más electronegativo que el K II. Es más electronegativo que el Cl III. Cuando se ioniza, tiende a la carga negativa monovalente IV. Es un halógeno V. Es un elemento representativo VI. Es un metal de transición VII. Su Ión monovalente negativo tiene 36 electrones VIII. Es un gas noble 34 Ejercitación QUIMICA-",
+    "stem": "Respecto al elemento de la pregunta anterior, marcar el conjunto de afirmaciones falsas: I. Es más electronegativo que el K II. Es más electronegativo que el Cl III. Cuando se ioniza, tiende a la carga negativa monovalente IV. Es un halógeno V. Es un elemento representativo VI. Es un metal de transición VII. Su Ión monovalente negativo tiene 36 electrones VIII. Es un gas noble",
     "choices": [
       {
         "id": "a",
@@ -4705,8 +4705,8 @@
     "explanation": "Respuesta correcta: a) Ba c) S e) F.",
     "source": "original",
     "version": 1,
-    "status": "active",
-    "authorNote": "Importado del preguntero (nº 8, sección \"Tabla Periódica\")."
+    "status": "deprecated",
+    "authorNote": "Importado del preguntero (nº 8, sección \"Tabla Periódica\"). [Deprecado: ítem multi-parte/columnas fusionadas mal parseado del preguntero]"
   },
   {
     "id": "qui-imp-0103",
@@ -4878,8 +4878,8 @@
     "explanation": "Respuesta correcta: b) Cl d) Br.",
     "source": "original",
     "version": 1,
-    "status": "active",
-    "authorNote": "Importado del preguntero (nº 16, sección \"Tabla Periódica\")."
+    "status": "deprecated",
+    "authorNote": "Importado del preguntero (nº 16, sección \"Tabla Periódica\"). [Deprecado: ítem multi-parte/columnas fusionadas mal parseado del preguntero]"
   },
   {
     "id": "qui-imp-0107",
@@ -5009,8 +5009,8 @@
     "explanation": "Respuesta correcta: c) Br y F 36 Ejercitación QUIMICA-.",
     "source": "original",
     "version": 1,
-    "status": "active",
-    "authorNote": "Importado del preguntero (nº 19, sección \"Tabla Periódica\")."
+    "status": "deprecated",
+    "authorNote": "Importado del preguntero (nº 19, sección \"Tabla Periódica\"). [Deprecado: ítem multi-parte/columnas fusionadas mal parseado del preguntero]"
   },
   {
     "id": "qui-imp-0110",
@@ -5182,8 +5182,8 @@
     "explanation": "Respuesta correcta: b) Rb d) Cl 37 Ejercitación QUIMICA-.",
     "source": "original",
     "version": 1,
-    "status": "active",
-    "authorNote": "Importado del preguntero (nº 26, sección \"Tabla Periódica\")."
+    "status": "deprecated",
+    "authorNote": "Importado del preguntero (nº 26, sección \"Tabla Periódica\"). [Deprecado: ítem multi-parte/columnas fusionadas mal parseado del preguntero]"
   },
   {
     "id": "qui-imp-0114",
@@ -5604,7 +5604,7 @@
       },
       {
         "id": "e",
-        "text": "a y b son correctas 41 Ejercitación QUIMICA-",
+        "text": "a y b son correctas",
         "correct": true
       }
     ],
@@ -6074,7 +6074,7 @@
       },
       {
         "id": "e",
-        "text": "KBr, CO, HF 45 Ejercitación QUIMICA-",
+        "text": "KBr, CO, HF",
         "correct": false
       }
     ],
@@ -6128,8 +6128,8 @@
     "explanation": "Respuesta correcta: e) Anhídrido carbónico m) Anhídrido cloroso t) Anhídrido hipoiodoso f) Óxido de titanio (IV) n) Óxido crómico g) Anhídrido silícico.",
     "source": "original",
     "version": 1,
-    "status": "active",
-    "authorNote": "Importado del preguntero (nº 2, sección \"Formuleo\")."
+    "status": "deprecated",
+    "authorNote": "Importado del preguntero (nº 2, sección \"Formuleo\"). [Deprecado: ítem multi-parte/columnas fusionadas mal parseado del preguntero]"
   },
   {
     "id": "qui-imp-0134",
@@ -6175,8 +6175,8 @@
     "explanation": "Respuesta correcta: e) Peróxido de magnesio f) óxido crómico 48 Ejercitación QUIMICA-.",
     "source": "original",
     "version": 1,
-    "status": "active",
-    "authorNote": "Importado del preguntero (nº 9, sección \"Formuleo\")."
+    "status": "deprecated",
+    "authorNote": "Importado del preguntero (nº 9, sección \"Formuleo\"). [Deprecado: ítem multi-parte/columnas fusionadas mal parseado del preguntero]"
   },
   {
     "id": "qui-imp-0135",
@@ -6445,7 +6445,7 @@
       },
       {
         "id": "d",
-        "text": "6,02×10²³ moléculas 51 Ejercitación QUIMICA-",
+        "text": "6,02×10²³ moléculas",
         "correct": false
       },
       {
@@ -7093,7 +7093,7 @@
       },
       {
         "id": "b",
-        "text": "400 gr 54 Ejercitación QUIMICA-",
+        "text": "400 gr",
         "correct": false
       },
       {
@@ -7375,7 +7375,7 @@
       },
       {
         "id": "b",
-        "text": "Se producen 3,1 moles de agua y quedan 1,5 moles de O₂ 55 Ejercitación QUIMICA-",
+        "text": "Se producen 3,1 moles de agua y quedan 1,5 moles de O₂",
         "correct": false
       },
       {
@@ -7625,7 +7625,7 @@
       },
       {
         "id": "e",
-        "text": "Ninguna es correcta 56 Ejercitación QUIMICA-",
+        "text": "Ninguna es correcta",
         "correct": false
       }
     ],
@@ -7813,7 +7813,7 @@
       },
       {
         "id": "e",
-        "text": "2,4×10²⁴ 58 Ejercitación QUIMICA-",
+        "text": "2,4×10²⁴",
         "correct": false
       }
     ],
@@ -7907,7 +7907,7 @@
       },
       {
         "id": "e",
-        "text": "Ninguna es correcta 59 Ejercitación QUIMICA-",
+        "text": "Ninguna es correcta",
         "correct": true
       }
     ],
@@ -8367,7 +8367,7 @@
       },
       {
         "id": "c",
-        "text": "Una de las hemirreacciones será: Mg+2 + 2e- → > Mg 63 Ejercitación QUIMICA-",
+        "text": "Una de las hemirreacciones será: Mg+2 + 2e- → > Mg",
         "correct": false
       },
       {
@@ -8612,7 +8612,7 @@
       },
       {
         "id": "e",
-        "text": "c y d son correctas 64 Ejercitación QUIMICA-",
+        "text": "c y d son correctas",
         "correct": true
       }
     ],
@@ -8938,8 +8938,8 @@
     "explanation": "Respuesta correcta: a) 79,2 gr d) 33,3 gr.",
     "source": "original",
     "version": 1,
-    "status": "active",
-    "authorNote": "Importado del preguntero (nº 7, sección \"Soluciones\")."
+    "status": "deprecated",
+    "authorNote": "Importado del preguntero (nº 7, sección \"Soluciones\"). [Deprecado: ítem multi-parte/columnas fusionadas mal parseado del preguntero]"
   },
   {
     "id": "qui-imp-0194",
@@ -9245,7 +9245,7 @@
       },
       {
         "id": "b",
-        "text": "3,6 gr. 67 Ejercitación QUIMICA-",
+        "text": "3,6 gr.",
         "correct": false
       },
       {
@@ -9579,7 +9579,7 @@
       },
       {
         "id": "c",
-        "text": "266.8 gr. de sulfato férrico 68 Ejercitación QUIMICA-",
+        "text": "266.8 gr. de sulfato férrico",
         "correct": false
       },
       {
@@ -9871,7 +9871,7 @@
       },
       {
         "id": "e",
-        "text": "Ninguna es correcta 71 Ejercitación QUIMICA-",
+        "text": "Ninguna es correcta",
         "correct": false
       }
     ],
@@ -10004,8 +10004,8 @@
     "explanation": "Respuesta correcta: a) 99,2 ml c) 16 ml e) Ninguna es correcta.",
     "source": "original",
     "version": 1,
-    "status": "active",
-    "authorNote": "Importado del preguntero (nº 57, sección \"Soluciones\")."
+    "status": "deprecated",
+    "authorNote": "Importado del preguntero (nº 57, sección \"Soluciones\"). [Deprecado: ítem multi-parte/columnas fusionadas mal parseado del preguntero]"
   },
   {
     "id": "qui-imp-0217",
@@ -10083,8 +10083,8 @@
     "explanation": "Respuesta correcta: b) 187,5 ml d) 175 ml 72 Ejercitación QUIMICA-.",
     "source": "original",
     "version": 1,
-    "status": "active",
-    "authorNote": "Importado del preguntero (nº 60, sección \"Soluciones\")."
+    "status": "deprecated",
+    "authorNote": "Importado del preguntero (nº 60, sección \"Soluciones\"). [Deprecado: ítem multi-parte/columnas fusionadas mal parseado del preguntero]"
   },
   {
     "id": "qui-imp-0219",
@@ -10223,7 +10223,7 @@
       },
       {
         "id": "e",
-        "text": "Coma, depresión de centros vitales y muerte 74 Ejercitación QUIMICA-",
+        "text": "Coma, depresión de centros vitales y muerte",
         "correct": false
       }
     ],
@@ -10411,7 +10411,7 @@
       },
       {
         "id": "e",
-        "text": "Ninguna es correcta 76 Ejercitación QUIMICA-",
+        "text": "Ninguna es correcta",
         "correct": false
       }
     ],
@@ -10967,8 +10967,8 @@
     "explanation": "Respuesta correcta: b) 139 d) 300 78 Ejercitación QUIMICA-.",
     "source": "original",
     "version": 1,
-    "status": "active",
-    "authorNote": "Importado del preguntero (nº 19, sección \"Propiedades Coligativas\")."
+    "status": "deprecated",
+    "authorNote": "Importado del preguntero (nº 19, sección \"Propiedades Coligativas\"). [Deprecado: ítem multi-parte/columnas fusionadas mal parseado del preguntero]"
   },
   {
     "id": "qui-imp-0238",
@@ -11316,7 +11316,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "2,64 °C/m 79 Ejercitación QUIMICA-",
+        "text": "2,64 °C/m",
         "correct": true
       },
       {
@@ -11571,7 +11571,7 @@
       },
       {
         "id": "e",
-        "text": "18 %P/V 80 Ejercitación QUIMICA-",
+        "text": "18 %P/V",
         "correct": false
       }
     ],
@@ -11759,7 +11759,7 @@
       },
       {
         "id": "e",
-        "text": "Ninguna es correcta 81 Ejercitación QUIMICA-",
+        "text": "Ninguna es correcta",
         "correct": false
       }
     ],
@@ -12167,7 +12167,7 @@
       },
       {
         "id": "e",
-        "text": "Ninguna es correcta 103 Ejercitación QUIMICA-",
+        "text": "Ninguna es correcta",
         "correct": false
       }
     ],
@@ -12293,7 +12293,7 @@
       },
       {
         "id": "b",
-        "text": "metilamina pueden reaccionar con un ácido y formar una amida 105 Ejercitación QUIMICA-",
+        "text": "metilamina pueden reaccionar con un ácido y formar una amida",
         "correct": false
       },
       {
@@ -12944,8 +12944,8 @@
     "explanation": "Respuesta correcta: d) n° de orbitales moleculares pi.",
     "source": "original",
     "version": 1,
-    "status": "active",
-    "authorNote": "Importado del preguntero (nº 24, sección \"Química Orgánica\")."
+    "status": "deprecated",
+    "authorNote": "Importado del preguntero (nº 24, sección \"Química Orgánica\"). [Deprecado: ítem multi-parte/columnas fusionadas mal parseado del preguntero]"
   },
   {
     "id": "qui-imp-0280",
@@ -12991,8 +12991,8 @@
     "explanation": "Respuesta correcta: d) n° de orbitales moleculares pi.",
     "source": "original",
     "version": 1,
-    "status": "active",
-    "authorNote": "Importado del preguntero (nº 25, sección \"Química Orgánica\")."
+    "status": "deprecated",
+    "authorNote": "Importado del preguntero (nº 25, sección \"Química Orgánica\"). [Deprecado: ítem multi-parte/columnas fusionadas mal parseado del preguntero]"
   },
   {
     "id": "qui-imp-0281",

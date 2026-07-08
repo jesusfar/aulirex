@@ -271,7 +271,7 @@
       },
       {
         "id": "e",
-        "text": "1,004×10⁻² Hgr 1 Física",
+        "text": "1,004×10⁻² Hgr",
         "correct": false
       }
     ],
@@ -600,7 +600,7 @@
       },
       {
         "id": "e",
-        "text": "7,01×10⁻⁶ seg. 2 Física",
+        "text": "7,01×10⁻⁶ seg.",
         "correct": true
       }
     ],
@@ -929,7 +929,7 @@
       },
       {
         "id": "e",
-        "text": "3,45×10⁻¹² HPa 3 Física",
+        "text": "3,45×10⁻¹² HPa",
         "correct": false
       }
     ],
@@ -1399,7 +1399,7 @@
       },
       {
         "id": "e",
-        "text": "No se puede calcular 5 Física",
+        "text": "No se puede calcular",
         "correct": false
       }
     ],
@@ -1681,7 +1681,7 @@
       },
       {
         "id": "e",
-        "text": "Ninguna es correcta 6 Física",
+        "text": "Ninguna es correcta",
         "correct": false
       }
     ],
@@ -1963,7 +1963,7 @@
       },
       {
         "id": "e",
-        "text": "Ninguna es correcta 7 Física",
+        "text": "Ninguna es correcta",
         "correct": false
       }
     ],
@@ -2339,7 +2339,7 @@
       },
       {
         "id": "e",
-        "text": "Ninguna es correcta 9 Física",
+        "text": "Ninguna es correcta",
         "correct": false
       }
     ],
@@ -2653,7 +2653,7 @@
       },
       {
         "id": "b",
-        "text": "3 10 Física",
+        "text": "3",
         "correct": false
       },
       {
@@ -2950,7 +2950,7 @@
       },
       {
         "id": "e",
-        "text": "Ninguna es correcta 11 Física",
+        "text": "Ninguna es correcta",
         "correct": false
       }
     ],
@@ -3264,7 +3264,7 @@
       },
       {
         "id": "b",
-        "text": "0,368 12 Física",
+        "text": "0,368",
         "correct": false
       },
       {
@@ -3537,7 +3537,7 @@
     "type": "single_choice",
     "frequency": "media",
     "difficulty": 2,
-    "stem": "Calcular los valores de “x” e “y” en el siguiente sistema: • -x + 2y = 4 • x+y=5 13 Física",
+    "stem": "Calcular los valores de “x” e “y” en el siguiente sistema: • -x + 2y = 4 • x+y=5",
     "choices": [
       {
         "id": "a",
@@ -3937,7 +3937,7 @@
       },
       {
         "id": "e",
-        "text": "Ninguna es correcta 15 Física",
+        "text": "Ninguna es correcta",
         "correct": false
       }
     ],
@@ -4216,8 +4216,8 @@
     "explanation": "Respuesta correcta: a) 8.18 pm c) 9.00 pm.",
     "source": "original",
     "version": 1,
-    "status": "active",
-    "authorNote": "Importado del preguntero (nº 12, sección \"Planteo de Ecuaciones\")."
+    "status": "deprecated",
+    "authorNote": "Importado del preguntero (nº 12, sección \"Planteo de Ecuaciones\"). [Deprecado: ítem multi-parte/columnas fusionadas mal parseado del preguntero]"
   },
   {
     "id": "fis-imp-0091",
@@ -4389,8 +4389,8 @@
     "explanation": "Respuesta correcta: a) 5 b) -5 c) 1/3 d) - 1/3 e) 5/2.",
     "source": "original",
     "version": 1,
-    "status": "active",
-    "authorNote": "Importado del preguntero (nº 5, sección \"Función Lineal\")."
+    "status": "deprecated",
+    "authorNote": "Importado del preguntero (nº 5, sección \"Función Lineal\"). [Deprecado: ítem multi-parte/columnas fusionadas mal parseado del preguntero]"
   },
   {
     "id": "fis-imp-0095",
@@ -4429,7 +4429,7 @@
       },
       {
         "id": "e",
-        "text": "Ninguna es correcta 19 Física",
+        "text": "Ninguna es correcta",
         "correct": false
       }
     ],
@@ -4664,7 +4664,7 @@
       },
       {
         "id": "e",
-        "text": "Faltan datos para afirmar lo anterior 20 Física",
+        "text": "Faltan datos para afirmar lo anterior",
         "correct": false
       }
     ],
@@ -4899,7 +4899,7 @@
       },
       {
         "id": "e",
-        "text": "Ninguna es correcta 21 Física",
+        "text": "Ninguna es correcta",
         "correct": false
       }
     ],
@@ -5181,7 +5181,7 @@
       },
       {
         "id": "e",
-        "text": "2y = -3x 22 Física",
+        "text": "2y = -3x",
         "correct": false
       }
     ],
@@ -6074,7 +6074,7 @@
       },
       {
         "id": "e",
-        "text": "Ninguna es correcta 27 Física",
+        "text": "Ninguna es correcta",
         "correct": false
       }
     ],
@@ -6628,7 +6628,7 @@
       },
       {
         "id": "e",
-        "text": "1, 2, 3 y 4 30 Física",
+        "text": "1, 2, 3 y 4",
         "correct": false
       }
     ],
@@ -6957,7 +6957,7 @@
       },
       {
         "id": "e",
-        "text": "Tiene dos raíces reales distintas 32 Física",
+        "text": "Tiene dos raíces reales distintas",
         "correct": false
       }
     ],
@@ -7236,7 +7236,7 @@
       },
       {
         "id": "b",
-        "text": "Primero y Tercero 33 Física",
+        "text": "Primero y Tercero",
         "correct": false
       },
       {
@@ -7774,7 +7774,7 @@
       },
       {
         "id": "e",
-        "text": "Ninguna es correcta 37 Física",
+        "text": "Ninguna es correcta",
         "correct": false
       }
     ],
@@ -7868,7 +7868,7 @@
       },
       {
         "id": "e",
-        "text": "Ninguna es correcta 38 Física",
+        "text": "Ninguna es correcta",
         "correct": false
       }
     ],
@@ -8103,7 +8103,7 @@
       },
       {
         "id": "e",
-        "text": "Faltan datos 40 Física",
+        "text": "Faltan datos",
         "correct": false
       }
     ],
@@ -8432,7 +8432,7 @@
       },
       {
         "id": "e",
-        "text": "Todas son correctas 41 Física",
+        "text": "Todas son correctas",
         "correct": false
       }
     ],
@@ -8761,7 +8761,7 @@
       },
       {
         "id": "e",
-        "text": "Ninguna es correcta 42 Física",
+        "text": "Ninguna es correcta",
         "correct": false
       }
     ],
@@ -9090,7 +9090,7 @@
       },
       {
         "id": "e",
-        "text": "Ninguna es correcta 43 Física",
+        "text": "Ninguna es correcta",
         "correct": false
       }
     ],
@@ -9362,7 +9362,7 @@
       },
       {
         "id": "c",
-        "text": "Siempre tiene un punto de aplicación, un módulo, una dirección y un sentido 44 Física",
+        "text": "Siempre tiene un punto de aplicación, un módulo, una dirección y un sentido",
         "correct": false
       },
       {
@@ -9748,7 +9748,7 @@
       },
       {
         "id": "e",
-        "text": "Ninguna es correcta 46 Física",
+        "text": "Ninguna es correcta",
         "correct": false
       }
     ],
@@ -9936,7 +9936,7 @@
       },
       {
         "id": "e",
-        "text": "Ninguna es correcta 47 Física",
+        "text": "Ninguna es correcta",
         "correct": false
       }
     ],
@@ -10302,7 +10302,7 @@
       },
       {
         "id": "e",
-        "text": "Ninguna es correcta 49 Física",
+        "text": "Ninguna es correcta",
         "correct": false
       }
     ],
@@ -10543,7 +10543,7 @@
       },
       {
         "id": "e",
-        "text": "Ninguna es correcta 50 Física",
+        "text": "Ninguna es correcta",
         "correct": false
       }
     ],
@@ -10690,7 +10690,7 @@
       },
       {
         "id": "e",
-        "text": "Faltan datos 51 Física",
+        "text": "Faltan datos",
         "correct": false
       }
     ],
@@ -10779,7 +10779,7 @@
       },
       {
         "id": "d",
-        "text": "Un punto de un cuerpo que no coincide necesariamente con su centro de simetría 53 Física",
+        "text": "Un punto de un cuerpo que no coincide necesariamente con su centro de simetría",
         "correct": false
       },
       {
@@ -11046,7 +11046,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "3,6 m 55 Física",
+        "text": "3,6 m",
         "correct": false
       },
       {
@@ -11207,7 +11207,7 @@
       },
       {
         "id": "e",
-        "text": "Faltan datos. 56 Física",
+        "text": "Faltan datos.",
         "correct": false
       }
     ],
@@ -11501,7 +11501,7 @@
       },
       {
         "id": "e",
-        "text": "Ninguna es correcta 58 Física",
+        "text": "Ninguna es correcta",
         "correct": false
       }
     ],
@@ -11689,7 +11689,7 @@
       },
       {
         "id": "e",
-        "text": "La velocidad en AB es -2 m/s 59 Física",
+        "text": "La velocidad en AB es -2 m/s",
         "correct": false
       }
     ],
@@ -11836,7 +11836,7 @@
       },
       {
         "id": "e",
-        "text": "Ninguna es correcta 60 Física",
+        "text": "Ninguna es correcta",
         "correct": false
       }
     ],
@@ -12009,7 +12009,7 @@
       },
       {
         "id": "b",
-        "text": "560 cm/s² 61 Física",
+        "text": "560 cm/s²",
         "correct": true
       },
       {
@@ -12306,7 +12306,7 @@
       },
       {
         "id": "e",
-        "text": "Ninguna es correcta 62 Física",
+        "text": "Ninguna es correcta",
         "correct": false
       }
     ],
@@ -12532,7 +12532,7 @@
       },
       {
         "id": "b",
-        "text": "Su aceleración fue 2,5 m/s² y recorrió 25 metros antes de alcanzar su velocidad normal 63 Física",
+        "text": "Su aceleración fue 2,5 m/s² y recorrió 25 metros antes de alcanzar su velocidad normal",
         "correct": false
       },
       {
@@ -12678,7 +12678,7 @@
       },
       {
         "id": "c",
-        "text": "Logra detenerse, 2 metros antes del impacto 64 Física",
+        "text": "Logra detenerse, 2 metros antes del impacto",
         "correct": false
       },
       {
@@ -12788,7 +12788,7 @@
       },
       {
         "id": "e",
-        "text": "Ninguna es correcta 65 Física",
+        "text": "Ninguna es correcta",
         "correct": false
       }
     ],
@@ -12926,7 +12926,7 @@
       },
       {
         "id": "c",
-        "text": "Distancia que recorre el bote 66 Física",
+        "text": "Distancia que recorre el bote",
         "correct": false
       }
     ],
@@ -13099,7 +13099,7 @@
       },
       {
         "id": "e",
-        "text": "Ninguna es correcta 68 Física",
+        "text": "Ninguna es correcta",
         "correct": false
       }
     ],
@@ -13366,7 +13366,7 @@
       },
       {
         "id": "b",
-        "text": "4,65 seg 69 Física",
+        "text": "4,65 seg",
         "correct": false
       },
       {
@@ -13596,7 +13596,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "25 70 Física",
+        "text": "25",
         "correct": false
       },
       {
@@ -13851,7 +13851,7 @@
       },
       {
         "id": "e",
-        "text": "Ninguna es correcta 71 Física",
+        "text": "Ninguna es correcta",
         "correct": false
       }
     ],
@@ -14086,7 +14086,7 @@
       },
       {
         "id": "e",
-        "text": "Acción y reacción poseen mismo módulo y dirección, pero sentidos opuestos por lo que siempre se anulan entre sí. 72 Física",
+        "text": "Acción y reacción poseen mismo módulo y dirección, pero sentidos opuestos por lo que siempre se anulan entre sí.",
         "correct": true
       }
     ],
@@ -14175,7 +14175,7 @@
       },
       {
         "id": "d",
-        "text": "32.000 dinas 73 Física",
+        "text": "32.000 dinas",
         "correct": false
       },
       {
@@ -14415,7 +14415,7 @@
       },
       {
         "id": "e",
-        "text": "No se puede saber 74 Física",
+        "text": "No se puede saber",
         "correct": false
       }
     ],
@@ -14687,7 +14687,7 @@
       },
       {
         "id": "c",
-        "text": "5000 Kg 75 Física",
+        "text": "5000 Kg",
         "correct": false
       },
       {
@@ -14932,7 +14932,7 @@
       },
       {
         "id": "e",
-        "text": "Ninguna es correcta 76 Física",
+        "text": "Ninguna es correcta",
         "correct": true
       }
     ],
@@ -15167,7 +15167,7 @@
       },
       {
         "id": "e",
-        "text": "Ninguna es correcta 77 Física",
+        "text": "Ninguna es correcta",
         "correct": false
       }
     ],
@@ -15435,7 +15435,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "tiempo = 8,97 seg y distancia de A = 1,33 cm 78 Física",
+        "text": "tiempo = 8,97 seg y distancia de A = 1,33 cm",
         "correct": true
       },
       {
@@ -15784,7 +15784,7 @@
       },
       {
         "id": "e",
-        "text": "Acelera al cuerpo en el mismo sentido que el movimiento 80 Física",
+        "text": "Acelera al cuerpo en el mismo sentido que el movimiento",
         "correct": false
       }
     ],
@@ -16108,7 +16108,7 @@
       },
       {
         "id": "d",
-        "text": "Depende de la masa 81 Física",
+        "text": "Depende de la masa",
         "correct": false
       },
       {
@@ -16395,7 +16395,7 @@
       },
       {
         "id": "e",
-        "text": "77 W 82 Física",
+        "text": "77 W",
         "correct": false
       }
     ],
@@ -16583,7 +16583,7 @@
       },
       {
         "id": "e",
-        "text": "Ninguna es correcta 83 Física",
+        "text": "Ninguna es correcta",
         "correct": false
       }
     ],
@@ -17012,7 +17012,7 @@
       },
       {
         "id": "e",
-        "text": "Ninguna es correcta 85 Física",
+        "text": "Ninguna es correcta",
         "correct": false
       }
     ],
@@ -17247,7 +17247,7 @@
       },
       {
         "id": "e",
-        "text": "1,53×10⁸ din 86 Física",
+        "text": "1,53×10⁸ din",
         "correct": true
       }
     ],
@@ -17525,7 +17525,7 @@
       },
       {
         "id": "c",
-        "text": "El rozamiento siempre realiza trabajo negativo 87 Física",
+        "text": "El rozamiento siempre realiza trabajo negativo",
         "correct": false
       },
       {
@@ -17817,7 +17817,7 @@
       },
       {
         "id": "e",
-        "text": "Ninguna es correcta 90 Física",
+        "text": "Ninguna es correcta",
         "correct": true
       }
     ],
@@ -18146,7 +18146,7 @@
       },
       {
         "id": "e",
-        "text": "15 J 92 Física",
+        "text": "15 J",
         "correct": true
       }
     ],
@@ -18425,8 +18425,8 @@
     "explanation": "Respuesta correcta: b) 1013250 din/cm² e) 78,54×10⁸ Pa.",
     "source": "original",
     "version": 1,
-    "status": "active",
-    "authorNote": "Importado del preguntero (nº 6, sección \"Hidrostática\")."
+    "status": "deprecated",
+    "authorNote": "Importado del preguntero (nº 6, sección \"Hidrostática\"). [Deprecado: ítem multi-parte/columnas fusionadas mal parseado del preguntero]"
   },
   {
     "id": "fis-imp-0394",
@@ -18700,7 +18700,7 @@
       },
       {
         "id": "e",
-        "text": "No se puede saber quién soporta mayor presión con estos datos 95 Física",
+        "text": "No se puede saber quién soporta mayor presión con estos datos",
         "correct": false
       }
     ],
@@ -18941,7 +18941,7 @@
       },
       {
         "id": "e",
-        "text": "Ninguna es correcta 96 Física",
+        "text": "Ninguna es correcta",
         "correct": false
       }
     ],
@@ -19158,7 +19158,7 @@
     "type": "single_choice",
     "frequency": "media",
     "difficulty": 2,
-    "stem": "A un cubo hueco de 10 cm de arista y 200 g de masa, se le agrega mercurio y se lo sumerge en agua. Calcular el volumen del mercurio agregado si se sabe que el cubo se encuentra sumergido en un 70% 97 Física",
+    "stem": "A un cubo hueco de 10 cm de arista y 200 g de masa, se le agrega mercurio y se lo sumerge en agua. Calcular el volumen del mercurio agregado si se sabe que el cubo se encuentra sumergido en un 70%",
     "choices": [
       {
         "id": "a",
@@ -19370,7 +19370,7 @@
       },
       {
         "id": "e",
-        "text": "Ninguna de las anteriores 98 Física",
+        "text": "Ninguna de las anteriores",
         "correct": true
       }
     ],
@@ -19658,7 +19658,7 @@
       },
       {
         "id": "e",
-        "text": "Ninguna de las anteriores 99 Física",
+        "text": "Ninguna de las anteriores",
         "correct": false
       }
     ],
@@ -19893,7 +19893,7 @@
       },
       {
         "id": "e",
-        "text": "Siempre se hunden en los líquidos 100 Física",
+        "text": "Siempre se hunden en los líquidos",
         "correct": false
       }
     ],
@@ -20160,7 +20160,7 @@
       },
       {
         "id": "b",
-        "text": "882 N 101 Física",
+        "text": "882 N",
         "correct": true
       },
       {
@@ -20447,7 +20447,7 @@
       },
       {
         "id": "c",
-        "text": "34,6 N 102 Física",
+        "text": "34,6 N",
         "correct": false
       },
       {
@@ -20645,7 +20645,7 @@
       },
       {
         "id": "e",
-        "text": "Faltan datos para calcular 103 Física",
+        "text": "Faltan datos para calcular",
         "correct": false
       }
     ],
@@ -20934,8 +20934,8 @@
     "explanation": "Respuesta correcta: e) Velocidad con que impacta la esfera en el agua f) Variación de energía cinética durante el trayecto en el aire g) Tiempo que está la esfera descendiendo en el agua h) Profundidad máxima a la que llega antes de comenzar el ascenso i) Energía cinética que tiene al llegar a la profundidad máxima j) Qué presión sufre la pelota cuando está a la profundidad máxima k) Qué volumen queda sumergido de la pelota al llegar al equilibrio flotando 105 Física.",
     "source": "original",
     "version": 1,
-    "status": "active",
-    "authorNote": "Importado del preguntero (nº 61, sección \"Hidrostática\")."
+    "status": "deprecated",
+    "authorNote": "Importado del preguntero (nº 61, sección \"Hidrostática\"). [Deprecado: ítem multi-parte/columnas fusionadas mal parseado del preguntero]"
   },
   {
     "id": "fis-imp-0447",
@@ -21199,7 +21199,7 @@
       },
       {
         "id": "c",
-        "text": "No, el chorro de agua llega sólo a 14,85 metros 107 Física",
+        "text": "No, el chorro de agua llega sólo a 14,85 metros",
         "correct": true
       },
       {
@@ -21659,7 +21659,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "v < 2,5 cm/s y v > 3,75 cm/s 109 Física",
+        "text": "v < 2,5 cm/s y v > 3,75 cm/s",
         "correct": false
       },
       {
@@ -21914,7 +21914,7 @@
       },
       {
         "id": "e",
-        "text": "Ninguna es correcta 110 Física",
+        "text": "Ninguna es correcta",
         "correct": false
       }
     ],
@@ -22196,7 +22196,7 @@
       },
       {
         "id": "e",
-        "text": "Ninguna es correcta 111 Física",
+        "text": "Ninguna es correcta",
         "correct": false
       }
     ],
@@ -22666,7 +22666,7 @@
       },
       {
         "id": "e",
-        "text": "Ninguna es correcta 113 Física",
+        "text": "Ninguna es correcta",
         "correct": false
       }
     ],
@@ -22948,7 +22948,7 @@
       },
       {
         "id": "e",
-        "text": "Ninguna es correcta 114 Física",
+        "text": "Ninguna es correcta",
         "correct": false
       }
     ],
@@ -23471,7 +23471,7 @@
       },
       {
         "id": "e",
-        "text": "Ninguna es correcta A1 117 Física",
+        "text": "Ninguna es correcta A1",
         "correct": false
       }
     ],
@@ -23659,7 +23659,7 @@
       },
       {
         "id": "e",
-        "text": "Ninguna es correcta 119 Física",
+        "text": "Ninguna es correcta",
         "correct": false
       }
     ],
@@ -23941,7 +23941,7 @@
       },
       {
         "id": "e",
-        "text": "a y b son correctas 120 Física",
+        "text": "a y b son correctas",
         "correct": false
       }
     ],
@@ -24166,7 +24166,7 @@
       },
       {
         "id": "c",
-        "text": "II, IV, VII 121 Física",
+        "text": "II, IV, VII",
         "correct": false
       },
       {
@@ -24453,7 +24453,7 @@
       },
       {
         "id": "d",
-        "text": "0,0012 mmoles 122 Física",
+        "text": "0,0012 mmoles",
         "correct": false
       },
       {
@@ -24735,7 +24735,7 @@
       },
       {
         "id": "d",
-        "text": "23,15 m 123 Física",
+        "text": "23,15 m",
         "correct": false
       },
       {
@@ -24975,7 +24975,7 @@
       },
       {
         "id": "e",
-        "text": "Ninguna es correcta 124 Física",
+        "text": "Ninguna es correcta",
         "correct": false
       }
     ],
@@ -25383,7 +25383,7 @@
       },
       {
         "id": "e",
-        "text": "Ninguna es correcta 127 Física",
+        "text": "Ninguna es correcta",
         "correct": false
       }
     ],
@@ -25594,7 +25594,7 @@
     "type": "single_choice",
     "frequency": "alta",
     "difficulty": 2,
-    "stem": "Se sabe que 1 mol de gas ideal se encuentra en el estado A, con Presión 100 Pa y Volumen 30 m³. De allí realiza una transición isotérmica hasta un estado B, con Volumen 10 Klitros. Cuál es la presión en B? 128 Física",
+    "stem": "Se sabe que 1 mol de gas ideal se encuentra en el estado A, con Presión 100 Pa y Volumen 30 m³. De allí realiza una transición isotérmica hasta un estado B, con Volumen 10 Klitros. Cuál es la presión en B?",
     "choices": [
       {
         "id": "a",
@@ -25812,7 +25812,7 @@
       },
       {
         "id": "e",
-        "text": "Ninguna es correcta V- No es posible calcular la energía cinética del gas ya que no poseemos la T° de dato. VI- El volumen en B es 6 litros. VII- El volumen en B es 3000 cm³. VIII- Se cumple la ley de Boyle-Mariotte. IX- El proceso se puede explicar por la primera ley de Gay Lussac- Charles. X- Luego del proceso, aumenta el número de choques de las moléculas contra las paredes del recipiente y la velocidad de las mismas. XI- Luego del proceso, aumenta el número de choques de las moléculas contra las paredes del recipiente, pero la velocidad de las mismas es igual siempre. XII- Luego del proceso no cambia ni el número de choques de las moléculas contra las paredes del recipiente ni la velocidad de las mismas. 130 Física",
+        "text": "Ninguna es correcta V- No es posible calcular la energía cinética del gas ya que no poseemos la T° de dato. VI- El volumen en B es 6 litros. VII- El volumen en B es 3000 cm³. VIII- Se cumple la ley de Boyle-Mariotte. IX- El proceso se puede explicar por la primera ley de Gay Lussac- Charles. X- Luego del proceso, aumenta el número de choques de las moléculas contra las paredes del recipiente y la velocidad de las mismas. XI- Luego del proceso, aumenta el número de choques de las moléculas contra las paredes del recipiente, pero la velocidad de las mismas es igual siempre. XII- Luego del proceso no cambia ni el número de choques de las moléculas contra las paredes del recipiente ni la velocidad de las mismas.",
         "correct": false
       }
     ],
@@ -25997,8 +25997,8 @@
     "explanation": "Respuesta correcta: b) 49% e) 121 %.",
     "source": "original",
     "version": 1,
-    "status": "active",
-    "authorNote": "Importado del preguntero (nº 68, sección \"Gases\")."
+    "status": "deprecated",
+    "authorNote": "Importado del preguntero (nº 68, sección \"Gases\"). [Deprecado: ítem multi-parte/columnas fusionadas mal parseado del preguntero]"
   },
   {
     "id": "fis-imp-0555",
@@ -26225,7 +26225,7 @@
       },
       {
         "id": "e",
-        "text": "Ninguna es correcta 134 Física",
+        "text": "Ninguna es correcta",
         "correct": true
       }
     ],
@@ -26539,7 +26539,7 @@
       },
       {
         "id": "b",
-        "text": "Repulsivo y 9,6 mN/C 135 Física",
+        "text": "Repulsivo y 9,6 mN/C",
         "correct": false
       },
       {
@@ -26836,7 +26836,7 @@
       },
       {
         "id": "e",
-        "text": "el potencial es positivo 136 Física",
+        "text": "el potencial es positivo",
         "correct": false
       }
     ],
@@ -26930,7 +26930,7 @@
       },
       {
         "id": "e",
-        "text": "Ninguna es correcta 137 Física",
+        "text": "Ninguna es correcta",
         "correct": false
       }
     ],
@@ -27165,7 +27165,7 @@
       },
       {
         "id": "e",
-        "text": "Ninguna es correcta 138 Física",
+        "text": "Ninguna es correcta",
         "correct": false
       }
     ],
@@ -27494,7 +27494,7 @@
       },
       {
         "id": "e",
-        "text": "Ninguna de las opciones anteriores es correcta 141 Física",
+        "text": "Ninguna de las opciones anteriores es correcta",
         "correct": false
       }
     ],
@@ -28105,7 +28105,7 @@
       },
       {
         "id": "e",
-        "text": "Ninguna es correcta (0,83 W) 144 Física",
+        "text": "Ninguna es correcta (0,83 W)",
         "correct": true
       }
     ],
@@ -28387,7 +28387,7 @@
       },
       {
         "id": "e",
-        "text": "Ninguna es correcta 145 Física",
+        "text": "Ninguna es correcta",
         "correct": true
       }
     ],
@@ -28675,7 +28675,7 @@
       },
       {
         "id": "e",
-        "text": "29,63 mA 146 Física",
+        "text": "29,63 mA",
         "correct": true
       }
     ],
@@ -28917,8 +28917,8 @@
     "explanation": "Respuesta correcta: c) conductancia que posee el canal.",
     "source": "original",
     "version": 1,
-    "status": "active",
-    "authorNote": "Importado del preguntero (nº 31, sección \"Electrodinámica\")."
+    "status": "deprecated",
+    "authorNote": "Importado del preguntero (nº 31, sección \"Electrodinámica\"). [Deprecado: ítem multi-parte/columnas fusionadas mal parseado del preguntero]"
   },
   {
     "id": "fis-imp-0617",
@@ -29036,7 +29036,7 @@
       },
       {
         "id": "b",
-        "text": "3,6 nC 148 Física",
+        "text": "3,6 nC",
         "correct": false
       },
       {
@@ -29145,7 +29145,7 @@
       },
       {
         "id": "e",
-        "text": "Ninguna es correcta 149 Física",
+        "text": "Ninguna es correcta",
         "correct": false
       }
     ],

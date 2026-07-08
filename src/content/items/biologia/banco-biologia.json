@@ -11871,8 +11871,8 @@
     "explanation": "Respuesta correcta: d) Cada uno de los fragmentos de la B cadena B tiene aproximadamente 200 nucleótidos de largo.",
     "source": "original",
     "version": 1,
-    "status": "active",
-    "authorNote": "Importado del preguntero (nº 313, sección \"Ciclo celular, Mitosis, Meiosis\")."
+    "status": "deprecated",
+    "authorNote": "Importado del preguntero (nº 313, sección \"Ciclo celular, Mitosis, Meiosis\"). [Deprecado: ítem multi-parte/columnas fusionadas mal parseado del preguntero]"
   },
   {
     "id": "bio-imp-0253",
@@ -21553,7 +21553,7 @@
     "track": "teorico",
     "frequency": "alta",
     "difficulty": 2,
-    "stem": "Lea el siguiente texto: Las células del tejido epitelial descansan sobre una membrana basal. Por debajo de ella se encuentran los vasos sanguíneos y linfáticos que nutren a los tejidos y a dichas células por imbibición. Cuando de las células epiteliales se origina un tumor maligno (carcinoma) será en un principio de localización “in situ”; esto significa que el tumor está creciendo, pero aún no ha atravesado la membrana basal. Cuando esto sucede, es decir que el tumor rompe las membranas e infiltra el tejido subyacente, se considera invasor. En esta última instancia las células pueden ingresar a los vasos, viajar por ellos a diferentes sitios del cuerpo y originar focos metastásicos del mismo tumor que les dio origen. Estas características, infiltración y metástasis son las más importantes para considerar como maligno a un tumor. A continuación, determine VERDADERO o FALSO las afirmaciones siguientes (V/F): 23 QUANTUM - Ingreso a Medicina Biología",
+    "stem": "Lea el siguiente texto: Las células del tejido epitelial descansan sobre una membrana basal. Por debajo de ella se encuentran los vasos sanguíneos y linfáticos que nutren a los tejidos y a dichas células por imbibición. Cuando de las células epiteliales se origina un tumor maligno (carcinoma) será en un principio de localización “in situ”; esto significa que el tumor está creciendo, pero aún no ha atravesado la membrana basal. Cuando esto sucede, es decir que el tumor rompe las membranas e infiltra el tejido subyacente, se considera invasor. En esta última instancia las células pueden ingresar a los vasos, viajar por ellos a diferentes sitios del cuerpo y originar focos metastásicos del mismo tumor que les dio origen. Estas características, infiltración y metástasis son las más importantes para considerar como maligno a un tumor. A continuación, determine VERDADERO o FALSO las afirmaciones siguientes (V/F):",
     "source": "original",
     "version": 1,
     "status": "active",
