@@ -42,6 +42,11 @@ const fis: TopicNode[] = [
   n('gases', 'fisica', 'media', ['hidrostatica']),
   n('electrostatica', 'fisica', 'media', ['magnitudes_fisicas_y_vectores']),
   n('electrodinamica', 'fisica', 'alta', ['electrostatica']),
+  // Biofísica UNSa (temas nuevos)
+  n('biofisica_fluidos', 'fisica', 'media', ['hidrostatica']),
+  n('ondas', 'fisica', 'media', ['magnitudes_fisicas_y_vectores']),
+  n('optica', 'fisica', 'media', ['ondas']),
+  n('magnetismo', 'fisica', 'baja', ['electrodinamica']),
 ];
 
 const qui: TopicNode[] = [
@@ -58,6 +63,9 @@ const qui: TopicNode[] = [
   n('propiedades_coligativas', 'quimica', 'media', ['soluciones']),
   n('equilibrio_quimico', 'quimica', 'media', ['estequiometria']),
   n('quimica_organica', 'quimica', 'media', ['enlace_quimico']),
+  // Temas nuevos UNSa
+  n('termoquimica', 'quimica', 'media', ['estequiometria']),
+  n('biomoleculas', 'quimica', 'alta', ['quimica_organica']),
 ];
 
 function n(

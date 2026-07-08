@@ -11,6 +11,12 @@ import { items as bioRel } from './items/biologia/relacionar';
 import { items as quiOrganica } from './items/quimica/organica';
 import { items as quiAcidoBase } from './items/quimica/acido-base';
 import { items as quiSoluciones } from './items/quimica/soluciones';
+import { items as quiTermo } from './items/quimica/termoquimica';
+import { items as quiBiomoleculas } from './items/quimica/biomoleculas';
+import { items as fisOndas } from './items/fisica/ondas';
+import { items as fisOptica } from './items/fisica/optica';
+import { items as fisBiofluidos } from './items/fisica/biofisica-fluidos';
+import { items as fisMagnetismo } from './items/fisica/magnetismo';
 
 import { generatedItems } from './templates';
 import bankMeta from './bank-meta.json';
@@ -30,6 +36,12 @@ export const curatedItems: Item[] = [
   ...quiOrganica,
   ...quiAcidoBase,
   ...quiSoluciones,
+  ...quiTermo,
+  ...quiBiomoleculas,
+  ...fisOndas,
+  ...fisOptica,
+  ...fisBiofluidos,
+  ...fisMagnetismo,
   ...generatedItems,
 ].filter((i) => i.status === 'active');
 
