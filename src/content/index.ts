@@ -8,6 +8,8 @@ import { items as bioGenetica } from './items/biologia/genetica';
 import { items as bioSistemas } from './items/biologia/sistemas';
 import { items as bioVF } from './items/biologia/verdadero-falso';
 import { items as bioRel } from './items/biologia/relacionar';
+import { items as bioHistologia } from './items/biologia/histologia';
+import { items as aauTeoria } from './items/alfabetizacion/teoria';
 import { items as quiOrganica } from './items/quimica/organica';
 import { items as quiAcidoBase } from './items/quimica/acido-base';
 import { items as quiSoluciones } from './items/quimica/soluciones';
@@ -33,6 +35,8 @@ export const curatedItems: Item[] = [
   ...bioSistemas,
   ...bioVF,
   ...bioRel,
+  ...bioHistologia,
+  ...aauTeoria,
   ...quiOrganica,
   ...quiAcidoBase,
   ...quiSoluciones,

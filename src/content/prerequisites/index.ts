@@ -23,6 +23,8 @@ const bio: TopicNode[] = [
   n('ecologia', 'biologia', 'baja', ['seres_vivos_y_bioelementos']),
   n('sistemas_de_la_nutricion', 'biologia', 'media', ['difusion_osmosis_ph_teorias_biologicas']),
   n('sistemas_de_la_relacion', 'biologia', 'media', ['sistemas_de_la_nutricion']),
+  // Histología (temario UNSa Unidad 4)
+  n('histologia', 'biologia', 'media', ['membrana_plasmatica']),
 ];
 
 const fis: TopicNode[] = [

@@ -54,7 +54,13 @@ export function SimulacroPage() {
 
   const current = sim?.items[index];
   const total = sim?.items.length ?? 0;
-  const isTeorico = current ? sim!.teoricoIds.has(current.id) : false;
+  const section = !current
+    ? null
+    : sim!.aauIds.has(current.id)
+      ? { label: 'Comprensión', tone: 'text-emerald-300' }
+      : sim!.teoricoIds.has(current.id)
+        ? { label: 'Teórica', tone: 'text-sky-300' }
+        : { label: 'Práctica', tone: 'text-amber-300' };
   const result: ExamResult | null =
     phase === 'done' && sim ? scoreExam(sim, correctById) : null;
 
@@ -137,10 +143,13 @@ export function SimulacroPage() {
           </p>
         )}
 
-        <div className="mt-5 grid gap-3 sm:grid-cols-3">
+        <div className="mt-5 grid gap-3 sm:grid-cols-2">
           <TrackCard title="Global" s={result.overall} />
           <TrackCard title="Teórico" s={result.teorico} />
           <TrackCard title="Práctico" s={result.practico} />
+          {result.aau.total > 0 && (
+            <TrackCard title="Comprensión" s={result.aau} />
+          )}
         </div>
 
         <div className="mt-6 flex gap-2">
@@ -168,10 +177,13 @@ export function SimulacroPage() {
       <div className="mb-4 flex items-center justify-between gap-3">
         <div>
           <p className="text-sm text-slate-400">
-            Pregunta {Math.min(index + 1, total)} de {total} ·{' '}
-            <span className={isTeorico ? 'text-sky-300' : 'text-amber-300'}>
-              {isTeorico ? 'Teórica' : 'Práctica'}
-            </span>
+            Pregunta {Math.min(index + 1, total)} de {total}
+            {section && (
+              <>
+                {' · '}
+                <span className={section.tone}>{section.label}</span>
+              </>
+            )}
           </p>
           <p className="text-xs text-slate-500">{answeredCount} respondidas</p>
         </div>

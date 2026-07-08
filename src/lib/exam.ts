@@ -12,6 +12,7 @@ export interface ExamProfile {
   institution: Institution;
   teorico: number;
   practico: number;
+  aau: number; // preguntas de Alfabetización Académica (comprensión/teoría)
   durationMin: number;
   passThreshold: number;
   splitByTrack: boolean; // true = aprueba por track; false = umbral global
@@ -24,6 +25,7 @@ export const EXAM_PROFILES: ExamProfile[] = [
     institution: 'UNC',
     teorico: 25,
     practico: 25,
+    aau: 0,
     durationMin: 50,
     passThreshold: 60,
     splitByTrack: true,
@@ -33,10 +35,11 @@ export const EXAM_PROFILES: ExamProfile[] = [
     label: 'UNSa',
     institution: 'UNSa',
     // Programa oficial (Res. 089-20): régimen promocional, cada parcial se
-    // aprueba con 80/100. El parcial real combina Bio+Quí+Fís (~45) + AAU
-    // (comprensión lectora, aún no integrada al simulacro).
+    // aprueba con 80/100. El parcial combina Bio+Quí+Fís (~45) + AAU (5,
+    // Alfabetización Académica) = 50 preguntas.
     teorico: 23,
     practico: 22,
+    aau: 5,
     durationMin: 50,
     passThreshold: 80,
     splitByTrack: false,
@@ -47,36 +50,51 @@ export function profileById(id: string): ExamProfile {
   return EXAM_PROFILES.find((p) => p.id === id) ?? EXAM_PROFILES[0];
 }
 
+// Materias de Alfabetización Académica (sección AAU del examen UNSa).
+const AAU_SUBJECTS = new Set(['alfabetizacion', 'comprension_textos']);
+const isScience = (i: Item) => !AAU_SUBJECTS.has(i.subject);
+
 export interface Simulacro {
-  items: Item[]; // teóricas primero, luego prácticas
+  items: Item[]; // teóricas, luego prácticas, luego AAU
   teoricoIds: Set<string>;
   practicoIds: Set<string>;
+  aauIds: Set<string>;
   profile: ExamProfile;
   fellBack: boolean; // true si no había ítems suficientes de la institución
 }
 
 // Arma el examen del perfil: filtra por institución (con fallback al banco
-// completo si no alcanza), estratifica por tema y no repite.
+// completo si no alcanza), estratifica por tema y no repite. La sección AAU
+// (Alfabetización) se toma aparte del bloque de ciencias.
 export function buildSimulacro(all: Item[], profile: ExamProfile): Simulacro {
   const forInstitution = all.filter((i) =>
     i.institutions.includes(profile.institution),
   );
-  const needed = profile.teorico + profile.practico;
-  const fellBack = forInstitution.length < needed;
+  const scienceNeeded = profile.teorico + profile.practico;
+  const fellBack = forInstitution.filter(isScience).length < scienceNeeded;
   const pool = fellBack ? all : forInstitution;
 
   const teorico = buildTestDeck(
-    pool.filter((i) => i.track === 'teorico'),
+    pool.filter((i) => isScience(i) && i.track === 'teorico'),
     profile.teorico,
   );
   const practico = buildTestDeck(
-    pool.filter((i) => i.track === 'practico'),
+    pool.filter((i) => isScience(i) && i.track === 'practico'),
     profile.practico,
   );
+  const aau =
+    profile.aau > 0
+      ? buildTestDeck(
+          forInstitution.filter((i) => i.subject === 'alfabetizacion'),
+          profile.aau,
+        )
+      : [];
+
   return {
-    items: [...teorico, ...practico],
+    items: [...teorico, ...practico, ...aau],
     teoricoIds: new Set(teorico.map((i) => i.id)),
     practicoIds: new Set(practico.map((i) => i.id)),
+    aauIds: new Set(aau.map((i) => i.id)),
     profile,
     fellBack,
   };
@@ -91,6 +109,7 @@ export interface TrackScore {
 export interface ExamResult {
   teorico: TrackScore;
   practico: TrackScore;
+  aau: TrackScore;
   overall: TrackScore;
   passed: boolean;
 }
@@ -109,9 +128,12 @@ export function scoreExam(
   };
   const teorico = tally(sim.teoricoIds);
   const practico = tally(sim.practicoIds);
-  const overall = tally(new Set([...sim.teoricoIds, ...sim.practicoIds]));
+  const aau = tally(sim.aauIds);
+  const overall = tally(
+    new Set([...sim.teoricoIds, ...sim.practicoIds, ...sim.aauIds]),
+  );
   const passed = sim.profile.splitByTrack
     ? teorico.passed && practico.passed
     : overall.passed;
-  return { teorico, practico, overall, passed };
+  return { teorico, practico, aau, overall, passed };
 }

@@ -29,6 +29,10 @@ function bank(n: number, inst: Institution[]): Item[] {
   return items;
 }
 
+function aauItem(id: string): Item {
+  return { ...item(id, 'teorico', ['UNSa']), subject: 'alfabetizacion' };
+}
+
 describe('simulacro por perfil', () => {
   it('UNC aprueba solo si ambos tracks pasan el umbral', () => {
     const sim = buildSimulacro(bank(25, ['UNC']), profileById('unc'));
@@ -60,5 +64,28 @@ describe('simulacro por perfil', () => {
     const sim = buildSimulacro(bank(25, ['UNC']), profileById('unsa'));
     expect(sim.fellBack).toBe(true);
     expect(sim.items.length).toBeGreaterThan(0);
+  });
+
+  it('UNSa incluye la sección AAU (Alfabetización) separada de ciencias', () => {
+    const all = [
+      ...bank(30, ['UNSa']),
+      ...Array.from({ length: 10 }, (_, i) => aauItem(`a${i}`)),
+    ];
+    const sim = buildSimulacro(all, profileById('unsa'));
+    expect(sim.aauIds.size).toBe(5); // perfil UNSa: aau 5
+    // los ítems AAU no se cuentan como teóricos ni prácticos de ciencias
+    for (const id of sim.aauIds) {
+      expect(sim.teoricoIds.has(id)).toBe(false);
+      expect(sim.practicoIds.has(id)).toBe(false);
+    }
+    // el global suma ciencias + AAU
+    const correct: Record<string, boolean> = {};
+    for (const id of sim.aauIds) correct[id] = true;
+    const res = scoreExam(sim, correct);
+    expect(res.aau.total).toBe(5);
+    expect(res.aau.correct).toBe(5);
+    expect(res.overall.total).toBe(
+      sim.teoricoIds.size + sim.practicoIds.size + sim.aauIds.size,
+    );
   });
 });

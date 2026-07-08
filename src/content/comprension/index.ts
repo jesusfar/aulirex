@@ -385,11 +385,153 @@ La privación de sueño, en cambio, deteriora la atención y dificulta la fijaci
   ],
 };
 
+const vacunas: ReadingPassage = {
+  id: 'lec-vacunas',
+  title: 'Las vacunas y el sistema inmune',
+  genre: 'divulgacion',
+  intro: 'Leé el texto y respondé las preguntas de comprensión.',
+  text: `Las vacunas son uno de los mayores logros de la salud pública. Su principio es sencillo pero ingenioso: entrenar al sistema inmunitario para que reconozca a un agente infeccioso antes de encontrarse con él de verdad.
+
+Una vacuna introduce en el organismo una versión inofensiva del microbio —o solo una parte de él, como una proteína—. El sistema inmune reacciona como si se tratara de una infección real: produce defensas y, sobre todo, genera células de memoria. Gracias a ellas, si más adelante el microbio verdadero ingresa al cuerpo, la respuesta es rápida y contundente.
+
+Cuando una proporción alta de la población está vacunada, el microbio encuentra pocas personas susceptibles y le cuesta propagarse. Ese efecto, llamado inmunidad de rebaño, protege incluso a quienes no pueden vacunarse, como algunos bebés o personas inmunodeprimidas. Por eso vacunarse no es solo una decisión individual: también es un acto que cuida a la comunidad.`,
+  items: [
+    q({
+      id: 'lec-vacunas-1',
+      topic: 'idea_principal',
+      difficulty: 2,
+      stem: '¿Cuál es la idea central del texto?',
+      choices: [
+        { t: 'Las vacunas entrenan al sistema inmune y, al vacunarse muchos, protegen a la comunidad.', ok: true },
+        { t: 'Las vacunas curan las infecciones una vez que la enfermedad ya se declaró.' },
+        { t: 'El sistema inmune solo se activa cuando ocurre una infección real y grave.' },
+        { t: 'La inmunidad de rebaño perjudica a las personas que no pueden vacunarse.' },
+      ],
+      explanation:
+        'El texto explica el mecanismo de las vacunas (entrenar la inmunidad) y su beneficio colectivo (inmunidad de rebaño). Las demás contradicen el texto.',
+    }),
+    q({
+      id: 'lec-vacunas-2',
+      topic: 'inferencia',
+      difficulty: 2,
+      stem: 'Según el texto, las células de memoria sirven para que…',
+      choices: [
+        { t: 'la respuesta ante el microbio real sea más rápida y eficaz.', ok: true },
+        { t: 'el cuerpo elimine por completo cualquier vacuna aplicada.' },
+        { t: 'la persona nunca vuelva a producir defensas nuevas.' },
+        { t: 'el microbio inofensivo se vuelva peligroso con el tiempo.' },
+      ],
+      explanation:
+        'Las células de memoria permiten una respuesta rápida y contundente si el microbio verdadero ingresa más adelante.',
+    }),
+    q({
+      id: 'lec-vacunas-3',
+      topic: 'vocabulario_en_contexto',
+      difficulty: 2,
+      stem: 'La "inmunidad de rebaño" descrita en el texto significa que…',
+      choices: [
+        { t: 'al haber muchos vacunados, el microbio se propaga con dificultad.', ok: true },
+        { t: 'los animales de rebaño transmiten inmunidad a las personas.' },
+        { t: 'solo se inmunizan las personas que viven en grupo.' },
+        { t: 'la vacuna deja de ser necesaria para toda la población.' },
+      ],
+      explanation:
+        'Cuando gran parte de la población está vacunada, el microbio halla pocas personas susceptibles y circula con dificultad, protegiendo también a los no vacunados.',
+    }),
+    q({
+      id: 'lec-vacunas-4',
+      topic: 'inferencia',
+      difficulty: 1,
+      stem: 'Con la última oración, el autor destaca que vacunarse es…',
+      choices: [
+        { t: 'además de personal, un acto que cuida a los demás.', ok: true },
+        { t: 'una obligación impuesta sin ningún beneficio real.' },
+        { t: 'una decisión que solo afecta a quien se vacuna.' },
+        { t: 'un riesgo que conviene evitar siempre que se pueda.' },
+      ],
+      explanation:
+        'El cierre subraya que vacunarse no es solo individual: también protege a la comunidad.',
+    }),
+  ],
+};
+
+const ejercicio: ReadingPassage = {
+  id: 'lec-ejercicio',
+  title: 'Los beneficios del ejercicio físico',
+  genre: 'expositivo',
+  intro: 'Leé el texto y respondé las preguntas de comprensión.',
+  text: `La actividad física regular es una de las herramientas más eficaces para cuidar la salud, y sus beneficios van mucho más allá de la estética.
+
+A nivel cardiovascular, el ejercicio fortalece el corazón, mejora la circulación y ayuda a mantener la presión arterial en valores adecuados. En el metabolismo, favorece el uso de la glucosa y contribuye a controlar el peso corporal. Incluso el sistema nervioso se beneficia: la actividad física libera sustancias que mejoran el ánimo y reducen el estrés.
+
+No hace falta convertirse en atleta para obtener estas ventajas. Diversos organismos de salud recomiendan acumular al menos ciento cincuenta minutos semanales de actividad moderada, como caminar a paso ligero. La clave, señalan, es la constancia: un esfuerzo sostenido en el tiempo rinde más que sesiones intensas pero aisladas.`,
+  items: [
+    q({
+      id: 'lec-ejercicio-1',
+      topic: 'idea_principal',
+      difficulty: 1,
+      stem: '¿Cuál es la idea principal del texto?',
+      choices: [
+        { t: 'El ejercicio regular beneficia la salud en varios sistemas del cuerpo.', ok: true },
+        { t: 'El ejercicio sirve únicamente para mejorar la apariencia física.' },
+        { t: 'Solo los atletas obtienen beneficios de la actividad física.' },
+        { t: 'Las sesiones intensas y aisladas son mejores que la constancia.' },
+      ],
+      explanation:
+        'El texto detalla beneficios cardiovasculares, metabólicos y nerviosos; las otras opciones reducen o contradicen ese mensaje.',
+    }),
+    q({
+      id: 'lec-ejercicio-2',
+      topic: 'inferencia',
+      difficulty: 2,
+      stem: 'Según el texto, a nivel cardiovascular el ejercicio…',
+      choices: [
+        { t: 'fortalece el corazón y ayuda a regular la presión arterial.', ok: true },
+        { t: 'aumenta la presión arterial hasta niveles peligrosos.' },
+        { t: 'debilita el corazón por el esfuerzo repetido.' },
+        { t: 'no produce ningún cambio en la circulación.' },
+      ],
+      explanation:
+        'El segundo párrafo indica que el ejercicio fortalece el corazón, mejora la circulación y ayuda a mantener la presión en valores adecuados.',
+    }),
+    q({
+      id: 'lec-ejercicio-3',
+      topic: 'inferencia',
+      difficulty: 2,
+      stem: 'Cuando el texto afirma que "la clave es la constancia", se puede inferir que…',
+      choices: [
+        { t: 'conviene ejercitarse de forma sostenida antes que esporádica.', ok: true },
+        { t: 'basta con una única sesión muy intensa por mes.' },
+        { t: 'el ejercicio pierde todo efecto si se repite seguido.' },
+        { t: 'solo importa la intensidad y no la frecuencia.' },
+      ],
+      explanation:
+        'El texto valora el esfuerzo sostenido por encima de las sesiones intensas pero aisladas.',
+    }),
+    q({
+      id: 'lec-ejercicio-4',
+      topic: 'secuencia_textual',
+      difficulty: 1,
+      stem: 'Por su propósito, el texto es predominantemente…',
+      choices: [
+        { t: 'expositivo, porque explica beneficios de manera objetiva.', ok: true },
+        { t: 'argumentativo, porque defiende una tesis polémica.' },
+        { t: 'narrativo, porque cuenta una historia personal.' },
+        { t: 'instruccional, porque da una receta paso a paso.' },
+      ],
+      explanation:
+        'El texto informa y explica beneficios del ejercicio de forma objetiva: es una secuencia expositiva.',
+    }),
+  ],
+};
+
 export const readingPassages: ReadingPassage[] = [
   antibioticos,
   automedicacion,
   microbiota,
   sueno,
+  vacunas,
+  ejercicio,
 ];
 
 export const comprensionItems: Item[] = readingPassages.flatMap((p) => p.items);
