@@ -15,6 +15,8 @@ import { items as quiAcidoBase } from './items/quimica/acido-base';
 import { items as quiSoluciones } from './items/quimica/soluciones';
 import { items as quiTermo } from './items/quimica/termoquimica';
 import { items as quiBiomoleculas } from './items/quimica/biomoleculas';
+import { items as quiRecuperados } from './items/quimica/recuperados';
+import { items as fisRecuperados } from './items/fisica/recuperados';
 import { items as fisOndas } from './items/fisica/ondas';
 import { items as fisOptica } from './items/fisica/optica';
 import { items as fisBiofluidos } from './items/fisica/biofisica-fluidos';
@@ -42,6 +44,8 @@ export const curatedItems: Item[] = [
   ...quiSoluciones,
   ...quiTermo,
   ...quiBiomoleculas,
+  ...quiRecuperados,
+  ...fisRecuperados,
   ...fisOndas,
   ...fisOptica,
   ...fisBiofluidos,
