@@ -64,7 +64,7 @@ export function ErrorNotebookPage() {
             Cuando falles una pregunta, acá vas a ver el concepto a reforzar.
           </p>
           <Link
-            to="/practica"
+            to="/ingreso-medicina/practica"
             className="aulirex-primary-button mt-5 inline-block rounded-md px-5 py-2.5 text-sm font-black"
           >
             Ir a practicar

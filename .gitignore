@@ -23,6 +23,11 @@ dist-ssr
 *.sln
 *.sw?
 
+# Variables de entorno (secretos). .env.example SÍ se versiona.
+.env
+.env.*
+!.env.example
+
 # Config y notas locales (fuera del repo)
 .claude/
 docs/Aulirex-Plan*

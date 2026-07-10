@@ -84,7 +84,7 @@ export function ReviewPage() {
               </button>
             ) : (
               <Link
-                to="/practica"
+                to="/ingreso-medicina/practica"
                 className="aulirex-primary-button inline-flex h-11 items-center justify-center rounded-md px-5 text-sm font-black transition"
               >
                 Ir a practicar

@@ -161,7 +161,7 @@ export function SimulacroPage() {
             Otro simulacro
           </button>
           <Link
-            to="/errores"
+            to="/ingreso-medicina/repaso"
             className="rounded-md border border-white/10 px-5 py-2.5 text-sm font-bold text-slate-200 hover:border-white/25"
           >
             Ver mis errores

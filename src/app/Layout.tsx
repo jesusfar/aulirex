@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import { NavLink, Outlet, useLocation } from 'react-router-dom';
+import { Link, NavLink, Outlet, useLocation } from 'react-router-dom';
 
 const linkClass = ({ isActive }: { isActive: boolean }) =>
   `aulirex-header-tab inline-flex min-h-10 flex-none items-center justify-center rounded-md px-2.5 py-2 text-xs font-semibold transition-all duration-200 sm:px-3 sm:text-sm ${
@@ -140,7 +140,10 @@ export function Layout() {
 
       <header className="sticky top-0 z-50 border-b border-white/10 bg-slate-950/78 px-3 py-2 backdrop-blur-xl sm:px-4 sm:py-3">
         <div className="mx-auto flex max-w-6xl flex-wrap items-center gap-3 md:gap-4">
-          <div className="flex min-w-0 flex-1 items-center gap-2 sm:gap-3 md:flex-none md:shrink-0">
+          <Link
+            to="/"
+            className="flex min-w-0 flex-1 items-center gap-2 sm:gap-3 md:flex-none md:shrink-0"
+          >
             <img
               src="/brand/aulirex-mark.png"
               alt="Aulirex"
@@ -153,33 +156,36 @@ export function Layout() {
                 className="h-6 w-auto max-w-[8.25rem] object-contain drop-shadow-[0_0_10px_rgba(125,211,252,0.35)] sm:h-8 sm:max-w-[10.5rem]"
               />
               <span className="hidden text-xs font-medium text-slate-400 sm:block">
-                Entrenamiento para Medicina
+                Ingreso a Medicina
               </span>
             </div>
-          </div>
+          </Link>
 
           <EcgHeaderMonitor />
 
-          <nav aria-label="Navegacion principal" className="order-3 flex w-full min-w-0 overflow-x-auto overscroll-x-contain whitespace-nowrap rounded-lg border border-white/10 bg-black/24 p-1 shadow-[inset_0_1px_0_rgba(255,255,255,0.08)] [scrollbar-width:none] lg:order-none lg:ml-auto lg:w-auto lg:max-w-[34rem] lg:shrink-0">
+          <nav aria-label="Navegacion principal" className="order-3 flex w-full min-w-0 overflow-x-auto overscroll-x-contain whitespace-nowrap rounded-lg border border-white/10 bg-black/24 p-1 shadow-[inset_0_1px_0_rgba(255,255,255,0.08)] [scrollbar-width:none] lg:order-none lg:ml-auto lg:w-auto lg:max-w-[36rem] lg:shrink-0">
             <NavLink to="/" end className={linkClass}>
+              ← Módulos
+            </NavLink>
+            <NavLink to="/ingreso-medicina" end className={linkClass}>
               Dashboard
             </NavLink>
-            <NavLink to="/practica" className={linkClass}>
+            <NavLink to="/ingreso-medicina/practica" className={linkClass}>
               Practica
             </NavLink>
-            <NavLink to="/simulacro" className={linkClass}>
+            <NavLink to="/ingreso-medicina/simulacro" className={linkClass}>
               Simulacro
             </NavLink>
-            <NavLink to="/repaso" className={linkClass}>
+            <NavLink to="/ingreso-medicina/repaso" className={linkClass}>
               Repaso
             </NavLink>
-            <NavLink to="/comprension" className={linkClass}>
+            <NavLink to="/ingreso-medicina/comprension" className={linkClass}>
               Comprension
             </NavLink>
-            <NavLink to="/formulario" className={linkClass}>
+            <NavLink to="/ingreso-medicina/formulario" className={linkClass}>
               Formulas
             </NavLink>
-            <NavLink to="/moleculas" className={linkClass}>
+            <NavLink to="/ingreso-medicina/moleculas" className={linkClass}>
               Moleculas
             </NavLink>
           </nav>

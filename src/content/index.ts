@@ -25,6 +25,8 @@ import { items as fisMagnetismo } from './items/fisica/magnetismo';
 
 import { generatedItems } from './templates';
 import { mathGeneratedItems } from './matematica';
+import { fetchRemoteItems } from './remote';
+import { isSupabaseConfigured } from '../lib/supabase';
 import bankMeta from './bank-meta.json';
 import { IMPORTED_SUBJECTS, loadImportedSubject } from './imported';
 
@@ -106,7 +108,20 @@ async function itemsForSubjects(subjects: Subject[]): Promise<Item[]> {
     )
   ).flat();
   const curated = curatedItems.filter((i) => subjects.includes(i.subject));
-  return [...curated, ...imported].filter((i) => i.status === 'active');
+  const local = [...curated, ...imported].filter((i) => i.status === 'active');
+
+  // Si Supabase está configurado, se mergean las preguntas remotas (gestionadas
+  // por admin). Una remota con el mismo id PISA a la local. Sin Supabase, esto
+  // es un no-op y el comportamiento es idéntico al histórico.
+  if (!isSupabaseConfigured) return local;
+  const remote = (await fetchRemoteItems()).filter((i) =>
+    subjects.includes(i.subject),
+  );
+  if (remote.length === 0) return local;
+  const byId = new Map<string, Item>();
+  for (const it of local) byId.set(it.id, it);
+  for (const it of remote) byId.set(it.id, it);
+  return [...byId.values()];
 }
 
 // Carga (lazy) y filtra. Si hay materia elegida, solo baja ese chunk.

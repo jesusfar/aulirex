@@ -204,7 +204,7 @@ export function DashboardPage() {
           </p>
         </div>
         <Link
-          to="/repaso"
+          to="/ingreso-medicina/repaso"
           className="rounded-lg border border-white/10 bg-slate-900/72 p-4 text-center transition hover:border-sky-400/40"
         >
           <p className="text-xs font-bold uppercase tracking-[0.16em] text-slate-400">
@@ -224,7 +224,7 @@ export function DashboardPage() {
             <h2 className="text-sm font-bold uppercase tracking-[0.16em] text-slate-400">
               Si rindieras hoy
             </h2>
-            <Link to="/simulacro" className="text-xs font-bold text-sky-300 hover:text-sky-200">
+            <Link to="/ingreso-medicina/simulacro" className="text-xs font-bold text-sky-300 hover:text-sky-200">
               Simulacro →
             </Link>
           </div>
@@ -320,7 +320,7 @@ export function DashboardPage() {
 
           <div className="mt-7 flex flex-col gap-3 sm:flex-row sm:items-center">
             <Link
-              to="/practica"
+              to="/ingreso-medicina/practica"
               className="aulirex-primary-button inline-flex items-center justify-center rounded-md px-5 py-3 text-sm font-black transition"
             >
               Empezar practica
@@ -455,7 +455,7 @@ function DiagnosticPanel({
           nivel y estiman tu habilidad por materia.
         </p>
         <Link
-          to="/diagnostico"
+          to="/ingreso-medicina/diagnostico"
           className="aulirex-primary-button mt-4 inline-flex w-fit items-center justify-center rounded-md px-5 py-2.5 text-sm font-black"
         >
           Hacer diagnóstico
@@ -470,7 +470,7 @@ function DiagnosticPanel({
           Nivel de partida
         </h2>
         <Link
-          to="/diagnostico"
+          to="/ingreso-medicina/diagnostico"
           className="text-xs font-bold text-sky-300 hover:text-sky-200"
         >
           Rehacer →
