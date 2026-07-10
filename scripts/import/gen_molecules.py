@@ -1,5 +1,5 @@
 # Genera coordenadas 3D (bloque MOL) de moléculas clave del ingreso, para el
-# visor 3D (3Dmol.js). Salida: src/content/molecules/molecules.json
+# visor 3D (3Dmol.js). Salida: src/modules/ingreso-medicina/content/molecules/molecules.json
 #
 # Uso: python scripts/import/gen_molecules.py
 
@@ -8,7 +8,7 @@ from rdkit import Chem
 from rdkit.Chem import AllChem, rdMolDescriptors
 
 ROOT = "D:/PROGRAMAS/aulirex"
-OUT = ROOT + "/src/content/molecules"
+OUT = ROOT + "/src/modules/ingreso-medicina/content/molecules"
 os.makedirs(OUT, exist_ok=True)
 
 # (id, nombre, SMILES, categoría, nota didáctica)

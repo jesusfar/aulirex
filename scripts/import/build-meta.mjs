@@ -1,4 +1,4 @@
-// Genera src/content/bank-meta.json: taxonomía (bloques→temas) y conteo por
+// Genera src/modules/ingreso-medicina/content/bank-meta.json: taxonomía (bloques→temas) y conteo por
 // materia del banco importado. Es pequeño (~pocos KB) y se importa de forma
 // sincrónica para poblar los filtros SIN cargar los bancos pesados (que se
 // cargan lazy por materia, code-splitting).
@@ -11,7 +11,7 @@ const subjects = ['biologia', 'fisica', 'quimica'];
 const meta = {};
 for (const s of subjects) {
   const items = JSON.parse(
-    readFileSync(`src/content/items/${s}/banco-${s}.json`, 'utf8'),
+    readFileSync(`src/modules/ingreso-medicina/content/items/${s}/banco-${s}.json`, 'utf8'),
   ).filter((i) => i.status === 'active'); // los deprecados no cuentan ni filtran
   const blocks = {};
   for (const i of items) {
@@ -24,7 +24,7 @@ for (const s of subjects) {
     ),
   };
 }
-writeFileSync('src/content/bank-meta.json', JSON.stringify(meta), 'utf8');
+writeFileSync('src/modules/ingreso-medicina/content/bank-meta.json', JSON.stringify(meta), 'utf8');
 console.log(
   'bank-meta.json:',
   subjects.map((s) => `${s}=${meta[s].count}`).join(' '),

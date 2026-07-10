@@ -2,13 +2,13 @@ import { useMemo, useState, type ReactNode } from 'react';
 import type { Item } from '../types/content';
 import { gradeItem, type GivenAnswer, type GradeResult } from '../lib/scoring';
 import { shuffle } from '../lib/deck';
-import { misconceptionById } from '../content/misconceptions';
+import { misconceptionById } from '../modules/ingreso-medicina/content/misconceptions';
 import { MathText } from './MathText';
 import { ProcessMapView } from './ProcessMapView';
-import { processMapById } from '../content/process-maps';
+import { processMapById } from '../modules/ingreso-medicina/content/process-maps';
 import { formatContentLabel } from '../lib/contentLabels';
 import { FormulaCard } from './FormulaCard';
-import { formulaById } from '../content/formulas';
+import { formulaById } from '../modules/ingreso-medicina/content/formulas';
 
 interface ItemCardProps {
   item: Item;
