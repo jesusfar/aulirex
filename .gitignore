@@ -28,6 +28,11 @@ dist-ssr
 .env.*
 !.env.example
 
+# package-lock: excluido para evitar el fallo de `npm ci` en Cloudflare por
+# deps opcionales por plataforma (el lock se genera en Windows y le faltan las
+# de Linux). Sin lock, Cloudflare usa `npm install`, que resuelve por plataforma.
+package-lock.json
+
 # Config y notas locales (fuera del repo)
 .claude/
 docs/Aulirex-Plan*
