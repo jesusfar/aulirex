@@ -24,6 +24,7 @@ import { items as fisBiofluidos } from './items/fisica/biofisica-fluidos';
 import { items as fisMagnetismo } from './items/fisica/magnetismo';
 
 import { generatedItems } from './templates';
+import { mathGeneratedItems } from './matematica';
 import bankMeta from './bank-meta.json';
 import { IMPORTED_SUBJECTS, loadImportedSubject } from './imported';
 
@@ -53,6 +54,7 @@ export const curatedItems: Item[] = [
   ...fisBiofluidos,
   ...fisMagnetismo,
   ...generatedItems,
+  ...mathGeneratedItems,
 ].filter((i) => i.status === 'active');
 
 // --- Metadata sincrónica (para filtros y contadores sin cargar los bancos) ---
