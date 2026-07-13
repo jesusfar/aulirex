@@ -1237,6 +1237,9 @@ class Component extends DCLogic {
   select(i){
     if(this.phase!=='idle') return;
     this.playSfx('insert');
+    // si estás en una fila de abajo, la cámara sube (via scroll) siguiendo la
+    // cinta hasta la lectora arriba
+    try { window.scrollTo({ top: 0, behavior: 'smooth' }); } catch(e){ window.scrollTo(0,0); }
     this.selIdx=i; this.phase='inserting'; this.tc=0;
     this.setState({ selIdx:i, phase:'inserting', toast:false });
     const g = this.tapes[i];
