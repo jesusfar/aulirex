@@ -3,7 +3,7 @@ import { Link, NavLink, Outlet, useLocation } from 'react-router-dom';
 import { isInCrt, ejectFromCrt } from '../lib/embed';
 
 const linkClass = ({ isActive }: { isActive: boolean }) =>
-  `aulirex-header-tab inline-flex min-h-10 grow shrink-0 items-center justify-center rounded-md px-2.5 py-2 text-xs font-semibold transition-all duration-200 sm:px-3 sm:text-sm ${
+  `aulirex-header-tab inline-flex min-h-9 min-w-0 items-center justify-center rounded-md px-1.5 py-1.5 text-[11px] font-semibold leading-tight transition-all duration-200 sm:min-h-10 sm:px-3 sm:py-2 sm:text-sm md:grow md:shrink-0 ${
     isActive ? 'aulirex-header-tab--active' : 'text-slate-300'
   }`;
 
@@ -84,6 +84,9 @@ export function Layout() {
       element.matches(':disabled, [aria-disabled="true"]') ||
       element.closest(':disabled, [aria-disabled="true"]') !== null;
 
+    const isTouchLikeDevice = () =>
+      window.matchMedia('(hover: none), (pointer: coarse)').matches;
+
     const playSound = (sound: HTMLAudioElement) => {
       sound.pause();
       sound.currentTime = 0;
@@ -91,6 +94,8 @@ export function Layout() {
     };
 
     const playHoverSound = (event: PointerEvent) => {
+      if (event.pointerType === 'touch' || isTouchLikeDevice()) return;
+
       const control = interactiveFrom(event.target);
       if (!control || isDisabled(control)) return;
 
@@ -101,6 +106,8 @@ export function Layout() {
     };
 
     const playFocusSound = (event: FocusEvent) => {
+      if (isTouchLikeDevice()) return;
+
       const control = interactiveFrom(event.target);
       if (!control || isDisabled(control)) return;
       playSound(hoverSound);
@@ -140,45 +147,45 @@ export function Layout() {
       <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(rgba(148,163,184,0.055)_1px,transparent_1px),linear-gradient(90deg,rgba(148,163,184,0.055)_1px,transparent_1px)] bg-[size:44px_44px]" />
       <div className="pointer-events-none absolute inset-x-0 top-0 h-72 bg-[radial-gradient(circle_at_50%_0%,rgba(14,165,233,0.22),transparent_58%)]" />
 
-      <header className="sticky top-0 z-50 border-b border-white/10 bg-slate-950/78 px-3 py-2 backdrop-blur-xl sm:px-4 sm:py-3">
-        <div className="mx-auto flex max-w-6xl flex-wrap items-center gap-3 md:gap-4">
+      <header className="sticky top-0 z-50 border-b border-white/10 bg-slate-950/78 px-2.5 py-2 backdrop-blur-xl sm:px-4 sm:py-3">
+        <div className="mx-auto flex max-w-6xl flex-wrap items-center gap-2 sm:gap-3 md:gap-4">
           {embedded ? (
-            <div className="flex min-w-0 flex-1 items-center gap-2 sm:gap-3 md:flex-none md:shrink-0">
+            <div className="flex w-full min-w-0 items-center gap-2 sm:gap-3 md:w-auto md:flex-none md:shrink-0">
               <img
                 src="/brand/aulirex-mark.png"
                 alt="Aulirex"
-                className="size-10 rounded-full object-contain shadow-[0_0_22px_rgba(34,211,238,0.32)] sm:size-12"
+                className="size-9 rounded-full object-contain shadow-[0_0_22px_rgba(34,211,238,0.32)] sm:size-12"
               />
-              <div className="min-w-0">
+              <div className="flex min-w-0 flex-1 items-center justify-between gap-2 md:block">
                 <img
                   src="/brand/aulirex-wordmark.png?v=corrected-20260703"
                   alt="Aulirex"
-                  className="h-6 w-auto max-w-[8.25rem] object-contain drop-shadow-[0_0_10px_rgba(125,211,252,0.35)] sm:h-8 sm:max-w-[10.5rem]"
+                  className="h-5 w-auto max-w-[7.5rem] object-contain drop-shadow-[0_0_10px_rgba(125,211,252,0.35)] sm:h-8 sm:max-w-[10.5rem]"
                 />
                 <button
                   type="button"
                   onClick={ejectFromCrt}
-                  className="mt-1.5 inline-flex items-center gap-1 rounded-md border border-sky-400/30 bg-sky-400/10 px-2.5 py-1 font-mono text-[11px] font-semibold uppercase tracking-[0.08em] text-sky-200 transition hover:bg-sky-400/20"
+                  className="inline-flex shrink-0 items-center gap-1 rounded-md border border-sky-400/30 bg-sky-400/10 px-2.5 py-1 font-mono text-[10px] font-semibold uppercase tracking-[0.07em] text-sky-200 transition hover:bg-sky-400/20 sm:text-[11px] md:mt-1.5"
                 >
-                  ▲ Expulsar cinta
+                  ▲ Expulsar
                 </button>
               </div>
             </div>
           ) : (
             <Link
               to="/"
-              className="flex min-w-0 flex-1 items-center gap-2 sm:gap-3 md:flex-none md:shrink-0"
+              className="flex w-full min-w-0 items-center gap-2 sm:gap-3 md:w-auto md:flex-none md:shrink-0"
             >
               <img
                 src="/brand/aulirex-mark.png"
                 alt="Aulirex"
-                className="size-10 rounded-full object-contain shadow-[0_0_22px_rgba(34,211,238,0.32)] sm:size-12"
+                className="size-9 rounded-full object-contain shadow-[0_0_22px_rgba(34,211,238,0.32)] sm:size-12"
               />
-              <div className="min-w-0">
+              <div className="flex min-w-0 flex-1 items-center justify-between gap-2 md:block">
                 <img
                   src="/brand/aulirex-wordmark.png?v=corrected-20260703"
                   alt="Aulirex"
-                  className="h-6 w-auto max-w-[8.25rem] object-contain drop-shadow-[0_0_10px_rgba(125,211,252,0.35)] sm:h-8 sm:max-w-[10.5rem]"
+                  className="h-5 w-auto max-w-[7.5rem] object-contain drop-shadow-[0_0_10px_rgba(125,211,252,0.35)] sm:h-8 sm:max-w-[10.5rem]"
                 />
                 <span className="hidden text-xs font-medium text-slate-400 sm:block">
                   Ingreso a Medicina
@@ -187,10 +194,10 @@ export function Layout() {
             </Link>
           )}
 
-          <div className="order-3 flex w-full min-w-0 flex-col gap-2 md:order-none md:w-auto md:flex-1">
+          <div className="order-3 flex w-full min-w-0 flex-col gap-1.5 md:order-none md:w-auto md:flex-1 md:gap-2">
             <EcgHeaderMonitor />
 
-            <nav aria-label="Navegacion principal" className="flex w-full min-w-0 gap-1 overflow-x-auto overscroll-x-contain whitespace-nowrap rounded-lg border border-white/10 bg-black/24 p-1 shadow-[inset_0_1px_0_rgba(255,255,255,0.08)] [scrollbar-width:none]">
+            <nav aria-label="Navegacion principal" className="grid w-full min-w-0 grid-cols-4 gap-1 rounded-lg border border-white/10 bg-black/24 p-1 shadow-[inset_0_1px_0_rgba(255,255,255,0.08)] [scrollbar-width:none] md:flex md:overflow-x-auto md:overscroll-x-contain md:whitespace-nowrap">
             {!embedded && (
               <NavLink to="/" end className={linkClass}>
                 ← Módulos

@@ -472,7 +472,7 @@
     </div>
 
     <!-- three.js mount -->
-    <div ref="{{ mountRef }}" style="position:absolute;inset:0;z-index:1;touch-action:none"></div>
+    <div ref="{{ mountRef }}" style="position:absolute;inset:0;z-index:1;touch-action:pan-y"></div>
    </div>
    <div ref="{{ spacerRef }}" style="height:0;pointer-events:none"></div>
 
@@ -602,6 +602,7 @@ class Component extends DCLogic {
     this.renderer.setClearColor(0x000000, 0);
     this.canvas = this.renderer.domElement;
     this.canvas.style.width='100%'; this.canvas.style.height='100%'; this.canvas.style.display='block';
+    this.updateTouchAction();
     this.mount.appendChild(this.canvas);
     // the fixed stage lays out after mount — size to the real viewport on next frames
     requestAnimationFrame(()=>{ this.resize(); requestAnimationFrame(()=>this.resize()); });
@@ -635,7 +636,9 @@ class Component extends DCLogic {
     this.pointer = new T.Vector2(-2,-2);
     this.mouseN = new T.Vector2(0,0);
     this.canvas.addEventListener('pointermove', this._onMove = (e)=>this.onMove(e));
-    this.canvas.addEventListener('pointerdown', this._onDown = (e)=>this.onDown(e));
+    this.canvas.addEventListener('pointerdown', this._onDown = (e)=>this.onPointerDown(e));
+    this.canvas.addEventListener('pointerup', this._onUp = (e)=>this.onPointerUp(e));
+    this.canvas.addEventListener('pointercancel', this._onCancel = ()=>this.cancelTouchTap());
     window.addEventListener('resize', this._onResize = ()=>this.resize());
     window.addEventListener('scroll', this._onScroll = ()=>this.onScroll(), {passive:true});
     // el módulo real (dentro del iframe del CRT) pide salir con postMessage
@@ -1229,7 +1232,37 @@ class Component extends DCLogic {
 
   // ---------- interaction ----------
   ndc(e){ const r=this.canvas.getBoundingClientRect(); return { x:((e.clientX-r.left)/r.width)*2-1, y:-((e.clientY-r.top)/r.height)*2+1 }; }
-  onMove(e){ const n=this.ndc(e); this.pointer.set(n.x,n.y); this.mouseN.set(n.x,n.y); }
+  onMove(e){
+    if(e.pointerType==='touch'){
+      if(!this.touchTap) return;
+      const dx = e.clientX - this.touchTap.x, dy = e.clientY - this.touchTap.y;
+      if(Math.abs(dy) > 8 && Math.abs(dy) > Math.abs(dx)){
+        this.touchTap.scrolling = true;
+        this.pointer.set(-2,-2);
+        this.mouseN.set(0,0);
+      }
+      return;
+    }
+    const n=this.ndc(e); this.pointer.set(n.x,n.y); this.mouseN.set(n.x,n.y);
+  }
+  onPointerDown(e){
+    if(e.pointerType==='touch'){
+      this.touchTap = { id:e.pointerId, x:e.clientX, y:e.clientY, scrolling:false };
+      const n=this.ndc(e); this.pointer.set(n.x,n.y);
+      return;
+    }
+    this.onDown(e);
+  }
+  onPointerUp(e){
+    if(e.pointerType!=='touch') return;
+    const t=this.touchTap;
+    this.cancelTouchTap();
+    if(!t || t.id!==e.pointerId || t.scrolling) return;
+    const dx=e.clientX-t.x, dy=e.clientY-t.y;
+    if(Math.hypot(dx,dy) > 12) return;
+    this.onDown(e);
+  }
+  cancelTouchTap(){ this.touchTap=null; }
   onDown(e){
     if(this.phase!=='idle') return;
     const n=this.ndc(e); this.ray.setFromCamera(new window.THREE.Vector2(n.x,n.y), this.camera);
@@ -1333,12 +1366,19 @@ class Component extends DCLogic {
     if(this.walkEl)     this.walkEl.style.display = off ? 'none' : '';
   }
 
+  updateTouchAction(){
+    const action = this.isMobile ? 'pan-y' : 'none';
+    if(this.mount) this.mount.style.touchAction = action;
+    if(this.canvas) this.canvas.style.touchAction = action;
+  }
+
   resize(){
     if(!this.renderer) return;
     const W=this.mount.clientWidth||900, H=this.frameHeight(W);
     this.renderer.setSize(W,H); this.camera.aspect=W/H; this.camera.updateProjectionMatrix();
     const wasMobile = this.isMobile, prevCols = this.cols;
     this.isMobile = W < 768; this.cols = this.colsForWidth(W);
+    this.updateTouchAction();
     this.rowGap = this.isMobile ? 1.15 : 1.25;
     if(this.cols !== prevCols) this.applyFilter(this.state.query||''); // re-grilla (actualiza lastRowZ/spacer)
     this.applyCameraForViewport();
