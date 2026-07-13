@@ -23,9 +23,11 @@ export function AppRouter() {
   return (
     <HashRouter>
       <Routes>
-        {/* Plataforma: Inicio (selector de módulos) + placeholders + login */}
+        {/* Inicio: selector VHS a pantalla completa (sin chrome de plataforma) */}
+        <Route path="/" element={<InicioPage />} />
+
+        {/* Plataforma: login + placeholders de módulos */}
         <Route element={<PlatformLayout />}>
-          <Route path="/" element={<InicioPage />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/ingreso-gendarmeria" element={<ComingSoonPage />} />
           <Route path="/anatomia" element={<ComingSoonPage />} />

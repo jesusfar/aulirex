@@ -1,8 +1,9 @@
 import { useEffect, useRef } from 'react';
 import { Link, NavLink, Outlet, useLocation } from 'react-router-dom';
+import { isInCrt, ejectFromCrt } from '../lib/embed';
 
 const linkClass = ({ isActive }: { isActive: boolean }) =>
-  `aulirex-header-tab inline-flex min-h-10 flex-none items-center justify-center rounded-md px-2.5 py-2 text-xs font-semibold transition-all duration-200 sm:px-3 sm:text-sm ${
+  `aulirex-header-tab inline-flex min-h-10 grow shrink-0 items-center justify-center rounded-md px-2.5 py-2 text-xs font-semibold transition-all duration-200 sm:px-3 sm:text-sm ${
     isActive ? 'aulirex-header-tab--active' : 'text-slate-300'
   }`;
 
@@ -13,6 +14,7 @@ interface EcgSample {
 
 export function Layout() {
   const { pathname } = useLocation();
+  const embedded = isInCrt();
 
   useEffect(() => {
     if ('scrollRestoration' in window.history) {
@@ -140,33 +142,60 @@ export function Layout() {
 
       <header className="sticky top-0 z-50 border-b border-white/10 bg-slate-950/78 px-3 py-2 backdrop-blur-xl sm:px-4 sm:py-3">
         <div className="mx-auto flex max-w-6xl flex-wrap items-center gap-3 md:gap-4">
-          <Link
-            to="/"
-            className="flex min-w-0 flex-1 items-center gap-2 sm:gap-3 md:flex-none md:shrink-0"
-          >
-            <img
-              src="/brand/aulirex-mark.png"
-              alt="Aulirex"
-              className="size-10 rounded-full object-contain shadow-[0_0_22px_rgba(34,211,238,0.32)] sm:size-12"
-            />
-            <div className="min-w-0">
+          {embedded ? (
+            <div className="flex min-w-0 flex-1 items-center gap-2 sm:gap-3 md:flex-none md:shrink-0">
               <img
-                src="/brand/aulirex-wordmark.png?v=corrected-20260703"
+                src="/brand/aulirex-mark.png"
                 alt="Aulirex"
-                className="h-6 w-auto max-w-[8.25rem] object-contain drop-shadow-[0_0_10px_rgba(125,211,252,0.35)] sm:h-8 sm:max-w-[10.5rem]"
+                className="size-10 rounded-full object-contain shadow-[0_0_22px_rgba(34,211,238,0.32)] sm:size-12"
               />
-              <span className="hidden text-xs font-medium text-slate-400 sm:block">
-                Ingreso a Medicina
-              </span>
+              <div className="min-w-0">
+                <img
+                  src="/brand/aulirex-wordmark.png?v=corrected-20260703"
+                  alt="Aulirex"
+                  className="h-6 w-auto max-w-[8.25rem] object-contain drop-shadow-[0_0_10px_rgba(125,211,252,0.35)] sm:h-8 sm:max-w-[10.5rem]"
+                />
+                <button
+                  type="button"
+                  onClick={ejectFromCrt}
+                  className="mt-1.5 inline-flex items-center gap-1 rounded-md border border-sky-400/30 bg-sky-400/10 px-2.5 py-1 font-mono text-[11px] font-semibold uppercase tracking-[0.08em] text-sky-200 transition hover:bg-sky-400/20"
+                >
+                  ▲ Expulsar cinta
+                </button>
+              </div>
             </div>
-          </Link>
+          ) : (
+            <Link
+              to="/"
+              className="flex min-w-0 flex-1 items-center gap-2 sm:gap-3 md:flex-none md:shrink-0"
+            >
+              <img
+                src="/brand/aulirex-mark.png"
+                alt="Aulirex"
+                className="size-10 rounded-full object-contain shadow-[0_0_22px_rgba(34,211,238,0.32)] sm:size-12"
+              />
+              <div className="min-w-0">
+                <img
+                  src="/brand/aulirex-wordmark.png?v=corrected-20260703"
+                  alt="Aulirex"
+                  className="h-6 w-auto max-w-[8.25rem] object-contain drop-shadow-[0_0_10px_rgba(125,211,252,0.35)] sm:h-8 sm:max-w-[10.5rem]"
+                />
+                <span className="hidden text-xs font-medium text-slate-400 sm:block">
+                  Ingreso a Medicina
+                </span>
+              </div>
+            </Link>
+          )}
 
-          <EcgHeaderMonitor />
+          <div className="order-3 flex w-full min-w-0 flex-col gap-2 md:order-none md:w-auto md:flex-1">
+            <EcgHeaderMonitor />
 
-          <nav aria-label="Navegacion principal" className="order-3 flex w-full min-w-0 overflow-x-auto overscroll-x-contain whitespace-nowrap rounded-lg border border-white/10 bg-black/24 p-1 shadow-[inset_0_1px_0_rgba(255,255,255,0.08)] [scrollbar-width:none] lg:order-none lg:ml-auto lg:w-auto lg:max-w-[36rem] lg:shrink-0">
-            <NavLink to="/" end className={linkClass}>
-              ← Módulos
-            </NavLink>
+            <nav aria-label="Navegacion principal" className="flex w-full min-w-0 gap-1 overflow-x-auto overscroll-x-contain whitespace-nowrap rounded-lg border border-white/10 bg-black/24 p-1 shadow-[inset_0_1px_0_rgba(255,255,255,0.08)] [scrollbar-width:none]">
+            {!embedded && (
+              <NavLink to="/" end className={linkClass}>
+                ← Módulos
+              </NavLink>
+            )}
             <NavLink to="/ingreso-medicina" end className={linkClass}>
               Dashboard
             </NavLink>
@@ -188,7 +217,8 @@ export function Layout() {
             <NavLink to="/ingreso-medicina/moleculas" className={linkClass}>
               Moleculas
             </NavLink>
-          </nav>
+            </nav>
+          </div>
         </div>
       </header>
 
@@ -507,7 +537,7 @@ function EcgHeaderMonitor() {
 
   return (
     <div
-      className="ecg-header-strip pointer-events-none mx-auto hidden h-11 min-w-40 flex-1 basis-[14rem] overflow-hidden xl:basis-[28rem] rounded-lg border border-sky-300/10 bg-slate-950/46 shadow-[inset_0_1px_0_rgba(255,255,255,0.05)] lg:block"
+      className="ecg-header-strip pointer-events-none hidden h-11 w-full overflow-hidden rounded-lg border border-sky-300/10 bg-slate-950/46 shadow-[inset_0_1px_0_rgba(255,255,255,0.05)] md:block"
       aria-hidden="true"
     >
       <canvas ref={canvasRef} className="ecg-monitor-canvas" />
