@@ -577,20 +577,17 @@ class Component extends DCLogic {
 
     // layout grid — grows in rows toward the viewer (down) as modules are added
     const n = this.modules.length;
-    this.cols = Math.min(4, n);
+    this.isMobile = W < 768;                 // en mobile: menos objetos, casetes en 1-2 columnas
+    this.cols = this.colsForWidth(W);
     this.rowsCount = Math.ceil(n/this.cols);
-    this.colGap = 1.42; this.rowGap = 1.25; this.row0Z = 1.75;
+    this.colGap = 1.42; this.rowGap = this.isMobile ? 1.15 : 1.25; this.row0Z = 1.75;
     this.extraRows = Math.max(0, this.rowsCount-1);
 
-    // canvas grows taller with rows; camera stays close. The vertical FOV scales with
-    // height so the computer keeps the same apparent size and lower rows appear below.
     const H = this.frameHeight(W);
     const ex = this.extraRows;
-    this.camera = new T.PerspectiveCamera(42, W/H, 0.1, 120);
-    // scroll-dolly endpoints: top = monitor + first row; bottom = front rows, same close distance
-    this.camTop  = { pos:new T.Vector3(0,4.45,5.55), look:new T.Vector3(0,1.78,0.45) };
+    this.camera = new T.PerspectiveCamera(this.isMobile?52:42, W/H, 0.1, 120);
     this.lastRowZ = this.row0Z + (this.rowsCount-1)*this.rowGap;
-    this.camBot  = { pos:new T.Vector3(0, 3.5, this.lastRowZ+3.0), look:new T.Vector3(0, 0.0, this.lastRowZ-0.1) };
+    this.applyCameraForViewport();           // setea camTop/camBot/fov según mobile/desktop
     this.camBase = this.camTop.pos.clone();
     this.camera.position.copy(this.camBase);
     this.camLook = this.camTop.look.clone();
@@ -631,6 +628,7 @@ class Component extends DCLogic {
       });
     }
     this.buildTapes(T);
+    this.applyDecorVisibility();             // oculta decorativos en mobile
 
     // interaction
     this.ray = new T.Raycaster();
@@ -890,6 +888,10 @@ class Component extends DCLogic {
   }
 
   buildDecor(T){
+    // Todo el decor entra en decorGroup (para ocultarlo de una en mobile):
+    // redirigimos this.scene al grupo mientras se construye.
+    this.decorGroup = new T.Group();
+    const _scene = this.scene; this.scene = this.decorGroup;
     // glass with black liquid inside
     const gx=2.35, gz=-0.35;
     const glassMat = new T.MeshStandardMaterial({ color:0xcfe0ef, roughness:0.05, metalness:0.0, transparent:true, opacity:0.2, side:T.DoubleSide });
@@ -951,6 +953,7 @@ class Component extends DCLogic {
     // organ transport cooler + stethoscope, back-left corner
     this.buildCooler(T);
     this.buildStethoscope(T);
+    this.scene = _scene; this.scene.add(this.decorGroup);
   }
 
   // red "HUMAN ORGAN FOR TRANSPLANT" transport cooler, lid open with an organ on ice
@@ -1308,11 +1311,38 @@ class Component extends DCLogic {
     if(this.hintEl) this.hintEl.style.opacity = this.scrollT>0.04 ? '0' : '1';
   }
 
+  // --- responsive: columnas de casetes, cámara y visibilidad del decor ---
+  colsForWidth(w){ return w < 430 ? 1 : (w < 768 ? 2 : 4); }
+
+  applyCameraForViewport(){
+    const T = window.THREE, mob = this.isMobile;
+    this.camera.fov = mob ? 52 : 42; this.camera.updateProjectionMatrix();
+    this.camTop = mob
+      ? { pos:new T.Vector3(0, 5.0, 6.4),  look:new T.Vector3(0, 1.35, -0.35) }
+      : { pos:new T.Vector3(0, 4.45, 5.55), look:new T.Vector3(0, 1.78, 0.45) };
+    this.camBot = mob
+      ? { pos:new T.Vector3(0, 3.7, this.lastRowZ+3.6), look:new T.Vector3(0, 0.0, this.lastRowZ-0.1) }
+      : { pos:new T.Vector3(0, 3.5, this.lastRowZ+3.0), look:new T.Vector3(0, 0.0, this.lastRowZ-0.1) };
+  }
+
+  applyDecorVisibility(){
+    const off = this.isMobile;
+    if(this.decorGroup) this.decorGroup.visible = !off;
+    if(this.skeleton)   this.skeleton.visible   = !off;
+    if(this.skelLight)  this.skelLight.visible   = !off;
+    if(this.walkEl)     this.walkEl.style.display = off ? 'none' : '';
+  }
+
   resize(){
     if(!this.renderer) return;
     const W=this.mount.clientWidth||900, H=this.frameHeight(W);
     this.renderer.setSize(W,H); this.camera.aspect=W/H; this.camera.updateProjectionMatrix();
-    if(this.camBot) this.camBot.pos.z = this.lastRowZ+3.0;
+    const wasMobile = this.isMobile, prevCols = this.cols;
+    this.isMobile = W < 768; this.cols = this.colsForWidth(W);
+    this.rowGap = this.isMobile ? 1.15 : 1.25;
+    if(this.cols !== prevCols) this.applyFilter(this.state.query||''); // re-grilla (actualiza lastRowZ/spacer)
+    this.applyCameraForViewport();
+    if(this.isMobile !== wasMobile) this.applyDecorVisibility();
     this.updateSpacer(); this.onScroll();
   }
 
