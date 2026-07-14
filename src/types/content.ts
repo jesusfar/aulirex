@@ -1,7 +1,7 @@
 // Contrato canónico del contenido de Aulirex (plan §6.1).
 // Los campos marcados "(v2)" son opcionales: la Fase 1 compila sin ellos.
 
-export type Institution = 'UNC' | 'UNSa';
+export type Institution = 'UNC' | 'UNSa' | 'GNA';
 
 export type Subject =
   | 'introduccion'
@@ -10,7 +10,12 @@ export type Subject =
   | 'fisica'
   | 'matematica'
   | 'comprension_textos'
-  | 'alfabetizacion';
+  | 'alfabetizacion'
+  // Materias del módulo Ingreso a Gendarmería
+  | 'lengua'
+  | 'historia'
+  | 'instruccion_civica'
+  | 'conocimientos_institucionales';
 
 export type Track = 'teorico' | 'practico';
 export type Frequency = 'alta' | 'media' | 'baja';

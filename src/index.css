@@ -12,6 +12,9 @@
   --scalpel-cursor-image-clean: url("/cursors/bisturi-cursor.png");
   --scalpel-cursor-image-blood: url("/cursors/bisturi-cursor-blood.png");
   --scalpel-cursor-image: var(--scalpel-cursor-image-clean);
+  /* Anillo de acento de la opción seleccionada (ItemCard). Sky en Medicina;
+     se re-tiñe a verde bajo .theme-gendarmeria. */
+  --aulirex-accent-ring: rgba(56, 189, 248, 0.16);
   font-synthesis: none;
   text-rendering: geometricPrecision;
   -webkit-font-smoothing: antialiased;
@@ -368,4 +371,200 @@ header nav::-webkit-scrollbar {
 
 .exam-countdown-input::-webkit-datetime-edit {
   color: #e0faff;
+}
+
+/* ---------------------------------------------------------------------------
+   Tema verde del módulo Ingreso a Gendarmería. Overrides con alcance a
+   `.theme-gendarmeria` (el layout del módulo) para no alterar Medicina, que
+   sigue usando las mismas clases globales en celeste.
+--------------------------------------------------------------------------- */
+.theme-gendarmeria .aulirex-header-tab:hover {
+  border-color: rgba(110, 231, 183, 0.32);
+  box-shadow:
+    0 0 0 1px rgba(16, 185, 129, 0.1),
+    0 0 22px rgba(16, 185, 129, 0.18),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+.theme-gendarmeria .aulirex-header-tab--active {
+  border-color: rgba(167, 243, 208, 0.62);
+  background:
+    radial-gradient(circle at 18% 8%, rgba(255, 255, 255, 0.52), transparent 22%),
+    linear-gradient(135deg, #6ee7b7 0%, #10b981 45%, #047857 100%);
+  color: #021410;
+  box-shadow:
+    0 0 0 1px rgba(16, 185, 129, 0.18),
+    0 0 28px rgba(52, 211, 153, 0.38),
+    0 12px 34px rgba(16, 185, 129, 0.28),
+    inset 0 1px 0 rgba(255, 255, 255, 0.56);
+}
+
+.theme-gendarmeria .aulirex-primary-button {
+  border-color: rgba(110, 231, 183, 0.42);
+  background:
+    radial-gradient(circle at 18% 8%, rgba(255, 255, 255, 0.5), transparent 22%),
+    linear-gradient(135deg, #6ee7b7 0%, #10b981 42%, #047857 100%);
+  color: #021410;
+  box-shadow:
+    0 0 0 1px rgba(16, 185, 129, 0.18),
+    0 16px 42px rgba(16, 185, 129, 0.34),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+.theme-gendarmeria .aulirex-primary-button:hover {
+  border-color: rgba(167, 243, 208, 0.72);
+  box-shadow:
+    0 0 0 1px rgba(110, 231, 183, 0.3),
+    0 18px 48px rgba(16, 185, 129, 0.46),
+    0 0 28px rgba(52, 211, 153, 0.18),
+    inset 0 1px 0 rgba(255, 255, 255, 0.62);
+}
+
+.theme-gendarmeria .exam-countdown-panel {
+  background:
+    radial-gradient(circle at 88% 48%, rgba(52, 211, 153, 0.3), transparent 9rem),
+    linear-gradient(135deg, rgba(6, 45, 38, 0.94) 0%, rgba(5, 105, 80, 0.82) 46%, rgba(2, 6, 23, 0.98) 100%);
+}
+
+/* Fondo verde-negro del módulo (reemplaza el slate-950 azulado). Se aplica al
+   shell y a <html> (para overscroll/bordes) mientras Gendarmería está montado. */
+.gendarmeria-shell {
+  background:
+    radial-gradient(circle at 18% -8%, rgba(5, 150, 105, 0.22), transparent 34rem),
+    radial-gradient(circle at 86% 10%, rgba(16, 185, 129, 0.14), transparent 30rem),
+    linear-gradient(135deg, #02120c 0%, #06160f 46%, #02100a 100%);
+}
+
+html.gendarmeria-bg,
+html.gendarmeria-bg body {
+  background:
+    radial-gradient(circle at 18% -8%, rgba(5, 150, 105, 0.22), transparent 34rem),
+    radial-gradient(circle at 86% 10%, rgba(16, 185, 129, 0.14), transparent 30rem),
+    linear-gradient(135deg, #02120c 0%, #06160f 46%, #02100a 100%) !important;
+}
+
+/* Remapea TODA la escala sky/cyan de Tailwind a verde dentro del módulo. Así los
+   componentes compartidos (ItemCard, FormulaCard, MathText…) que usan utilidades
+   `sky-*`/`cyan-*` se ven verdes en Gendarmería sin alterar Medicina. */
+.theme-gendarmeria {
+  --color-sky-50: var(--color-emerald-50);
+  --color-sky-100: var(--color-emerald-100);
+  --color-sky-200: var(--color-emerald-200);
+  --color-sky-300: var(--color-emerald-300);
+  --color-sky-400: var(--color-emerald-400);
+  --color-sky-500: var(--color-emerald-500);
+  --color-sky-600: var(--color-emerald-600);
+  --color-sky-700: var(--color-emerald-700);
+  --color-sky-800: var(--color-emerald-800);
+  --color-sky-900: var(--color-emerald-900);
+  --color-sky-950: var(--color-emerald-950);
+  --color-cyan-50: var(--color-emerald-50);
+  --color-cyan-100: var(--color-emerald-100);
+  --color-cyan-200: var(--color-emerald-200);
+  --color-cyan-300: var(--color-emerald-300);
+  --color-cyan-400: var(--color-emerald-400);
+  --color-cyan-500: var(--color-emerald-500);
+  --color-cyan-600: var(--color-emerald-600);
+  --color-cyan-700: var(--color-emerald-700);
+  --color-cyan-800: var(--color-emerald-800);
+  --color-cyan-900: var(--color-emerald-900);
+  --color-cyan-950: var(--color-emerald-950);
+  --color-blue-400: var(--color-emerald-400);
+  --color-blue-500: var(--color-emerald-500);
+  --color-blue-600: var(--color-emerald-600);
+  --aulirex-accent-ring: rgba(16, 185, 129, 0.16);
+}
+
+/* Azules "literales" (hex/rgba fijos) de clases globales, re-teñidos a verde. */
+.theme-gendarmeria .aulirex-gradient-number,
+.theme-gendarmeria .aulirex-gradient-number--sky,
+.theme-gendarmeria .aulirex-gradient-number--emerald {
+  background-image: linear-gradient(135deg, #ecfdf5 0%, #34d399 42%, #059669 100%);
+  filter: drop-shadow(0 0 12px rgba(16, 185, 129, 0.45));
+}
+
+.theme-gendarmeria .aulirex-header-tab::before {
+  background:
+    radial-gradient(circle at 22% 0%, rgba(255, 255, 255, 0.24), transparent 36%),
+    linear-gradient(135deg, rgba(52, 211, 153, 0.18) 0%, rgba(16, 185, 129, 0.1) 48%, rgba(4, 120, 87, 0.16) 100%);
+}
+
+.theme-gendarmeria .aulirex-control-button {
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.07),
+    0 0 0 1px rgba(16, 185, 129, 0.06);
+}
+
+.theme-gendarmeria .exam-countdown-panel::before {
+  background-image:
+    linear-gradient(rgba(110, 231, 183, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(110, 231, 183, 0.08) 1px, transparent 1px),
+    linear-gradient(115deg, transparent 36%, rgba(255, 255, 255, 0.14) 50%, transparent 64%);
+  background-size: 22px 22px, 22px 22px, auto;
+}
+
+.theme-gendarmeria .exam-countdown-panel::after {
+  background:
+    linear-gradient(90deg, rgba(2, 6, 23, 0.38), transparent 30%, rgba(52, 211, 153, 0.16) 72%, rgba(2, 6, 23, 0.46)),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.12), transparent 32%, rgba(2, 6, 23, 0.26));
+}
+
+.theme-gendarmeria .exam-countdown-input {
+  box-shadow:
+    0 0 0 1px rgba(16, 185, 129, 0.12),
+    0 14px 34px rgba(2, 6, 23, 0.28),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+.theme-gendarmeria .exam-countdown-input::-webkit-calendar-picker-indicator {
+  filter: invert(64%) sepia(52%) saturate(560%) hue-rotate(105deg) brightness(94%) contrast(90%);
+}
+
+/* --------------------------- Cursor sable ---------------------------------
+   Espejo del cursor bisturí de Medicina, pero con el sable de Gendarmería y el
+   mismo efecto de sangre en la punta al hacer click. */
+.sabre-cursor-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2147483647;
+  display: block;
+  width: 58px;
+  height: 58px;
+  pointer-events: none;
+  opacity: 0;
+  transform: translate3d(-80px, -80px, 0);
+  transition: opacity 80ms ease;
+  will-change: transform, opacity;
+}
+
+.sabre-cursor-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+.sabre-cursor-image-blood {
+  display: none;
+}
+
+html.sabre-clicked .sabre-cursor-image-clean {
+  display: none;
+}
+
+html.sabre-clicked .sabre-cursor-image-blood {
+  display: block;
+}
+
+.sabre-cursor-overlay.is-visible {
+  opacity: 1;
+}
+
+@media (pointer: coarse) {
+  .sabre-cursor-overlay {
+    display: none;
+  }
 }

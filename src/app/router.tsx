@@ -11,6 +11,15 @@ import { MoleculasPage } from '../modules/ingreso-medicina/features/moleculas/Mo
 import { SimulacroPage } from '../modules/ingreso-medicina/features/simulacro/SimulacroPage';
 import { DiagnosticoPage } from '../modules/ingreso-medicina/features/diagnostico/DiagnosticoPage';
 import { ComprensionPage } from '../modules/ingreso-medicina/features/comprension/ComprensionPage';
+import { GendarmeriaLayout } from '../modules/ingreso-gendarmeria/features/GendarmeriaLayout';
+import { DashboardPage as GendDashboardPage } from '../modules/ingreso-gendarmeria/features/dashboard/DashboardPage';
+import { PracticePage as GendPracticePage } from '../modules/ingreso-gendarmeria/features/practice/PracticePage';
+import { ReviewPage as GendReviewPage } from '../modules/ingreso-gendarmeria/features/review/ReviewPage';
+import { FormularioPage as GendFormularioPage } from '../modules/ingreso-gendarmeria/features/formulario/FormularioPage';
+import { DiagnosticoPage as GendDiagnosticoPage } from '../modules/ingreso-gendarmeria/features/diagnostico/DiagnosticoPage';
+import { ComprensionPage as GendComprensionPage } from '../modules/ingreso-gendarmeria/features/comprension/ComprensionPage';
+import { InstitucionalPage } from '../modules/ingreso-gendarmeria/features/institucional/InstitucionalPage';
+import { RequisitosPage } from '../modules/ingreso-gendarmeria/features/requisitos/RequisitosPage';
 import { LoginPage } from '../features/auth/LoginPage';
 import { AdminLayout } from '../features/admin/AdminLayout';
 import { QuestionsAdmin } from '../features/admin/QuestionsAdmin';
@@ -18,6 +27,7 @@ import { UsersAdmin } from '../features/admin/UsersAdmin';
 
 // Módulo "Ingreso a Medicina": es la app original, ahora anidada bajo su slug.
 const MEDICINA = 'ingreso-medicina';
+const GENDARMERIA = 'ingreso-gendarmeria';
 
 export function AppRouter() {
   return (
@@ -29,7 +39,6 @@ export function AppRouter() {
         {/* Plataforma: login + placeholders de módulos */}
         <Route element={<PlatformLayout />}>
           <Route path="/login" element={<LoginPage />} />
-          <Route path="/ingreso-gendarmeria" element={<ComingSoonPage />} />
           <Route path="/anatomia" element={<ComingSoonPage />} />
           <Route path="/residencia" element={<ComingSoonPage />} />
         </Route>
@@ -52,6 +61,19 @@ export function AppRouter() {
           <Route path="simulacro" element={<SimulacroPage />} />
           <Route path="diagnostico" element={<DiagnosticoPage />} />
           <Route path="comprension" element={<ComprensionPage />} />
+        </Route>
+
+        {/* Módulo Ingreso a Gendarmería (tema verde) */}
+        <Route path={`/${GENDARMERIA}`} element={<GendarmeriaLayout />}>
+          <Route index element={<GendDashboardPage />} />
+          <Route path="practica" element={<GendPracticePage />} />
+          <Route path="repaso" element={<GendReviewPage />} />
+          <Route path="errores" element={<Navigate to="../repaso" replace />} />
+          <Route path="diagnostico" element={<GendDiagnosticoPage />} />
+          <Route path="comprension" element={<GendComprensionPage />} />
+          <Route path="institucional" element={<InstitucionalPage />} />
+          <Route path="requisitos" element={<RequisitosPage />} />
+          <Route path="formulario" element={<GendFormularioPage />} />
         </Route>
 
         {/* Redirects de rutas planas viejas → módulo Medicina */}

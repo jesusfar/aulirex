@@ -484,7 +484,7 @@ function optionClass(
   if (!answered) {
     return `${base} ${
       selected
-        ? 'border-sky-300/70 bg-sky-400/12 shadow-[0_0_0_1px_rgba(56,189,248,0.16)]'
+        ? 'border-sky-300/70 bg-sky-400/12 shadow-[0_0_0_1px_var(--aulirex-accent-ring)]'
         : 'border-slate-700 bg-slate-950/45 hover:border-sky-400/70 hover:bg-slate-900'
     }`;
   }

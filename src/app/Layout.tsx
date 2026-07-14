@@ -1,6 +1,7 @@
 import { useEffect, useRef } from 'react';
 import { Link, NavLink, Outlet, useLocation } from 'react-router-dom';
 import { isInCrt, ejectFromCrt } from '../lib/embed';
+import { useModuleDatabase } from '../lib/storage/db';
 
 const linkClass = ({ isActive }: { isActive: boolean }) =>
   `aulirex-header-tab inline-flex min-h-9 min-w-0 items-center justify-center rounded-md px-1.5 py-1.5 text-[11px] font-semibold leading-tight transition-all duration-200 sm:min-h-10 sm:px-3 sm:py-2 sm:text-sm md:grow md:shrink-0 ${
@@ -15,6 +16,11 @@ interface EcgSample {
 export function Layout() {
   const { pathname } = useLocation();
   const embedded = isInCrt();
+
+  // Base de progreso propia de Medicina (histórica 'aulirex'). Se activa en
+  // render para que las páginas hijas consulten la base correcta y el XP no se
+  // mezcle con el de otros módulos.
+  useModuleDatabase('ingreso-medicina');
 
   useEffect(() => {
     if ('scrollRestoration' in window.history) {

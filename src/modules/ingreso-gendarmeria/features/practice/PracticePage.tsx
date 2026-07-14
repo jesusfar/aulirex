@@ -75,7 +75,7 @@ export function PracticePage() {
     <div className="mx-auto max-w-5xl space-y-6">
       <section className="flex flex-col gap-4 rounded-lg border border-white/10 bg-slate-900/68 p-5 shadow-2xl shadow-black/25 backdrop-blur-xl lg:flex-row lg:items-end lg:justify-between">
         <div>
-          <div className="mb-3 inline-flex rounded-md border border-sky-400/20 bg-sky-400/10 px-3 py-1 text-xs font-bold uppercase tracking-[0.16em] text-sky-200">
+          <div className="mb-3 inline-flex rounded-md border border-emerald-400/20 bg-emerald-400/10 px-3 py-1 text-xs font-bold uppercase tracking-[0.16em] text-emerald-200">
             Practica guiada
           </div>
           <h1 className="text-3xl font-black text-white sm:text-4xl">Mazo de entrenamiento</h1>
@@ -97,13 +97,12 @@ export function PracticePage() {
           <section className="rounded-lg border border-white/10 bg-black/24 p-4 backdrop-blur-xl">
             <div className="grid grid-cols-2 gap-3 text-sm lg:grid-cols-5">
               <Select
-                label="Institucion"
+                label="Fuerza"
                 value={institution}
                 onChange={(v) => setInstitution(v as Institution | '')}
                 options={[
                   ['', 'Todas'],
-                  ['UNC', 'UNC'],
-                  ['UNSa', 'UNSa'],
+                  ['GNA', 'Gendarmería'],
                 ]}
               />
               <Select
@@ -167,8 +166,8 @@ export function PracticePage() {
                   onClick={() => setTestSize(n)}
                   className={`h-10 min-w-16 rounded-md border px-4 text-sm font-black transition ${
                     testSize === n
-                      ? 'border-sky-400/60 bg-sky-400/15 text-sky-100'
-                      : 'border-slate-700 bg-slate-950/70 text-slate-300 hover:border-sky-400/50'
+                      ? 'border-emerald-400/60 bg-emerald-400/15 text-emerald-100'
+                      : 'border-slate-700 bg-slate-950/70 text-slate-300 hover:border-emerald-400/50'
                   }`}
                 >
                   {n}
@@ -196,14 +195,14 @@ export function PracticePage() {
             <div className="flex items-center gap-3">
               <div className="hidden h-2 w-40 overflow-hidden rounded-full bg-slate-800 sm:block">
                 <div
-                  className="h-full rounded-full bg-sky-400 transition-all"
+                  className="h-full rounded-full bg-emerald-400 transition-all"
                   style={{ width: `${Math.min(100, (index / deck.length) * 100)}%` }}
                 />
               </div>
               <button
                 type="button"
                 onClick={() => setDeck(null)}
-                className="rounded-md border border-slate-700 px-3 py-1.5 text-xs font-bold text-slate-300 transition hover:border-sky-400/50"
+                className="rounded-md border border-slate-700 px-3 py-1.5 text-xs font-bold text-slate-300 transition hover:border-emerald-400/50"
               >
                 Nuevo test
               </button>
@@ -253,7 +252,7 @@ export function PracticePage() {
 function SessionStat({ label, value }: { label: string; value: string | number }) {
   return (
     <div className="min-w-24 px-4 py-3">
-      <div className="aulirex-gradient-number aulirex-gradient-number--sky text-lg font-black">{value}</div>
+      <div className="aulirex-gradient-number aulirex-gradient-number--emerald text-lg font-black">{value}</div>
       <div className="text-[0.68rem] font-bold uppercase tracking-[0.14em] text-slate-500">
         {label}
       </div>
@@ -321,16 +320,16 @@ function Select({
             setOpen(true);
           }
         }}
-        className="aulirex-control-button flex h-10 w-full items-center justify-between gap-3 rounded-md border border-slate-700 bg-slate-950/80 px-3 text-left text-sm font-semibold text-slate-100 outline-none transition hover:border-sky-400/70 focus:border-sky-400 focus:ring-2 focus:ring-sky-400/20 disabled:opacity-35"
+        className="aulirex-control-button flex h-10 w-full items-center justify-between gap-3 rounded-md border border-slate-700 bg-slate-950/80 px-3 text-left text-sm font-semibold text-slate-100 outline-none transition hover:border-emerald-400/70 focus:border-emerald-400 focus:ring-2 focus:ring-emerald-400/20 disabled:opacity-35"
       >
         <span className="min-w-0 truncate">{selectedLabel}</span>
-        <span className={`h-2 w-2 flex-none rotate-45 border-b-2 border-r-2 border-sky-200/80 transition ${open ? '-translate-y-0 rotate-[225deg]' : '-translate-y-0.5'}`} />
+        <span className={`h-2 w-2 flex-none rotate-45 border-b-2 border-r-2 border-emerald-200/80 transition ${open ? '-translate-y-0 rotate-[225deg]' : '-translate-y-0.5'}`} />
       </button>
 
       {open && !disabled && (
         <div
           role="listbox"
-          className="absolute left-0 right-0 top-full z-40 mt-1 max-h-64 overflow-auto rounded-md border border-sky-400/45 bg-slate-950 py-1 text-sm shadow-[0_18px_45px_rgba(2,6,23,0.72),0_0_22px_rgba(14,165,233,0.2)]"
+          className="absolute left-0 right-0 top-full z-40 mt-1 max-h-64 overflow-auto rounded-md border border-emerald-400/45 bg-slate-950 py-1 text-sm shadow-[0_18px_45px_rgba(2,6,23,0.72),0_0_22px_rgba(16, 185, 129,0.2)]"
         >
           {options.map(([optionValue, optionLabel]) => {
             const selected = optionValue === value;
@@ -347,8 +346,8 @@ function Select({
                 }}
                 className={`flex w-full items-center px-3 py-2 text-left font-semibold transition ${
                   selected
-                    ? 'bg-sky-400/22 text-sky-100'
-                    : 'text-slate-100 hover:bg-sky-400/14 hover:text-white'
+                    ? 'bg-emerald-400/22 text-emerald-100'
+                    : 'text-slate-100 hover:bg-emerald-400/14 hover:text-white'
                 }`}
               >
                 {optionLabel}

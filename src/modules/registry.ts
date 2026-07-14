@@ -23,8 +23,8 @@ export const MODULES: PlatformModule[] = [
   {
     slug: 'ingreso-gendarmeria',
     name: 'Ingreso a Gendarmería',
-    tagline: 'Preparación del examen de ingreso.',
-    status: 'coming_soon',
+    tagline: 'Escuela de Gendarmería Nacional — banco, simulacros e institucional.',
+    status: 'available',
     accent: 'emerald',
     emoji: '🛡️',
   },
