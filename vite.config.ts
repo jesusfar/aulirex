@@ -20,6 +20,10 @@ export default defineConfig({
         globIgnores: ['**/vhs/**', 'assets/banco-*.js', 'assets/*3Dmol*.js'],
         maximumFileSizeToCacheInBytes: 600 * 1024,
         cleanupOutdatedCaches: true,
+        // El SW nuevo toma control de inmediato: los usuarios con un SW viejo
+        // (que podia servir un shell/assets desactualizados) se recuperan solos.
+        skipWaiting: true,
+        clientsClaim: true,
         runtimeCaching: [
           {
             // Bancos de preguntas y 3Dmol: pesados y no siempre necesarios.

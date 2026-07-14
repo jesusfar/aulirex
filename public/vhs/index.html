@@ -559,6 +559,7 @@ class Component extends DCLogic {
   }
   componentWillUnmount(){
     clearInterval(this._wait); cancelAnimationFrame(this._raf);
+    if(this._ro) this._ro.disconnect();
     clearInterval(this._walkTimer);
     window.removeEventListener('pointermove', this._pm);
     [this._t1,this._t2,this._t3].forEach(t=>t&&clearTimeout(t));
@@ -606,6 +607,9 @@ class Component extends DCLogic {
     this.mount.appendChild(this.canvas);
     // the fixed stage lays out after mount — size to the real viewport on next frames
     requestAnimationFrame(()=>{ this.resize(); requestAnimationFrame(()=>this.resize()); });
+    // ...y ademas observar el contenedor: cuando el iframe recibe su tamano real
+    // (timing variable segun la carga), recalcula el canvas y evita el negro.
+    if(typeof ResizeObserver!=='undefined'){ this._ro = new ResizeObserver(()=>this.resize()); this._ro.observe(this.mount); }
 
     // lights
     this.scene.add(new T.AmbientLight(0x2c3752, 1.0));
@@ -1330,7 +1334,7 @@ class Component extends DCLogic {
     this.setState({ phase:'idle', selIdx:null, toast:false });
   }
 
-  frameHeight(W){ return (typeof window!=='undefined'?window.innerHeight:760); }
+  frameHeight(W){ return ((typeof window!=='undefined' && window.innerHeight) || (this.mount && this.mount.clientHeight) || 760); }
   updateSpacer(){
     if(!this.spacerEl) return;
     const vh = (typeof window!=='undefined'?window.innerHeight:760);
@@ -1375,6 +1379,7 @@ class Component extends DCLogic {
   resize(){
     if(!this.renderer) return;
     const W=this.mount.clientWidth||900, H=this.frameHeight(W);
+    if(!W || !H) return; // el iframe todavia no tiene layout: no fijar un buffer 0 (pantalla negra)
     this.renderer.setSize(W,H); this.camera.aspect=W/H; this.camera.updateProjectionMatrix();
     const wasMobile = this.isMobile, prevCols = this.cols;
     this.isMobile = W < 768; this.cols = this.colsForWidth(W);
