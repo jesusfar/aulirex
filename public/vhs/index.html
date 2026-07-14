@@ -1392,6 +1392,9 @@ class Component extends DCLogic {
 
   animate(){
     this._raf = requestAnimationFrame(()=>this.animate());
+    // Modulo activo dentro del CRT: el iframe cubre la escena, no hace falta
+    // renderizar Three.js. Se mantiene el loop vivo (RAF) para reanudar al salir.
+    if(this.phase==='inside') return;
     const now = performance.now();
 
     // camera: dive into the CRT during diving/exiting, else parallax
