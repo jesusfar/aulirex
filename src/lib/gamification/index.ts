@@ -40,7 +40,9 @@ export function levelProgress(xp: number): {
 
 // Rangos medicos por nivel. Desde Residente, la curva esta calibrada para
 // una preparacion larga: 100 preguntas/dia durante unos 4 meses.
-const RANKS: { minLevel: number; name: string; emoji: string }[] = [
+type Rank = { minLevel: number; name: string; emoji: string };
+
+const RANKS: Rank[] = [
   { minLevel: 1, name: 'Aspirante', emoji: '🩹' },
   { minLevel: 3, name: 'Practicante', emoji: '💉' },
   { minLevel: 6, name: 'Interno', emoji: '🩺' },
@@ -50,9 +52,26 @@ const RANKS: { minLevel: number; name: string; emoji: string }[] = [
   { minLevel: 61, name: 'Jefe/a de Servicio', emoji: '👑' },
 ];
 
-export function rankForLevel(level: number): { name: string; emoji: string } {
-  let rank = RANKS[0];
-  for (const r of RANKS) if (level >= r.minLevel) rank = r;
+// Escalafón de Gendarmería (de tropa a oficial superior).
+const RANKS_GENDARMERIA: Rank[] = [
+  { minLevel: 1, name: 'Aspirante', emoji: '🪖' },
+  { minLevel: 3, name: 'Gendarme', emoji: '🛡️' },
+  { minLevel: 6, name: 'Cabo', emoji: '🎖️' },
+  { minLevel: 25, name: 'Sargento', emoji: '🏅' },
+  { minLevel: 40, name: 'Suboficial', emoji: '⭐' },
+  { minLevel: 50, name: 'Alférez', emoji: '🌟' },
+  { minLevel: 61, name: 'Comandante', emoji: '🦅' },
+];
+
+export type RankVariant = 'medicina' | 'gendarmeria';
+
+export function rankForLevel(
+  level: number,
+  variant: RankVariant = 'medicina',
+): { name: string; emoji: string } {
+  const ranks = variant === 'gendarmeria' ? RANKS_GENDARMERIA : RANKS;
+  let rank = ranks[0];
+  for (const r of ranks) if (level >= r.minLevel) rank = r;
   return { name: rank.name, emoji: rank.emoji };
 }
 

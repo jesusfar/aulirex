@@ -117,7 +117,7 @@ export function DashboardPage() {
   const xp = progress?.xp ?? 0;
   const streak = progress?.streak ?? 0;
   const lvl = useMemo(() => levelProgress(xp), [xp]);
-  const rank = rankForLevel(lvl.level);
+  const rank = rankForLevel(lvl.level, 'gendarmeria');
 
   useEffect(() => {
     if (typeof window === 'undefined') return;
