@@ -62,7 +62,6 @@ export function GendarmeriaLayout() {
 
   return (
     <div className="theme-gendarmeria gendarmeria-shell relative min-h-screen overflow-x-clip text-slate-100">
-      <CustomSabreCursor />
       <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(rgba(52,211,153,0.05)_1px,transparent_1px),linear-gradient(90deg,rgba(52,211,153,0.05)_1px,transparent_1px)] bg-[size:44px_44px]" />
       <div className="pointer-events-none absolute inset-x-0 top-0 h-72 bg-[radial-gradient(circle_at_50%_0%,rgba(16,185,129,0.22),transparent_58%)]" />
 
@@ -156,71 +155,3 @@ export function GendarmeriaLayout() {
   );
 }
 
-// Cursor de sable que sigue al mouse (el cursor nativo está oculto globalmente).
-// Muestra la variante con sangre en la punta mientras `html.sabre-clicked` está
-// activo (ver el efecto de pointerdown/up del layout).
-function CustomSabreCursor() {
-  useEffect(() => {
-    const cursor = document.createElement('div');
-    cursor.className = 'sabre-cursor-overlay';
-    cursor.setAttribute('aria-hidden', 'true');
-    cursor.innerHTML =
-      '<img class="sabre-cursor-image sabre-cursor-image-clean" src="/cursors/sable-cursor.png" alt="" draggable="false" />' +
-      '<img class="sabre-cursor-image sabre-cursor-image-blood" src="/cursors/sable-cursor-blood.png" alt="" draggable="false" />';
-    document.body.append(cursor);
-
-    let animationFrame = 0;
-    let latestX = -80;
-    let latestY = -80;
-
-    const moveCursor = () => {
-      animationFrame = 0;
-      // La punta del sable está en la esquina superior-izquierda del SVG (~4px).
-      cursor.style.transform = `translate3d(${latestX - 4}px, ${latestY - 4}px, 0)`;
-    };
-
-    const scheduleMove = () => {
-      if (animationFrame === 0) animationFrame = window.requestAnimationFrame(moveCursor);
-    };
-
-    const forceNativeCursorOff = () => {
-      document.documentElement.style.cursor = 'none';
-      document.body.style.cursor = 'none';
-    };
-
-    const showCursor = (event: PointerEvent | MouseEvent) => {
-      if ('pointerType' in event && event.pointerType === 'touch') return;
-      forceNativeCursorOff();
-      latestX = event.clientX;
-      latestY = event.clientY;
-      cursor.classList.add('is-visible');
-      scheduleMove();
-    };
-
-    const hideCursor = () => {
-      cursor.classList.remove('is-visible');
-      forceNativeCursorOff();
-    };
-
-    forceNativeCursorOff();
-    window.addEventListener('pointermove', showCursor, { passive: true });
-    window.addEventListener('pointerdown', showCursor, { passive: true });
-    window.addEventListener('pointerenter', showCursor, { passive: true });
-    window.addEventListener('mousemove', showCursor, { passive: true });
-    window.addEventListener('blur', hideCursor);
-
-    return () => {
-      window.removeEventListener('pointermove', showCursor);
-      window.removeEventListener('pointerdown', showCursor);
-      window.removeEventListener('pointerenter', showCursor);
-      window.removeEventListener('mousemove', showCursor);
-      window.removeEventListener('blur', hideCursor);
-      if (animationFrame !== 0) window.cancelAnimationFrame(animationFrame);
-      document.documentElement.style.cursor = '';
-      document.body.style.cursor = '';
-      cursor.remove();
-    };
-  }, []);
-
-  return null;
-}

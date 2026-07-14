@@ -148,8 +148,7 @@ export function Layout() {
   }, []);
 
   return (
-    <div className="relative min-h-screen overflow-x-clip bg-slate-950 text-slate-100">
-      <CustomScalpelCursor />
+    <div className="theme-medicina relative min-h-screen overflow-x-clip bg-slate-950 text-slate-100">
       <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(rgba(148,163,184,0.055)_1px,transparent_1px),linear-gradient(90deg,rgba(148,163,184,0.055)_1px,transparent_1px)] bg-[size:44px_44px]" />
       <div className="pointer-events-none absolute inset-x-0 top-0 h-72 bg-[radial-gradient(circle_at_50%_0%,rgba(14,165,233,0.22),transparent_58%)]" />
 
@@ -242,72 +241,6 @@ export function Layout() {
   );
 }
 
-function CustomScalpelCursor() {
-  useEffect(() => {
-    const cursor = document.createElement('div');
-    cursor.className = 'scalpel-cursor-overlay';
-    cursor.setAttribute('aria-hidden', 'true');
-    cursor.innerHTML = '<img class="scalpel-cursor-image scalpel-cursor-image-clean" src="/cursors/bisturi-cursor.png" alt="" draggable="false" /><img class="scalpel-cursor-image scalpel-cursor-image-blood" src="/cursors/bisturi-cursor-blood.png" alt="" draggable="false" />';
-    document.body.append(cursor);
-
-    let animationFrame = 0;
-    let latestX = -80;
-    let latestY = -80;
-
-    const moveCursor = () => {
-      animationFrame = 0;
-      cursor.style.transform = `translate3d(${latestX - 3}px, ${latestY - 4}px, 0)`;
-    };
-
-    const scheduleMove = () => {
-      if (animationFrame === 0) animationFrame = window.requestAnimationFrame(moveCursor);
-    };
-
-    const forceNativeCursorOff = () => {
-      document.documentElement.style.cursor = 'none';
-      document.body.style.cursor = 'none';
-    };
-
-    const showCursor = (event: PointerEvent | MouseEvent) => {
-      if ('pointerType' in event && event.pointerType === 'touch') return;
-      forceNativeCursorOff();
-      latestX = event.clientX;
-      latestY = event.clientY;
-      cursor.classList.add('is-visible');
-      scheduleMove();
-    };
-
-    const hideCursor = () => {
-      cursor.classList.remove('is-visible');
-      forceNativeCursorOff();
-    };
-
-    forceNativeCursorOff();
-    window.addEventListener('pointermove', showCursor, { passive: true });
-    window.addEventListener('pointerdown', showCursor, { passive: true });
-    window.addEventListener('pointerenter', showCursor, { passive: true });
-    window.addEventListener('mousemove', showCursor, { passive: true });
-    window.addEventListener('mouseover', showCursor, { passive: true });
-    window.addEventListener('mouseenter', showCursor, { passive: true });
-    window.addEventListener('dragover', showCursor, { passive: true });
-    window.addEventListener('blur', hideCursor);
-
-    return () => {
-      window.removeEventListener('pointermove', showCursor);
-      window.removeEventListener('pointerdown', showCursor);
-      window.removeEventListener('pointerenter', showCursor);
-      window.removeEventListener('mousemove', showCursor);
-      window.removeEventListener('mouseover', showCursor);
-      window.removeEventListener('mouseenter', showCursor);
-      window.removeEventListener('dragover', showCursor);
-      window.removeEventListener('blur', hideCursor);
-      if (animationFrame !== 0) window.cancelAnimationFrame(animationFrame);
-      cursor.remove();
-    };
-  }, []);
-
-  return null;
-}
 function EcgHeaderMonitor() {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
 
