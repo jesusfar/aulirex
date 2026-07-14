@@ -12,13 +12,22 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       manifest: false,
+      // El service worker rompía la navegación del iframe del selector VHS
+      // (NavigationRoute + redirect 307 de /vhs/index.html → net::ERR_FAILED) y
+      // causó pantallas en negro. Se auto-destruye: desregistra el SW de todos
+      // los usuarios y limpia sus caches, dejando una web app normal (sin offline
+      // de assets). Todas las optimizaciones de bundle/imágenes se conservan.
+      selfDestroying: true,
       workbox: {
-        // Precache solo el "app shell" liviano. Lo pesado y de uso esporádico
-        // (bancos JSON de Medicina, 3Dmol, assets del VHS, imágenes) se cachea
-        // en runtime, on-demand, en vez de bajarse todo en la primera visita.
+        // Precache el "app shell" + el selector VHS (es la puerta de entrada y se
+        // carga como navegación en un iframe). Lo pesado y esporádico (bancos JSON
+        // de Medicina, 3Dmol, imágenes) se cachea en runtime, on-demand.
         globPatterns: ['**/*.{js,css,html,woff2}'],
-        globIgnores: ['**/vhs/**', 'assets/banco-*.js', 'assets/*3Dmol*.js'],
-        maximumFileSizeToCacheInBytes: 600 * 1024,
+        globIgnores: ['assets/banco-*.js', 'assets/*3Dmol*.js'],
+        maximumFileSizeToCacheInBytes: 700 * 1024,
+        // El iframe del VHS navega a /vhs/index.html: NO debe recibir el fallback
+        // SPA (que devolvía el index.html de la app y rompía el selector → negro).
+        navigateFallbackDenylist: [/^\/vhs\//],
         cleanupOutdatedCaches: true,
         // El SW nuevo toma control de inmediato: los usuarios con un SW viejo
         // (que podia servir un shell/assets desactualizados) se recuperan solos.
@@ -35,18 +44,12 @@ export default defineConfig({
             },
           },
           {
-            urlPattern: /\.(?:png|jpe?g|svg|webp|gif)$/,
+            urlPattern: /\.(?:png|jpe?g|svg|webp|gif|mp3)$/,
             handler: 'CacheFirst',
             options: {
-              cacheName: 'aulirex-images',
-              expiration: { maxEntries: 80, maxAgeSeconds: 60 * 60 * 24 * 30 },
+              cacheName: 'aulirex-media',
+              expiration: { maxEntries: 100, maxAgeSeconds: 60 * 60 * 24 * 30 },
             },
-          },
-          {
-            // Selector VHS (Three.js) y sus assets.
-            urlPattern: /\/vhs\//,
-            handler: 'StaleWhileRevalidate',
-            options: { cacheName: 'aulirex-vhs' },
           },
         ],
       },
