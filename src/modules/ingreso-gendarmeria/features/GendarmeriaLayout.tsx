@@ -62,6 +62,8 @@ export function GendarmeriaLayout() {
 
   return (
     <div className="theme-gendarmeria gendarmeria-shell relative min-h-screen overflow-x-clip text-slate-100">
+      <img src="/cursors/sable-cursor.png" alt="" aria-hidden="true" className="aulirex-cursor-preload" />
+      <img src="/cursors/sable-cursor-blood.png" alt="" aria-hidden="true" className="aulirex-cursor-preload" />
       <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(rgba(52,211,153,0.05)_1px,transparent_1px),linear-gradient(90deg,rgba(52,211,153,0.05)_1px,transparent_1px)] bg-[size:44px_44px]" />
       <div className="pointer-events-none absolute inset-x-0 top-0 h-72 bg-[radial-gradient(circle_at_50%_0%,rgba(16,185,129,0.22),transparent_58%)]" />
 

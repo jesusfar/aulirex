@@ -149,6 +149,8 @@ export function Layout() {
 
   return (
     <div className="theme-medicina relative min-h-screen overflow-x-clip bg-slate-950 text-slate-100">
+      <img src="/cursors/bisturi-cursor.png" alt="" aria-hidden="true" className="aulirex-cursor-preload" />
+      <img src="/cursors/bisturi-cursor-blood.png" alt="" aria-hidden="true" className="aulirex-cursor-preload" />
       <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(rgba(148,163,184,0.055)_1px,transparent_1px),linear-gradient(90deg,rgba(148,163,184,0.055)_1px,transparent_1px)] bg-[size:44px_44px]" />
       <div className="pointer-events-none absolute inset-x-0 top-0 h-72 bg-[radial-gradient(circle_at_50%_0%,rgba(14,165,233,0.22),transparent_58%)]" />
 

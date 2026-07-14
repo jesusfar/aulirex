@@ -56,6 +56,20 @@ label,
 
 /* Cursor personalizado por módulo (Medicina = bisturí, Gendarmería = sable).
    Fuera de los módulos el navegador usa su cursor normal. En touch se ignora. */
+/* Precarga de los cursores en la cache de imágenes del navegador: sin esto, la
+   variante "con sangre" (que solo se usa al hacer click) no está lista en el
+   primer click y el navegador cae al cursor por defecto. */
+.aulirex-cursor-preload {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+  z-index: -1;
+}
+
 @media (hover: hover) and (pointer: fine) {
   .theme-medicina,
   .theme-medicina * {
