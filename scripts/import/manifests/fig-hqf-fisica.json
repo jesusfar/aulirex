@@ -1,0 +1,470 @@
+[
+  {
+    "number": 5,
+    "subject": "fisica",
+    "status": "con_figura",
+    "image": "/figures/fis-hqffig-32c08e2cc2.png",
+    "stemKey": "Analizar los siguientes gráficos e indicar cuales ",
+    "w": 945,
+    "h": 196,
+    "page": 158
+  },
+  {
+    "number": 8,
+    "subject": "fisica",
+    "status": "con_figura",
+    "image": "/figures/fis-hqffig-671025f2b4.png",
+    "stemKey": "Una bomba de agua situada en planta baja, conectad",
+    "w": 1053,
+    "h": 629,
+    "page": 159
+  },
+  {
+    "number": 9,
+    "subject": "fisica",
+    "status": "sin_figura",
+    "stemKey": "Indicar cuál de las siguientes representaciones gr"
+  },
+  {
+    "number": 10,
+    "subject": "fisica",
+    "status": "sin_figura",
+    "stemKey": "Indicar cuál de las siguientes representaciones gr"
+  },
+  {
+    "number": 12,
+    "subject": "fisica",
+    "status": "con_figura",
+    "image": "/figures/fis-hqffig-ef8860a9ff.png",
+    "stemKey": "El tanque de la figura está lleno con agua. En un ",
+    "w": 389,
+    "h": 228,
+    "page": 160
+  },
+  {
+    "number": 14,
+    "subject": "fisica",
+    "status": "con_figura",
+    "image": "/figures/fis-hqffig-3a85b31b56.png",
+    "stemKey": "Calcular las cargas eléctricas de las partículas c",
+    "w": 473,
+    "h": 450,
+    "page": 161
+  },
+  {
+    "number": 24,
+    "subject": "fisica",
+    "status": "con_figura",
+    "image": "/figures/fis-hqffig-32c08e2cc2.png",
+    "stemKey": "Analizar los siguientes gráficos e indicar cuales ",
+    "w": 945,
+    "h": 196,
+    "page": 158
+  },
+  {
+    "number": 27,
+    "subject": "fisica",
+    "status": "sin_figura",
+    "stemKey": "Analizar el siguiente grafico obtenido de un estud"
+  },
+  {
+    "number": 39,
+    "subject": "fisica",
+    "status": "con_figura",
+    "image": "/figures/fis-hqffig-9618ae4c80.png",
+    "stemKey": "Una esponja de mar es un sistema filtrador de agua",
+    "w": 211,
+    "h": 370,
+    "page": 169
+  },
+  {
+    "number": 41,
+    "subject": "fisica",
+    "status": "con_figura",
+    "image": "/figures/fis-hqffig-d994dd1edd.png",
+    "stemKey": "Un cubo de aluminio se suspende de una cuerda y lu",
+    "w": 415,
+    "h": 335,
+    "page": 170
+  },
+  {
+    "number": 43,
+    "subject": "fisica",
+    "status": "con_figura",
+    "image": "/figures/fis-hqffig-9229729496.png",
+    "stemKey": "Se muestra en el dibujo la trayectoria que sigue u",
+    "w": 354,
+    "h": 195,
+    "page": 171
+  },
+  {
+    "number": 44,
+    "subject": "fisica",
+    "status": "con_figura",
+    "image": "/figures/fis-hqffig-3cd6b2fdd4.png",
+    "stemKey": "Un auto A y otro B comienzan en t=0 a desplazarse ",
+    "w": 501,
+    "h": 316,
+    "page": 171
+  },
+  {
+    "number": 45,
+    "subject": "fisica",
+    "status": "con_figura",
+    "image": "/figures/fis-hqffig-550cae68b3.png",
+    "stemKey": "Una mujer arrastra un trineo con un niño (conjunto",
+    "w": 481,
+    "h": 184,
+    "page": 171
+  },
+  {
+    "number": 53,
+    "subject": "fisica",
+    "status": "con_figura",
+    "image": "/figures/fis-hqffig-d05b1f20dc.png",
+    "stemKey": "Se tienen 3 bloques de masas 5Kg, 12Kg y 15Kg, uni",
+    "w": 442,
+    "h": 138,
+    "page": 174
+  },
+  {
+    "number": 55,
+    "subject": "fisica",
+    "status": "con_figura",
+    "image": "/figures/fis-hqffig-1f4377b23f.png",
+    "stemKey": "En la figura se representan dos esferas: una esfer",
+    "w": 134,
+    "h": 254,
+    "page": 174
+  },
+  {
+    "number": 58,
+    "subject": "fisica",
+    "status": "con_figura",
+    "image": "/figures/fis-hqffig-dc6406af74.png",
+    "stemKey": "Una partícula se mueve a lo largo de la abscisa. S",
+    "w": 490,
+    "h": 304,
+    "page": 175
+  },
+  {
+    "number": 60,
+    "subject": "fisica",
+    "status": "con_figura",
+    "image": "/figures/fis-hqffig-420327ae0f.png",
+    "stemKey": "Tres esferas uniformes de 2, 4 y 6 Kg de masa se c",
+    "w": 402,
+    "h": 276,
+    "page": 176
+  },
+  {
+    "number": 63,
+    "subject": "fisica",
+    "status": "con_figura",
+    "image": "/figures/fis-hqffig-e87d625207.png",
+    "stemKey": "Un tubo de vidrio contiene glicerina en condicione",
+    "w": 228,
+    "h": 336,
+    "page": 177
+  },
+  {
+    "number": 64,
+    "subject": "fisica",
+    "status": "con_figura",
+    "image": "/figures/fis-hqffig-d118bd1596.png",
+    "stemKey": "Un manómetro es un instrumento que sirve para medi",
+    "w": 977,
+    "h": 290,
+    "page": 178
+  },
+  {
+    "number": 66,
+    "subject": "fisica",
+    "status": "con_figura",
+    "image": "/figures/fis-hqffig-6271b2f387.png",
+    "stemKey": "El siguiente gráfico proporciona la relación funci",
+    "w": 251,
+    "h": 258,
+    "page": 179
+  },
+  {
+    "number": 68,
+    "subject": "fisica",
+    "status": "con_figura",
+    "image": "/figures/fis-hqffig-66c871fea1.png",
+    "stemKey": "Las variables presión (P), volumen (V) y temperatu",
+    "w": 442,
+    "h": 457,
+    "page": 180
+  },
+  {
+    "number": 70,
+    "subject": "fisica",
+    "status": "sin_figura",
+    "stemKey": "Por la cañería de la figura circula agua pura. Cie"
+  },
+  {
+    "number": 72,
+    "subject": "fisica",
+    "status": "con_figura",
+    "image": "/figures/fis-hqffig-ba00747bca.png",
+    "stemKey": "Teniendo en cuenta la ecuación de la recta obtenid",
+    "w": 969,
+    "h": 287,
+    "page": 181
+  },
+  {
+    "number": 77,
+    "subject": "fisica",
+    "status": "sin_figura",
+    "stemKey": "Una estrella de neutrones tiene un radio de 10 Km "
+  },
+  {
+    "number": 83,
+    "subject": "fisica",
+    "status": "con_figura",
+    "image": "/figures/fis-hqffig-ccbac8e9e5.png",
+    "stemKey": "Un bloque de masa m con una velocidad inicial de m",
+    "w": 440,
+    "h": 220,
+    "page": 184
+  },
+  {
+    "number": 84,
+    "subject": "fisica",
+    "status": "con_figura",
+    "image": "/figures/fis-hqffig-760a79005f.png",
+    "stemKey": "Las relaciones que existen entre la fuerza y el mo",
+    "w": 590,
+    "h": 242,
+    "page": 185
+  },
+  {
+    "number": 89,
+    "subject": "fisica",
+    "status": "sin_figura",
+    "stemKey": "Una bomba que posee una determinada capacidad, se "
+  },
+  {
+    "number": 91,
+    "subject": "fisica",
+    "status": "con_figura",
+    "image": "/figures/fis-hqffig-a3123dd9c9.png",
+    "stemKey": "De acuerdo al circuito que se presenta en la figur",
+    "w": 391,
+    "h": 289,
+    "page": 187
+  },
+  {
+    "number": 92,
+    "subject": "fisica",
+    "status": "con_figura",
+    "image": "/figures/fis-hqffig-8cb1bb2965.png",
+    "stemKey": "Considero el campo eléctrico creado por dos cargas",
+    "w": 407,
+    "h": 324,
+    "page": 188
+  },
+  {
+    "number": 93,
+    "subject": "fisica",
+    "status": "con_figura",
+    "image": "/figures/fis-hqffig-6aa617c4df.png",
+    "stemKey": "Una persona, al hacer mediciones en un laboratorio",
+    "w": 774,
+    "h": 246,
+    "page": 188
+  },
+  {
+    "number": 100,
+    "subject": "fisica",
+    "status": "con_figura",
+    "image": "/figures/fis-hqffig-57e8f4680e.png",
+    "stemKey": "El resultado central del análisis newtoniano del m",
+    "w": 454,
+    "h": 209,
+    "page": 191
+  },
+  {
+    "number": 101,
+    "subject": "fisica",
+    "status": "con_figura",
+    "image": "/figures/fis-hqffig-e268c13fe4.png",
+    "stemKey": "Las transformaciones de presión, volumen y tempera",
+    "w": 916,
+    "h": 305,
+    "page": 192
+  },
+  {
+    "number": 102,
+    "subject": "fisica",
+    "status": "sin_figura",
+    "stemKey": "La superficie de un líquido tiene propiedades espe"
+  },
+  {
+    "number": 111,
+    "subject": "fisica",
+    "status": "con_figura",
+    "image": "/figures/fis-hqffig-831084dd7d.png",
+    "stemKey": "Dentro de un tubo capilar de vidrio, cerrado en un",
+    "w": 322,
+    "h": 268,
+    "page": 195
+  },
+  {
+    "number": 121,
+    "subject": "fisica",
+    "status": "con_figura",
+    "image": "/figures/fis-hqffig-27ca7b75f6.png",
+    "stemKey": "Dado el siguiente gráfico de la velocidad en funci",
+    "w": 417,
+    "h": 262,
+    "page": 198
+  },
+  {
+    "number": 122,
+    "subject": "fisica",
+    "status": "sin_figura",
+    "stemKey": "Referido al gráfico del problema anterior determin"
+  },
+  {
+    "number": 124,
+    "subject": "fisica",
+    "status": "con_figura",
+    "image": "/figures/fis-hqffig-97590aa2d5.png",
+    "stemKey": "Se deja caer una piedra en un pozo. Al cabo de 8 s",
+    "w": 386,
+    "h": 283,
+    "page": 199
+  },
+  {
+    "number": 125,
+    "subject": "fisica",
+    "status": "sin_figura",
+    "stemKey": "Cómo sería el gráfico velocidad vs tiempo?"
+  },
+  {
+    "number": 132,
+    "subject": "fisica",
+    "status": "sin_figura",
+    "stemKey": "Determinar el volumen de líquido desplazado debajo"
+  },
+  {
+    "number": 140,
+    "subject": "fisica",
+    "status": "sin_figura",
+    "stemKey": "Se tiene el siguiente circuito con las siguientes "
+  },
+  {
+    "number": 141,
+    "subject": "fisica",
+    "status": "con_figura",
+    "image": "/figures/fis-hqffig-46cc2fb5f8.png",
+    "stemKey": "Determinar el gráfico velocidad vs tiempo correspo",
+    "w": 269,
+    "h": 238,
+    "page": 202
+  },
+  {
+    "number": 152,
+    "subject": "fisica",
+    "status": "con_figura",
+    "image": "/figures/fis-hqffig-d24ed7efbb.png",
+    "stemKey": "En el tramo del circuito que se muestra en la figu",
+    "w": 380,
+    "h": 161,
+    "page": 204
+  },
+  {
+    "number": 160,
+    "subject": "fisica",
+    "status": "con_figura",
+    "image": "/figures/fis-hqffig-f3cb219b9d.png",
+    "stemKey": "Se llena un recipiente con mercurio y luego con ac",
+    "w": 193,
+    "h": 192,
+    "page": 205
+  },
+  {
+    "number": 162,
+    "subject": "fisica",
+    "status": "con_figura",
+    "image": "/figures/fis-hqffig-94a1daa1d5.png",
+    "stemKey": "Tres remolcadores R1, R2, R3 llevan un barco hacia",
+    "w": 219,
+    "h": 151,
+    "page": 206
+  },
+  {
+    "number": 167,
+    "subject": "fisica",
+    "status": "sin_figura",
+    "stemKey": "El corazón late constantemente a razón de 60veces/"
+  },
+  {
+    "number": 173,
+    "subject": "fisica",
+    "status": "con_figura",
+    "image": "/figures/fis-hqffig-f3be537d0d.png",
+    "stemKey": "Se tiene una carga q1 inserta fija en la pared, y ",
+    "w": 295,
+    "h": 216,
+    "page": 208
+  },
+  {
+    "number": 176,
+    "subject": "fisica",
+    "status": "sin_figura",
+    "stemKey": "En el tubo en u mostrado en la figura se han coloc"
+  },
+  {
+    "number": 182,
+    "subject": "fisica",
+    "status": "con_figura",
+    "image": "/figures/fis-hqffig-f52f1fd848.png",
+    "stemKey": "La representación gráfica del movimiento de un cue",
+    "w": 262,
+    "h": 248,
+    "page": 210
+  },
+  {
+    "number": 184,
+    "subject": "fisica",
+    "status": "con_figura",
+    "image": "/figures/fis-hqffig-1da74f0280.png",
+    "stemKey": "El siguiente gráfico representa la aceleración de ",
+    "w": 310,
+    "h": 223,
+    "page": 210
+  },
+  {
+    "number": 187,
+    "subject": "fisica",
+    "status": "con_figura",
+    "image": "/figures/fis-hqffig-fab5192d82.png",
+    "stemKey": "En el dibujo mostrado a continuación se presenta u",
+    "w": 298,
+    "h": 185,
+    "page": 211
+  },
+  {
+    "number": 188,
+    "subject": "fisica",
+    "status": "con_figura",
+    "image": "/figures/fis-hqffig-72d1a4d457.png",
+    "stemKey": "Dos recipientes de igual capacidad contienen respe",
+    "w": 593,
+    "h": 468,
+    "page": 211
+  },
+  {
+    "number": 194,
+    "subject": "fisica",
+    "status": "con_figura",
+    "image": "/figures/fis-hqffig-c31d1bbabb.png",
+    "stemKey": "Sabiendo que R1=50ohm R2=30ohm y R3 = 20ohm para c",
+    "w": 317,
+    "h": 123,
+    "page": 212
+  }
+]

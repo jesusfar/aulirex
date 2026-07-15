@@ -1,0 +1,3493 @@
+[
+  {
+    "id": "fis-hqf-0001",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Analizar las siguientes funciones: F1: Y= -X2 + 8 F₂: Y= X2 + 6X Se pide calcular: I) El/los valores que toma la abscisa cuando F₂ se hace igual a -3. II) La pendiente de la recta que pasa por los puntos donde F1 corta a F₂. III) La ecuación de una perpendicular a la recta del punto II) que pase por (1;2).",
+    "choices": [
+      {
+        "id": "a",
+        "text": "I) -0,23 y 1.43 II) -1/7 III) Y=7X – 5",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "I) -0,55 y -5,45 II) 3 III) Y=-1/3X + 7/3",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "I) -0,55 y -5,45 II) -1/7 III) Y=7X – 5",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "I) -0,23 y 1,43 II) 3 III) Y=3X - 1",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Ninguna de las opciones anteriores es correcta.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) I) -0,55 y -5,45 II) 3 III) Y=-1/3X + 7/3.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 2, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqf-0002",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "mecanica",
+    "topic": "trabajo_y_energia",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "alta",
+    "difficulty": 2,
+    "stem": "En la membrana celular existen canales iónicos que permiten el transporte de iones a través de ellas. Considere un canal iónico cuya conductancia es de 52 ps y que posee una diferencia de potencial entre el medio intra y extra celular de -100 mV. Con estos datos calcule la corriente iónica que circula a través del canal durante un microsegundo y la carga iónica que atraviesa el canal en ese tiempo.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "52 pA 0,52 aC",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "5,2 x 10-12 A 52 aC",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "5,2 x 10-2 nA 5,2 x 10 -18 C",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "5,2 pA 5,2 aC",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "0,52 pA 5,2 x 100 aC",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: d) 5,2 pA 5,2 aC.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 3, tema \"trabajo_y_energia\")."
+  },
+  {
+    "id": "fis-hqf-0003",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Se sabe que la representación gráfica de la siguiente ecuación pasa por el punto P= (0,3). -2K –Kx –y –K = 0 Calcule: I) El valor de la constante K. II) El valor de la pendiente de la recta. III) El valor de la ordenada al origen. IV) La ecuación de una recta perpendicular a la dada que pase por (2; -1).",
+    "choices": [
+      {
+        "id": "a",
+        "text": "I) -1 II) -1 III) 3 IV) y= x – 3",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "I) -1 II) 1 III) 3 IV) y= -x -1",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "I) -1 II) -1 III) 3 IV) y = -x +1",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "I) 1 II) 1 III) -3 IV) y= -x +1",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "I) -1 II) 1 III) 3 IV) y= -x +1",
+        "correct": true
+      }
+    ],
+    "explanation": "Respuesta correcta: e) I) -1 II) 1 III) 3 IV) y= -x +1.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 4, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqf-0004",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Un escalador de 75kg de masa sube 25m y para eso tarda 2min. Calcule: I) el peso del escalador. II) la potencia con que asciende y III) la velocidad final que adquiere si luego de haber subido los 25 resbala y se cae. Peso Potencia Velocidad",
+    "choices": [
+      {
+        "id": "a",
+        "text": "7,35 x107 dyn 153,12 W 2,21 x104mm.s-1",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "7,35 x 10 4 dyn 1,53 x 109 erg.s-1 19,6 m.s-1",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "735 N 153,12 W 490 m.s-1",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "7,35 x 10 2N 9,19 x 10 3 W 6,26m.s-1",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Ninguna de las opciones anteriores es correcta.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: a) 7,35 x107 dyn 153,12 W 2,21 x104mm.s-1.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 6, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqf-0005",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "¿Cuál es la presión total que soporta un buzo que se sumerge a 10m de profundidad desde la superficie del mar? Considerar que la densidad del agua de mar es de 1,03 x 103 kg.m-3, que la presión atmosférica es de 1007,8 hPa y que densidad no varía con la densidad.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "1,01×10⁸ Pa",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "2,017×10⁵ Pa",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "1,01×10³ Pa",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "1,019×10⁵ Pa",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Ninguna de las anteriores es correcta.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) 2,017×10⁵ Pa.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 7, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqf-0006",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Determinar la distancia recorrida por la partícula al cabo de 15s.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "637,5 m",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "237,5 m",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "200 m",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "400 m",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "Ninguna de las anteriores es correcta.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: d) 400 m.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 11, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqf-0007",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "El comportamiento de las partículas cargadas en presencia de los campos se debe a que:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Al tener carga negativa se desplazan en el mismo sentido que E.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Al tener carga positiva se desplazan en el sentido contrario al de E.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Al no tener carga eléctrica no se desplazan y permanecen estáticas.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Al tener carga negativa se desplazan en sentido contrario al de E.",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "Ninguna de las opciones anteriores es correcta.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: d) Al tener carga negativa se desplazan en sentido contrario al de E..",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 13, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqf-0008",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Indicar como se denominan las transiciones que sufre el gas ideal, cuando se dan las transformaciones A, B y C definidas por los siguientes pares ordenados A: desde (8; 1) al (8; 2) B: desde (8; 2) al (2; 8) C: desde (2; 8) al (1; 8) A B C",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Isotérmica isobárica isotérmica",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Isocórica isotérmica isobárica",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Isocórica isobárica isocórica",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Isobárica isotérmica isocórica",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Ninguna de las opciones es correcta.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) Isocórica isotérmica isobárica.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 15, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqf-0009",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "La transición del estado definido por el par ordenado (2; 8) al (4; 2) incrementa la energía del gas ideal?:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Sí, porque aumenta el volumen",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "No, porque disminuye la temperatura.",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "No, porque la temperatura se conserva.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Sí, porque la presión aumenta.",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Ninguna de las opciones anteriores es correcta.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) No, porque disminuye la temperatura..",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 16, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqf-0010",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "La transición del estado definido por el par ordenado (1;8) al (4;4) implica que:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "La temperatura en (4;4) es de 195°C",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "La temperatura se reduce a la mitad",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "La temperatura en (1;8) es de 97°C",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "La temperatura se duplica",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "Ninguna de la opciones anteriores es correcta Dentro de un campo elé t i o se olo a dos a gas pu tuales de p ue a, , u os valo es so , -15 C y -5,6 x 10-14 C respectivamente. Considerar nula la interacción entre ellas. Analizar el comportamiento de las cargas teniendo en cuenta que el modulo del campo es de 7,25 x 109 N/C y luego responder los ítems 18 y 19.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: d) La temperatura se duplica.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 17, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqf-0011",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Determinar la fuerza que actúa sobre cada una de las cargas. F1 con respecto a q1 F₂ con respecto a q2",
+    "choices": [
+      {
+        "id": "a",
+        "text": "-4,060×10⁻⁴N con sentido contrario al de E 3,263×10⁻⁵N con el mismo sentido que E",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "6,207×10⁻²⁵N con el mismo sentido que E. -7,393×10⁻²²N con sentido contrario al de E",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "3,263×10⁻⁵N con el mismo sentido que E. -4,060×10⁻⁴N con sentido contrario al de E",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "1,611×10²⁴N con sentido contrario al de E. -1,353×10²¹N con sentido contrario al de E",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Ninguna de las opciones anteriores es correcta",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: c) 3,263×10⁻⁵N con el mismo sentido que E. -4,060×10⁻⁴N con sentido contrario al de E.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 18, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqf-0012",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "mecanica",
+    "topic": "dinamica",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "alta",
+    "difficulty": 2,
+    "stem": "Los protones, neutrones y electrones son partículas elementales y las fuerzas que existen entre ellas son las fuerzas fundamentales de la naturaleza. ¿Cuál es la energía potencial de un electrón en un punto A, a una distancia rA= 53 pm de un protón, sabiendo que este posee 1,6×10⁻¹⁹ C? Dato: k= 9×10⁹ N m2 C-2",
+    "choices": [
+      {
+        "id": "a",
+        "text": "3,02×10⁻⁹ J",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "2,72×10⁻¹ J",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "8,23×10⁻⁸ J",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "4,35×10⁻¹⁸ J",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "2,31×10⁻²⁸ J",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: d) 4,35×10⁻¹⁸ J.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 20, tema \"dinamica\")."
+  },
+  {
+    "id": "fis-hqf-0013",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "sin_clasificar",
+    "topic": "sin_clasificar",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Un buzo sumergido en el mar puede respirar con normalidad a grandes profundidades, si el aire que se le suministra está a una presión igual a la presión del agua que le rodea. Teniendo en cuenta que un buzo sumergido libera una burbuja de aire de 1mm3, responda: ¿A qué profundidad nada el buzo, si la burbuja al llegar a la superficie tiene un volumen de 6 mm³? Dato: densidad del agua de mar de 35% de salinidad es de 1,0267 g.cm-3",
+    "choices": [
+      {
+        "id": "a",
+        "text": "7,7×10¹ m",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "1,29 m",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "4,65 cm",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "60,4 m",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "298 cm",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: d) 60,4 m.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 21, tema \"sin_clasificar\")."
+  },
+  {
+    "id": "fis-hqf-0014",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "sin_clasificar",
+    "topic": "sin_clasificar",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "El crecimiento de una población latinoamericana puede ser expresado mediante la siguiente ecuación: P = PO. e , . En donde PO es la po la ió i i ial o de efe e ia, e , . es el fa to de e i ie to t es el tie po expresado en años. En una ciudad latinoamericana, se informó una población de 3,75×10⁶ habitantes como resultado de un estudio censal efectuado en el año 2005. En base a lo anterior mencionado determinar para dicha ciudad: I- La cantidad de habitantes que tendría al cabo de 60 meses. II- El incremento poblacional que experimentaría al cabo de 120 meses. I II",
+    "choices": [
+      {
+        "id": "a",
+        "text": "12450438 hab 8700438 hab",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "4144391 hab 830260 hab",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "41336911 hab 37586911 hab",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "830260 hab 4144391 hab",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Ninguna de las opciones anteriores es correcta.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) 4144391 hab 830260 hab.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 22, tema \"sin_clasificar\")."
+  },
+  {
+    "id": "fis-hqf-0015",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Dada la siguiente igualdad: log −X + −X + = − Obtener los valores de X: X1 X2",
+    "choices": [
+      {
+        "id": "a",
+        "text": "2,236 0,382",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "2,618 0,382",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "3,303 -3,303",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "No es posible determinarlos",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Ninguna de las opciones anteriores es correcta",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) 2,618 0,382.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 23, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqf-0016",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Calcular la distancia recorrida por la partícula al cabo de 5 horas:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "100 km",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "160 km",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "120 km",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "140 km",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "Ninguna de las opciones anteriores es correcta.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: d) 140 km.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 25, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqf-0017",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "sin_clasificar",
+    "topic": "sin_clasificar",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Indicar el tipo de movimiento de partícula para los intervalos: 0 1, 1 2, 2 3, 3 4, 4 5. 01 12 23 34 45",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Uniformemente Rectilíneo Uniformemente Uniformemente Rectilíneo acelerado uniforme acelerado desacelerado retardado",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Rectilíneo En reposo Rectilíneo Uniformemente Uniformemente uniforme uniforme acelerado desacelerado",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Uniformemente En reposo Rectilíneo Rectilíneo Uniformemente acelerado uniforme retardado acelerado",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Rectilíneo En reposo Uniformemente Uniformemente Rectilíneo uniforme acelerado desacelerado uniforme",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Rectilíneo Uniformemente Uniformemente Uniformemente En reposo uniforme acelerado desacelerado acelerado",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) Rectilíneo En reposo Rectilíneo Uniformemente Uniformemente uniforme uniforme acelerado desacelerado.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 26, tema \"sin_clasificar\")."
+  },
+  {
+    "id": "fis-hqf-0018",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Determinar la aceleración del objeto A qué se muestra en la gráfica, con respecto a los dos planos inclinados, considerando que a= g.sen ϴ 60° 30°",
+    "choices": [
+      {
+        "id": "a",
+        "text": "9,8 m/s² 6,9 m/s²",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "6,9 m/s² 4,9 m/s²",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "8,5 m/s² 4,9 m/s²",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Faltan datos para poder determinarla",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Ninguna de las opciones anteriores es correcta.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: c) 8,5 m/s² 4,9 m/s².",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 28, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqf-0019",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "sin_clasificar",
+    "topic": "sin_clasificar",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "¿Qué condiciones se cumplen durante la caída del objeto A?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "∑F= te≠ a= te≠ v≠ d≠",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "∑F= a=0 v= te≠ d≠",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "∑F= te= a=cte=0 v≠ d≠",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "∑F≠ a≠ v≠ d≠",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "∑F= a≠ v= te≠ d≠ Analizar el enunciado que se detalla a continuación para resolver los ítems 30 y 31: Dos objetos de distinta masa M1= 3g y M2= 1,5gr son arrojados hacia arriba simultáneamente. En el instante en el que detienen, adquieren 5,88×10⁻² J y 2,94×10⁻² J respectivamente.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: a) ∑F= te≠ a= te≠ v≠ d≠.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 29, tema \"sin_clasificar\")."
+  },
+  {
+    "id": "fis-hqf-0020",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "En base al enunciado y teniendo en cuenta al principio de conservación de energía, determinar cuál de las siguientes es una aseveración correcta:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Ambos objetos alcanzan distinta altura por tener diferente masa por ser Ep=Mgh",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "El objeto de mayor masa adquiere menor velocidad porque Ec= 1/2Mv2",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Si ambas velocidades son iguales no se conserva la energía en Ec=Ep",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Los movimientos son rectilíneos u ifo es po v= te≠",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Ninguna de las opciones anteriores es correcta.",
+        "correct": true
+      }
+    ],
+    "explanation": "Respuesta correcta: e) Ninguna de las opciones anteriores es correcta..",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 30, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqf-0021",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "En función a lo enunciado anteriormente, determinar la velocidad y la altura de cada objeto: Velocidad M1 altura M1 velocidad M2 altura M2",
+    "choices": [
+      {
+        "id": "a",
+        "text": "6,26m/s 3m 6,26 m/s 1,5 m",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "39,2 m/s 2m 19,6 m/s 2m",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "3,13 m/s 1m 6,26 m/s 2m",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "6,26 m/s 2m 6,26 m/s 2m",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "Ninguna de las opciones anteriores es correcta.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: d) 6,26 m/s 2m 6,26 m/s 2m.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 31, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqf-0022",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Determinar cuál es la presión que debe generar dentro de un cañón de 9mm de calibre interior y libre 120 mm, para impulsar un proyectil de 7,5 g a una velocidad de 390 m/s, considerando que la viscosidad del aire es de 1,81×10⁻⁵ Ns/m².",
+    "choices": [
+      {
+        "id": "a",
+        "text": "1,5×10² N/m²",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "3,346×10² N/m²",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "1,39 N/m²",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "3,346 mN/m²",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Ninguna de las opciones anteriores es correcta.",
+        "correct": true
+      }
+    ],
+    "explanation": "Respuesta correcta: e) Ninguna de las opciones anteriores es correcta..",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 32, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqf-0023",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "ecuaciones",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Se le solicita a un operario de un sistema hidráulico que envié la información necesaria para determinar la potencia que desarrolla la bomba de dicho sistema. Al cabo de un tiempo, envía los siguientes datos: Diámetro del pistón impulsor: 80mm Presión que genera el pistón impulsor: 55 mmHg Tiempo de trabajo: 6h Viscosidad de líquido: 0,986 Ns/m² Con los datos disponibles, ¿es posible resolver la incógnita planteada?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Sí, porque es posible calcular la sección transversal del tubo.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Sí, po ue o ƞ o D se o tie e el audal la esiste ia hid odi á i a.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "No, porque no se puede obtener la velocidad del líquido.",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "No, porque no se puede obtener la presión que impulsa el líquido.",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "No, porque no se conoce el radio del pistón. La base del tanque de agua (cilindro circular recto) de una casa, se encuentra a 2m por encima del techo del primer piso. Cada planta tiene una altura de 2,5 m (las mediciones se tomaron desde el piso hasta la losa, incluyendo el espesor de la misma). El caño maestro que desciende del tanque en forma vertical, y que es la alimentación principal de la casa, tiene un calibre de 5cm. El tanque tiene un diámetro de 1m y una altura de 1,5m. Mediante este enunciado, responder los ítems 34 y 35.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: c) No, porque no se puede obtener la velocidad del líquido..",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 33, tema \"ecuaciones\")."
+  },
+  {
+    "id": "fis-hqf-0024",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "¿Cuánta energía acumula el líquido en la base del tanque?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "1,73×10⁴ J",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "2,31×10⁴ J",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "3,77×10⁵ J",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "4,62×10¹J",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Ninguna de las opciones anteriores es correcta.",
+        "correct": true
+      }
+    ],
+    "explanation": "Respuesta correcta: e) Ninguna de las opciones anteriores es correcta..",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 34, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqf-0025",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "¿Qué velocidad adquirirá el agua a descender por el caño maestro, cuando llegue al piso de la planta alta? Despreciar el rozamiento.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "No se puede determinar por falta de datos.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "9,39 m/s",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "117,6 m/s",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "10,8 m/s",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "Ninguna de las opciones es correcta. De t o de u a po elé t i o se olo a dos a gas pu tuales de p ue a, , u os valo es so -9 C y - 6 x 10-8 C respectivamente. Considerar nula la interacción entre ellas. Analizar el comportamiento de las cargas teniendo en cuenta que el modulo del campo es de 2,75 x 107 N/C y luego responder los ítems 36, 37 y 38.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: d) 10,8 m/s.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 35, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqf-0026",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Calcular la diferencia de potencial necesaria para producir el desplazamiento de q1 y q2 como se enuncia en el ítem anterior: ΔV o espe to a ΔV o espe to a",
+    "choices": [
+      {
+        "id": "a",
+        "text": "0,55MV 0,825MV",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "5,5MV 8,25MV",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "1,375GV 9,167GV",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "No es posible determinar sus valores.",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Ninguna de las opciones anteriores es correcta.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: a) 0,55MV 0,825MV.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 38, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqf-0027",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "sin_clasificar",
+    "topic": "sin_clasificar",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Cuando un objeto flota, es debido a la acción y al efecto de sostener al mismo en superficie de un líquido tal como ocurre con un bloque cubico de acero de 10cm de arista que flota en mercurio. Sabiendo que la densidad de acero es 7,8g/cm³, respondan: ¿a qué profundidad que se encuentran la base del bloque por debajo de la superficie del mercurio?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "17,43 cm",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "5,74 cm",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "0,57 cm",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "0,57 m",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "5,73 m",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) 5,74 cm.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 40, tema \"sin_clasificar\")."
+  },
+  {
+    "id": "fis-hqf-0028",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Considerando que un camión cargado (m= ⁴Mg) y un auto pequeño (m= 8×10² kg) se desplazan con la misma energía cinética ¿Cuál de las siguiente afirmaciones es correcta?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "La velocidad del camión es mayor que la del auto.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "El trabajo necesario para detener el auto, es menor que el trabajo que le habrá que efectuar para que el camión que detenga.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Si ambos son frenados hasta detenerse por medio de las fuerzas del mismo valor e igual aplicación sobre los cuerpos, la distancia recorrida por el auto será mayor que la recorrida por el camión.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Si ambos chocaran contra un muro y se detuvieran, el trabajo realizado por el auto será igual que el realizado por el camión.",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "Faltan datos para poder analizar si son correctas las afirmaciones anteriores.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: d) Si ambos chocaran contra un muro y se detuvieran, el trabajo realizado por el auto será igual que el realizado por el camión..",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 42, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqf-0029",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "sin_clasificar",
+    "topic": "sin_clasificar",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Un bloque de madera está flotando, en equilibrio, sumergido parcialmente en agua, si fijamos a la parte inferior del bloque una placa de material desconocido, la cual queda totalmente sumergida en el agua observamos que el volumen de la parte sumergida del bloque no se altera. Analizando lo descripto anteriormente se puede concluir que la densidad de la placa:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Es igual a la del bloque.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Es igual a la del agua.",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Es menor que la del bloque.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Es mayor que la del agua.",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Está comprendida entre la densidad del bloque y la densidad del agua.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) Es igual a la del agua..",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 46, tema \"sin_clasificar\")."
+  },
+  {
+    "id": "fis-hqf-0030",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "mecanica",
+    "topic": "trabajo_y_energia",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "alta",
+    "difficulty": 2,
+    "stem": "Una persona que vivía en una ciudad en la cual la diferencia de potencial del servicio eléctrico residencial era de 220V, se mudó a otra ciudad donde esta diferencia es de 110V. En base a los datos anteriores, si desea utilizar la estufa eléctrica con la misma potencial que usaba antes, deberá:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Reducir a la mitad la resistencia.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Duplicar la resistencia.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Reducir a una cuarta parte la resistencia.",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "No realizar ninguna modificación.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: c) Reducir a una cuarta parte la resistencia..",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 48, tema \"trabajo_y_energia\")."
+  },
+  {
+    "id": "fis-hqf-0031",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Analizar las siguientes funciones: F1: Y = 2X +2 F₂ = Y = X² + 2 La g afi a de la fu ió F o ta a la g áfi a de la fu ió F e dos pu tos. O te e los pa es o de ados correspondientes a dichos puntos e indicar la opción correcta.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "P1 (0;2) P2(2;6)",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "P1 (1;4) P2(1;3)",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "P1 (-1;0) P2(0;3)",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "P1 (0;6) P2(3;6)",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Ninguno de los anteriores sin los correctos.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: a) P1 (0;2) P2(2;6).",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 49, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqf-0032",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "sin_clasificar",
+    "topic": "sin_clasificar",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "U o de sado de µF, i i ial e te des a gado se o e ta a t avés de u a esiste ia de Ωau a batería de 45 V. Teniendo en cuenta los datos consignados, responda: I. ¿Cuál es la carga final del condensador? II. ¿Cuál es el tiempo necesario para completar la carga del condensador? Q t",
+    "choices": [
+      {
+        "id": "a",
+        "text": "1,8. − C 6,25. s",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "3,6. − C 6,25 Ms",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "5,62. C 2. s",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "3,6. mC 4. − s",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "3,6. C 2 µs",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: d) 3,6. mC 4. − s.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 54, tema \"sin_clasificar\")."
+  },
+  {
+    "id": "fis-hqf-0033",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "En el juego de hockey se usa un palo largo para empujar la bocha de 5.10² g, desde el punto A hacia el punto B separados por 5.10 cm. El jugador empuja la bocha aplicando 2.10 N con el palo, la cual se desliza por el suelo horizontal en la misma dirección del desplazamiento. En base a los datos dados, indique si las siguientes afirmaciones son verdaderas (V) o falsas (F). I. Considerando que la bocha está en reposo en el punto A, la velocidad de la bocha en el punto B, despreciando el rozamiento, no se puede calcular pues los datos son insuficientes. II. El trabajo que realiza el palo sobre la bocha cuando es empujada desde A hacia B, se puede calcular utiliza do la e ua ió W= F.d , de ido a ue la fue za tie e el is o se tido ue el desplaza ie to de la bocha. III. La velocidad de la bocha en B, despreciando el rozamiento y considerando que la bocha está en reposo en A, es de 6,32 m/s. Señale la opción correcta:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "I- V II- V III- F",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "I- V",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "I- F II- F III- F",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "I- F",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "I- F II- V III- V II- F III- V II- V III- F",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: c) I- F II- F III- F.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 57, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqf-0034",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Un cuerpo de 5. − kg es lanzado verticalmente hacia arriba con una velocidad inicial de 2,5. m/s. Considerando despreciable la resistencia del aire, determine: I) ¿Cuál será la altura máxima alcanzada por el cuerpo? II) ¿Cuánto tarda el cuerpo en llegar al punto más alto de su trayectoria? III) ¿Cuál será la velocidad del cuerpo 2s después del lanzamiento? Luego, señale la opción correcta:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "I) 14,82 m II) 4. − s III) 44,6 m/s",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "I) 31,9 m II) 2,55 s III) 5,4 m/s",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "I) 14,82 m II) 2,55 s III) 15,2 m/s",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "I) 31,9 m II) 4. − s III) 44,6 m/s",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "I) 14,82 m II) 2,55 s III) 44,6 m/s",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) I) 31,9 m II) 2,55 s III) 5,4 m/s.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 59, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqf-0035",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "sin_clasificar",
+    "topic": "sin_clasificar",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "¿Cuál es la densidad del O₂ en condiciones normales?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "4,46 g/cm³",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "4,46 kg/cm³",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "1,43 kg/m³",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "4,52×10⁶ g/cm³",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "No se pueden calcular porque faltan datos.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: c) 1,43 kg/m³.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 61, tema \"sin_clasificar\")."
+  },
+  {
+    "id": "fis-hqf-0036",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "sin_clasificar",
+    "topic": "sin_clasificar",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Calcule el número de moles de oxigeno presente en una habitación de 4,80 m de ancho por 3,50 m de largo por 2,20m de alto, cuyas condiciones atmosféricas son 20°C y 751 mmHg. Suponga que el contenido de oxigeno del aire es 21,0% V/V. Datos adicionales: CNPT=0°C y 760 mmHg, R= 0,082 L.atm/K.mol",
+    "choices": [
+      {
+        "id": "a",
+        "text": "346",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "1650",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "1,65",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "319",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "3,46",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: d) 319.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 62, tema \"sin_clasificar\")."
+  },
+  {
+    "id": "fis-hqf-0037",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "sin_clasificar",
+    "topic": "sin_clasificar",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Dos gases ideales A y B se encuentran en recipientes separados en las siguientes condiciones: GasA: V(A)= 5L; P(A)= 3atm; T(A)= 27°C GasB: V(B)= 4L; P(B)= 4atm; T(B)= 227°C Estos gases se mezclan en un tercer recipiente de V= 8L y a una temperatura T= 127°C, en base a estos datos responda: ¿Cuál será la presión que esta mezcla ejercerá en la del recipiente?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "4,1 atm",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "6,4 atm",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "8,1 atm",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "16,2 atm",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "12,8 atm",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: a) 4,1 atm.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 65, tema \"sin_clasificar\")."
+  },
+  {
+    "id": "fis-hqf-0038",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "sin_clasificar",
+    "topic": "sin_clasificar",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Una mezcla gaseosa compuesta de 4g de O y 2 g de He ocupa 3 litros a 25°C. Con esos datos responda: α ¿Cuál es la p esió pa ial del oxígeno? β ¿Cuál es la p esió pa ial del He? λ ¿Cuál es la de sidad de la ez la gaseosa? Seleccione la opción correcta: α β λ",
+    "choices": [
+      {
+        "id": "a",
+        "text": "6,63. − mmHg 4,07 atm 5. − kg. m−",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "1,031. hPa 4,13. hPa 2 kg. m−",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "1,018 atm 3,95.10³ mmHg 5. − g. l−",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "2,60. atm 4,13.10³ hPa 2 g. l−",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "1,031.10³ hPa 2,95.10³ mmHg 2 kg. m−",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) 1,031. hPa 4,13. hPa 2 kg. m−.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 67, tema \"sin_clasificar\")."
+  },
+  {
+    "id": "fis-hqf-0039",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Una partícula de 8mg cargada con 2nC se desplaza a 50cm.s-1 y entra en una región del espacio donde existe un campo eléctrico E= 80 N/C de 0,6m de ancho perpendicular al movimiento de la partícula. Calcular I) ¿Cuánto se desvía la partícula al atravesar el campo? II) ¿Cuánto debería valer la intensidad del campo eléctrico si queremos que la partícula se desvié 5cm al atravesar el campo?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "I)₂,27cm II) 2,78 x 102 N/C",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "I) 1,44cm II) 2,78 x 102 N/C",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "I) 0,227m II) 27,78 N/C",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "I) 1,44 X 10 2m ii) 27,78 N/C",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Ninguna opción es correcta.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) I) 1,44cm II) 2,78 x 102 N/C.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 69, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqf-0040",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Una partícula parte del reposo con aceleración constante y logra alcanzar en 1 minuto una velocidad de m ∗ s− . Determinar la aceleración y la distancia recorrida. Aceleración distancia recorrida",
+    "choices": [
+      {
+        "id": "a",
+        "text": "m ∗ s− 150 m 9 km",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "m ∗ s− 300 km 18 km",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": ", m ∗ s−",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "m ∗ s−",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Ninguna de las anteriores es correcta",
+        "correct": true
+      }
+    ],
+    "explanation": "Respuesta correcta: e) Ninguna de las anteriores es correcta.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 73, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqf-0041",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Determinar el tiempo que empleo la piedra para llegar al suelo desde la altura máxima:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "1,75 s",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "3,06 s",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "2,025 s",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "4,1 s",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Ninguna de las anteriores es la correcta",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: c) 2,025 s.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 76, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqf-0042",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Determinar los módulos del campo eléctrico y de la fuerza establecidos entre las placas:",
+    "choices": [
+      {
+        "id": "a",
+        "text": ", E F",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": ", ∗ − N. C− − , ∗ − N. C− ∗ N. C− , ∗ − N. C−",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": ". ∗ N. C− −, ∗ N. C−",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": ". ∗ − N. C− , ∗ − N. C−",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Ninguna de las anteriores es correcta.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) , ∗ − N. C− − , ∗ − N. C− ∗ N. C− , ∗ − N. C−.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 80, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqf-0043",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Un cuerpo de masa m, inicialmente con velocidad vo=0, sufre un desplazamiento d bajo la acción de una fuerza F. Analice cual de las siguientes afirmaciones es verdadera (V) y cual es falsa (F), y luego señale la opción correcta. I) Si la F actúa en la dirección y sentido de la v, al final del desplazamiento la velocidad del cuerpo estará dada por la expresión: vf = √ FD + mv m II) Suponiendo que F actua constantemente en la misma dirección, pero en sentido contrario a v, al final del desplazamiento, el cuerpo estará en reposo cuando F alcance un valor constante a : F= mv d III) Si la F actua inicialmente en un sentido y luego en otro, de tal modo que el trabajo total de F en el desplazamiento d sea nulo, se puede afirmar que, al final del desplazamiento la velocidad del cuerpo tendrá un valor igual a vo.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "I-V II-V III-F",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "I-F II-V III-F",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "I-V II-V III-V",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "I-V II-F III-V",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "I-F II-F III-V",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: c) I-V II-V III-V.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 82, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqf-0044",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "El estado líquido de la materia se caracteriza por fluir para adaptarse a la forma del recipiente que lo contiene, no obstante tiene un volumen definido que se conserva a pesar de los cambios de forma. Las fuerzas que ejercen las partículas que constituyen un fluido sobre una superficie caravteriza la presión. En base a los conceptos anteriores, analice cual de las siguientes sentencias es verdadera (V) y cual es la falsa (F), y luego señale la opción correcta. I- Debido a la falta de rigidez, un fluido en reposo siempre ejerce fuerzas paralelas y perpendiculares a una superficie. II- En ausencia de gravedad, es decir despreciando el peso del propio fluido, la presión de un fluido en reposo es la misma en todas las partes. III- La presión en un líquido es diferente para todos los puntos de igual profundidad, y la direferencia de presión entre dos puntos A y B de profundidades respectivas h y h es: Pgh Pga P −P = Pgh = Pg IV- La fuerza de empuje ejercida por un fluido sobre un objeto es igual al peso del fluido desplazado por el objeto.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "I-V II-F III-F IV-V",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "I-F II-V III-F IV-F",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "I-F II-F III-V IV-V",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "I-F II-V III-F IV-V",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "I-V II-F III-V IV-F",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: d) I-F II-V III-F IV-V.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 86, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqf-0045",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Un tanque de nafta ecológica (densidad del agua pura 1,5 veces mayor que la nafta ecológica), tiene en su base un área de , ∗ cm y posee una altura de 30 cm. Sabiendo que se encuentra ocupado solo 4/5 de su capacidad con nafta ecológica, determine I) ¿Cuál es la masa de la nafta ecológica contenida en el tanque? II) ¿Cuál es la presión ejercida por la nafta ecológica sobre el fondo del tanque? Luego seleccione la opción correcta:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "I) 75 Kg II) , ∗ Pa",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "I) 40 Kg corresponde al 80% de la capacidad del tanque II) 1,94 K.Pa II) 388 Pa",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "I) 50,25 Kg, que es el 80% de la capacidad del tanque II) 1,94 K.Pa",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "I) 40 Kg II) 1,57 K.Pa",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "I) 75 Kg, que es el 80% de la capacidad del tanque",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: d) I) 40 Kg II) 1,57 K.Pa.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 87, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqf-0046",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "El neumático de un automóvil que se encuentra en reposo se llena con aire a una temperatura ambiente de 20° C hasta una presión manométrica de , ∗ hPa. Despues de recorrer 150 Km por una carretera plana, el neumático se encuentra a 50° C y ha sufrido una expansión del 5%. Determine cual es la presión del mismo a esta temperatura y señale la opción correcta: Dato: Presión Barométrica ∗ hPa",
+    "choices": [
+      {
+        "id": "a",
+        "text": "2,76 atmosferas",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "1,71 atmosferas",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": ", ∗ hPa",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "1,89 atmosferas",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "a y c son correctas.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) 1,71 atmosferas.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 88, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqf-0047",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Un globo de m de volumen tiene una masa de 20 Kg (en ambas magnitudes se han tennido en cuenta tanto el gas que lo llena como el material que lo forma y además todos sus accesorios). En base a estos datos calcule la fuerza de ascenso que experimenta el globo sabiendo que la densidad del aire es de 1,293 Kg/ m ,y luego señale la opción correcta:",
+    "choices": [
+      {
+        "id": "a",
+        "text": ", ∗ N, aplicando el principio de Arquímedes",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": ", N, por comportarse los gases fluidos",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": ", N, aplicando el principio de pascal",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": ", N, por ser el aire un fluido",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "N, aplicando el principio de Arquímedes",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: d) , N, por ser el aire un fluido.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 90, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqf-0048",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Una recta que pasa por los puntos (3,1) y (4,0) se corta con otra cuya pendiente es superior en 3 unidades a la pendiente de la primera recta y las ordenadas al origen son números opuestos. El par ordenada que corresponde al punto de intersección es:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "(8/3; 4/3)",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "(8/5; 4/5)",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "(1,6; 0,8)",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "B y son correctas",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Ninguna es correcta",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: a) (8/3; 4/3).",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 94, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqf-0049",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "En un elemento radiactivo alguno de los átomos se transforman en otros elementos. Así, la cantidad de sustancia radiactiva disminuye. Esto se llama decaimiento radiactivo. Un modelo para el decaimiento radiactivo es: N = N ∗ e− ∗ Donde N es la cantidad de sustancia radiactiva en el instante 0, N es la cantidad de sustancia radiactiva en el i sta te t t se ide e años k es u a o sta te positiva ue depe de de la tasa e la ue u ele e to particular decae. El estroncio 90, es una sustancia radiactiva, tiene una vida media de 173 años. Esto significa que 100g de este elemento se transforma en 90,48g luego de 25 años. Responda las siguientes preguntas y luego seleccione la opción correcta: I) ¿Qué tipo de función es la del modelo del decaimiento radiactivo? II) ¿Cuál será el valor de K? III) ¿Qué cantidad de una muestra de 36 gramos se perderá luego de 100 años? IV) I II III 11,87 g",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Potencial con exponente negativo −",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Potencial con exponente negativo 0,004 24,13 g",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Exponencial 24,13 g −",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Exponencial 0,004 11,87 g",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "Ninguna es correcta",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: d) Exponencial 0,004 11,87 g.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 95, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqf-0050",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "mecanica",
+    "topic": "dinamica",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "alta",
+    "difficulty": 2,
+    "stem": "Dos personas sostienen un cuerpo de 600 N por medio de dos cuerdas, las cuales forman angulos de 30º y 60º con respecto a la horizontal. ¿Cuál es el valor de la fuerza que ejerce cada persona?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "F : 300N y F : 300N",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "F : 300N y F : 520N",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "F : 520N y F : 300N",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "F : 200N y F : 400N",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "F : 250N y F : 250N",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) F : 300N y F : 520N.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 96, tema \"dinamica\")."
+  },
+  {
+    "id": "fis-hqf-0051",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "mecanica",
+    "topic": "cinematica",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "alta",
+    "difficulty": 2,
+    "stem": "Determinar la aceleración y el espacio recorrido entre los puntos 1 y 2 cuya velocidad se grafica:",
+    "choices": [
+      {
+        "id": "a",
+        "text": ", ; 1800m",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": ", ; 2100m",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "; 1800m",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "; 2100m",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Nada de lo anterior es correcto",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) , ; 2100m.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 97, tema \"cinematica\")."
+  },
+  {
+    "id": "fis-hqf-0052",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "sin_clasificar",
+    "topic": "sin_clasificar",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "La densidad es una propiedad característica de los sistemas sólidos, líquidos y gaseosos. Analice las siguientes sentencias acerca del comportamiento de la densidad en el sistema gaseoso, determine cuáles son verdaderas y cuáles son falsas, luego señale la opción correcta: I En una transformación isotérmica, cuando aumenta la presión sobre la masa gaseosa, su volumen se reduce y por lo tanto su densidad aumenta, mientras el valor de la masa no se altera. La ley de Boyle-Mariotte permite deducir estas relaciones. II Como el volumen de cualquier masa gaseosa en condiciones isobáricas varía con la temperatura, se infiere que la densidad del gas tendrá iguales valores para diferentes valores de temperatura. III La ley de Avogadro permite explicar que dos muestras de diferentes masas gaseosas, que ocupan el mismo volumen a la misma presión y temperatura, tendrán el mismo número de moléculas y la densidad será directamente proporcional a su masa molecular. IV En el sistema gaseoso, la presión es inversamente proporcional a la densidad del mismo.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "I – V II – V III – V IV – F",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "I – V II – F III – V IV – V",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "I – F II – F III – V IV – V",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "I – V II – F III – F IV – V",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "I – V II – F III – V IV – F",
+        "correct": true
+      }
+    ],
+    "explanation": "Respuesta correcta: e) I – V II – F III – V IV – F.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 98, tema \"sin_clasificar\")."
+  },
+  {
+    "id": "fis-hqf-0053",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "La relativa libertad con que pueden desplazarse las cargas a través de distintas sustancias determina que si se desplazan libremente son sustancias conductoras y si se pueden mover sólo ligeramente son dieléctricos. Cuando un conductor está cargado, con una cantidad de carga determinada y ésta se extiende por la masa del conductor hasta llegar a un estado de equilibrio, la carga al distribuirse determina que: Sólo exista campo eléctrico en el interior del conductor y este tenga dirección paralela a la superficie del mismo, y sentido tal que tienda a mover el exceso de cargas hacia adentro El exceso de carga se acumule en el interior del conductor. El campo en el interior del conductor posea el máximo valor, por lo tanto todos los puntos del conductor queden con diferente potencial. Cuando se relacione la carga comunicada al conductor y el potencial al que se conecte, se define una constante denominada capacidad del conductor. Analice las afirmaciones precedentes, indique las verdaderas y falsas y seleccione la opción correcta.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "– F –F –F –V",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "– V –V –V –F",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "– F –F –F –F",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "– F –F –V –V",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "– V –V –F –V",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: a) – F –F –F –V.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 99, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqf-0054",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "sin_clasificar",
+    "topic": "sin_clasificar",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "F = F",
+    "choices": [
+      {
+        "id": "a",
+        "text": "V, F, V, F, V",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "V, V, F, F, F",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "V, V, V, F, F",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "F, F, V, V, V",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Ninguna de las anteriores.",
+        "correct": true
+      }
+    ],
+    "explanation": "Respuesta correcta: e) Ninguna de las anteriores..",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 5, tema \"sin_clasificar\")."
+  },
+  {
+    "id": "fis-hqf-0055",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "sin_clasificar",
+    "topic": "sin_clasificar",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Si un cuerpo tiene una densidad igual a las 3ra parte de la densidad del líquido en el que flota, ¿Qué proporción del volumen total del mismo emerge en la superficie libre del líquido?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "V g = ∗ V a",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "V g = ∗ V a",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "V g = ∗ V a",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Falta como dato la densidad del liquido",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Ninguna de las opciones anteriores",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: a) V g = ∗ V a.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 103, tema \"sin_clasificar\")."
+  },
+  {
+    "id": "fis-hqf-0056",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Determine cuál es el valor de la presión del gas encerrado dentro del recipiente mostrado, si el fluido contenido en el mismo es mercurio",
+    "choices": [
+      {
+        "id": "a",
+        "text": ", ∗ i",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": ", atmosferas",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "1009,8 mmHg",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "A y B son correctas",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Todas las anteriores son correctas",
+        "correct": true
+      }
+    ],
+    "explanation": "Respuesta correcta: e) Todas las anteriores son correctas.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 104, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqf-0057",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "En un recipiente de 50 cm de altura hay mercurio (densidad 13,6 g/cm ) agua y aceite (densidad: 0,9 g/cm ) el mercurio ocupa una altura de 10 cm, sobre el hay 25 cm de agua y sobre esta, 15 cm de aceite. Se desea determinar: Α: p esió so e el fo do del e ipie te. Β: p esió so e la supe fi ie del e u io. Nota: el recipiente se halla TAPADO Seleccione la opción correcta:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "α , * pas ales β , * pascales",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "α , * pas ales β , * pascales",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "α , * pas ales β , * pascales pascales",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "α , * pas ales β , * pascales",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "α , * pas ales β , *",
+        "correct": true
+      }
+    ],
+    "explanation": "Respuesta correcta: e) α , * pas ales β , *.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 105, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqf-0058",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "sin_clasificar",
+    "topic": "sin_clasificar",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "determine qué porcentaje del volumen total de un tempano emerge de la superficie del mar, si la densidad del hielo es de 0,92 gcm− .",
+    "choices": [
+      {
+        "id": "a",
+        "text": "11,5%",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "9,5%",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "10,5%",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "12,5%",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Ninguna de las opciones anteriores.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: a) 11,5%.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 108, tema \"sin_clasificar\")."
+  },
+  {
+    "id": "fis-hqf-0059",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "¿Cuánto vale la fuerza gravitatoria con que se atraen un melón de 400 gr y una manzana de 75 gr, separadas por 20 cm?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "5* − din.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "5* − N.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "A y b son correctas",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Falta un dato",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Ninguna es correcta",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: c) A y b son correctas.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 109, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqf-0060",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "sin_clasificar",
+    "topic": "sin_clasificar",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "En una obra de construcción, un albañil necesita subir en dirección vertical, con precaución, un cuerpo de , dm , 30 veces más denso que el agua pura, hasta los 5 m de altura. Para ello debe desplazarlo invariablemente a razón de 20 cm en un segundo. Con estos datos responda:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "I: 4,4 * N II: 2,2 * J III: 88,2 W",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "I: 45 N II: 225 J III: 4,41 * W",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "I: 4,4 * dinas II: 2,2 * ergios III: 4,41 * W",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "I: 4,4 * N II: 2,25 * J III: 8,822 * W",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Ninguna",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: a) I: 4,4 * N II: 2,2 * J III: 88,2 W.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 110, tema \"sin_clasificar\")."
+  },
+  {
+    "id": "fis-hqf-0061",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Determine la presión mínima que debe ejercer la bomba para permitir que el agua suba hasta los 1,20 m de la base del tanque y la potencia de la bomba si para llenar el tanque con agua hasta 1,20m de altura respecto de su base emplea un tiempo de 8min",
+    "choices": [
+      {
+        "id": "a",
+        "text": ", . Pa ,. W",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": ", . Pa W , Pa W",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": ",. W",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": ", Pa",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Ninguna opción es correcta.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) , . Pa W , Pa W.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 112, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqf-0062",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Calcule la energía potencial acumulada por el agua en el tanque y la intensidad y la intensidad de corriente que alimenta la bomba y la resistencia hidrodinámica del caño que alimenta el tanque.",
+    "choices": [
+      {
+        "id": "a",
+        "text": ", . J , dA Pa. s. m−",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": ", KJ , cA dyn. s. cm−",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": ", J N. s. m−",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": ", KJ cA dyn. s. cm− , dA",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "Ninguna opción es correcta.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: d) , KJ cA dyn. s. cm− , dA.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 113, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqf-0063",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Si el caño maestro tiene una canilla en su extremo inferior, la cual deja escapar el agua por un orificio del mismo diámetro que el caño (5cm), determine el caudal de agua que sale por la misma al estar abierta y la velocidad con que sale al agua.",
+    "choices": [
+      {
+        "id": "a",
+        "text": ", m ⁄s , cm⁄s",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": ", l⁄s , m⁄s",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": ", cm ⁄s m⁄s cm ⁄s , cm⁄s",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": ", .",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Ninguna opción es correcta. Un deportista de alta montaña asciende hasta la base de un cerro a 2500m sobre el nivel del mar (msnm) desde donde se propone alcanzar los 3000m en la cima del cerro. La presión atmosférica en la base del cerro es 560mmHg y se estima una variación promedio de 1mmHg por cada 50m de ascenso. Sabiendo que la composición química del aire a esa altura es: N = , % v/v O = , % v/v CO = , % v/v H O = , % v/v En base a la información suministrada responder las dos preguntas siguientes",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) , l⁄s , m⁄s.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 114, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqf-0064",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "mecanica",
+    "topic": "cinematica",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "alta",
+    "difficulty": 2,
+    "stem": "Un indio lanza con su cerbatana una flecha. Para ello, llena sus pulmones con una presión manométrica de 12 mmHg. La longitud de la cerbatana es de 40cm, el área de la sección de la misma es de 0,196cm y la viscosidad del aire es de 0,0181Cp. Con estos datos, determine la velocidad con que sale despedida la flecha de la cerbatana.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "35,42m/s",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "82,44m/s",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "129,36m/s",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "172,28m/s",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "Ninguna de las anteriores.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: d) 172,28m/s.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 117, tema \"cinematica\")."
+  },
+  {
+    "id": "fis-hqf-0065",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "sin_clasificar",
+    "topic": "sin_clasificar",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Un hombre tiene 7 años más que su esposa. Si hace 40 años tenía el doble de edad que ella, ¿cuántos años tiene cada uno? HOMBRE MUJER",
+    "choices": [
+      {
+        "id": "a",
+        "text": "54 años 47 años",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "47 años 54 años",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "44 años 37 años",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "48 años 41 años",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Los datos no son suficientes para resolver el problema.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: a) 54 años 47 años.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 118, tema \"sin_clasificar\")."
+  },
+  {
+    "id": "fis-hqf-0066",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "mecanica",
+    "topic": "trabajo_y_energia",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "alta",
+    "difficulty": 2,
+    "stem": "En un recipiente (cilindro circular recto) que se encuentra a 5m del plano de referencia, se deposita un líquido, y de este sistema se disponen los siguientes datos: Líquido: Agua Diámetro del recipiente: 1m Altura del recipiente: 1,5m ¿Se puede determinar cuánta energía acumula ese líquido?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "La información es insuficiente para calcular la energía potencial gravitatoria.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Con estos datos se obtiene la masa líquida, luego se plantea Ep=m.g.h",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Falta la información de la cañería con la que se carga el depósito.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Los datos son insuficientes para plantear: E = δ. v + δ. g. h",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Nada de lo anterior es correcto",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) Con estos datos se obtiene la masa líquida, luego se plantea Ep=m.g.h.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 119, tema \"trabajo_y_energia\")."
+  },
+  {
+    "id": "fis-hqf-0067",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Por un tubo cónico recto circula un líquido. Cuando atraviesa la primera sección de cm lo hace a 100cm/s, y cuando atraviesa la segunda de cm lo hace a 30cm/s. identificar la opción correcta que describe lo que ocurre con el caudal.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "El caudal se conserva a lo largo de las dos secciones.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "El caudal aumenta en la segunda sección transversal.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "El cambio del caudal se debe a un ingreso extra de líquido.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "El caudal es mayor en la primer sección transversal.",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "No hay explicación posible.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: d) El caudal es mayor en la primer sección transversal..",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 120, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqf-0068",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "mecanica",
+    "topic": "cinematica",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "alta",
+    "difficulty": 2,
+    "stem": "Un camión viaja hacia el norte, a una velocidad constante de 40km/h y en cierto instante se localiza a 500 metros por delante de un automóvil detenido en la ruta. Si el auto parte de reposo, y acelera a 3 m/s² ¿cuánto tardará en rebasar (pasar) al camión? Y ¿Qué tan alejado está el punto de rebase (punto en que lo pasa) de la posición de la que parte el auto?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "11,15 segundos y 323,5 metros.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "11,15 segundos, y 525,6 metros.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "22,3 segundos, y 748,1 metros.",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "22,3 segundos, y 657,4 metros.",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Ninguna de las opciones anteriores.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: c) 22,3 segundos, y 748,1 metros..",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 123, tema \"cinematica\")."
+  },
+  {
+    "id": "fis-hqf-0069",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "sin_clasificar",
+    "topic": "sin_clasificar",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Si a 500m sobre el nivel del mar la presión barométrica es de 957hPa, cuál será la presión barométrica a 550m sobre el nivel del mar si la densidad del aire es de 0,0097g/cm³?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "1 atm",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "951,1hPa",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "962,9hPa",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "810mmHg",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "9,6×10⁵Pa",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) 951,1hPa.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 156, tema \"sin_clasificar\")."
+  },
+  {
+    "id": "fis-hqf-0070",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "sin_clasificar",
+    "topic": "sin_clasificar",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Se dispone de una plancha de corcho de 1dm de espesor. Calcular la superficie mínima que se debe emplear para que flote en agua, sosteniendo a un náufrago de 70kg. La densidad del corcho es de 0,24g/cm³. Nota: entendemos por superficie mínima la que permite mantener a un hombre completamente fuera del agua aunque la tabla esté totalmente inmersa en ella.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "0,92m²",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "0,82m²",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "0,72m²",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "0,62m²",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Ninguna de las opciones anteriores",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: a) 0,92m².",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 158, tema \"sin_clasificar\")."
+  },
+  {
+    "id": "fis-hqf-0071",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "En una vivienda se abre un grifo de 1,2cm de radio, dejando circular agua a caudal constante desde una altura de 1,8m, para llenar un recipiente rígido de 10 litros en 45 segundos. Desde la boca del grifo se forma un chorro de agua cuyo radio va disminuyendo a medida que se acerca al suelo, en forma de cono perfecto truncado. En base a los datos del enunciado, y considerando que el rozamiento es despreciable, responder los siguientes ítems: Establecer el caudal del sistema (Examen marzo 2017):",
+    "choices": [
+      {
+        "id": "a",
+        "text": "2,22×10⁻¹m³/s",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "2,22×10⁻⁴m³/s",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "4,85×10¹m³/s",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "0m³/s",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Ninguna es correcta",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) 2,22×10⁻⁴m³/s.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 168, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqf-0072",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Con respecto al problema anterior: Determinar la sección del chorro de agua al llegar al recipiente. (Examen marzo 2017-2018)",
+    "choices": [
+      {
+        "id": "a",
+        "text": "1,95×10³m²",
+        "correct": false
+      },
+      {
+        "id": "a",
+        "text": "1,81×10⁻³m²",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "3,73×10⁻³m²",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "3,73×10⁻⁵m²",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Ninguna de las opciones es correcta",
+        "correct": true
+      }
+    ],
+    "explanation": "Respuesta correcta: d) Ninguna de las opciones es correcta.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 169, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqf-0073",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "sin_clasificar",
+    "topic": "sin_clasificar",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Cuando un objeto flota, es debido a la acción y al efecto de sostener al mismo en la superficie de un líquido, tal como ocurre con un bloque cúbico de acero de 10cm de arista, que flota en mercurio. Sabiendo que la densidad del acero es de 7,8g/cm³, responda: a qué profundidad se encuentra la base del bloque por debajo de la superficie del mercurio?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "17,43cm",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "5,74cm",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "0,57cm",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "0,57m",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "5,73m",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) 5,74cm.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 174, tema \"sin_clasificar\")."
+  },
+  {
+    "id": "fis-hqf-0074",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "sin_clasificar",
+    "topic": "sin_clasificar",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "el tejido óseo de una persona adulta pesa aproximadamente 11kg y contiene 50% de Ca₃(PO₄)₂. Determinar los kilogramos de fósforo que hay en el tejido óseo de una persona adulta.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "2,2kg",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "2200g",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "1,1kg",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "1100g",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "5,5kg",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: c) 1,1kg.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 175, tema \"sin_clasificar\")."
+  },
+  {
+    "id": "fis-hqf-0075",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "sin_clasificar",
+    "topic": "sin_clasificar",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Cuántos milímetros de mercurio igualan la presión de 2200 mm de plomo cuya densidad es de 1130kg/m³.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "2827mm",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "2200mm",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "1828mm",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "1793mm",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "1363mm",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: c) 1828mm.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 177, tema \"sin_clasificar\")."
+  },
+  {
+    "id": "fis-hqf-0076",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "mecanica",
+    "topic": "cinematica",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "alta",
+    "difficulty": 2,
+    "stem": "Estando Superman parado al lado de un cañón, es efectuado un disparo desde el mismo contra un depósito de combustible ubicado a una distancia de 500 metros. Si la bala de un cañón viaja a 100m/s, determine con qué aceleración mínima debe viajar Superman partiendo en el instante en que se dispara la bala, para alcanzar a la misma antes de que haga impacto contra el depósito de combustible.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "10m/s",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "20m/s",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "30m/s",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "40m/s",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "Ninguna de las anteriores",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: d) 40m/s.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (integradores) (nº 193, tema \"cinematica\")."
+  }
+]

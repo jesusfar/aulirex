@@ -1,0 +1,102 @@
+{
+  "importados": 1,
+  "excluidos": 18,
+  "porMotivo": {
+    "figura no extraída": 13,
+    "tipo unknown": 3,
+    "figura descartada en revisión visual": 1,
+    "sin materia clasificada (revisar)": 1
+  },
+  "detalle": [
+    {
+      "number": 5,
+      "subject": "quimica",
+      "reason": "figura no extraída"
+    },
+    {
+      "number": 6,
+      "subject": "quimica",
+      "reason": "figura no extraída"
+    },
+    {
+      "number": 9,
+      "subject": "quimica",
+      "reason": "figura no extraída"
+    },
+    {
+      "number": 10,
+      "subject": "fisica",
+      "reason": "figura no extraída"
+    },
+    {
+      "number": 12,
+      "subject": "quimica",
+      "reason": "figura no extraída"
+    },
+    {
+      "number": 14,
+      "subject": "quimica",
+      "reason": "figura no extraída"
+    },
+    {
+      "number": 16,
+      "subject": "fisica",
+      "reason": "figura no extraída"
+    },
+    {
+      "number": 18,
+      "subject": "sin_clasificar",
+      "reason": "figura no extraída"
+    },
+    {
+      "number": 19,
+      "subject": "quimica",
+      "reason": "figura no extraída"
+    },
+    {
+      "number": 20,
+      "subject": "quimica",
+      "reason": "figura no extraída"
+    },
+    {
+      "number": 34,
+      "subject": "quimica",
+      "reason": "tipo unknown"
+    },
+    {
+      "number": 36,
+      "subject": "biologia",
+      "reason": "figura no extraída"
+    },
+    {
+      "number": 5,
+      "subject": "fisica",
+      "reason": "figura descartada en revisión visual"
+    },
+    {
+      "number": 7,
+      "subject": "sin_clasificar",
+      "reason": "sin materia clasificada (revisar)"
+    },
+    {
+      "number": 15,
+      "subject": "fisica",
+      "reason": "figura no extraída"
+    },
+    {
+      "number": 19,
+      "subject": "sin_clasificar",
+      "reason": "figura no extraída"
+    },
+    {
+      "number": 23,
+      "subject": "fisica",
+      "reason": "tipo unknown"
+    },
+    {
+      "number": 25,
+      "subject": "biologia",
+      "reason": "tipo unknown"
+    }
+  ]
+}

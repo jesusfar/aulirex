@@ -1,0 +1,168 @@
+[
+  {
+    "number": 10,
+    "subject": "quimica",
+    "status": "con_figura",
+    "image": "/figures/qui-hqfig-d845a27385.png",
+    "stemKey": "Indica todos los centros quirales de las siguiente",
+    "w": 568,
+    "h": 258,
+    "page": 183
+  },
+  {
+    "number": 11,
+    "subject": "quimica",
+    "status": "sin_figura",
+    "stemKey": "¿Cuáles de los siguientes derivados del ciclohexan"
+  },
+  {
+    "number": 14,
+    "subject": "quimica",
+    "status": "sin_figura",
+    "stemKey": "Dadas las siguientes moléculas: SO2 CBr4 ¿Qué estr"
+  },
+  {
+    "number": 15,
+    "subject": "quimica",
+    "status": "sin_figura",
+    "stemKey": "El hierro es un metal esencial para el ser humano "
+  },
+  {
+    "number": 16,
+    "subject": "quimica",
+    "status": "no_localizada",
+    "stemKey": "El lo azepa ue se o e ializa e la a o ía de los pa"
+  },
+  {
+    "number": 20,
+    "subject": "quimica",
+    "status": "sin_figura",
+    "stemKey": "Analice las fórmulas de los siguientes compuesto, "
+  },
+  {
+    "number": 21,
+    "subject": "quimica",
+    "status": "sin_figura",
+    "stemKey": "Ubique las siguientes moléculas en la tabla consid"
+  },
+  {
+    "number": 29,
+    "subject": "quimica",
+    "status": "sin_figura",
+    "stemKey": "El catión divalente de un elemento M posee la sigu"
+  },
+  {
+    "number": 49,
+    "subject": "quimica",
+    "status": "sin_figura",
+    "stemKey": "La siguiente tabla indica propiedades físicas del "
+  },
+  {
+    "number": 53,
+    "subject": "quimica",
+    "status": "sin_figura",
+    "stemKey": "Un estudiante preparo una solución disolviendo 6,3"
+  },
+  {
+    "number": 60,
+    "subject": "quimica",
+    "status": "sin_figura",
+    "stemKey": "Un grupo de estudiantes realizó un experimento cuy"
+  },
+  {
+    "number": 62,
+    "subject": "quimica",
+    "status": "con_figura",
+    "image": "/figures/qui-hqfig-aa0135ffa9.png",
+    "stemKey": "Los esquemas representan recipientes con diferente",
+    "w": 945,
+    "h": 260,
+    "page": 214
+  },
+  {
+    "number": 64,
+    "subject": "quimica",
+    "status": "sin_figura",
+    "stemKey": "El catión monovalente de un elemento M posee la si"
+  },
+  {
+    "number": 68,
+    "subject": "quimica",
+    "status": "con_figura",
+    "image": "/figures/qui-hqfig-589432d738.png",
+    "stemKey": "La siguiente es una representación esquemática de ",
+    "w": 814,
+    "h": 240,
+    "page": 216
+  },
+  {
+    "number": 75,
+    "subject": "quimica",
+    "status": "con_figura",
+    "image": "/figures/qui-hqfig-4f32d5cb78.png",
+    "stemKey": "El amoniaco se forma por reacción directa entre ni",
+    "w": 539,
+    "h": 201,
+    "page": 218
+  },
+  {
+    "number": 76,
+    "subject": "quimica",
+    "status": "con_figura",
+    "image": "/figures/qui-hqfig-acba83d982.png",
+    "stemKey": "La siguiente estructura corresponde al agente anti",
+    "w": 524,
+    "h": 731,
+    "page": 191
+  },
+  {
+    "number": 79,
+    "subject": "quimica",
+    "status": "con_figura",
+    "image": "/figures/qui-hqfig-69173bdc2c.png",
+    "stemKey": "Un hombre diabético de 70kg de peso, posee un nive",
+    "w": 408,
+    "h": 243,
+    "page": 220
+  },
+  {
+    "number": 87,
+    "subject": "quimica",
+    "status": "sin_figura",
+    "stemKey": "Dadas las siguientes configuraciones electrónicas:"
+  },
+  {
+    "number": 94,
+    "subject": "quimica",
+    "status": "sin_figura",
+    "stemKey": "Dadas las siguientes configuraciones electrónicas "
+  },
+  {
+    "number": 100,
+    "subject": "quimica",
+    "status": "sin_figura",
+    "stemKey": "Determine en cada caso, el elemento que correspond"
+  },
+  {
+    "number": 108,
+    "subject": "quimica",
+    "status": "sin_figura",
+    "stemKey": "Indicar cual o cuales de los siguientes compuestos"
+  },
+  {
+    "number": 157,
+    "subject": "quimica",
+    "status": "sin_figura",
+    "stemKey": "Escribir las fórmulas de los siguientes compuestos"
+  },
+  {
+    "number": 161,
+    "subject": "quimica",
+    "status": "con_figura",
+    "image": "/figures/qui-hqfig-5cabbcb9e6.png",
+    "stemKey": "Dos sustancias biatómicas se colocan en un recipie",
+    "w": 492,
+    "h": 157,
+    "page": 237
+  }
+]

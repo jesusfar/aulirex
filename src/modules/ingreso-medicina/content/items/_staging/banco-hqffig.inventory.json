@@ -1,0 +1,138 @@
+{
+  "importados": 27,
+  "excluidos": 25,
+  "porMotivo": {
+    "figura descartada en revisión visual": 1,
+    "figura no extraída": 13,
+    "menos de 2 opciones": 2,
+    "tipo unknown": 8,
+    "corrupto (símbolos ilegibles)": 1
+  },
+  "detalle": [
+    {
+      "number": 5,
+      "subject": "fisica",
+      "reason": "figura descartada en revisión visual"
+    },
+    {
+      "number": 9,
+      "subject": "fisica",
+      "reason": "figura no extraída"
+    },
+    {
+      "number": 10,
+      "subject": "fisica",
+      "reason": "figura no extraída"
+    },
+    {
+      "number": 27,
+      "subject": "fisica",
+      "reason": "figura no extraída"
+    },
+    {
+      "number": 70,
+      "subject": "fisica",
+      "reason": "figura no extraída"
+    },
+    {
+      "number": 77,
+      "subject": "fisica",
+      "reason": "figura no extraída"
+    },
+    {
+      "number": 89,
+      "subject": "fisica",
+      "reason": "figura no extraída"
+    },
+    {
+      "number": 100,
+      "subject": "fisica",
+      "reason": "menos de 2 opciones"
+    },
+    {
+      "number": 102,
+      "subject": "fisica",
+      "reason": "figura no extraída"
+    },
+    {
+      "number": 122,
+      "subject": "fisica",
+      "reason": "figura no extraída"
+    },
+    {
+      "number": 124,
+      "subject": "fisica",
+      "reason": "menos de 2 opciones"
+    },
+    {
+      "number": 125,
+      "subject": "fisica",
+      "reason": "figura no extraída"
+    },
+    {
+      "number": 132,
+      "subject": "fisica",
+      "reason": "figura no extraída"
+    },
+    {
+      "number": 140,
+      "subject": "fisica",
+      "reason": "figura no extraída"
+    },
+    {
+      "number": 141,
+      "subject": "fisica",
+      "reason": "tipo unknown"
+    },
+    {
+      "number": 152,
+      "subject": "fisica",
+      "reason": "tipo unknown"
+    },
+    {
+      "number": 160,
+      "subject": "fisica",
+      "reason": "tipo unknown"
+    },
+    {
+      "number": 167,
+      "subject": "fisica",
+      "reason": "figura no extraída"
+    },
+    {
+      "number": 173,
+      "subject": "fisica",
+      "reason": "tipo unknown"
+    },
+    {
+      "number": 176,
+      "subject": "fisica",
+      "reason": "figura no extraída"
+    },
+    {
+      "number": 182,
+      "subject": "fisica",
+      "reason": "tipo unknown"
+    },
+    {
+      "number": 184,
+      "subject": "fisica",
+      "reason": "tipo unknown"
+    },
+    {
+      "number": 187,
+      "subject": "fisica",
+      "reason": "tipo unknown"
+    },
+    {
+      "number": 188,
+      "subject": "fisica",
+      "reason": "corrupto (símbolos ilegibles)"
+    },
+    {
+      "number": 194,
+      "subject": "fisica",
+      "reason": "tipo unknown"
+    }
+  ]
+}

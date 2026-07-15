@@ -157,10 +157,17 @@ function parseSeparateKey() {
     }
   }
 
-  // 2) Preguntas: desde sectionHeaderRe (o 0) hasta el inicio de la clave.
+  // 2) Preguntas: desde sectionHeaderRe (o 0) hasta sectionEndRe (o el inicio de
+  // la clave). sectionEndRe evita tragarse bloques de clave intermedios (p. ej.
+  // las claves de TP con numeración que reinicia en HQ Física).
   let secStart = cfg.sectionHeaderRe ? lines.findIndex((l) => cfg.sectionHeaderRe.test(l)) : 0;
   if (secStart === -1) secStart = 0;
-  const qLines = lines.slice(secStart, keyStart === -1 ? undefined : keyStart);
+  let secEnd = keyStart === -1 ? lines.length : keyStart;
+  if (cfg.sectionEndRe) {
+    const endIdx = lines.findIndex((l, i) => i > secStart && cfg.sectionEndRe.test(l));
+    if (endIdx !== -1) secEnd = Math.min(secEnd, endIdx);
+  }
+  const qLines = lines.slice(secStart, secEnd);
 
   const out = [];
   let cur = null;

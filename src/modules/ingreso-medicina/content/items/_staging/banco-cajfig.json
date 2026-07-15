@@ -1,0 +1,54 @@
+[
+  {
+    "id": "qui-cajfig-0001",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "materia",
+    "topic": "conceptos_basicos_y_sistemas_materiales",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Dos sustancias biatómicas se colocan en un recipiente en determinadas condiciones de presión y temperatura. La mezcla inicial (Estado I) y luego de la transformación (Estado 2) se representa en los siguientes diagramas: Átomo de X Átomo de Y Estado I Estado II Determina la opción correcta:",
+    "media": [
+      {
+        "kind": "image",
+        "src": "/figures/qui-cajfig-34e6b62409.png"
+      }
+    ],
+    "choices": [
+      {
+        "id": "a",
+        "text": "Ocurrió una transformación física. (Hubo una reacción química, un cambio químico)",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "El estado I es heterogéneo y el II homogéneo. (Los dos son homogéneos)",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "En el estado II hay una sustancia pura compuesta.",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Todas son correctas",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Ninguna es correcta.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: c) En el estado II hay una sustancia pura compuesta.. Es un sistema material homogéneo formado por una única sustancia pura compuesta, porque es un compuesto formado por más de un elemento, bolitas negras y blancas",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de Cajal — Examen N°1 (nº 3, con figura, tema \"conceptos_basicos_y_sistemas_materiales\")."
+  }
+]

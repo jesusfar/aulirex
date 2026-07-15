@@ -81,3 +81,24 @@ export const CORRUPT_RE = new RegExp(
 );
 
 export const normalize = (t) => fixFormulas(fixIsotopes(fixSci(fixUnits(fixChars(t)))));
+
+// Texto con encoding roto (PDF sin ToUnicode): muchas palabras cortadas en
+// fragmentos de 1-2 letras que NO son palabras ("Que ep ese to la a tidad de i
+// dividuos ue se e fe a o"). Ignora stopwords del español y símbolos de fórmula
+// (1-2 mayúsculas) para no confundir con química legítima. Umbral calibrado 0.18.
+const STOP = new Set(
+  'el la los las un una unos unas de del al a ante con en para por segun según sin so sobre tras y o u e ni que se su sus lo le les me te nos os es son fue ser mas más si no ya he ha han hay dos tres uno como cual esta este esa ese eso mi tu al da va'.split(' '),
+);
+export function looksCorrupt(stem) {
+  const toks = (stem || '').split(/\s+/).filter(Boolean);
+  if (toks.length < 10) return false;
+  let susp = 0;
+  for (const t of toks) {
+    const a = t.replace(/[^A-Za-zÁÉÍÓÚáéíóúñÑ]/g, '');
+    if (a.length === 0 || a.length > 2) continue;
+    if (STOP.has(a.toLowerCase())) continue;
+    if (/^[A-Z]{1,2}$/.test(a)) continue;
+    susp++;
+  }
+  return susp / toks.length > 0.18;
+}

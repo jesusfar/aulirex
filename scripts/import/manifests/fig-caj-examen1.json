@@ -1,0 +1,140 @@
+[
+  {
+    "number": 3,
+    "subject": "quimica",
+    "status": "con_figura",
+    "image": "/figures/qui-cajfig-34e6b62409.png",
+    "stemKey": "Dos sustancias biatómicas se colocan en un recipie",
+    "w": 757,
+    "h": 183,
+    "page": 0
+  },
+  {
+    "number": 5,
+    "subject": "quimica",
+    "status": "sin_figura",
+    "stemKey": "Un átomo neutro formado por 42 neutrones y 33 prot"
+  },
+  {
+    "number": 6,
+    "subject": "quimica",
+    "status": "sin_figura",
+    "stemKey": "La siguiente configuración electrónica corresponde"
+  },
+  {
+    "number": 9,
+    "subject": "quimica",
+    "status": "sin_figura",
+    "stemKey": "El catión monovalente del elemento M posee la sigu"
+  },
+  {
+    "number": 10,
+    "subject": "fisica",
+    "status": "sin_figura",
+    "stemKey": "Un elemento con un Z=15: (La configuración es 1s2 "
+  },
+  {
+    "number": 12,
+    "subject": "quimica",
+    "status": "sin_figura",
+    "stemKey": "Indique la opción incorrecta:"
+  },
+  {
+    "number": 14,
+    "subject": "quimica",
+    "status": "sin_figura",
+    "stemKey": "Teniendo en cuenta la configuración electrónica de"
+  },
+  {
+    "number": 16,
+    "subject": "fisica",
+    "status": "sin_figura",
+    "stemKey": "Con respecto a un elemento con Z=20, es posible af"
+  },
+  {
+    "number": 18,
+    "subject": "sin_clasificar",
+    "status": "sin_figura",
+    "stemKey": "Los datos de electronagatividades de Pauling para "
+  },
+  {
+    "number": 19,
+    "subject": "quimica",
+    "status": "sin_figura",
+    "stemKey": "Las siguientes figuras representan dos estructuras"
+  },
+  {
+    "number": 20,
+    "subject": "quimica",
+    "status": "sin_figura",
+    "stemKey": "El sodio (Z=11) reacciona con el cloro (Z=17) para"
+  },
+  {
+    "number": 34,
+    "subject": "quimica",
+    "status": "con_figura",
+    "image": "/figures/qui-cajfig-c0528e6f37.png",
+    "stemKey": "Las células de los epitelios se relacionan entre s",
+    "w": 307,
+    "h": 396,
+    "page": 10
+  },
+  {
+    "number": 36,
+    "subject": "biologia",
+    "status": "sin_figura",
+    "stemKey": "Relaciona los procesos y funciones de la primera c"
+  },
+  {
+    "number": 5,
+    "subject": "fisica",
+    "status": "con_figura",
+    "image": "/figures/fis-cajfig-95d7aa19e9.png",
+    "stemKey": "Con los datos de la figura calcula el área del rec",
+    "w": 253,
+    "h": 139,
+    "page": 15
+  },
+  {
+    "number": 7,
+    "subject": "sin_clasificar",
+    "status": "con_figura",
+    "image": "/figures/sin-cajfig-d8d8875f86.png",
+    "stemKey": "Desde el pie de una pequeña montaña, se observan d",
+    "w": 897,
+    "h": 866,
+    "page": 16
+  },
+  {
+    "number": 15,
+    "subject": "fisica",
+    "status": "sin_figura",
+    "stemKey": "La parábola del gráfico tiene:"
+  },
+  {
+    "number": 19,
+    "subject": "sin_clasificar",
+    "status": "no_localizada",
+    "stemKey": "El gráfico de y  2x2  3x  2 es: a-"
+  },
+  {
+    "number": 23,
+    "subject": "fisica",
+    "status": "con_figura",
+    "image": "/figures/fis-cajfig-13559bbf68.png",
+    "stemKey": "Observa el siguiente diagrama vectorial y luego el",
+    "w": 746,
+    "h": 745,
+    "page": 23
+  },
+  {
+    "number": 25,
+    "subject": "biologia",
+    "status": "con_figura",
+    "image": "/figures/bio-cajfig-6146cf5fed.png",
+    "stemKey": "Algunas células eucariotas se relacionan entre sí ",
+    "w": 457,
+    "h": 500,
+    "page": 24
+  }
+]

@@ -1,0 +1,1406 @@
+[
+  {
+    "id": "fis-hqffig-0001",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Una bomba de agua situada en planta baja, conectada a 220V, debe llevar agua hasta un tanque situado en la terraza de un edificio (el edificio tiene 16 pisos, incluida la planta baja, son aproximadamente 3 metros por piso). Para ello bombea 800 litros por cada 2 segundos. Calcular la potencia de la bomba y la intensidad de corriente que circula por ella.",
+    "media": [
+      {
+        "kind": "image",
+        "src": "/figures/fis-hqffig-671025f2b4.png"
+      }
+    ],
+    "choices": [
+      {
+        "id": "a",
+        "text": "2,43 x 104 w 8,55 x 102 A",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "1,88 x 105 w 1,10 x 102 A",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "1,88 X 105 w 8,55 x 102 A",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "2,43 X 104 w 1,10 x 102 A",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Ninguna de las anteriores es correcta. La siguiente figura muestra la dependencia de la aceleración con el tiempo, de una partícula que se mueve a lo largo del eje X cuando parte del reposo: Analizar la gráfica y responder los ítems 9, 10, 11.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: c) 1,88 X 105 w 8,55 x 102 A.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (nº 8, con figura, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqffig-0002",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "electricidad",
+    "topic": "electrostatica",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "alta",
+    "difficulty": 2,
+    "stem": "El tanque de la figura está lleno con agua. En un determinado instante se le hace un pequeño agujero para pe iti ue el agua salga. Cal ule la velo idad o ue sale el agua a ue dista ia ho izo tal R ha e impacto contra el piso.",
+    "media": [
+      {
+        "kind": "image",
+        "src": "/figures/fis-hqffig-ef8860a9ff.png"
+      }
+    ],
+    "choices": [
+      {
+        "id": "a",
+        "text": "3,7m/s 2,31 m",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "1,1m/s 2,01 m",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "4,9 m/s 3,44 m",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "3,7 m/s 6,31 m",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "1,1 m/s 5,22 m En una cámara cilíndrica cerrada se pulverizan partículas cargadas, las que se dejan libradas al efecto gravitatorio y se observan sus caídas. Al repetir el experimento se le agrega un campo eléctrico de 2,5 x 1011 N.C-1 con sentido contrario al del campo gravitatorio y se observa que algunas partículas quedan suspendidas, otras aceleran sus caídas, y por último, las restantes comienzan a ascender. Analizar el experimento para responder los ítems 13 y 14.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: a) 3,7m/s 2,31 m.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (nº 12, con figura, tema \"electrostatica\")."
+  },
+  {
+    "id": "fis-hqffig-0003",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "sin_clasificar",
+    "topic": "sin_clasificar",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Calcular las cargas eléctricas de las partículas cuyas masas son de 5µg y que permanecen estacionarias mientras se aplica el campo eléctrico.",
+    "media": [
+      {
+        "kind": "image",
+        "src": "/figures/fis-hqffig-3a85b31b56.png"
+      }
+    ],
+    "choices": [
+      {
+        "id": "a",
+        "text": "4,9×10²⁰ C",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "1,96×10⁻¹⁹ C",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "1,96×10⁻¹ C",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "No es posible determinarlas",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Ninguna de las opciones anteriores es correcta. En el grafico siguiente se muestran la isoterma presión-volumen para un mol de gas ideal: Analizarlo y luego responder los ítems 15, 16 y 17.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) 1,96×10⁻¹⁹ C.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (nº 14, con figura, tema \"sin_clasificar\")."
+  },
+  {
+    "id": "fis-hqffig-0004",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "sin_clasificar",
+    "topic": "sin_clasificar",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Analizar los siguientes gráficos e indicar cuales representan un movimiento uniformemente acelerado: 1 2 3 4 5",
+    "media": [
+      {
+        "kind": "image",
+        "src": "/figures/fis-hqffig-32c08e2cc2.png"
+      }
+    ],
+    "choices": [
+      {
+        "id": "a",
+        "text": "Solo 4 y 5.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Solo 2 y 3.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Solo 3 y 5.",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Solo 1 y 2.",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Solo 1 y 4. Analizar el siguiente grafico que representa el movimiento de una partícula y responder los ítems 25 y 26. Considerar que el área encerrada por la u va el eje de las a s isas e este diag a a velo idad po tie po , p opo io a la distancia recorrida en cualquier clase de movimiento.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: c) Solo 3 y 5..",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (nº 24, con figura, tema \"sin_clasificar\")."
+  },
+  {
+    "id": "fis-hqffig-0005",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Una esponja de mar es un sistema filtrador de agua, formado por una o más cámaras a través de las cuales es impulsada tal como se muestra en la figura adjunta: Dicho sistema filtra el agua a gran velocidad para permitir que la esponja de mar sobreviva. En base a los conceptos implicados en este ejemplo, responda: ¿Cuál es la velocidad del agua al ingresar a la esponja por conductos de 6×10³ cm², si se conoce que egresa a 20cm.s-1 por un conducto de 1,5 cm de radio y que caudal circula por el sistema? Luego señale la opción correcta: Velocidad caudal",
+    "media": [
+      {
+        "kind": "image",
+        "src": "/figures/fis-hqffig-9618ae4c80.png"
+      }
+    ],
+    "choices": [
+      {
+        "id": "a",
+        "text": "2,355×10⁻² cm/s 3,9×10⁻⁶ cm³/s",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "2,355 10-2 m/s 1,413 m³/s",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "1,70×10⁴ cm/s 1,02×10⁸cm3/s",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "2,355×10⁻⁴ m/s 1,413×10⁻⁴ m³/s",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "1,70 cm/s 1,413 m³/s",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: d) 2,355×10⁻⁴ m/s 1,413×10⁻⁴ m³/s.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (nº 39, con figura, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqffig-0006",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "mecanica",
+    "topic": "dinamica",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "alta",
+    "difficulty": 2,
+    "stem": "Un cubo de aluminio se suspende de una cuerda y luego se sumerge por completo en un recipiente con agua como se muestra en la figura. Si la masa del aluminio es 1 Kg y densidad 2,7×10³ Kg /m³, calcula la fuerza en la cuerda después de que se sumerge el cubo, despreciada el empuje ascensional del aire.",
+    "media": [
+      {
+        "kind": "image",
+        "src": "/figures/fis-hqffig-d994dd1edd.png"
+      }
+    ],
+    "choices": [
+      {
+        "id": "a",
+        "text": "3,6 N",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "2,65×10⁷ N",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "6,17 N",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "9,80 N",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "No se puede calcular con los datos del enunciado.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: c) 6,17 N.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (nº 41, con figura, tema \"dinamica\")."
+  },
+  {
+    "id": "fis-hqffig-0007",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Se muestra en el dibujo la trayectoria que sigue una abeja en su vuelo y el grafico que describe la velocidad de la abeja en función del tiempo: Analice los mismos y luego señale la opción correcta:",
+    "media": [
+      {
+        "kind": "image",
+        "src": "/figures/fis-hqffig-9229729496.png"
+      }
+    ],
+    "choices": [
+      {
+        "id": "a",
+        "text": "En el trayecto BC, el movimiento es rectilíneo uniforme.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "En el trayecto CD, el movimiento es rectilíneo uniforme.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "En el trayecto BC, el módulo de la velocidad permanece constante.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "En el trayecto AB, la aceleración se incrementa proporcionalmente al tiempo.",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "El trayecto AB, la velocidad se incrementa proporcionalmente al tiempo.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: a) En el trayecto BC, el movimiento es rectilíneo uniforme..",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (nº 43, con figura, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqffig-0008",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Un auto A y otro B comienzan en t=0 a desplazarse por la misma carretera de acuerdo con el siguiente gráfico: Analice las siguientes afirmaciones relacionadas con el movimiento de los automóviles y señale la opción correcta:",
+    "media": [
+      {
+        "kind": "image",
+        "src": "/figures/fis-hqffig-3cd6b2fdd4.png"
+      }
+    ],
+    "choices": [
+      {
+        "id": "a",
+        "text": "En t=0 el valor de vA=60 km/h y el valor de vB= 0km/h.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Ambos autos se desplazan con un movimiento rectilíneo uniforme.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "De t=0 a t=2,0h el vehículo A recorrió 120 km y el B recorrió 180km.",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "A y B tienen velocidades constantes, siendo vA= 60 km/h y vB= 0 km/h.",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "A alcanza a B cuando t=2.0h.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: c) De t=0 a t=2,0h el vehículo A recorrió 120 km y el B recorrió 180km..",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (nº 44, con figura, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqffig-0009",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "mecanica",
+    "topic": "dinamica",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "alta",
+    "difficulty": 2,
+    "stem": "Una mujer arrastra un trineo con un niño (conjunto de trineo + niño= 30kg) con una fuerza de 60N, que forma con la horizontal un ángulo de 40°: Teniendo en cuenta los datos y la figura, responda: ¿Cuál es el trabajo realizado sobre el trineo para desplazarlo 15 m sobre una superficie horizontal sin rozamiento?",
+    "media": [
+      {
+        "kind": "image",
+        "src": "/figures/fis-hqffig-550cae68b3.png"
+      }
+    ],
+    "choices": [
+      {
+        "id": "a",
+        "text": "689,4 J",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "900 J",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "30 J",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "20.682 J",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "1.174, 9 J",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: a) 689,4 J.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (nº 45, con figura, tema \"dinamica\")."
+  },
+  {
+    "id": "fis-hqffig-0010",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Se tienen 3 bloques de masas 5Kg, 12Kg y 15Kg, unidos por cuerdas, como muestra la figura. Un individuo ejerce una fuerza F hacia la derecha sobre el bloque de 15 Kg. Como consecuencia de la aplicación de esta fuerza, el sistema adquiere una aceleración de 15m/s². Calcule el valor de la fuerza F y las fuerzas T1 y T2 que ejercen las cuerdas.",
+    "media": [
+      {
+        "kind": "image",
+        "src": "/figures/fis-hqffig-d05b1f20dc.png"
+      }
+    ],
+    "choices": [
+      {
+        "id": "a",
+        "text": "F= 480N T2= 75N T1=255N",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "F=225N T2= 75N T1=180N",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "F= 480N T2=75N T1=180 N",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "F=480N T2=255N T1= 75N",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Ninguna de las opciones anteriores es correcta.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: a) F= 480N T2= 75N T1=255N.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (nº 53, con figura, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqffig-0011",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "En la figura se representan dos esferas: una esfera A, con 2,3 µC, suspendida en el aire mediante un soporte y un hilo aislante. Otra esfera B, de 10 g, y de igual masa a la esfera A, se ubica 10 cm debajo de esta, y resulta atraída por 476 N. Datos: del p otó : , . − C K : . N.m²/C² Teniendo en cuenta esos datos, responda: I. ¿Cuál es el valor de la carga de la esfera B? II. ¿Qué número de electrones hay en exceso en la esfera B? Seleccione la opción correcta: II. 6,25. electrones (Modificamos datos, sino no da ninguna respuesta) II. 9. electrones",
+    "media": [
+      {
+        "kind": "image",
+        "src": "/figures/fis-hqffig-1f4377b23f.png"
+      }
+    ],
+    "choices": [
+      {
+        "id": "a",
+        "text": "I. 2,07. − C II. 1,44. electrones",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "I. 2,3. − C II. 6,25. electrones",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "I. 2,3 µC II. 6,25. electrones",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "I. 2,07. − C",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "I. 2,3 pC",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: c) I. 2,3 µC II. 6,25. electrones.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (nº 55, con figura, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqffig-0012",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Una partícula se mueve a lo largo de la abscisa. Su coordenada x varia con el tiempo de acuerdo a la expresión x= -4t + 2t². La grafica posición-tiempo para este movimiento se muestra en la figura adjunta. En base a los datos consignados, determine: I) El desplazamiento de la partícula en el intervalo de tiempo t= 0 a t= 1. II) La velocidad en el intervalo de tiempo t= 1 a t= 3 Señale la opción correcta:",
+    "media": [
+      {
+        "kind": "image",
+        "src": "/figures/fis-hqffig-dc6406af74.png"
+      }
+    ],
+    "choices": [
+      {
+        "id": "a",
+        "text": "I) -2 II) -2",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "I) -2 II) -4",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "I) 2 II) 2",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "I) -2 II) 4",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "I) 8 II) 8,5",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: d) I) -2 II) 4.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (nº 58, con figura, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqffig-0013",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Tres esferas uniformes de 2, 4 y 6 Kg de masa se colocan en las esquinas de un triángulo rectángulo, como se muestra en la figura. Calcule la fuerza gravitacional resultante sobre la masa de 4 Kg, suponiendo que las esferas están aisladas del resto del universo. Dato: G: 6,67. − N.m²/Kg² Señale la opción correcta:",
+    "media": [
+      {
+        "kind": "image",
+        "src": "/figures/fis-hqffig-420327ae0f.png"
+      }
+    ],
+    "choices": [
+      {
+        "id": "a",
+        "text": "El módulo de F es de 5,93. − N −N",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "La resultante de F es de 2,77. − N −N",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "La fuerza gravitacional resultante es de 2,77.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "La resultante de F es de 1,16. − N",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "La fuerza gravitacional resultante es de 5,93.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: d) La resultante de F es de 1,16. − N.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (nº 60, con figura, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqffig-0014",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Un tubo de vidrio contiene glicerina en condiciones normales de presión y temperatura, según se muestra en la siguiente figura: DENSIDADES (a la presión de 1 atm) SUSTANCIA N (gramos cm³) Hidrogeno 0,000090 Aire 0,0013 Corcho 0,24 Gasolina 0,70 Hielo 0,92 Agua 1,00 Agua de mar 1,03 Glicerina 1,25 Aluminio 2,7 Hierro 7,6 Cobre 8,9 Plata 10,5 Plomo 11,3 Mercurio 13,6 Determine: Oro 19,3 I) El incremento de presión entre el punto (1) y el Platino 21,4 punto (2) II) La profundidad del punto (1) teniendo en cuenta que la presión total a ese nivel es de 1,06×10⁵ Pa. Luego señale la opción correcta:",
+    "media": [
+      {
+        "kind": "image",
+        "src": "/figures/fis-hqffig-e87d625207.png"
+      }
+    ],
+    "choices": [
+      {
+        "id": "a",
+        "text": "I) 5,88 Pa II) 8,27×10³ cm",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "I) 7,35×10² Pa II) 8,27 cm",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "I) 7,35×10³ Pa II) 8,65×10³ cm",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "I) 5,88×10² Pa II) 8,65 cm",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "I) 7,35 102 Pa II) 38,37 cm",
+        "correct": true
+      }
+    ],
+    "explanation": "Respuesta correcta: e) I) 7,35 102 Pa II) 38,37 cm.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (nº 63, con figura, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqffig-0015",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Un manómetro es un instrumento que sirve para medir la presión de un gas encerrado en un recipiente. Un tipo de manómetro muy utilizado consta de un tubo en forma de U, el cual contiene mercurio. Este es el tipo de manómetro que se utiliza para medir la presión del aire en el interior de los dispositivos que se ilustran en la figura: Sabiendo que la presión atmosférica en el lugar donde se realizaron las mediciones era 70cmHg determine cuál es el valor de la presión del aire en: α eu áti o i flado e la figura (I). β eu áti o i flado e la figu a II . la á a a de va ío de la figu a III Seleccione la opción correcta: α β",
+    "media": [
+      {
+        "kind": "image",
+        "src": "/figures/fis-hqffig-d118bd1596.png"
+      }
+    ],
+    "choices": [
+      {
+        "id": "a",
+        "text": "140 cmHg 0cmHg -40cmHg",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "102 cmHg 30cmHg 20cmHg",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "2,18 cmHg mas que la 1,75 cmHg menos que la 2,33 cmHg menos que presión atmosférica presión atmosférica la presión atmosférica",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "102 cmHg 70cmHg 30cmHg",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "140 cmHg para generar 70cmHg para equilibrar las -30cmHg, pues el ∆P y que el aire ingrese al presiones entre el interior de la cámara neumático. neumático y la presión debe estar a presión atmosférica. negativa para generar vacío.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: d) 102 cmHg 70cmHg 30cmHg.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (nº 64, con figura, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqffig-0016",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "fluidos",
+    "topic": "gases",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "alta",
+    "difficulty": 2,
+    "stem": "El siguiente gráfico proporciona la relación funcional entre el volumen de cierta masa de gas ideal y la temperatura, a presión constante: Luego de analizarlo se concluye que:",
+    "media": [
+      {
+        "kind": "image",
+        "src": "/figures/fis-hqffig-6271b2f387.png"
+      }
+    ],
+    "choices": [
+      {
+        "id": "a",
+        "text": "La temperatura sólo puede estar expresada en la escala Celsius.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "La temperatura sólo puede estar expresada en la escala Kelvin.",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "El volumen sólo puede estar expresado en litros.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Ambas variables sólo pueden estar expresadas en unidades del sistema CGS.",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "El gráfico es incorrecto ya que la relación entre V y T es inversa.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) La temperatura sólo puede estar expresada en la escala Kelvin..",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (nº 66, con figura, tema \"gases\")."
+  },
+  {
+    "id": "fis-hqffig-0017",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Las variables presión (P), volumen (V) y temperatura (T) definen la ecuación de estado de los gases ideales. Analice la figura adjunta, e indique las transformaciones de un gas: [A] → [A´]; [A] → [B´] y [A] → [B´´] Seleccione la opción correcta:",
+    "media": [
+      {
+        "kind": "image",
+        "src": "/figures/fis-hqffig-66c871fea1.png"
+      }
+    ],
+    "choices": [
+      {
+        "id": "a",
+        "text": "[A] → [A´]: isocórica [A] → [B´]: isobárica [A] → [B´´]: isotérmica",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "[A] → [A´]: isocórica [A] → [B´]: isotérmica [A] → [B´´]: isobárica",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "[A] → [A´]: isobárica [A] → [B´]: isocórica [A] → [B´´]: isotérmica",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "[A] → [A´]: isocórica [A] → [B´]: isotérmica [A] → [B´´]: isotérmica",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "[A] → [A´]: isotérmica [A] → [B´]: isocórica [A] → [B´´]: isobárica",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) [A] → [A´]: isocórica [A] → [B´]: isotérmica [A] → [B´´]: isobárica.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (nº 68, con figura, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqffig-0018",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Teniendo en cuenta la ecuación de la recta obtenida de la igualdad anterior, indicar cuál es su gráfica:",
+    "media": [
+      {
+        "kind": "image",
+        "src": "/figures/fis-hqffig-ba00747bca.png"
+      }
+    ],
+    "choices": [
+      {
+        "id": "a",
+        "text": "Figura 1",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Figura 2",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Figura 3",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Figura 4",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Ninguna de las anteriores es correcta",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: a) Figura 1.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (nº 72, con figura, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqffig-0019",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "mecanica",
+    "topic": "cinematica",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "alta",
+    "difficulty": 2,
+    "stem": "Un bloque de masa m con una velocidad inicial de m ∗ s− , se desliza 4 m sin rozamiento a lo largo de un plano inclinado que forma un ángulo de 25° con horizontal, como se muestra en la siguiente figura: ¿Cuál es la velocidad cuando llega al extremo inferior del plano inclinado?",
+    "media": [
+      {
+        "kind": "image",
+        "src": "/figures/fis-hqffig-ccbac8e9e5.png"
+      }
+    ],
+    "choices": [
+      {
+        "id": "a",
+        "text": ", m ∗ s−",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": ", m ∗ s−",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": ", ∗ m ∗ s−",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": ", ∗ m ∗ s−",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": ", ∗ m ∗ s−",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) , m ∗ s−.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (nº 83, con figura, tema \"cinematica\")."
+  },
+  {
+    "id": "fis-hqffig-0020",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Las relaciones que existen entre la fuerza y el movimiento pueden ser analizadas con un conjunto de bloques A, B, C, los que se encuentran apoyados sobre una superficie horizontal sin fricción, tal como se presenta en la siguiente figura: Sabiendo que se aplica una fuerza horizontal de 60N y que la masa de cada bloque es: A= 2Kg, B= 4Kg y C= 6Kg, determine: I) La magnitud de la fuerza que el bloque B ejerce sobre el bloque C II) La magnitud de la fuerza que el bloque A ejerce sobre el bloque B. Luego seleccione la opción correcta:",
+    "media": [
+      {
+        "kind": "image",
+        "src": "/figures/fis-hqffig-760a79005f.png"
+      }
+    ],
+    "choices": [
+      {
+        "id": "a",
+        "text": "I-30N II-50N",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "I-60N II-60N",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "I-20N II-40N",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "I-40N II-20N",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Faltan datos para responder",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: a) I-30N II-50N.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (nº 84, con figura, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqffig-0021",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "De acuerdo al circuito que se presenta en la figura adjunta, donde se observa un volumetro cuyo valor registra 36 V, determine la corriente que circula en cada una de las resistencias: R = ohm R = ohm R = ohm Luego señale la opción correcta:",
+    "media": [
+      {
+        "kind": "image",
+        "src": "/figures/fis-hqffig-a3123dd9c9.png"
+      }
+    ],
+    "choices": [
+      {
+        "id": "a",
+        "text": "I- 6 A I -4A I -1A",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "I- 1,8 A I -1A I -1A",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "I- 6 A I -4A I -2A",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "I- 6 A I -1A I -4A",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "I- 1,8 A I -4A I -2A",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: c) I- 6 A I -4A I -2A.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (nº 91, con figura, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqffig-0022",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Considero el campo eléctrico creado por dos cargas puntiformes: Q = µC y Q = − µC, como se muestra en la figura siguiente: Determine el trabajo realizado por una carga (Q) de 3 nC para desplazarse de A hasta B y luego señale la opción correcta:",
+    "media": [
+      {
+        "kind": "image",
+        "src": "/figures/fis-hqffig-8cb1bb2965.png"
+      }
+    ],
+    "choices": [
+      {
+        "id": "a",
+        "text": ", ∗ − pJ",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "J",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "2,81 mJ",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "6,25 KJ",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": ", ∗ − mJ",
+        "correct": true
+      }
+    ],
+    "explanation": "Respuesta correcta: e) , ∗ − mJ.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (nº 92, con figura, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqffig-0023",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Una persona, al hacer mediciones en un laboratorio, comprobó que cierta magnitud F es función de otras tres: m, R y T. Sus mediciones le permitieron trazar los gráficos mostrados en la figura de este problema. Observando dichas representaciones, señale, entre las siguientes relaciones, la que puede describir correctamente el resultado del experimento:",
+    "media": [
+      {
+        "kind": "image",
+        "src": "/figures/fis-hqffig-6aa617c4df.png"
+      }
+    ],
+    "choices": [
+      {
+        "id": "a",
+        "text": "Fa R T T",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Fa R",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Fa ∗T M RT",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Fa M",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Fa m ∗ R ∗ T",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: a) Fa R T T.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (nº 93, con figura, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqffig-0024",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Las transformaciones de presión, volumen y temperatura que sufren los gases ideales se pueden expresar mediante distintas representaciones gráficas, relacionando las variables mencionadas, lo que permite sin análisis lógico. Observe las siguientes representaciones e indique la opción correcta:",
+    "media": [
+      {
+        "kind": "image",
+        "src": "/figures/fis-hqffig-e268c13fe4.png"
+      }
+    ],
+    "choices": [
+      {
+        "id": "a",
+        "text": "En los gráficos las transformaciones AB corresponde solamente a un gas X y la transformación BC corresponde solamente a un gas Y.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Los gráficos 1, 2 y 3, solo pueden pertenecer a las transformaciones P-T, P-V y V-T de tres gases diferentes respectivamente.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "En un gas ideal X solamente se pueden establecer las transformaciones AC de los gráficos 2 y 3.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "El comportamiento de un gas X corresponde con los gráficos 1, 2 y 3.",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "La relación funcional establecida en el diagrama V-T o espo de a u a fu ió loga ít i a do de a›",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: d) El comportamiento de un gas X corresponde con los gráficos 1, 2 y 3..",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (nº 101, con figura, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-hqffig-0025",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "sin_clasificar",
+    "topic": "sin_clasificar",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Dentro de un tubo capilar de vidrio, cerrado en uno de sus extremos, se coloca un poco de mercurio como muestra el dibujo de este problema, se sabe que la presión atmosférica vale 75cmHg. Al invertir el tubo, suponiendo T constante, la longitud de la columna de aire pasa a ser de :",
+    "media": [
+      {
+        "kind": "image",
+        "src": "/figures/fis-hqffig-831084dd7d.png"
+      }
+    ],
+    "choices": [
+      {
+        "id": "a",
+        "text": "10cm",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "15cm",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "No se puede saber la respuesta.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "25cm",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "3,72cm Una casa consta de tres plantas: planta baja, primer piso y segundo piso. Cada planta tiene el techo ubicado a una altura de 2,7m con respecto de su piso. Sobre el techo del segundo piso se encuentra un tanque cilíndrico de 98cm de diámetro y 1,30 m de altura. Este tanque, a su vez, está depositado sobre una base de 2m de altura. El tanque está lleno con una altura de 120cm de agua con respecto a su base. Del tanque desciende, por la parte central del edificio, un caño maestro de 9,6m de longitud y un diámetro interior de 5cm. El tanque es llenado por una bomba impulsora conectada a 220V ubicada fuera del edificio, desde la cual sale un caño que llega hasta el tanque permitiendo el llenado del mismo. Con los datos consignados y la figura adjunta realice los siguientes 3 items:",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) 15cm.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (nº 111, con figura, tema \"sin_clasificar\")."
+  },
+  {
+    "id": "fis-hqffig-0026",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "mecanica",
+    "topic": "cinematica",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "alta",
+    "difficulty": 2,
+    "stem": "Dado el siguiente gráfico de la velocidad en función al tiempo de un cierto cuerpo, determine la aceleración que tiene el móvil entre 0 y 4 horas, 4 y 8 horas , 8 y 10 horas.",
+    "media": [
+      {
+        "kind": "image",
+        "src": "/figures/fis-hqffig-27ca7b75f6.png"
+      }
+    ],
+    "choices": [
+      {
+        "id": "a",
+        "text": "0 ; 5,4×10⁻³ m/s² ; 0",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "0 ; 1,8×10⁻³ m/s² ; 0",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "0 ; 0,9×10⁻³ m/s² ; 0",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "0 ; 1,35×10⁻³ m/s² ; 0",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "Ninguna de las opciones anteriores",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: d) 0 ; 1,35×10⁻³ m/s² ; 0.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (nº 121, con figura, tema \"cinematica\")."
+  },
+  {
+    "id": "fis-hqffig-0027",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Tres remolcadores R1, R2, R3 llevan un barco hacia su dársena, tirando cada uno con una fuerza constante de 3×10⁵N en un recorrido de 500m, como indica la figura. Si la fuerza de rozamiento que ejerce el agua sobre el barco es de 1×10⁵N, determinar el trabajo que realiza la fuerza resultante.",
+    "media": [
+      {
+        "kind": "image",
+        "src": "/figures/fis-hqffig-94a1daa1d5.png"
+      }
+    ],
+    "choices": [
+      {
+        "id": "a",
+        "text": "3,9×10⁸J",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "1,5×10⁸J",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "3,4×10⁸J",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "-3,4×10⁸J",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Ninguna es correcta",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: c) 3,4×10⁸J.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Física (nº 162, con figura, tema \"funcion_lineal\")."
+  }
+]

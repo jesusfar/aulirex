@@ -1,0 +1,612 @@
+{
+  "importados": 76,
+  "porMateria": {
+    "fisica": 76
+  },
+  "excluidos": 85,
+  "porMotivo": {
+    "texto corrupto (encoding roto, tokens sueltos)": 8,
+    "depende de figura (diferida a fase de imágenes)": 40,
+    "duplicado (dentro de la fuente)": 1,
+    "opción correcta ilegible (texto degradado)": 7,
+    "corrupto (símbolos ilegibles)": 5,
+    "tipo unknown (requiere conversión estructural)": 24
+  },
+  "detalle": [
+    {
+      "number": 1,
+      "subject": "fisica",
+      "topic": "sin_clasificar",
+      "kind": "single_choice",
+      "reason": "texto corrupto (encoding roto, tokens sueltos)"
+    },
+    {
+      "number": 5,
+      "subject": "fisica",
+      "topic": "sin_clasificar",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 8,
+      "subject": "fisica",
+      "topic": "funcion_lineal",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 9,
+      "subject": "fisica",
+      "topic": "funcion_lineal",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 10,
+      "subject": "fisica",
+      "topic": "funcion_lineal",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 12,
+      "subject": "fisica",
+      "topic": "electrostatica",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 14,
+      "subject": "fisica",
+      "topic": "sin_clasificar",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 19,
+      "subject": "fisica",
+      "topic": "funcion_lineal",
+      "kind": "single_choice",
+      "reason": "texto corrupto (encoding roto, tokens sueltos)"
+    },
+    {
+      "number": 24,
+      "subject": "fisica",
+      "topic": "sin_clasificar",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 27,
+      "subject": "fisica",
+      "topic": "funcion_lineal",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 36,
+      "subject": "fisica",
+      "topic": "funcion_lineal",
+      "kind": "single_choice",
+      "reason": "duplicado (dentro de la fuente)"
+    },
+    {
+      "number": 37,
+      "subject": "fisica",
+      "topic": "funcion_lineal",
+      "kind": "single_choice",
+      "reason": "texto corrupto (encoding roto, tokens sueltos)"
+    },
+    {
+      "number": 39,
+      "subject": "fisica",
+      "topic": "funcion_lineal",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 41,
+      "subject": "fisica",
+      "topic": "dinamica",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 43,
+      "subject": "fisica",
+      "topic": "funcion_lineal",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 44,
+      "subject": "fisica",
+      "topic": "funcion_lineal",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 45,
+      "subject": "fisica",
+      "topic": "dinamica",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 47,
+      "subject": "fisica",
+      "topic": "trabajo_y_energia",
+      "kind": "single_choice",
+      "reason": "opción correcta ilegible (texto degradado)"
+    },
+    {
+      "number": 50,
+      "subject": "fisica",
+      "topic": "sin_clasificar",
+      "kind": "single_choice",
+      "reason": "texto corrupto (encoding roto, tokens sueltos)"
+    },
+    {
+      "number": 51,
+      "subject": "fisica",
+      "topic": "sin_clasificar",
+      "kind": "single_choice",
+      "reason": "opción correcta ilegible (texto degradado)"
+    },
+    {
+      "number": 52,
+      "subject": "fisica",
+      "topic": "sin_clasificar",
+      "kind": "single_choice",
+      "reason": "texto corrupto (encoding roto, tokens sueltos)"
+    },
+    {
+      "number": 53,
+      "subject": "fisica",
+      "topic": "funcion_lineal",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 55,
+      "subject": "fisica",
+      "topic": "funcion_lineal",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 56,
+      "subject": "fisica",
+      "topic": "sin_clasificar",
+      "kind": "single_choice",
+      "reason": "opción correcta ilegible (texto degradado)"
+    },
+    {
+      "number": 58,
+      "subject": "fisica",
+      "topic": "funcion_lineal",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 60,
+      "subject": "fisica",
+      "topic": "funcion_lineal",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 63,
+      "subject": "fisica",
+      "topic": "funcion_lineal",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 64,
+      "subject": "fisica",
+      "topic": "funcion_lineal",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 66,
+      "subject": "fisica",
+      "topic": "gases",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 68,
+      "subject": "fisica",
+      "topic": "funcion_lineal",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 70,
+      "subject": "fisica",
+      "topic": "funcion_lineal",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 71,
+      "subject": "fisica",
+      "topic": "funcion_lineal",
+      "kind": "single_choice",
+      "reason": "corrupto (símbolos ilegibles)"
+    },
+    {
+      "number": 72,
+      "subject": "fisica",
+      "topic": "funcion_lineal",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 74,
+      "subject": "fisica",
+      "topic": "funcion_lineal",
+      "kind": "single_choice",
+      "reason": "corrupto (símbolos ilegibles)"
+    },
+    {
+      "number": 75,
+      "subject": "fisica",
+      "topic": "funcion_lineal",
+      "kind": "single_choice",
+      "reason": "opción correcta ilegible (texto degradado)"
+    },
+    {
+      "number": 77,
+      "subject": "fisica",
+      "topic": "funcion_lineal",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 78,
+      "subject": "fisica",
+      "topic": "sin_clasificar",
+      "kind": "single_choice",
+      "reason": "texto corrupto (encoding roto, tokens sueltos)"
+    },
+    {
+      "number": 79,
+      "subject": "fisica",
+      "topic": "sin_clasificar",
+      "kind": "single_choice",
+      "reason": "opción correcta ilegible (texto degradado)"
+    },
+    {
+      "number": 81,
+      "subject": "fisica",
+      "topic": "funcion_lineal",
+      "kind": "single_choice",
+      "reason": "opción correcta ilegible (texto degradado)"
+    },
+    {
+      "number": 83,
+      "subject": "fisica",
+      "topic": "cinematica",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 84,
+      "subject": "fisica",
+      "topic": "funcion_lineal",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 85,
+      "subject": "fisica",
+      "topic": "funcion_lineal",
+      "kind": "single_choice",
+      "reason": "opción correcta ilegible (texto degradado)"
+    },
+    {
+      "number": 89,
+      "subject": "fisica",
+      "topic": "funcion_lineal",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 91,
+      "subject": "fisica",
+      "topic": "funcion_lineal",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 92,
+      "subject": "fisica",
+      "topic": "funcion_lineal",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 93,
+      "subject": "fisica",
+      "topic": "funcion_lineal",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 100,
+      "subject": "fisica",
+      "topic": "magnitudes_fisicas_y_vectores",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 101,
+      "subject": "fisica",
+      "topic": "funcion_lineal",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 102,
+      "subject": "fisica",
+      "topic": "sin_clasificar",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 106,
+      "subject": "fisica",
+      "topic": "sin_clasificar",
+      "kind": "single_choice",
+      "reason": "corrupto (símbolos ilegibles)"
+    },
+    {
+      "number": 107,
+      "subject": "fisica",
+      "topic": "funcion_lineal",
+      "kind": "single_choice",
+      "reason": "texto corrupto (encoding roto, tokens sueltos)"
+    },
+    {
+      "number": 111,
+      "subject": "fisica",
+      "topic": "sin_clasificar",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 121,
+      "subject": "fisica",
+      "topic": "cinematica",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 122,
+      "subject": "fisica",
+      "topic": "sin_clasificar",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 124,
+      "subject": "fisica",
+      "topic": "cinematica",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 125,
+      "subject": "fisica",
+      "topic": "cinematica",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 132,
+      "subject": "fisica",
+      "topic": "sin_clasificar",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 140,
+      "subject": "fisica",
+      "topic": "electrodinamica",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 141,
+      "subject": "fisica",
+      "topic": "cinematica",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 142,
+      "subject": "fisica",
+      "topic": "cinematica",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 143,
+      "subject": "fisica",
+      "topic": "sin_clasificar",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 144,
+      "subject": "fisica",
+      "topic": "sin_clasificar",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 145,
+      "subject": "fisica",
+      "topic": "sin_clasificar",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 152,
+      "subject": "fisica",
+      "topic": "electrodinamica",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 153,
+      "subject": "fisica",
+      "topic": "ecuaciones",
+      "kind": "unknown",
+      "reason": "texto corrupto (encoding roto, tokens sueltos)"
+    },
+    {
+      "number": 154,
+      "subject": "fisica",
+      "topic": "cinematica",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 155,
+      "subject": "fisica",
+      "topic": "cinematica",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 159,
+      "subject": "fisica",
+      "topic": "hidrostatica",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 160,
+      "subject": "fisica",
+      "topic": "sin_clasificar",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 162,
+      "subject": "fisica",
+      "topic": "funcion_lineal",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 163,
+      "subject": "fisica",
+      "topic": "sin_clasificar",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 167,
+      "subject": "fisica",
+      "topic": "trabajo_y_energia",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 171,
+      "subject": "fisica",
+      "topic": "funcion_lineal",
+      "kind": "unknown",
+      "reason": "corrupto (símbolos ilegibles)"
+    },
+    {
+      "number": 173,
+      "subject": "fisica",
+      "topic": "dinamica",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 176,
+      "subject": "fisica",
+      "topic": "sin_clasificar",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 179,
+      "subject": "fisica",
+      "topic": "cinematica",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 180,
+      "subject": "fisica",
+      "topic": "dinamica",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 182,
+      "subject": "fisica",
+      "topic": "cinematica",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 183,
+      "subject": "fisica",
+      "topic": "hidrostatica",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 184,
+      "subject": "fisica",
+      "topic": "cinematica",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 185,
+      "subject": "fisica",
+      "topic": "cinematica",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 187,
+      "subject": "fisica",
+      "topic": "hidrodinamica",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 188,
+      "subject": "fisica",
+      "topic": "sin_clasificar",
+      "kind": "single_choice",
+      "reason": "corrupto (símbolos ilegibles)"
+    },
+    {
+      "number": 189,
+      "subject": "fisica",
+      "topic": "cinematica",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 194,
+      "subject": "fisica",
+      "topic": "electrodinamica",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    }
+  ]
+}

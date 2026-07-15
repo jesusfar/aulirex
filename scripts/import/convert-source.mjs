@@ -11,7 +11,7 @@
 //   <label> nombre legible de la fuente para authorNote ("Cajal — Examen N°1")
 
 import { readFileSync, writeFileSync } from 'node:fs';
-import { normalize, CORRUPT_RE } from './sources/normalize.mjs';
+import { normalize, CORRUPT_RE, looksCorrupt } from './sources/normalize.mjs';
 
 const [, , inPath, src, label, outPath] = process.argv;
 if (!inPath || !src || !label || !outPath) {
@@ -32,32 +32,12 @@ const excluded = [];
 const seenStems = new Set();
 const seq = {}; // secuencia por materia
 
-// Texto con encoding roto (PDF sin ToUnicode): muchas palabras cortadas en
-// fragmentos de 1-2 letras que NO son palabras ("Que ep ese to la a tidad de i
-// dividuos ue se e fe a o"). Para no confundir con química legítima (fórmulas
-// "A + B = 2C" y funcionales del español "la de es su"), se ignoran las stopwords
-// y los símbolos de fórmula (1-2 mayúsculas). Solo cuentan fragmentos sospechosos.
-const STOP = new Set(
-  'el la los las un una unos unas de del al a ante con en para por segun según sin so sobre tras y o u e ni que se su sus lo le les me te nos os es son fue ser mas más si no ya he ha han hay dos tres uno como cual esta este esa ese eso las los mi tu al da va'.split(' '),
-);
-function looksCorrupt(stem) {
-  const toks = (stem || '').split(/\s+/).filter(Boolean);
-  if (toks.length < 10) return false;
-  let susp = 0;
-  for (const t of toks) {
-    const a = t.replace(/[^A-Za-zÁÉÍÓÚáéíóúñÑ]/g, '');
-    if (a.length === 0 || a.length > 2) continue; // números/símbolos o palabras reales
-    if (STOP.has(a.toLowerCase())) continue; // funcional del español
-    if (/^[A-Z]{1,2}$/.test(a)) continue; // símbolo de fórmula (A, B, Cl, K)
-    susp++;
-  }
-  return susp / toks.length > 0.22;
-}
-
 function excludeReason(q) {
   const raw = q.stem + ' ' + q.options.map((o) => o.text).join(' ');
   if (CORRUPT_RE.test(raw)) return 'corrupto (símbolos ilegibles)';
-  if (looksCorrupt(q.stem)) return 'texto corrupto (encoding roto, tokens sueltos)';
+  // Sobre el texto NORMALIZADO (el que se guarda): así detecta la corrupción que
+  // solo se hace evidente tras normalizar.
+  if (looksCorrupt(normalize(q.stem))) return 'texto corrupto (encoding roto, tokens sueltos)';
   if (q.subject === 'sin_clasificar' || !SUBJ3[q.subject]) return 'sin materia clasificada (revisar)';
   if (q.kind !== 'single_choice' && q.kind !== 'multiple_response')
     return `tipo ${q.kind} (requiere conversión estructural)`;
@@ -67,6 +47,14 @@ function excludeReason(q) {
   const ids = new Set(q.options.map((o) => o.id));
   const need = Array.isArray(q.correct) ? q.correct : [q.correct];
   if (!need.every((c) => ids.has(c))) return `la opción correcta (${need}) no está entre las parseadas`;
+  // La opción CORRECTA debe ser legible: si el texto quedó degradado por encoding
+  // roto (p. ej. "· ⁵V" con la notación científica perdida) no sirve importarla.
+  const needSet = new Set(need);
+  for (const o of q.options) {
+    if (!needSet.has(o.id)) continue;
+    const alnum = (o.text.match(/[A-Za-z0-9]/g) || []).length;
+    if (alnum < 3) return 'opción correcta ilegible (texto degradado)';
+  }
   return null;
 }
 

@@ -1,0 +1,112 @@
+{
+  "importados": 3,
+  "excluidos": 20,
+  "porMotivo": {
+    "menos de 2 opciones": 2,
+    "figura no extraída": 16,
+    "figura descartada en revisión visual": 1,
+    "tipo unknown": 1
+  },
+  "detalle": [
+    {
+      "number": 10,
+      "subject": "quimica",
+      "reason": "menos de 2 opciones"
+    },
+    {
+      "number": 11,
+      "subject": "quimica",
+      "reason": "figura no extraída"
+    },
+    {
+      "number": 14,
+      "subject": "quimica",
+      "reason": "figura no extraída"
+    },
+    {
+      "number": 15,
+      "subject": "quimica",
+      "reason": "figura no extraída"
+    },
+    {
+      "number": 16,
+      "subject": "quimica",
+      "reason": "figura no extraída"
+    },
+    {
+      "number": 20,
+      "subject": "quimica",
+      "reason": "figura no extraída"
+    },
+    {
+      "number": 21,
+      "subject": "quimica",
+      "reason": "figura no extraída"
+    },
+    {
+      "number": 29,
+      "subject": "quimica",
+      "reason": "figura no extraída"
+    },
+    {
+      "number": 49,
+      "subject": "quimica",
+      "reason": "figura no extraída"
+    },
+    {
+      "number": 53,
+      "subject": "quimica",
+      "reason": "figura no extraída"
+    },
+    {
+      "number": 60,
+      "subject": "quimica",
+      "reason": "figura no extraída"
+    },
+    {
+      "number": 64,
+      "subject": "quimica",
+      "reason": "figura no extraída"
+    },
+    {
+      "number": 75,
+      "subject": "quimica",
+      "reason": "menos de 2 opciones"
+    },
+    {
+      "number": 76,
+      "subject": "quimica",
+      "reason": "figura descartada en revisión visual"
+    },
+    {
+      "number": 79,
+      "subject": "quimica",
+      "reason": "tipo unknown"
+    },
+    {
+      "number": 87,
+      "subject": "quimica",
+      "reason": "figura no extraída"
+    },
+    {
+      "number": 94,
+      "subject": "quimica",
+      "reason": "figura no extraída"
+    },
+    {
+      "number": 100,
+      "subject": "quimica",
+      "reason": "figura no extraída"
+    },
+    {
+      "number": 108,
+      "subject": "quimica",
+      "reason": "figura no extraída"
+    },
+    {
+      "number": 157,
+      "subject": "quimica",
+      "reason": "figura no extraída"
+    }
+  ]
+}

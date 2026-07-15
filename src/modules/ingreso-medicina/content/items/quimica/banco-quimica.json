@@ -18336,5 +18336,161 @@
     "version": 1,
     "status": "active",
     "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 165, tema \"conceptos_basicos_y_sistemas_materiales\")."
+  },
+  {
+    "id": "qui-cajfig-0001",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "materia",
+    "topic": "conceptos_basicos_y_sistemas_materiales",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Dos sustancias biatómicas se colocan en un recipiente en determinadas condiciones de presión y temperatura. La mezcla inicial (Estado I) y luego de la transformación (Estado 2) se representa en los siguientes diagramas: Átomo de X Átomo de Y Estado I Estado II Determina la opción correcta:",
+    "media": [
+      {
+        "kind": "image",
+        "src": "/figures/qui-cajfig-34e6b62409.png"
+      }
+    ],
+    "choices": [
+      {
+        "id": "a",
+        "text": "Ocurrió una transformación física. (Hubo una reacción química, un cambio químico)",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "El estado I es heterogéneo y el II homogéneo. (Los dos son homogéneos)",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "En el estado II hay una sustancia pura compuesta.",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Todas son correctas",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Ninguna es correcta.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: c) En el estado II hay una sustancia pura compuesta.. Es un sistema material homogéneo formado por una única sustancia pura compuesta, porque es un compuesto formado por más de un elemento, bolitas negras y blancas",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de Cajal — Examen N°1 (nº 3, con figura, tema \"conceptos_basicos_y_sistemas_materiales\")."
+  },
+  {
+    "id": "qui-hqfig-0001",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "materia",
+    "topic": "conceptos_basicos_y_sistemas_materiales",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Los esquemas representan recipientes con diferentes volúmenes de soluciones acuosas de un determinado soluto. Cada partícula del soluto disuelto está representada por un circulo negro (•). Analice los esquemas e indique la afirmación correcta. Cuando sea necesario, considere que los volúmenes son exactamente aditivos.",
+    "media": [
+      {
+        "kind": "image",
+        "src": "/figures/qui-hqfig-aa0135ffa9.png"
+      }
+    ],
+    "choices": [
+      {
+        "id": "a",
+        "text": "La solución B es la más concentrada de todas.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "La solución E es más concentrada que la A.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Si se mezclan completamente las soluciones A y F, la solución resultante tendrá una concentración mayor que la solución A.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Si se mezclan completamente las soluciones A, B y F, la solución resultante tendrá igual concentración que la solución B.",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "Si se calienta la solución C a 100°C y se evapora la mitad del agua de la misma, la solución resultante tendrá la misma concentración que la solución E.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: d) Si se mezclan completamente las soluciones A, B y F, la solución resultante tendrá igual concentración que la solución B..",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (nº 62, con figura, tema \"conceptos_basicos_y_sistemas_materiales\")."
+  },
+  {
+    "id": "qui-hqfig-0002",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "equilibrio",
+    "topic": "equilibrio_quimico",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "La siguiente es una representación esquemática de una reacción química en equilibrio: Analice el esquema y señale la opción que indica correctamente la expresión de la constante de equilibrio de la reacción:",
+    "media": [
+      {
+        "kind": "image",
+        "src": "/figures/qui-hqfig-589432d738.png"
+      }
+    ],
+    "choices": [
+      {
+        "id": "a",
+        "text": "[] [ ].[ ]",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "[] [ ] .[ ] []",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "[ ].[ ]",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "[ ]⁴ [ ].[ ]",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "[ ]⁶.[ ] [ ]⁴",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) [] [ ] .[ ] [].",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (nº 68, con figura, tema \"equilibrio_quimico\")."
   }
 ]
