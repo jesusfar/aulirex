@@ -945,7 +945,7 @@ class Component extends DCLogic {
       [0.00,0.06],[0.015,0.30],[0.09,0.30],[0.15,0.25],[0.20,0.33],[0.30,0.345],
       [0.44,0.35],[0.58,0.348],[0.70,0.30],[0.80,0.29],[0.90,0.335],[1.00,0.33],
       [1.10,0.235],[1.20,0.135],[1.28,0.085],[1.30,0.075],[1.44,0.075]
-    ], { glass:0x070505, opacity:0.98, cap:0xc8161f, capY:[1.44,1.56], capR:0.092,
+    ], { glass:0x070505, opacity:0.98, cap:0xc8161f, capY:[1.44,1.56], capR:0.092, labelRotationY:-2.6,
          labels:[ { y:[0.30,0.62], kind:'cola' } ] });
     cola.position.set(2.92, 0, -0.5); cola.rotation.y=-1.05; cola.scale.setScalar(0.92); this.scene.add(cola);
 
@@ -953,7 +953,7 @@ class Component extends DCLogic {
     const fernet = this.buildBottle(T, [
       [0.00,0.055],[0.02,0.215],[0.06,0.225],[0.60,0.225],[0.70,0.225],[0.76,0.21],
       [0.84,0.155],[0.92,0.10],[0.99,0.072],[1.28,0.068],[1.33,0.084],[1.37,0.07]
-    ], { glass:0x0a1a10, opacity:0.97, cap:0x14361f, capY:[1.24,1.40], capR:0.086,
+    ], { glass:0x0a1a10, opacity:0.97, cap:0x14361f, capY:[1.24,1.40], capR:0.086, labelRotationY:-2.6,
          labels:[ { y:[0.14,0.54], kind:'fernet' }, { y:[1.00,1.16], kind:'band', color:'#e7dcc0' } ] });
     fernet.position.set(3.62, 0, -0.35); fernet.rotation.y=-1.05; fernet.scale.setScalar(0.95); this.scene.add(fernet);
 
@@ -1106,6 +1106,7 @@ class Component extends DCLogic {
       seg.push(new T.Vector2(this.radiusAt(profile,y1)*1.006, y1));
       const mat = this.bottleLabel(T, l);
       const lat = new T.Mesh(new T.LatheGeometry(seg, 56), mat);
+      lat.rotation.y = l.rotationY ?? o.labelRotationY ?? 0;
       g.add(lat);
     });
     return g;
