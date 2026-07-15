@@ -1115,22 +1115,24 @@ class Component extends DCLogic {
   bottleLabel(T, l){
     const c=document.createElement('canvas'); c.width=512; c.height=256;
     const x=c.getContext('2d');
+    const centeredText = (text, cx, cy, font, color, scaleX=1, rotate=0)=>{
+      x.save(); x.translate(cx,cy); x.rotate(rotate); x.scale(scaleX,1);
+      x.fillStyle=color; x.font=font; x.fillText(text, 0, 0);
+      x.restore();
+    };
     const draw = ()=>{
       x.clearRect(0,0,512,256);
       x.textAlign='center'; x.textBaseline='middle';
       if(l.kind==='cola'){
         x.fillStyle='#d21f28'; x.fillRect(0,0,512,256);
-        // "Koca" script, drawn first so the ribbon sweeps under it
-        x.fillStyle='#f7f5f2';
-        x.font='128px "Great Vibes", cursive';
-        x.save(); x.translate(256,110); x.rotate(-0.04);
-        x.shadowColor='rgba(0,0,0,0.25)'; x.shadowBlur=4; x.shadowOffsetY=2;
-        x.fillText('Koca', 0, 0); x.restore();
-        // white swept ribbon
         x.fillStyle='#f4f4f2';
-        x.beginPath(); x.moveTo(0,178); x.bezierCurveTo(150,150,360,214,512,178);
-        x.lineTo(512,204); x.bezierCurveTo(360,244,150,182,0,210); x.closePath(); x.fill();
+        x.beginPath(); x.moveTo(0,174); x.bezierCurveTo(150,150,360,206,512,174);
+        x.lineTo(512,202); x.bezierCurveTo(360,240,150,184,0,210); x.closePath(); x.fill();
         x.strokeStyle='rgba(255,255,255,0.45)'; x.lineWidth=4; x.strokeRect(8,8,496,240);
+        x.shadowColor='rgba(0,0,0,0.25)'; x.shadowBlur=4; x.shadowOffsetY=2;
+        centeredText('Koca', 256, 112, '116px "Great Vibes", cursive', '#f7f5f2', 0.56, -0.04);
+        x.shadowColor='transparent'; x.shadowBlur=0; x.shadowOffsetY=0;
+        centeredText('CLASICA', 256, 206, '700 25px "IBM Plex Mono", monospace', '#d21f28', 0.78, 0);
       } else if(l.kind==='fernet'){
         x.fillStyle='#e7dcc0'; x.fillRect(0,0,512,256);
         x.strokeStyle='#1f3a24'; x.lineWidth=9; x.strokeRect(12,12,488,232);
@@ -1138,12 +1140,9 @@ class Component extends DCLogic {
         x.fillStyle='#16341d'; x.beginPath(); x.ellipse(256,60,44,34,0,0,Math.PI*2); x.fill();
         x.fillStyle='#c7b98f'; x.beginPath(); x.ellipse(256,60,32,24,0,0,Math.PI*2); x.fill();
         // wordmark
-        x.fillStyle='#1a2f1c';
-        x.font='700 52px "Playfair Display", serif';
-        x.fillText('Fernet Bronca', 256, 130);
-        x.font='italic 600 22px "Playfair Display", serif';
-        x.fillStyle='#3a2a12'; x.fillText('LIQUEUR', 256, 166);
-        x.fillStyle='#2a2113'; x.fillRect(120,192,272,6); x.fillRect(150,210,212,5); x.fillRect(170,226,172,4);
+        centeredText('Fernet Bronca', 256, 128, '700 45px "Playfair Display", serif', '#1a2f1c', 0.68, 0);
+        centeredText('LIQUEUR', 256, 165, 'italic 600 22px "Playfair Display", serif', '#3a2a12', 0.82, 0);
+        x.fillStyle='#2a2113'; x.fillRect(150,192,212,6); x.fillRect(174,210,164,5); x.fillRect(196,226,120,4);
       } else { // plain cream band (neck)
         x.fillStyle=l.color||'#e7dcc0'; x.fillRect(0,0,512,256);
         x.fillStyle='#1f3a24'; x.fillRect(0,18,512,10); x.fillRect(0,228,512,10);

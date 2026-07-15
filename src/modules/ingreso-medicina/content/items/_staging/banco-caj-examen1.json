@@ -1,0 +1,1152 @@
+[
+  {
+    "id": "qui-caj-0001",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "materia",
+    "topic": "conceptos_basicos_y_sistemas_materiales",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Lee atentamente las siguientes afirmaciones sobre los estados de agregación de la materia y marca la opción incorrecta.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "En el estado gaseoso la materia fluye con libertad, puede expandirse indefinidamente y se comprime con facilidad.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Los gases no tienen forma o volumen definido y ocupan todo el recipiente que los contienen.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Los líquidos fluyen con facilidad, adoptan la forma del recipiente que los contiene y tienen volumen definido.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "En los sólidos la materia es rígida y conserva su forma, las partículas ocupan posiciones definidas determinando un estado altamente ordenado.",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Los sólidos al igual que los líquidos y gases pueden fluir.",
+        "correct": true
+      }
+    ],
+    "explanation": "Respuesta correcta: e) Los sólidos al igual que los líquidos y gases pueden fluir.. Los sólidos no tienen la capacidad de fluir",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de Cajal — Examen N°1 (nº 1, tema \"conceptos_basicos_y_sistemas_materiales\")."
+  },
+  {
+    "id": "qui-caj-0002",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "materia",
+    "topic": "conceptos_basicos_y_sistemas_materiales",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Teniendo en cuenta los procesos físicos que representan cambios en los estados de agregación de la materia. Marque la opción correcta: I. De yodo sólido a sus vapores: volatilización. II. De alcohol líquido a vapor de alcohol: vaporización. III. De plomo sólido a plomo líquido: fusión. IV. De dióxido de carbono gaseoso a líquido: solidificación. (volatilización) Son correctas:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Todas.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Ninguna.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Sólo I y II son correctas.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "I, II y III son correctas.",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "I es incorrecta.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: d) I, II y III son correctas..",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de Cajal — Examen N°1 (nº 2, tema \"conceptos_basicos_y_sistemas_materiales\")."
+  },
+  {
+    "id": "qui-caj-0003",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "materia",
+    "topic": "conceptos_basicos_y_sistemas_materiales",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Un sólido de color negro tiene un punto de fusión y una densidad constante. A temperatura ambiente y por acción de la luz se descompone en un gas amarillento y un sólido marrón claro. Ni el gas ni el sólido marrón pueden descomponerse en sustancias más sencillas. Con ésta información marque la opción correcta:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "El sólido de color negro es una sustancia pura simple. (Las sustancias puras simples no pueden descomponerse en sustancias más sencillas, el sólido negro si se descompuso)",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "El gas amarillento es una mezcla homogénea. (Es una sustancia pura simple porque no puede descomponerse en otras)",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "El sólido marrón claro es una sustancia pura simple.",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Todas son sustancias puras compuestas.",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Ninguna es correcta.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: c) El sólido marrón claro es una sustancia pura simple.. No se descompone en mas sencillas",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de Cajal — Examen N°1 (nº 4, tema \"conceptos_basicos_y_sistemas_materiales\")."
+  },
+  {
+    "id": "qui-caj-0004",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "estructura",
+    "topic": "teoria_atomica",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "El uranio tiene 3 isótopos naturales: Uranio 238: tienen 146 neutrones y 92 protones. Es el isótopo más común de uranio con una abundancia del 99,28%. Uranio 235: con 143 neutrones y 92 protones. A diferencia del anterior, obtenida una cantidad suficiente de él, permite provocar y sostener una reacción en cadena. Su abundancia es de 0,715%. Uranio 234: denominado así porque posee 142 neutrones, su abundancia es de apenas 0,005%. Con ésta información determine la masa atómica del uranio.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "237,978 uma",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "236,054 uma 238uma.0,9928 + 235uma.0,00715 + 234uma. 0,00005)",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "235,778 uma",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "237,001 uma",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Ninguna es correcta.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: a) 237,978 uma. MA=m1.ab1 + m2.ab2 + m3.ab3 =",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de Cajal — Examen N°1 (nº 7, tema \"teoria_atomica\")."
+  },
+  {
+    "id": "qui-caj-0005",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "estructura",
+    "topic": "teoria_atomica",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Marque la opción incorrecta:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "El átomo está formado por protones y neutrones que se ubican en el núcleo y electrones que giran alrededor de él.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "El modelo atómico de Rutherford establece la existencia de un núcleo positivo con electrones a su alrededor. (Modelo nuclear)",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Bohr determinó que los electrones giran en órbitas circulares alrededor del núcleo. (Órbitas circulares y energía cuantizada)",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Thomson propuso la existencia de un átomo neutro, con cargas positivas y negativas. (Átomo neutro)",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "El modelo actual determina que los electrones se ubican alrededor del núcleo en los niveles de mayor a menor energía.",
+        "correct": true
+      }
+    ],
+    "explanation": "Respuesta correcta: e) El modelo actual determina que los electrones se ubican alrededor del núcleo en los niveles de mayor a menor energía.. …de menor a mayor energía",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de Cajal — Examen N°1 (nº 11, tema \"teoria_atomica\")."
+  },
+  {
+    "id": "qui-caj-0006",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "estructura",
+    "topic": "tabla_periodica",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "El potencial de ionización de un elemento ubicado en el periodo 2 y grupo IIA de la tabla es…(Be, el potencial aumenta de abajo hacia arriba y de izq a der)",
+    "choices": [
+      {
+        "id": "a",
+        "text": "…menor que el elemento del periodo 4 y grupo II. (Ca)",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "…menor que el elemento del periodo 2 y grupo I. (Li)",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "…menor que el elemento del periodo 3 y grupo IV. …",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "…menor que el elemento del periodo 2 y grupo VII. (F)",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Ninguna es correcta.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: c) …menor que el elemento del periodo 3 y grupo IV. …. Si",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de Cajal — Examen N°1 (nº 13, tema \"tabla_periodica\")."
+  },
+  {
+    "id": "qui-caj-0007",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "estructura",
+    "topic": "tabla_periodica",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Si comparamos el P y el Mg, podemos decir que: Marque la incorrecta.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Tamaño atómico: P mayor que Mg.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Energía de ionización: P mayor que Mg. (E.I. aumenta de izq a der)",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Afinidad electrónica: P mayor que Mg. (A.E. aumenta de izq a der)",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Electronegatividad: P mayor que Mg. (Electr(-) aumenta de izq a der)",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Carácter metálico: Mg mayor que P. (C.M. aumenta de der a izq)",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: a) Tamaño atómico: P mayor que Mg.. el radio aumenta de der a izq",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de Cajal — Examen N°1 (nº 15, tema \"tabla_periodica\")."
+  },
+  {
+    "id": "qui-caj-0008",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "estructura",
+    "topic": "tabla_periodica",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Un elemento químico tiene como estructura electrónica: 1s2 2s2 2p4 y otro elemento: 1s2 2s2 2p6 3s2. Un estudiante combinó ambos elementos y obtuvo las siguientes conclusiones respecto al producto formado: I. Está constituido por aniones monovalentes y cationes divalentes. (aniones divalentes y cationes divalentes) F II. Se trata de un compuesto covalente polar. (iónico) F III. Presenta dos uniones covalentes simples. (iónico) F IV. Son dos elementos de altas electronegatividades. (1s2 2s2 2p4 electronegativo, 1s2 2s2 2p6 3s2 electropositivo) F Determina la veracidad o falsedad de cada afirmación:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "F – F – F – V",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "V – V – F – F",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "F – V – F – F",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "V – F – F – F",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "F – F – F – F",
+        "correct": true
+      }
+    ],
+    "explanation": "Respuesta correcta: e) F – F – F – F.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de Cajal — Examen N°1 (nº 17, tema \"tabla_periodica\")."
+  },
+  {
+    "id": "qui-caj-0009",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "materia",
+    "topic": "conceptos_basicos_y_sistemas_materiales",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Las propiedades que observamos en los compuestos a nivel macroscópico se hallan en relación al tipo de enlace y las fuerzas intermoleculares que presentan. En base a su conocimiento de esta relación, indique cuál de las siguientes afirmaciones es correcta:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Los compuestos iónicos pueden ser sólidos, líquidos o gaseosos a temperatura ambiente. (Son sólidos cristalinos con una estructura muy ordenada, el enlace es el más fuerte de todos)",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "La unión dipolo-dipolo es más fuerte que la de puente hidrógeno. (El puente de H es el más fuerte de las fuerzas intermoleculares)",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Los compuestos iónicos en estado sólido, conducen la electricidad. (Sólo conducen fundidos o disueltos en agua)",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "En la unión puente hidrógeno no es necesaria la presencia de elementos muy electronegativos. (Los H deben estar unidos elementos muy electronegativos, F, N o O)",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Ninguna es correcta.",
+        "correct": true
+      }
+    ],
+    "explanation": "Respuesta correcta: e) Ninguna es correcta..",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de Cajal — Examen N°1 (nº 21, tema \"conceptos_basicos_y_sistemas_materiales\")."
+  },
+  {
+    "id": "qui-caj-0010",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "estructura",
+    "topic": "enlace_quimico",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Analiza las siguientes consignas referidas a la estructura y propiedades del amoníaco y señala la opción con las consignas correctas: I. Cada átomo de hidrógeno se une al nitrógeno por enlace covalente polar. II. La estructura de pares de electrones es tetraédrica y la estructura molecular es angular. (La estructura molecular es piramidal trigonal) III. Presenta interacciones puente de hidrógeno entre sus moléculas. IV. Su momento dipolar es cero. (La molécula es polar, el momento dipolar es ≠ 0) V. Es una molécula polar con enlaces apolares. (Los enlaces N-H son polares)",
+    "choices": [
+      {
+        "id": "a",
+        "text": "I, y III",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "I, II, III, IV",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Todas son correctas, excepto la III",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "II y III",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Sólo I, II y V.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: a) I, y III.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de Cajal — Examen N°1 (nº 22, tema \"enlace_quimico\")."
+  },
+  {
+    "id": "qui-caj-0011",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "estructura",
+    "topic": "tabla_periodica",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "El elemento con 8 e- (átomo de O) se combina con el elemento del Grupo VIA y Periodo 2 (átomo de O). La afirmación correcta es:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Forman enlaces covalentes polares. (apolar)",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Se combinan mediante un triple enlace covalente. (enlace doble O=O)",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Se combinan mediante un doble enlace covalente.",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "La molécula es polar. (apolar, el enlace es apolar)",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "La sustancia formada es un sólido a temperatura y presión ambiente. (O2 gaseoso)",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: c) Se combinan mediante un doble enlace covalente..",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de Cajal — Examen N°1 (nº 23, tema \"tabla_periodica\")."
+  },
+  {
+    "id": "bio-caj-0001",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "biologia",
+    "block": "ecologia",
+    "topic": "ecologia",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Si al cabo de 240 minutos, la población se redujo a 4.000 bacterias, cuál es la constante k de la ecuación.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "– 0, 792",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "0,792",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "0,5 +++++",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "– 0,5",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Ninguna es correcta",
+        "correct": true
+      }
+    ],
+    "explanation": "Respuesta correcta: e) Ninguna es correcta. Primero que debemos hacer es pasar los 240 minutos a horas, sabiendo que en una hora hay 60 minutos, 240minutos=4h. Lo mejor para encontrar la solución correcta es utilizar la calculadora para reemplazar t=4h en la ecuación y las diferentes respuestas hasta obtener como resultado 4000. La opción correcta es la c",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de Cajal — Examen N°1 (nº 9, tema \"ecologia\")."
+  },
+  {
+    "id": "fis-caj-0001",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Determinar la ecuación de la recta que pasa por el punto ( 1; – 1 ) y es perpendicular a la recta 2y + x − 4 = 0",
+    "choices": [
+      {
+        "id": "a",
+        "text": "y + 3 = 2x",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "y − 3 = −2x",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "y + 3 = − 1 x",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "y = 2x − 3",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Ninguna opción es correcta",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: a) y + 3 = 2x.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de Cajal — Examen N°1 (nº 20, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-caj-0002",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Dos rectas son perpendiculares cuando:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Tienen la misma pendiente",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Tienen sus pendientes recíprocas",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Tienen sus pendientes recíprocas y cambiadas de signo",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Tienen la misma abscisa al origen",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Ninguna opción es la correcta",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: c) Tienen sus pendientes recíprocas y cambiadas de signo.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de Cajal — Examen N°1 (nº 21, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "qui-caj-0012",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "reacciones",
+    "topic": "estequiometria",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "La suma de dos vectores de igual magnitud es nula cuando:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Forman un ángulo entre 0° y 180°",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Son perpendiculares",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Son colineales de igual sentido",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Son colineales de sentido opuesto",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "Ninguna de las anteriores",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: d) Son colineales de sentido opuesto.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de Cajal — Examen N°1 (nº 22, tema \"estequiometria\")."
+  },
+  {
+    "id": "qui-caj-0013",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "organica",
+    "topic": "quimica_organica",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "LECTURA EXAMINATORIA: CONSISTE EN",
+    "choices": [
+      {
+        "id": "a",
+        "text": "visión panorámica",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Se efectúa sobre el programa y la biografía",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Se busca la vinculación entre los temas",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Finaliza Cuando se descubre la lógica interna del programa",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Todas son correctas",
+        "correct": true
+      }
+    ],
+    "explanation": "Respuesta correcta: e) Todas son correctas.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de Cajal — Examen N°1 (nº 30, tema \"quimica_organica\")."
+  },
+  {
+    "id": "fis-caj-0003",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "El Espacio y ámbito de aprendizaje de la carrera de medicina cuales son los dos hospitales escuelas más importantes",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Maternidad y HNC",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "SAN ROQUE Y HNC",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "RAWSON Y MISERICORDIA",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "TODOS SON CORRECTOS",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "SOLO b es correcta",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: a) Maternidad y HNC.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de Cajal — Examen N°1 (nº 31, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "qui-caj-0014",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "soluciones",
+    "topic": "soluciones",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "alta",
+    "difficulty": 2,
+    "stem": "El texto estructurado como problema-solución se caracteriza por:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Relaciona ideas, sucesos, individuos sobre la base de una cualidad común.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Incluye los formatos de la observación y la contestación.",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Responde a las preguntas que?, quien? Donde? Cuando?.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Frases que actúan como consecuente de determinada situación y posteriormente los que determinaron su existencia.",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Usa conectores como: por ejemplo, es decir, o sea.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) Incluye los formatos de la observación y la contestación..",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de Cajal — Examen N°1 (nº 32, tema \"soluciones\")."
+  },
+  {
+    "id": "fis-caj-0004",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Los distintos tipos de aprendizaje son:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Conceptual, procedimental y actitudinal",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Visual, auditivo, kinestésico o mixto",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Superficial o profundo",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "a y c son correctas",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "a, b y c son correctas",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: d) a y c son correctas.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de Cajal — Examen N°1 (nº 33, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-caj-0005",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Entre las actividades prácticas que se desarrollan en las clases de medicina se encuentran los “Consultorios externos”. Señale que opción corresponde a esta actividad.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Promover el aprendizaje sobre diagnóstico y manejo de pacientes en situaciones de urgencia.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Espacios para discutir sobre problemática salud-enfermedad",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Participación limitada a pequeñas intervenciones guiadas por el docente",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Sólo aprender a entablar la relación médico-paciente",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "c y d son correctas",
+        "correct": true
+      }
+    ],
+    "explanation": "Respuesta correcta: e) c y d son correctas.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de Cajal — Examen N°1 (nº 34, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "qui-caj-0015",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "reacciones",
+    "topic": "redox",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Lea el siguiente texto y reconozca la forma en que están estructurados los contenidos. “.El nacimiento de un niño; este es un proceso natural que se produce en el cuerpo de la mujer y es después de que el hombre y la mujer se unen, así es que se crea un nuevo ser mediante la unión de los gametos masculino y femenino.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Compilación",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Comparación-Contraste",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Causa-efecto",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Problema-solución",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Descripción",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: c) Causa-efecto.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de Cajal — Examen N°1 (nº 35, tema \"redox\")."
+  },
+  {
+    "id": "fis-caj-0006",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Según la estructura del Gobierno Universitario ¿Quién preside el Concejo Directivo y tiene la representación de la Facultad a su cargo? Señale la opción correcta:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "El Decano.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "El Rector.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "El Vicerrector.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "La Asamblea Universitaria.",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "B y c son correctas.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: a) El Decano..",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de Cajal — Examen N°1 (nº 36, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-caj-0007",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Dentro de las estrategias metacognitivas tenemos:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Estrategias de autoevaluación.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Estrategias cognitivas.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Estrategias de autorregulación.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Ninguna es correcta.",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "todas son correctas",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: a) Estrategias de autoevaluación..",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de Cajal — Examen N°1 (nº 37, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-caj-0008",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Pablo tiene que rendir un parcial teórico de Anatomía en tres días, comienza a estudiar retomando los contenidos previos, lee, memoriza y siente que no puede relacionar lo previo con lo nuevo. ¿Qué tipo de Aprendizaje ha realizado Pablo? Señala la opción correcta:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Aprendizaje Procedimental y Profundo.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Aprendizaje Conceptual y Superficial.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Aprendizaje Conceptual y Profundo.",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Aprendizaje Actitudinal y Superficial.",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Aprendizaje Actitudinal y Profundo.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: c) Aprendizaje Conceptual y Profundo..",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de Cajal — Examen N°1 (nº 39, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-caj-0009",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "La reforma del 18 marca la entrada de la universidad de Córdoba en la modernidad, obteniendo diferentes logros. Cuáles fueron los dos más importantes:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Co-gobierno estudiantil y Autonomía Universitaria.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Docencia libre.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Concursos con jurados con participación estudiantil.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Investigación, extensión y compromiso con la sociedad.",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "A, b y d son correctas.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: a) Co-gobierno estudiantil y Autonomía Universitaria..",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de Cajal — Examen N°1 (nº 40, tema \"funcion_lineal\")."
+  }
+]

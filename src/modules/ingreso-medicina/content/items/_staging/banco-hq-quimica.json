@@ -1,0 +1,4454 @@
+[
+  {
+    "id": "qui-hq-0001",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "reacciones",
+    "topic": "estequiometria",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Al estudiar la estabilidad de una molécula a temperatura ambiente, se determinó que su constante de equilibro es K=4. La expresión que representa dicho equilibrio es: A + B = 2C Determinar las concentraciones molares de cada uno de los componentes en el equilibrio, teniendo en cuenta que se efectuó la reacción en un recipiente cerrado de2 litros conteniendo 1,5 moles de A y 1 mol de B. A B C",
+    "choices": [
+      {
+        "id": "a",
+        "text": "1,20 1,70 0,30",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "0,32 0,10 0,62",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "0,00 0,50 1,50",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "0,45 0,20 0,60",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "Ninguna de las opciones anteriores es correcta. Analice el siguiente texto y responda los ítems 2, 3 y 4: Las bebidas que contienen cafeína, como el café, té, refresco de cola y bebidas energizantes tienen gran popularidad, de allí que, a pesar de que el abuso de esta sustancia produce arritmia cardiaca, insomnio y dolor de cabeza, se consume en promedio 3,98 mg de cafeína/kg de peso corporal por día. Datos adicionales: Solubilidad en agua a 25°C: 2,1 gr/100ml Punto de fusión: 237°C Formula química: C₈H₁₀N₄O₂",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: d) 0,45 0,20 0,60.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 1, tema \"estequiometria\")."
+  },
+  {
+    "id": "qui-hq-0002",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "reacciones",
+    "topic": "estequiometria",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "¿A cuántos mili moles corresponde los 3,98 mg de cafeína?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "0,0205",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "0,0000205",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "20,5",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "1,00",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "3,98",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: a) 0,0205.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 2, tema \"estequiometria\")."
+  },
+  {
+    "id": "qui-hq-0003",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "reacciones",
+    "topic": "estequiometria",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Si un joven de 50 kg consume la cantidad promedio, ¿Cuántas moléculas de cafeína ingresan diariamente a su organismo?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "1,026 x 1020",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "6,18 x 1020",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "6,02 x 1023",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "6,02 x 1020",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "1,026 x 1023",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) 6,18 x 1020.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 3, tema \"estequiometria\")."
+  },
+  {
+    "id": "qui-hq-0004",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "estructura",
+    "topic": "teoria_atomica",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Analice la estructura de la cafeína y los datos adicionales referidos al texto. Señale la opción correcta:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Todos los enlaces que presenta la cafeína son covalentes apolares.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "A temperatura ambiente es un líquido soluble en agua.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Presenta cuatro orbitales π enlazantes.",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Las funciones nitrogenadas presente son amina y amida.",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "b y c son correctas.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: c) Presenta cuatro orbitales π enlazantes..",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 4, tema \"teoria_atomica\")."
+  },
+  {
+    "id": "qui-hq-0005",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "sin_clasificar",
+    "topic": "sin_clasificar",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "El ácido aspártico es un aminoácido no esencial que se encuentra en las proteínas, muy importante en la síntesis de ADN, de la urea y como neurotransmisor cerebral. Su fórmula es la siguiente: Con respecto al mismo podemos afirmar que: I) El compuesto tiene dos grupos carboxilos, un grupo amino y no presenta actividad óptica. II) En la molécula hay dos grupos aldehído, dos grupos alcohol y un grupo amino. III) Todos los carbonos presentes en la molécula presentan hibridación sp3. IV) El carbono α es el único centro quiral que presenta la molécula. Son correctas:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Todas",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "I, II y IV",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Solo I",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Solo IV",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "Ninguna de las anteriores",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: d) Solo IV.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 5, tema \"sin_clasificar\")."
+  },
+  {
+    "id": "qui-hq-0006",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "reacciones",
+    "topic": "acido_base",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Analice las siguientes afirmaciones referidas a una solución acuosa de acetato de sodio y clasifíquelas como verdaderas (V) o falsas (F): I) Su pH es mayor a 7 debido a la hidrólisis del anión. II) Es una solución electrolítica, las interacciones entre el soluto y el agua son ion-dipolo. III) El pH de la solución mencionada es 7 porque es una sal cuyos iones no interaccionan con el agua. Indique la opción correcta: I II III",
+    "choices": [
+      {
+        "id": "a",
+        "text": "F",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "F V F",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "V",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "F V V",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "V V F F V F F",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: c) V.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 6, tema \"acido_base\")."
+  },
+  {
+    "id": "qui-hq-0007",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "soluciones",
+    "topic": "soluciones",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "alta",
+    "difficulty": 2,
+    "stem": "Un colutorio (enjuague bucal) es una forma farmacéutica liquida o semilíquida que actúa sobre la mucosa oral, encías y amígdalas. Se administra localmente en formas de baños (gárgaras) o con la ayuda de hisopos. La siguiente es la fórmula magistral de un colutorio utilizado como antiséptico para el tratamiento de ulceras, aftas y otras afecciones bucales: Bo ato de sodio………………… , g Bi a o ato de sodio…………. , g Ese ia de e ta………………. gotas Gli e ol………………………………. g H₂O sp………………………………. l (Csp: cantidad suficiente para completar un volumen final determinado) Si para su uso se diluyen 10 ml del colutorio con agua hasta completar un volumen final de 50ml ¿Cuál será la normalidad (N) del bicarbonato de sodio en la solución diluida?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "0,0190",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "0,0120",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "0,1200",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "0,0238",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "0,0094",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: d) 0,0238.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 7, tema \"soluciones\")."
+  },
+  {
+    "id": "qui-hq-0008",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "estructura",
+    "topic": "teoria_atomica",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Indique si las siguientes propuestas referidas al 2-butanol son verdaderas (V) o falsas (F): …La hi ida ió de C es sp2 y la del C2, C3 y C4 es sp3 …Todos sus e la es so ovale tes el o íge o de la olé ula posee hi ida ió sp3 …P ese ta fue zas i te ole ula es pue tes de hid oge o de Lo do . …Es ás solu le e agua ue el eta ol …P ese ta o itales ole ulares sigma y un orbital molecular π. Seleccione la opción que cite en orden correcto lo que Ud. Completó:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "F, F, F, F, V.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "F, V, V, F, F.",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "V, F, F, F, F.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "V, V, F, F, F.",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "F, F, V, V, V.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) F, V, V, F, F..",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 8, tema \"teoria_atomica\")."
+  },
+  {
+    "id": "qui-hq-0009",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "reacciones",
+    "topic": "redox",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "El ácido úrico es un electrolito débil cuya pKa es 5,75. Puede acumularse en las articulaciones como urato, originando una afección muy dolorosa que se conoce como gota. Si se dispone de una solución 0,30M en ácido úrico ¿Cuál es la concentración molar de H₃O+?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "1×10⁻⁷",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "3,14",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "2,14",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "7,3×10⁻⁴",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "1,31",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: d) 7,3×10⁻⁴.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 9, tema \"redox\")."
+  },
+  {
+    "id": "qui-hq-0010",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "sin_clasificar",
+    "topic": "sin_clasificar",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Relacione la fórmula de los compuestos presentados en la primera columna con los nombres o clases de los compuestos en la segunda y la posibilidad de que los mismos posean actividad óptica en la tercera y luego marque la opción con la relación correcta. FORMULA NOMBRE O CLASE ACTIVIDAD I- A-MONOSACARIDO OPTICA α- SI POSEE B- ACIDO BUTANOICO II- C-3-METILHEPTANO β- NO III- POSEE IV- D- AMINOACIDO E- BUTANAL V-",
+    "choices": [
+      {
+        "id": "a",
+        "text": "I – E –α II – B – β III – D – α IV – A – α V–C–α",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "I – D – α II – E – β III – B - β IV – A – α V–C–α",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "I – D – β II – B – β III – D – β IV – C – β V–A–α",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "I – B – α II – E – α III – D – β IV – C - α V–A–α",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "I – D - α II – B – β III – E – α IV – A – α V–C–β",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) I – D – α II – E – β III – B - β IV – A – α V–C–α.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 10, tema \"sin_clasificar\")."
+  },
+  {
+    "id": "qui-hq-0011",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "materia",
+    "topic": "conceptos_basicos_y_sistemas_materiales",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Se mezclan 200 ml de una solución 0,3 N de hidróxido de sodio con 300 ml de solución 0,1 N de hidróxido de potasio. Calcule el pH y la N de la solución respecto a los iones OH. pH N",
+    "choices": [
+      {
+        "id": "a",
+        "text": "0,74 0,18",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "1,05 0,09",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "13,60 0,40",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "13,26 0,18",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "12,95 0,09 Analice el siguiente experimento y responda los ítems 12 y 13 Se mezclan 25 ml de una solución de HCl 0,10 N con 10 ml de solución de hidróxido de calcio 0,20N y se completa con agua destilada hasta un volumen final de 250ml.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: d) 13,26 0,18.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 11, tema \"conceptos_basicos_y_sistemas_materiales\")."
+  },
+  {
+    "id": "qui-hq-0012",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "sin_clasificar",
+    "topic": "sin_clasificar",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "¿Cuántos miliequivalentes de cloruro de calcio se forma?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "23",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "10",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "2,5",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "2,0",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "0,2",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: d) 2,0.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 12, tema \"sin_clasificar\")."
+  },
+  {
+    "id": "qui-hq-0013",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "reacciones",
+    "topic": "acido_base",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "¿Cuál es el pH de la solución final obtenida?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "3,3",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "2,7",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "1,8",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "2,4",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "2,0",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) 2,7.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 13, tema \"acido_base\")."
+  },
+  {
+    "id": "qui-hq-0014",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "sin_clasificar",
+    "topic": "sin_clasificar",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "18 AÑOS (mg/día) (mg/día) (mg/día) (mg/día) 19 – 50 AÑOS 11 15 45 45 >50 AÑOS EMBARAZO 8 18 45 45 LACTANCIA 8 8 45 45 27 45 9 - 10 45 ¿Qué cantidad mínima de Fe expresada en átomos debe ingerir por día un varón de 17 años y cuál es la cantidad máxima que puede ingerir diariamente una mujer embarazada? Varón de 17 años Mujer embarazada 4,84 x 1020",
+    "choices": [
+      {
+        "id": "a",
+        "text": "1,18 x 1020 6,02 x 1023 4,84 x 1023",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "6,02 x 1023 4,84 x 1020 4,84 x 1023",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "1,61 x 1020",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "8,62 x 1019",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "1,18 x 1023",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: d) 8,62 x 1019.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 14, tema \"sin_clasificar\")."
+  },
+  {
+    "id": "qui-hq-0015",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "estructura",
+    "topic": "teoria_atomica",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Dibuje y analice la formula estructural del etanol, luego señale la opción correcta.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Todos sus enlaces son covalentes y poseen 8 orbitales moleculares sigma enlazantes.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "La hibridación de sus carbonos es sp3.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "El carbono 1 es asimétrico y posee dos isómeros ópticos.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "El ángulo de enlace alrededor del oxígeno es de 180°.",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "a y b son correctas.",
+        "correct": true
+      }
+    ],
+    "explanation": "Respuesta correcta: e) a y b son correctas..",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 17, tema \"teoria_atomica\")."
+  },
+  {
+    "id": "qui-hq-0016",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "reacciones",
+    "topic": "estequiometria",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Analice las siguientes afirmaciones referidas a las propiedades de la molécula de etanol y seleccione la correcta:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Presenta fuerzas intermoleculares de London y puente de hidrogeno.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "La segunda modificación que sufre en el hígado es una reducción.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Cuando el etanol se transforma en etanal se oxida.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Solo presenta interacciones de London y a temperatura ambiente es un sólido soluble en agua.",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "a y c son correctas.",
+        "correct": true
+      }
+    ],
+    "explanation": "Respuesta correcta: e) a y c son correctas..",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 18, tema \"estequiometria\")."
+  },
+  {
+    "id": "qui-hq-0017",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "soluciones",
+    "topic": "soluciones",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "alta",
+    "difficulty": 2,
+    "stem": "Luego de ingerir varios tragos en una fiesta, un joven presenta una concentración de etanol disuelto en sangre correspondiente a 0,06 M ¿qué efectos manifiesta?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Euforia, pérdida del control motor fino, desinhibición.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Pérdida de coordinación, tiempo de reacción lento.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Pérdida del equilibrio, signos de emoción y agresividad, pérdida del control sobre las acciones voluntarias.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Dificultad para estar de pie, confusión y pérdida total de coordinación.",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "Coma, depresión de centros vitales y muerte.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: d) Dificultad para estar de pie, confusión y pérdida total de coordinación..",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 19, tema \"soluciones\")."
+  },
+  {
+    "id": "qui-hq-0018",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "sin_clasificar",
+    "topic": "sin_clasificar",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "se necesita preparar 10.000 litros de jerez con un contenido alcohólico de 15% por volumen. Para tal fin se utilizará vino blanco (10% por volumen) y brandy (35% por volumen) ¿Cuántos litros se necesitara de cada uno?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "20 litros de brandy 9980 litros de vino blanco.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "5600 litros de brandy 4400 litros de vino blanco.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "2000 litros de brandy 8000 litros de vino blanco.",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "5960 litros de brandy 4040 litros de vino blanco.",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Con estos datos no se puede resolver el problema.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: c) 2000 litros de brandy 8000 litros de vino blanco..",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 22, tema \"sin_clasificar\")."
+  },
+  {
+    "id": "qui-hq-0019",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "estructura",
+    "topic": "teoria_atomica",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Dibuje la formula desarrollada del ácido butanoico e indique si las siguientes propuestas son V o F: I) La hibridación del C1 es sp2 y la de los C2, C3 y C4 es sp3. II) Todos los carbonos de la molécula poseen hibridación sp2. III) Solo presenta fuerzas intermoleculares de London y es un gas a temperatura ambiente. IV) Es soluble en agua. V) Presenta un orbital enlazante π. I II III IV V",
+    "choices": [
+      {
+        "id": "a",
+        "text": "F V V F F",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "V F F V V",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "V F V F V",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "V V F F F",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "F F V V F",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) V F F V V.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 23, tema \"teoria_atomica\")."
+  },
+  {
+    "id": "qui-hq-0020",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "reacciones",
+    "topic": "estequiometria",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Al estudiar la estabilidad de una molécula a temperatura ambiente, se determinó su constante de equilibrio (K) en 1,5×10⁻¹. La expresión que representa dicho equilibrio es: A + B = C Determinar las concentraciones molares de cada uno de los componentes en equilibrio, teniendo en cuenta que se efectuó la reacción en un recipiente cerrado de 1 litro, conteniendo 1,5 moles de A y 2 moles de B. A B C",
+    "choices": [
+      {
+        "id": "a",
+        "text": "1,20",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "0,68 1,70 0,30",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "0,00 1,18 0,82 0,50 1,50",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "1,20 0,50 0,82",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Ninguna de las opciones anteriores es correcta. Considere las soluciones de diferentes electrolitos (I a VI) y los datos adicionales presentados para responder los ítems 25, 26 y 27 I) Solución de hidróxido de potasio 0,015 M Ka ácido metanoico= 1,8×10⁻⁴ II) Solución de hidróxido de calcio 0,015 M III) Solución de ácido metanoico 0,01 M IV) Solución de ácido sulfúrico 0,01 M V) Solución de bicarbonato de potasio 0,02 M VI) Solución de metanoato de sodio 0,01 M Datos adicionales: Ka1 ácido carbónico= 4,3×10⁻⁷",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: a) 1,20.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 24, tema \"estequiometria\")."
+  },
+  {
+    "id": "qui-hq-0021",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "soluciones",
+    "topic": "soluciones",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "alta",
+    "difficulty": 2,
+    "stem": "Señale la opción que indique correctamente las formulas químicas de los solutos de las soluciones II, III, IV y V: II III IV V",
+    "choices": [
+      {
+        "id": "a",
+        "text": "CaOH HCOOH H₂SO₄ KHCO₃",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Ca(OH)₂ HCOH HSO₄ K₂HCO₃",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Ca(OH)₂ HCOOH H₂SO₄ KHCO₃",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Ca₂(OH)₂ HCOOH H₄SO₂ K(HCO₃)₂",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Ca₂OH CH₄OOH H₃SO₄ K₂CO₃",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: c) Ca(OH)₂ HCOOH H₂SO₄ KHCO₃.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 25, tema \"soluciones\")."
+  },
+  {
+    "id": "qui-hq-0022",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "materia",
+    "topic": "conceptos_basicos_y_sistemas_materiales",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Las siguientes opciones están relacionadas con propiedades de las soluciones mencionadas, indique cual es la correcta:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Las soluciones II es la más concentrada.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Las soluciones I y II tienen la misma presión osmótica.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Al mezclar volúmenes iguales a las soluciones I y II se modifica la presión osmótica.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "La temperatura de ebullición de la solución II es mayor que la de la solución V.",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "c y d son correctas.",
+        "correct": true
+      }
+    ],
+    "explanation": "Respuesta correcta: e) c y d son correctas..",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 26, tema \"conceptos_basicos_y_sistemas_materiales\")."
+  },
+  {
+    "id": "qui-hq-0023",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "materia",
+    "topic": "conceptos_basicos_y_sistemas_materiales",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "¿Cuál de las siguientes opciones referidas a las propiedades acido-base de los sistemas materiales citados, es correcta?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Las soluciones I y II tienen el mismo pH.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Si se mezclan volúmenes iguales de las soluciones I y II el pH no varía.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "La mezcla de volúmenes iguales de la solución II y IV produce un buffer.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "El buffer formado por volúmenes iguales de III y VI tiene un pH igual a 3,74.",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "a y b son correctas.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: d) El buffer formado por volúmenes iguales de III y VI tiene un pH igual a 3,74..",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 27, tema \"conceptos_basicos_y_sistemas_materiales\")."
+  },
+  {
+    "id": "qui-hq-0024",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "sin_clasificar",
+    "topic": "sin_clasificar",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Una de las consecuencias del hábito de fumar es el cáncer pulmonar; entre los agentes causales de dicha patología se encuentran los compuestos aromáticos policíclicos como el benzopireno, cuya estructura es la siguiente: Analice la estructura y deduzca la formula molecular y la hibridación de los átomos de carbono del benzopireno. Formula molecular hibridación sp2 y sp3",
+    "choices": [
+      {
+        "id": "a",
+        "text": "C₃₀H₃₆ solo sp2 solo sp2",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "C₂₀H₁₂ solo sp3 sp2 y sp3",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "C₂₀H₁₈",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "C₃₀H₁₂",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "C₂₀H₁₂",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) C₂₀H₁₂ solo sp3 sp2 y sp3.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 28, tema \"sin_clasificar\")."
+  },
+  {
+    "id": "qui-hq-0025",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "sin_clasificar",
+    "topic": "sin_clasificar",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "En el plasma sanguíneo (pH= 7,35) se encuentran diferentes solutos en solución, que pueden estar disociados o no, de acuerdo a sus propiedades acido-base. Indique para los siguientes solutos: Glicerol, NH₃, ácido úrico y KCl, la especie química predominante al pH del plasma: Datos adicionales: pKb NH₃= 4,75 pKa ácido úrico= 5,75 Glicerol NH₃ Acido Úrico KCl",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Molécula amoniaco Ácido Úrico Molécula",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Ión amonio urato Molécula",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Molécula amonio urato catión y anión",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Molécula amonio Molécula iones",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "Molécula Molécula urato iones",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: d) Molécula amonio Molécula iones.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 30, tema \"sin_clasificar\")."
+  },
+  {
+    "id": "qui-hq-0026",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "estructura",
+    "topic": "teoria_atomica",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Los cuerpos cetónicos son sustancias que normalmente se producen en nuestro organismo y en patologías como diabetes, sus valores en sangre se incrementan. El ácido 3-hidroxi-butanoico es un cuerpo cetónico; dibuje su fórmula desarrollada e indique si las siguientes afirmaciones son V o F: I- La hibridación del carbono 1 es sp2 y la de los carbonos 2, 3 y 4 es sp3. II- Todos los carbonos que poseen hibridación sp3 son asimétricos o quirales. III- Solo presenta fuerzas intermoleculares de London y es un gas a temperatura ambiente. IV- Con el agua interacciona por puente de hidrogeno. V- Presenta dos orbitales enlazantes π pi . I II III IV V",
+    "choices": [
+      {
+        "id": "a",
+        "text": "V FF VF",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "F VF VF",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "V FV FV",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "V VF FF",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "F FV VF",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: a) V FF VF.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 31, tema \"teoria_atomica\")."
+  },
+  {
+    "id": "qui-hq-0027",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "reacciones",
+    "topic": "estequiometria",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "La hemoglobina, proteína encargada del transporte de oxígeno en la sangre, tiene una masa molar de 64.500g y está formada por 4 subunidades, cada una de las cuales se une reversiblemente a una molécula de oxígeno para formar oxihemoglobina. Si en 100ml de sangre de un adulto normal, el contenido de hemoglobina es de 15g ¿Cuántas moléculas de oxigeno son necesarias para transformar toda la hemoglobina contenida en ese volumen, en oxihemoglobina?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "1,4×10²⁰",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "3,6×10²⁵",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "5,6×10²⁰",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "9,3×10⁻⁴",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "2,4×10²⁴",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: c) 5,6×10²⁰.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 32, tema \"estequiometria\")."
+  },
+  {
+    "id": "qui-hq-0028",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "soluciones",
+    "topic": "soluciones",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "alta",
+    "difficulty": 2,
+    "stem": "Un estudiante, en una clase práctica de química, debe preparar 500ml de una solución acuosa 1,5N de CaCl₂ ¿Cuáles son los pasos que deberá seguir?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Pesar 41,6 g de soluto, disolverlo en agua destilada y completar hasta 1000 ml con el solvente.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Pesar 83,2 g de soluto, disolverlo en agua destilada y completar hasta 500ml con el solvente.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Pesar 41,6 g de CaCl₂, disolverlo en agua destilada y completar hasta 500 ml con el solvente.",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Pesar 166g de soluto, disolverlo en agua destilada y completar hasta 500 ml con el solvente.",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Pesar 28,3 g de CaCl₂, disolverlo en agua destilada y completar hasta 500 ml con el solvente. El siguiente texto debe ser utilizado para responder los ítems 34 y 35. El cáncer es la principal causa de muerte a nivel mundial. Algunas sustancias como el resveratrol, presente en las cascaras de uvas fresca, previenen el inicio y progresión de ciertos tumores inhibiendo los eventos celulares asociados. En el vino tinto, el resveratrol alcanza una concentración de 2 mg/L y su fórmula estructural es la siguiente:",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: c) Pesar 41,6 g de CaCl₂, disolverlo en agua destilada y completar hasta 500 ml con el solvente..",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 33, tema \"soluciones\")."
+  },
+  {
+    "id": "qui-hq-0029",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "reacciones",
+    "topic": "estequiometria",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Analice las siguientes afirmaciones con la estructura del resveratrol: I- Presenta isomería óptica. II- Presenta isomería geométrica. III- Es una molécula apolar. IV- La hibridación de los átomos de C es sp2. V- Los ángulos del enlace alrededor de todos los C son de 120°. Señale la opción que contenga las afirmaciones correctas.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Solo II, IV y V.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Solo IV y V.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "I, II, III, IV y V.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Solo II y III.",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Solo I, II y III.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: a) Solo II, IV y V..",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 34, tema \"estequiometria\")."
+  },
+  {
+    "id": "qui-hq-0030",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "reacciones",
+    "topic": "estequiometria",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Si la masa molar del resveratrol es 228g ¿cuál es la concentración molar del vino tinto?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "2,0×10⁻¹",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "8,8×10⁻⁶",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "2,0×10⁰",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "2,0×10⁴",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "8,8×10⁻³ Realice una lectura comprensiva del siguiente texto y luego responda las preguntas 36, 37 y 38 relacionadas con el mismo. LA LLUVIA ÁCIDA Solo a 25° C y 1 atm de presión, el agua pura tiene un pH igual a 7; se disocia formando iones hidronio e hidróxido. El agua de lluvia es ligeramente acida porque con el dióxido de carbono de la atmósfera forma ácido carbónico dando un pH aproximado de 5,7. Otros gases como el NO y N y fundamentalmente S , que se oxida a S , presentes en las nubes altas también pueden reaccionar con el vapor de agua del aire produciendo especies acidas como ácido nítrico y ácido sulfúrico que hacen descender el pH a los valo es e t e 5 y 3 y ge e a la lla ada lluvia a ida . Au ue los efe tos de la lluvia a ida so e las pe so as o so di e tos, esta o stituye u se io p o le a a ie tal debido a su acción sobre el suelo, la vida acuática, árboles y cultivos e incluso sobre obras realizadas por el hombre como monumentos, edificios y maquinarias. La naturaleza dispone de mecanismos para neutralizar la acidez normal de la lluvia, como es el suelo calizo, rico en que ejerce una acción amortiguadora impidiendo que el pH se torne demasiado acido. Sin embargo cuando el aporte de los gases mencionados es muy alto la acidez no puede ser neutralizada y se producen efectos nocivos. La fuente más importante de S es la quema de combustibles fosiles en industrias, plantas generadoras de energía y en el hogar. Sin embargo, existen varias fuentes menores de emisión de S como las erupciones volcánicas, los geiseres, el humo del cigarrillo y la refinación de minerales para obtener metales que, en la naturaleza, se presentan combinados con azufre. Si tomamos como ejemplo la obtención del Zn, el proceso mencionado consiste en quemar sulfuro de zinc (ZnS) en presencia de oxígeno para formar ZnO y como resultado se libera S a la atmosfera. El oxido de Zinc es finalmente reducido por otro metal mas reactivo para separar el Zn.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) 8,8×10⁻⁶.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 35, tema \"estequiometria\")."
+  },
+  {
+    "id": "qui-hq-0031",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "reacciones",
+    "topic": "acido_base",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "De acuerdo al texto analizado ¿Cuál de las siguientes opciones es correcta?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "El agua pura tiene una concentración de iones O − igual a 1. − a cualquier temperatura y presión.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "El ácido carbónico es un electrolito fuerte que se disocia completamente.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "El del suelo alizo a o tigua el des e so del pH po ue o vie te al á ido sulfú i o de la lluvia a ida e u a sal ási a.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Las especies acidas comúnmente responsables de la lluvia a ida so : HN y S",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "La lluvia a ida se lla a así po su ajo pH, a dife e ia del agua de lluvia o al ue es ási a.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: d) Las especies acidas comúnmente responsables de la lluvia a ida so : HN y S.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 36, tema \"acido_base\")."
+  },
+  {
+    "id": "qui-hq-0032",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "sin_clasificar",
+    "topic": "sin_clasificar",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Identifique las siguientes consignas como (V) o falsas (F): 1) Los compuestos mencionados en el primer párrafo tienen la siguiente formula molecular: O, CO y HC . 2) Todos los gases mencionados en el segundo párrafo son compuestos covalentes y se denominan: monóxido de nitrógeno, dióxido de nitrógeno, dióxido de azufre y trióxido de azufre. 3) Según la nomenclatura sistemática, el compuesto iónico presente en suelos calizos, se nombra como trióxocarbonato de calcio. 4) Los compuestos involucrados en la obtención de Zn a partir de su sulfuro son dos óxidos básicos y una oxosal. Seleccione la opción que indique la secuencia correcta de V y F. 1 2 3 4",
+    "choices": [
+      {
+        "id": "a",
+        "text": "V V V V",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "F",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "F V V F",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "V",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "F F V V F F F F V F",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) F.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 37, tema \"sin_clasificar\")."
+  },
+  {
+    "id": "qui-hq-0033",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "estructura",
+    "topic": "tabla_periodica",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Siempre en referencia al texto ¿Cuál de las siguientes opciones es correcta? Reléalo si es necesario.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Cuando el sulfuro de zinc se transforma en óxido de zinc, el metal cambia su estado de oxidación.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Al final del proceso de refinación, el ZnO libera Zn reduciendo a otro metal.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Cuando libera Zn, el ZnO actúa como agente reductor.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "En todos los compuestos de nitrógeno que menciona el texto, este no metal presenta el mismo estado de oxidación.",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "El S del S pie de ele t o es ua do fo a u o de los á idos espo sa les de la lluvia á ida .",
+        "correct": true
+      }
+    ],
+    "explanation": "Respuesta correcta: e) El S del S pie de ele t o es ua do fo a u o de los á idos espo sa les de la lluvia á ida ..",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 38, tema \"tabla_periodica\")."
+  },
+  {
+    "id": "qui-hq-0034",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "estructura",
+    "topic": "tabla_periodica",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "¿Cuáles son los símbolos químicos de los elementos que responden a las siguientes descripciones? 1. Elemento que origina un anión divalente con 10 electrones. 2. Elemento que posee 10 electrones en 3d y no presenta electrones en 4p. 3. Gas noble que posee 10 electrones en 3d y no posee electrones en 5s. 4. Elemento más electronegativo de todos los conocidos. 1 2 3 4",
+    "choices": [
+      {
+        "id": "a",
+        "text": "O Zn Kr O",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "F Cd Ne Cl",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "O Zn Kr F",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "S Ca Ar F",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Ne Sr Xe N",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: c) O Zn Kr F.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 39, tema \"tabla_periodica\")."
+  },
+  {
+    "id": "qui-hq-0035",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "soluciones",
+    "topic": "soluciones",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "alta",
+    "difficulty": 2,
+    "stem": "Los colutorios (enjuagues bucales) son soluciones acuosas que con frecuencia contienen antisépticos, antibióticos, analgésicos y/o agentes anestésicos. Antes de su uso (terapéutico o cosmético) se debe diluir con agua. La siguiente fórmula magistral corresponde a un enjuague bucal: Á ido a etilsali íli o………………………….. , g ……………………………………………. , 0 g Me tol……………………………………………… s . O sp…………………………………………… L (cs: cantidad suficiente; csp: cantidad suficiente para completar el volumen final determinado) Si para su uso se diluyen 10 ml del enjuague bucal con agua hasta completar un volumen final de 100 ml, ¿Cuál será la concentración de NaHC en la solución diluida, expresada en % m/V y M? % m/V M",
+    "choices": [
+      {
+        "id": "a",
+        "text": "9,5 1,13 0,045",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "0,38 0,11 0,45",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "9,5 0,0045",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "3,8",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "0,038",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) 0,38 0,11 0,45.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 40, tema \"soluciones\")."
+  },
+  {
+    "id": "qui-hq-0036",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "reacciones",
+    "topic": "acido_base",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "El cloruro de amonio es un sólido blanco cristalino que se usa como diurético, acidificante sistémico y expectorante. ¿Cuál de las siguientes propuestas referidas al mismo es correcta?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "El cloruro de amonio se usa como acidificante porque es una sal cuyo catión hidroliza en solución acuosa disminuyendo así el pH del medio.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Una solución acuosa de N Cl 0,1 molal y una glucosa 0,1 molal presentan el mismo descenso crioscopico porque tienen igual concentración.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Las únicas fuerzas intermoleculares que presenta el N Cl son las de dispersión de London porque es una sustancia apolar asimétrica.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Una solución acuosa de cloruro de amonio es molecular porque no se disocia.",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Todas las propiedades del compuesto enunciadas en el texto son propiedades químicas porque es un compuesto químico.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: a) El cloruro de amonio se usa como acidificante porque es una sal cuyo catión hidroliza en solución acuosa disminuyendo así el pH del medio..",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 41, tema \"acido_base\")."
+  },
+  {
+    "id": "qui-hq-0037",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "reacciones",
+    "topic": "estequiometria",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "El estómago humano produce y libera diariamente un promedio de 2 L de jugo gástrico, un líquido límpido de color amarrillo pálido compuesto fundamentalmente por agua, 170 mmol/L de HCl, enzimas y mucoproteínas. Calcule cuantos gramos de HCl se liberan por día en el jugo gástrico y marquen la opción correcta:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "0,17 g",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "12,41 g",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "0,34 g",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "6,2 g",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "2,0 g",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) 12,41 g.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 42, tema \"estequiometria\")."
+  },
+  {
+    "id": "qui-hq-0038",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "sin_clasificar",
+    "topic": "sin_clasificar",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "El tejido óseo de una persona adulta pesa aproximadamente 11kg y contiene un 50% de . Considerando tal masa, determine la cantidad de fosforo que hay en el tejido óseo de un adulto y seleccione la opción correcta:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "5.500 g",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "1×10⁰ g",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "2.200 g",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "550 g",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "27.500 g",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) 1×10⁰ g.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 43, tema \"sin_clasificar\")."
+  },
+  {
+    "id": "qui-hq-0039",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "reacciones",
+    "topic": "acido_base",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Una medida de emergencia que habitualmente se toma ante una quemadura con ácidos es lavar con agua y cubrir la zona afectada con solución de bicarbonato de sodio. Según los conceptos de equilibrio ácido-base, esta medida resulta efectiva porque:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "El bicarbonato de sodio es una sal neutra.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "El agua es básica.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "El + es un catión comúnmente presente en las células.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "El anión bicarbonato retiene agua.",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "El anión bicarbonato actúa como una base.",
+        "correct": true
+      }
+    ],
+    "explanation": "Respuesta correcta: e) El anión bicarbonato actúa como una base..",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 44, tema \"acido_base\")."
+  },
+  {
+    "id": "qui-hq-0040",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "reacciones",
+    "topic": "acido_base",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "El principio activo de la aspirina es el ácido acetilsalicílico (HC ), un acido monoprotico cuya Ka a 25° C es igual a 3,3. − . Si a esa temperatura se disuelve una tableta de aspirina que contiene 0,325 g de ácido acetilsalicílico, en un vaso con 100 mL de agua ¿Cuál será el pH resultante? Considere volumen final igual a 100 mL.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "3,11",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "1,61",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "2,61",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "1,11",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "1,98",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: c) 2,61.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 45, tema \"acido_base\")."
+  },
+  {
+    "id": "qui-hq-0041",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "sin_clasificar",
+    "topic": "sin_clasificar",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Dos elementos A y B forman un compuesto determinado; si sus masas guardan una relación mA/mB igual a 1,75 ¿Cuál de las siguientes cantidades de A y B formaran el mismo compuesto sin que quede exceso de reactivos? Masa A (g) masa B (g)",
+    "choices": [
+      {
+        "id": "a",
+        "text": "1 1,75",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "2,8 1,6",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "3,2 1,4",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "2,8 3,2",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "2,8 1,2",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) 2,8 1,6.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 46, tema \"sin_clasificar\")."
+  },
+  {
+    "id": "qui-hq-0042",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "materia",
+    "topic": "conceptos_basicos_y_sistemas_materiales",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "El NaCl es un soluto muy soluble en agua; a 20° C, 100 g de agua pueden disolver como máximo 38 g de la sal. Si se intenta disolver 37 g de NaCl en 4 moles de agua a dicha temperatura, ¿qué sucederá?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Se obtendrá una mezcla acuosa homogénea de NaCl.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Se formará una solución saturada en contacto con exceso de soluto no disuelto.",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "No se obtendrá una solución porque la cantidad de NaCl no es suficiente.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Se disolverá todo el NaCl disponible.",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Se obtendrá una solución al 37% m/m con respecto al solvente.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) Se formará una solución saturada en contacto con exceso de soluto no disuelto..",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 47, tema \"conceptos_basicos_y_sistemas_materiales\")."
+  },
+  {
+    "id": "qui-hq-0043",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "estructura",
+    "topic": "teoria_atomica",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Escriba la formula desarrollada del ácido butanoico, en función de la misma, analice las siguientes opciones e indique la correcta:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Todos los carbonos de la molécula son asimétricos.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "La molécula presenta un orbital enlazante π.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Es un ácido insaturado.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "La hibridación del Cl es sp² y la de los C2, C3 y C4 es sp³.",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "b y d son correctas.",
+        "correct": true
+      }
+    ],
+    "explanation": "Respuesta correcta: e) b y d son correctas..",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 48, tema \"teoria_atomica\")."
+  },
+  {
+    "id": "qui-hq-0044",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "sin_clasificar",
+    "topic": "sin_clasificar",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "El amoniaco se obtiene a partir de la combinación de nitrógeno con hidrogeno. Analice y relacione las columnas que representan esquemáticamente y a escala el fenómeno químico citado: Seleccione la opción que indica la relación correcta:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "2 II i",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "4 Vl iii",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "3 V i",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "2 V i",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "2 l iv",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: d) 2 V i.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 50, tema \"sin_clasificar\")."
+  },
+  {
+    "id": "qui-hq-0045",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "equilibrio",
+    "topic": "equilibrio_quimico",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Plantee la ecuación correspondiente a la reacción de formación del amoniaco, considerada en la pregunta anterior y seleccione la opción que indica la constante de equilibrio para dicha reacción.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "[] [ ].[ ]",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "[] [ ] .[ ] []",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "[ ].[ ]",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "[ ]⁴ [ ].[ ]",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "[ ]⁶.[ ] [ ]⁴",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) [] [ ] .[ ] [].",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 51, tema \"equilibrio_quimico\")."
+  },
+  {
+    "id": "qui-hq-0046",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "reacciones",
+    "topic": "acido_base",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Existen diferentes sistemas reguladores del pH tanto dentro de las células como en el medio extracelular. Uno de los sistemas reguladores del pH dentro de las células está formado por −/ − consideren que el pH intracelular de un miocito (célula muscular) es 6,8 y determine cuál de las siguientes afirmaciones es correcta. (Dato: = 6,3. − )",
+    "choices": [
+      {
+        "id": "a",
+        "text": "El buffer −/ − no puede mantener el pH dentro del miocito porque su pKa no es 6,8.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Dentro de un miocito la relación −/ − es igual a 1.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "La concentración intracelular de −en el miocito es menor que la de −.",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "En el miocito, el buffer −/ − amortigua mejor los cambios del pH producidos por acidos que los producidos por bases.",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "El valor de la relación −/ − dentro de la celula muscular es 2,5.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: c) La concentración intracelular de −en el miocito es menor que la de −..",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 52, tema \"acido_base\")."
+  },
+  {
+    "id": "qui-hq-0047",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "reacciones",
+    "topic": "estequiometria",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "El 60% de la masa corporal de un adolescente es agua. ¿Qué cantidad de agua expresada en moles moléculas contiene el cuerpo de un adolescente cuya masa es de 58,33 Kg? Moles Moléculas 1,17.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "1,94",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "1,17. 1,94 1,67.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "2,78. 10³ 1,17. 1,17.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "1,94.",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "1,17.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: d) 1,94..",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 54, tema \"estequiometria\")."
+  },
+  {
+    "id": "qui-hq-0048",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "reacciones",
+    "topic": "redox",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Uno de los compuestos iónicos en las bebidas para deportistas es el dihidrógeno fosfato de potasio ( ), única sustancia en su composición que proporciona el catión potasio, indispensable en el mantenimiento del equilibrio electrolítico. ¿Cuántos gramos de habra en un recipiente de 240 mL de una de estas bebidas, si la etiqueta indica que en ese volumen contiene 0,03 g de +?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "10,5 g",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "104,6 g",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "0,105 g",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "30 g",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "0,030 g",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: c) 0,105 g.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 55, tema \"redox\")."
+  },
+  {
+    "id": "qui-hq-0049",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "soluciones",
+    "topic": "soluciones",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "alta",
+    "difficulty": 2,
+    "stem": "Considere una célula con una concentración interna de sacarosa ( ) de 0,5% m/V cuya membrana semipermeable permite el paso del agua pero no permite que los disacáridos la atraviesen y deduzca cuál de las siguientes acciones aumentara la concentración de sacarosa en su interior:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Colocar la célula en una solución de sacarosa 0,2% m/V.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Colocar la célula en una solución de maltosa ( ) 0,2% m/V.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Colocar la célula en una solución de sacarosa 0,012 M.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Colocar la célula en una solución de sacarosa 2% m/V.",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "Colocar la célula en agua destilada.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: d) Colocar la célula en una solución de sacarosa 2% m/V..",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 56, tema \"soluciones\")."
+  },
+  {
+    "id": "qui-hq-0050",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "reacciones",
+    "topic": "estequiometria",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "El jugo gástrico, producto de la secreción de la mucosa del estómago puede alcanzar concentraciones muy altas de H₃O+ y por lo tanto valores de pH extremadamente bajos debido a la presencia de HCl. Si el análisis de una muestra de 50ml de jugo gástrico indica una concentración de H₃O+ de 63mmoles/L ¿Cuál es el pH?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "1,2",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "1,8",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "0,5",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "2,5",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "2,8",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: a) 1,2.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 57, tema \"estequiometria\")."
+  },
+  {
+    "id": "qui-hq-0051",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "reacciones",
+    "topic": "estequiometria",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Analice las fórmulas estructurales designadas como 1, 2 y 3 que corresponden a tres biomoléculas e indique la opción correcta con respecto a los aspectos estructurales analizados: 1- 2- 3-",
+    "choices": [
+      {
+        "id": "a",
+        "text": "El compuesto 2 no presenta isomería óptica porque tiene tres carbonos asimétricos.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "El enlace que une los dos aminoácidos en 1 es de tipo Ester porque participa un grupo carboxilo.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "El enlace que une los dos monosacáridos en 3 es de tipo éter porque condensa dos oxhidrilos.",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "El compuesto 3 no es soluble en agua porque no presenta grupos polares.",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Todos los enlaces C-C de 2 son simples porque todos sus átomos de carbono presentan hibridación sp².",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: c) El enlace que une los dos monosacáridos en 3 es de tipo éter porque condensa dos oxhidrilos..",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 58, tema \"estequiometria\")."
+  },
+  {
+    "id": "qui-hq-0052",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "reacciones",
+    "topic": "estequiometria",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Calcular la concentración M de OH de 500 mL de una solución acuosa que a 25 °C contiene 1. − moles de O a a la opción correcta:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "1. −",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "1. −",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "2. −",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "5. −",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "1.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: d) 5. −.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 59, tema \"estequiometria\")."
+  },
+  {
+    "id": "qui-hq-0053",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "estructura",
+    "topic": "enlace_quimico",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "El agua, solvente universal, es un líquido con propiedades extraordinarias. Si consideramos que se trata de una molécula pequeña con una masa de 18 uma, sus propiedades resultan poco típicas y la explicación se encuentra en su particular estructura. Analice las siguientes consignas referidas a la estructura y propiedades del agua y señale la opción con las consignas correctas: I- La estructura de pares de electrones es tetraédrica y la estructura molecular es angular. II- Cada átomo de hidrogeno se une al oxigeno por enlace covalente polar. III- Se comporta exclusivamente como un ácido débil. IV- Presenta interacciones puente hidrogeno entre sus moléculas.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Sólo III",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Sólo IV",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Sólo I, II y IV",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Sólo III y IV",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "I, II, III y IV",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: c) Sólo I, II y IV.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 61, tema \"enlace_quimico\")."
+  },
+  {
+    "id": "qui-hq-0054",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "reacciones",
+    "topic": "acido_base",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "La mayoría de las bebidas gaseosas posee un pH ácido debido a la presencia de ácido fosfórico y dióxido de carbono. Para analizar cuantitativamente la [ +] en estas bebidas, se utiliza una solución de hidróxido de sodio 0,15 N; si debe preparar con este propósito 500 mL de la solución neutralizante a partir de otra 4,0 N de la misma base, ¿Cuántos mL de la solución concentrada debe utilizar?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "18,75",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "13,33",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "500",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "37,5",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "100",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: a) 18,75.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 63, tema \"acido_base\")."
+  },
+  {
+    "id": "qui-hq-0055",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "materia",
+    "topic": "conceptos_basicos_y_sistemas_materiales",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "En la naturaleza las sustancias se presentan en tres estados físicos diferentes: sólido, líquido y gaseoso. La presión y la temperatura a las que se somete una sustancia determinaran el estado en el que se presenta. Analice las siguientes afirmaciones referidas a los estados de agregación de la materia y marque la correcta:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Cuando un líquido se evapora, ocupa en su nuevo estado, un volumen mayor.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Una sustancia cuyos puntos de fusión y ebullición a 1 atm son -98 °C y 64,7 °C, respectivamente, será un líquido a esa presión y temperatura ambiente.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Cuando se proporciona calor a un sólido la fuerza de unión entre sus partículas aumenta.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Cuando se mezclan 5g de NaCl y 5g de agua a 25 °C, se obtiene un sistema con una única fase liquida (Dato: solubilidad del NaCl en agua a 25 °C = 38g / 100g).",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "a y b son correctas.",
+        "correct": true
+      }
+    ],
+    "explanation": "Respuesta correcta: e) a y b son correctas..",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 65, tema \"conceptos_basicos_y_sistemas_materiales\")."
+  },
+  {
+    "id": "qui-hq-0056",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "soluciones",
+    "topic": "soluciones",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "alta",
+    "difficulty": 2,
+    "stem": "Las fórmulas designadas I, II y III corresponden a tres compuestos inorgánicos: I) II) III) N Dato adicional: Ka HClO = 4,0. − Kb N = 1,8. − En relación a los mismos podemos afirmar que:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Son respectivamente: clorito de sodio, ácido hipocloroso y amonio.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "II y III presentan enlaces covalentes polares entre sus átomos.",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Las soluciones acuosas de I y III poseen carácter ácido.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Si reaccionan II y III se obtiene una oxosal.",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "a y c son correctas.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) II y III presentan enlaces covalentes polares entre sus átomos..",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 66, tema \"soluciones\")."
+  },
+  {
+    "id": "qui-hq-0057",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "estructura",
+    "topic": "tabla_periodica",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Los núclidos radiactivos, por ejemplo el y el , se usan mucho en medicina para diagnóstico, tratamiento e investigación. ¿Cuántos protones, electrones y neutrones hay en un átomo de y en un ión ? Dato: al Z del Xe y del I puede consultarlos en la Tabla Periódica.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "54 p+, 54 e- y 79 neutrones 53 p+, 54 e- y 78 neutrones",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "54 p+, 54 e- y 79 neutrones 54 p+, 54 e- y 78 neutrones",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "54 p+, 79 e- y 54 neutrones 53 p+, 78 e- y 53 neutrones",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "54 p+, 79 e- y 79 neutrones 53 p+, 78 e- y 78 neutrones",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "53 p+, 53 e- y 80 neutrones 54 p+, 54 e- y 77 neutrones",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: a) 54 p+, 54 e- y 79 neutrones 53 p+, 54 e- y 78 neutrones.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 67, tema \"tabla_periodica\")."
+  },
+  {
+    "id": "qui-hq-0058",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "reacciones",
+    "topic": "acido_base",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "El sistema buffer de la sangre de mayor interés fisiológico y clínico está constituido por / en una relación 25 mM / 1,25 mM. Con este dato, calcule cuantos miliequivalentes de la base hay en 100 mL de sangre y marque la opción correcta:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "25,0",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "2,5",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "1,25",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "0,125",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "5,0",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) 2,5.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 69, tema \"acido_base\")."
+  },
+  {
+    "id": "qui-hq-0059",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "materia",
+    "topic": "conceptos_basicos_y_sistemas_materiales",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Analice las afirmaciones referidas a las soluciones acuosas A y B y señale la opción correcta: Solución A: 10,8 g/L Solución B: NaCl 0,03 M",
+    "choices": [
+      {
+        "id": "a",
+        "text": "El punto de congelación de la solución A es igual que el de la solución B.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "La presión osmótica de la solución A es menor que la de la solución B.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "El descenso crioscópico de A es mayor que el de B.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "El número de partículas osmóticamente activas en A es mayor que en B.",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "A igual presión, la solución A pasará a la fase vapor a menor temperatura que la B.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: a) El punto de congelación de la solución A es igual que el de la solución B..",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 70, tema \"conceptos_basicos_y_sistemas_materiales\")."
+  },
+  {
+    "id": "qui-hq-0060",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "reacciones",
+    "topic": "acido_base",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Cuando se diluye una solución amortiguadora de ácido acético/acetato de sodio para llevar su concentración a la mitad, se afirma que: I. El pH de la solución cambia. II. Su capacidad amortiguadora disminuye. III. La capacidad del sistema para regular el agregado de ácidos aumenta. IV. Cambia la proporción : . Indique la opción que contenga la/s afirmación/es correcta/s:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Sólo I, III y IV",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Sólo II",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Sólo I y II",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Sólo II y IV",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Sólo IV",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) Sólo II.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 71, tema \"acido_base\")."
+  },
+  {
+    "id": "qui-hq-0061",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "sin_clasificar",
+    "topic": "sin_clasificar",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "¿Cuál es el porcentaje de S presente en un edulcorante artificial cuya fórmula es ?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "40",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "17,5",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "58,6",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "8,75",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "32",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) 17,5.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 72, tema \"sin_clasificar\")."
+  },
+  {
+    "id": "qui-hq-0062",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "reacciones",
+    "topic": "redox",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Considere la siguiente ecuación que representa una reacción redox, identifique el agente oxidante y el agente reductor y luego señale la afirmación correcta: 2Kl (ac) + (ac) + (ac) → (g) + (ac) + 2 (l) Agente oxidante Agente reductor",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Kl",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Kl",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Kl",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Kl e)",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) Kl.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 73, tema \"redox\")."
+  },
+  {
+    "id": "qui-hq-0063",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "reacciones",
+    "topic": "acido_base",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Considere las soluciones de diferentes electrolitos (I a VI) y los datos adicionales presentados y señale la opción correcta sobre sus propiedades acido-base: I: NaOH 0,01 M II: NaOH 0,1 M III: C COOH 0,01 M IV: HN 0,01 M V: NaHC 0,5 M VI: NaC COO 0,1 M Datos adicionales: C = 4,3. − Ka C COOH = 1,8. −",
+    "choices": [
+      {
+        "id": "a",
+        "text": "I tiene menor pH que II",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "III tiene igual pH que IV",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "V y VI tiene un pH mayor que 7",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "III y VI pueden construir un sistema buffer.",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "a, c y d son correctas.",
+        "correct": true
+      }
+    ],
+    "explanation": "Respuesta correcta: e) a, c y d son correctas..",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 74, tema \"acido_base\")."
+  },
+  {
+    "id": "qui-hq-0064",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "reacciones",
+    "topic": "redox",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "En relación al tipo de reacción química producida, analice cuales de las afirmaciones son correctas: I) Es una reacción redox. II) El ácido nítrico es el agente oxidante. III) El nitrógeno cambia su estado de oxidación de +5 a +3. IV) El Zn se reduce. V) El Zn pierde electrones.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Solo I, II, III y V.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Solo I, II y V.",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "I, II, III, IV y V.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Solo II y IV.",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Solo I, II y III.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) Solo I, II y V..",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 77, tema \"redox\")."
+  },
+  {
+    "id": "qui-hq-0065",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "sin_clasificar",
+    "topic": "sin_clasificar",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "¿Cuántos gramos de NH₄NO₃ se forman en la reacción?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "0,60",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "0,20",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "0,80",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "80",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "1,0",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) 0,20.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 78, tema \"sin_clasificar\")."
+  },
+  {
+    "id": "qui-hq-0066",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "sin_clasificar",
+    "topic": "sin_clasificar",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "¿Cuántos átomos de carbono tienen hibridación sp2 y cuántos sp3? Sp2 sp3",
+    "choices": [
+      {
+        "id": "a",
+        "text": "11 8",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "13 9",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "13 6",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "11 3",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "10 6",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) 13 9.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 80, tema \"sin_clasificar\")."
+  },
+  {
+    "id": "qui-hq-0067",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "reacciones",
+    "topic": "estequiometria",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "¿Cuántos átomos de carbono quirales posee la molécula?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "6",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "2",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "4",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "5",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "7",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: d) 5.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 81, tema \"estequiometria\")."
+  },
+  {
+    "id": "qui-hq-0068",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "organica",
+    "topic": "quimica_organica",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Considere los grupos funcionales que presenta la tetraciclina y señale la afirmación correcta:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Tiene cinco grupos hidroxilo y dos grupos amina.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Tiene tres grupos ceto.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Tiene cinco grupos hidroxilo, uno amina y uno carboxamida.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Tiene una amina secundaria.",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Tiene una amina primaria.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: a) Tiene cinco grupos hidroxilo y dos grupos amina..",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 82, tema \"quimica_organica\")."
+  },
+  {
+    "id": "qui-hq-0069",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "sin_clasificar",
+    "topic": "sin_clasificar",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Complete la siguiente ecuación química (no balanceada) y señale la opción que indica correctamente el compuesto que falta (X). − + + → ++ +",
+    "choices": [
+      {
+        "id": "a",
+        "text": "3-pentanona",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "2-pentanona",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "3-pentanal",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Ácido pentanoico",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "C y d son correctas.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: d) Ácido pentanoico.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 83, tema \"sin_clasificar\")."
+  },
+  {
+    "id": "qui-hq-0070",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "reacciones",
+    "topic": "estequiometria",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "El ácido p-aminobenzoico es necesario para el crecimiento de las bacterias. Las propiedades antibacterianas de las sulfonamidas se deben a que bloquean la utilización normal de este ácido por las bacterias. Desarrolle la fórmula estructural de dicho ácido y analice las siguientes afirmaciones: I. La molécula presenta 4 carbonos con hibridación sp2 y 4 con hibridación sp3. II. Todos sus carbonos poseen hibridación sp2. III. El grupo amina está ubicado en le carbono 2 del anillo bencénico. IV. Uno de los átomos de oxígeno presenta hibridación sp. V. La molécula presenta un grupo amina y un grupo carboxilo. Señale la opción que contiene las afirmaciones correctas:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Sólo II y III",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Sólo IV y V.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Sólo I, II y III",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Sólo II y V",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "Todas las afirmaciones son correctas.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: d) Sólo II y V.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 84, tema \"estequiometria\")."
+  },
+  {
+    "id": "qui-hq-0071",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "sin_clasificar",
+    "topic": "sin_clasificar",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "¿Cuál de las siguientes reacciones requiere un agente reductor? Reacción Reactivo Producto I propanal Ácido propanoico II propanal propanol III 2-propanol propanona",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Sólo II",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Sólo I y II",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Sólo II y III",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Sólo I y III",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "I, II y III",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: a) Sólo II.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 85, tema \"sin_clasificar\")."
+  },
+  {
+    "id": "qui-hq-0072",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "sin_clasificar",
+    "topic": "sin_clasificar",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "¿Cuántos miliequivalentes de bromuro de potasio de forman?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "2,50",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "0,05",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "0,50",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "4,50",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "2,00",
+        "correct": true
+      }
+    ],
+    "explanation": "Respuesta correcta: e) 2,00.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 88, tema \"sin_clasificar\")."
+  },
+  {
+    "id": "qui-hq-0073",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "estructura",
+    "topic": "enlace_quimico",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Desarrolle la fórmula del tricloruro de boro y del anión nitrito, para determinar la geometría molecular de ambas especias y sólo para el tricloruro de boro la fuerza intermolecular en estados condensados: Tricloruro de boro Nitrito Geometría Fuerza intermolecular Geometría",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Cuadrada plana London Plana trigonal",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Bipiramidal trigonal London Lineal",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Plana trigonal London Angular",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Angular Dipolo-Dipolo Lineal",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Plana trigonal Puente de hidrógeno Angular",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: c) Plana trigonal London Angular.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 91, tema \"enlace_quimico\")."
+  },
+  {
+    "id": "qui-hq-0074",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "soluciones",
+    "topic": "soluciones",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "alta",
+    "difficulty": 2,
+    "stem": "¿Qué volumen de solución de ácido fosfórico 0,30N se debe usar para preparar 250ml de solución del mismo ácido 0,10N?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "250ml",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "83,3ml",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "100ml",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "27,8ml",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "75,0ml",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) 83,3ml.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 92, tema \"soluciones\")."
+  },
+  {
+    "id": "qui-hq-0075",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "soluciones",
+    "topic": "soluciones",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "alta",
+    "difficulty": 2,
+    "stem": "Analice las siguientes afirmaciones referidas a propiedades coligativas e indique si son verdaderas (V) o falsas (F): I. A 36°C la presión de vapor de una solución acuosa 0,50m de NaCl es igual que la de una solución acuosa 0,50m de urea. II. Una solución de NaCl 0,10m posee una presión osmótica de 4,48 atmósferas a 0°C. III. La temperatura de ebullición de una solución de glucosa 1,0m es de 100,52°C Marque la opción correcta: I II III",
+    "choices": [
+      {
+        "id": "a",
+        "text": "F V F",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "F V V",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "V V V",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "F F V",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "V V F",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) F V V.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 93, tema \"soluciones\")."
+  },
+  {
+    "id": "qui-hq-0076",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "materia",
+    "topic": "conceptos_basicos_y_sistemas_materiales",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "¿Cuál de las siguientes mezclas puede ser un sistema buffer?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Acetato de sodio / ácido acético",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Cloruro de sodio / ácido clorhídrico",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Hidróxido de sodio / cloruro de sodio",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Ácido bromhídrico / ácido clorhídrico",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Ácido nítrico / nitrato de calcio",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: a) Acetato de sodio / ácido acético.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 95, tema \"conceptos_basicos_y_sistemas_materiales\")."
+  },
+  {
+    "id": "qui-hq-0077",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "reacciones",
+    "topic": "acido_base",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Dados los siguientes electrolitos y sus constantes: Ácido acético Ka=1,8×10⁻⁵ Ácido clorhídrico Ka= Infinito Amoniaco Kb=1,8×10⁻⁵ Identifique cuál/es de las siguientes afirmaciones es/son correctas: I. Una solución 0,1M de HCl tiene igual pH que una solución 0,1M de ácido acético. II. Cantidades equivalentes de ácido acético y amoniaco siempre forman un buffer. III. La [ +] de una solución 0,1M de amoniaco es 1,3×10⁻³ IV. El Ph de una solución de ácido acético 0,2M es 2,72.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Sólo II",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Sólo IV",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Sólo I y II",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Sólo II y III",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Todas son correctas",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) Sólo IV.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 96, tema \"acido_base\")."
+  },
+  {
+    "id": "qui-hq-0078",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "estructura",
+    "topic": "teoria_atomica",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "La masa atómica del boro natural es 10,8110 y en la naturaleza existen dos isótopos de este elemento, el 10B y el 11B cuyas masas atómicas son 10,0129 y 11,0093 respectivamente. Con estos datos calcule la abundancia porcentual de cada elemento y marque la opción correcta. %10B %11B",
+    "choices": [
+      {
+        "id": "a",
+        "text": "10,0129 11,0093",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "50 50",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "0,801 0,199",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "37 63",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "19,90 80,10",
+        "correct": true
+      }
+    ],
+    "explanation": "Respuesta correcta: e) 19,90 80,10.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 98, tema \"teoria_atomica\")."
+  },
+  {
+    "id": "qui-hq-0079",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "materia",
+    "topic": "conceptos_basicos_y_sistemas_materiales",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Una mezcla constituida inicialmente por hidrógeno y vapor de iodo, se calienta a 450°C y forma yoduro de hidrógeno según la siguiente ecuación: +→ Donde el valor de la Keq a 450°C es 52,8. Para la misma reacción a 500°C la Keq tiene un valor de 48,3. Analice los datos enunciados e identifique como verdaderas o falsas las siguientes afirmaciones referidas al proceso mencionado y luego marque la opción con la secuencia correcta: I. La expresión de la Keq para la reacción directa es: [ ][ ] [] II. Un incremento de la temperatura desplaza el equilibrio de la reacción hacia la izquierda III. La cantidad de HI formada a 450°C es mayor que la formada a 500°C. IV. La temperatura no afecta el equilibrio de la reacción. I II III IV",
+    "choices": [
+      {
+        "id": "a",
+        "text": "V F F F",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "F V F F",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "F V V F",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "V V V F",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "F F V F",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: c) F V V F.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 101, tema \"conceptos_basicos_y_sistemas_materiales\")."
+  },
+  {
+    "id": "qui-hq-0080",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "estructura",
+    "topic": "enlace_quimico",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Analice las siguientes opciones referidas a tipos de enlace y propiedades de diferentes sustancias y señale la correcta.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "El KCl es insoluble en agua.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "La fórmula empírica NaCl indica que ésta es una sustancia molecular.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "El enlace puente de hidrógeno tiene gran importancia biológica.",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "La formación de un enlace es una manifestación de la tendencia de cada átomo de alcanzar el ordenamiento electrónico más inestable.",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "El enlace iónico permite explicar la existencia y las propiedades de moléculas como , ,",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: c) El enlace puente de hidrógeno tiene gran importancia biológica..",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 102, tema \"enlace_quimico\")."
+  },
+  {
+    "id": "qui-hq-0081",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "reacciones",
+    "topic": "acido_base",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Un alumno realiza un experimento colocando en un recipiente 50ml de solución 0,3M de HNO₃ y 40ml de una solución 0,2M de KOH. Suponga que los volúmenes son exactamente aditivos y realice los cálculos necesarios para conocer. I. Si la solución obtenida es neutra, ácida o básica. II. El pH de la solución. III. La concentración molar de la sal formada. Luego seleccione la opción correcta. I II III",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Básica 11,84 0,007",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Ácida 2,16 0,008",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Neutra 7,00 0,015",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Ácida 1,11 0,088",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "Ácida 4,11 0,008",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: d) Ácida 1,11 0,088.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 103, tema \"acido_base\")."
+  },
+  {
+    "id": "qui-hq-0082",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "reacciones",
+    "topic": "estequiometria",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "400ml de solución de pH = 4 contienen 2×10⁻³ moles de CH₃COOH (Ka=1,8×10⁻⁵) y una determinada cantidad de moles de CH₃COONa. Calcule cuál es la molaridad de la sal y señale la opción correcta.",
+    "choices": [
+      {
+        "id": "a",
+        "text": ". −",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": ". −",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": ", . −",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": ". −",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": ", . −",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) . −.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 104, tema \"estequiometria\")."
+  },
+  {
+    "id": "qui-hq-0083",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "soluciones",
+    "topic": "soluciones",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "alta",
+    "difficulty": 2,
+    "stem": "U estudia te to ó l de u a solu ió o te ida e u f as o u o ótulo de ía: Solu ió de KOH/30g KOH en l , le ag egó l del o te ido de ot o f as o otulado o o Solu ió , N de KOH , y finalmente agregó 100ml de agua. Luego quiso conocer la M y N de la solución resultante y no arribó a un resultado coherente. Realice los cálculos necesarios para conocer la respuesta a la que el estudiante debería haber arribado (Considere que los volúmenes son exactamente aditivos). MN",
+    "choices": [
+      {
+        "id": "a",
+        "text": "0,54 1,5",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "0,95 0,95",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "0,54 0,54",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "1,5 1,5",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "0,54 0,15",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) 0,95 0,95.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 105, tema \"soluciones\")."
+  },
+  {
+    "id": "qui-hq-0084",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "soluciones",
+    "topic": "soluciones",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "alta",
+    "difficulty": 2,
+    "stem": "La D-glucosa es el principal combustible usado por las células y se encuentra libre en sangre. La sacarosa es un disacárido que se obtiene de la caña de azúcar. Calcule la molaridad de una solución de sacarosa que sea isotónica con una solución de glucosa al 2%m/v, ambas a la misma temperatura.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "0,11",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "0,058",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "0,011",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "0,0058",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Es necesario conocer el volumen y la temperatura de la solución para responder la pregunta.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: a) 0,11.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 106, tema \"soluciones\")."
+  },
+  {
+    "id": "qui-hq-0085",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "reacciones",
+    "topic": "estequiometria",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Calcular el pH de una disolución preparada con 8,2g de NaC₂H₃O₂ y 0,05 moles de HCl por L (Ka del ácido acético es 1,8×10⁻⁵)",
+    "choices": [
+      {
+        "id": "a",
+        "text": "1,3",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "8,87",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "2,87",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "4,74",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "9,26",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: a) 1,3.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 107, tema \"estequiometria\")."
+  },
+  {
+    "id": "qui-hq-0086",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "materia",
+    "topic": "conceptos_basicos_y_sistemas_materiales",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Analizar las siguientes afirmaciones y determinar si son verdaderas (V) o falsas (F), luego seleccionar la opción con la secuencia correcta. I. Los métodos de separación de fases se emplean para separar componentes de una solución. II. Cada una de las fases de un sistema heterogéneo, es un sistema homogéneo. III. La expresión E=m.c2, permite calcular la pérdida de masa en las reacciones químicas ordinarias. IV. La oxidación del hierro es un cambio físico. I II III IV",
+    "choices": [
+      {
+        "id": "a",
+        "text": "V V F F",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "F V F F",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "F F V F",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "F F F F",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "F V V V Realice una lectura analítica del siguiente texto y luego responda las preguntas 110, 111, 112 relacionadas con el mismo: LA LLUVIA ÁCIDA El agua pura tiene un ph igual a 7 a 25°C y 1 atm de presión, se disocia formando iones hidronio e hidróxido. El agua de lluvia es ligeramente ácida porque con el dióxido de carbono de la atmósfera forma ácido carbónico, dando un ph aproximado de 5,7. Otros gases como NO, NO₂ y fundamentalmente SO₂ , presentes en las nubes altas también pueden reaccionar con el vapor de agua del aire produciendo especies ácidas como ácido nítrico, ácido nitroso y ácido sulfúrico ue ha e des e de el ph a valo es e t e ge e a la lla ada lluvia á ida . Aunque sus efectos sobre las personas no son directos, constituye un serio problema ambiental debido a su acción sobre el suelo, la vida acuática, árboles y cultivos e incluso sobre obras realizadas por el hombre como monumentos, edificios y maquinarias. La naturaleza dispone de mecanismos para neutralizar la acidez normal de la lluvia, como es el suelo calizo, rico en CaCO₃ que ejerce una acción amortiguadora impidiendo que el ph se torne demasiado ácido. Sin embargo cuando el aporte por los gases mencionados es muy alto la acidez no puede ser neutralizada y se producen efectos nocivos. La fuente más importante de SO₂ es la quema de combustibles fósiles en industrias, plantas generadoras de energía y en el hogar. Sin embargo, existen varias fuentes menores de emisión de SO₂ como las erupciones volcánicas, los géiseres, el humo del cigarrillo y la refinación de minerales para obtener metales que existen en la naturaleza combinados con azufre. Por ejemplo para obtener Zn, el proceso mencionado consiste en quemar sulfuro de zinc en presencia de oxigeno para formar SO₂ y ZnO. El óxido de zinc luego es reducido con otro metal más reactivo para separar el Zn y como resultado se libera SO₂ a la atmósfera.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: a) V V F F.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 109, tema \"conceptos_basicos_y_sistemas_materiales\")."
+  },
+  {
+    "id": "qui-hq-0087",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "reacciones",
+    "topic": "acido_base",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Señale la opción correcta",
+    "choices": [
+      {
+        "id": "a",
+        "text": "El agua pura tiene una concentración de iones OH- igual a 1×10⁻⁷ a cualquier temperatura y presión",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "El ácido carbónico es un electrolito fuerte que se disocia completamente.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "En los óxidos de nitrógeno citados, el nitrógeno presenta el mismo estado de oxidación.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Una de las reacciones que da lugar a la lluvia ácida implica pérdida de electrones por parte de S del SO₂.",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "La naturaleza no dispone de mecanismos buffer para contrarrestar los efectos de la lluvia ácida sobre el suelo.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: d) Una de las reacciones que da lugar a la lluvia ácida implica pérdida de electrones por parte de S del SO₂..",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 110, tema \"acido_base\")."
+  },
+  {
+    "id": "qui-hq-0088",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "sin_clasificar",
+    "topic": "sin_clasificar",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Identifique las siguientes consignas como verdaderas o falsas I- Los compuestos mencionados en el primer párrafo tienen la siguiente fórmula molecular: H₂O, CO y HCO₃. II- Los gases mencionados en el segundo párrafo se denominan: monóxido de nitrógeno, dióxido de nitrógeno y dióxido de azufre y son todos compuestos covalentes. III- La sal citada en el cuarto párrafo, se nombra como trioxocarbonato de calcio, según la nomenclatura sistemática y corresponde a un compuesto iónico. IV- Los compuestos mencionados en el último párrafo son: dos óxidos básicos y una oxosal.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "V V V V",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "F V V F",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "F F V V",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "V F F F",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "F F V F",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) F V V F.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 111, tema \"sin_clasificar\")."
+  },
+  {
+    "id": "qui-hq-0089",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "reacciones",
+    "topic": "acido_base",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Marque la opción correcta:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Cuando el sulfuro de zinc se transforma en óxido de Zn, el Zn cambia su estado de oxidación.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Al final de proceso de refinación, el ZnO libera Zn reduciendo a otro metal.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "El CaCO₃ del suelo calizo amortigua el descenso del ph porque convierte al ácido sulfúrico de la lluvia ácida en una sal básica.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Las especias ácidas comúnmente responsables de la lluvia ácida son: H₂SO₄, HNO₃, y HNO₂.",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "La lluvia ácida se llama así por su bajo ph, a diferencia del agua de lluvia normal que es básica.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: d) Las especias ácidas comúnmente responsables de la lluvia ácida son: H₂SO₄, HNO₃, y HNO₂..",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 112, tema \"acido_base\")."
+  },
+  {
+    "id": "qui-hq-0090",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "reacciones",
+    "topic": "estequiometria",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Qué homo o heterociclo está presente en cada una de las siguientes biomoléculas I II III IV V",
+    "choices": [
+      {
+        "id": "a",
+        "text": "G F H E A",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "F G H D A",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "F G D E B",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "G F H D B",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "F G C D A EXAMEN MARZO 2019",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) F G H D A.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 113, tema \"estequiometria\")."
+  },
+  {
+    "id": "qui-hq-0091",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "materia",
+    "topic": "conceptos_basicos_y_sistemas_materiales",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Se mezclan 1,96 gramos de ácido sulfúrico en 3 litros de solución, con otra solución de 500ml 0,04M de HNO₃. Si se consideran los volúmenes exactamente aditivos, cuál es la concentración de OH- de la solución final?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "5,83×10⁻¹³",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "0,017",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "1,77",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "3,45×10⁻¹¹",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Ninguna es correcta.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: a) 5,83×10⁻¹³.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 139, tema \"conceptos_basicos_y_sistemas_materiales\")."
+  },
+  {
+    "id": "qui-hq-0092",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "materia",
+    "topic": "conceptos_basicos_y_sistemas_materiales",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Se mezcla una solución de ácido sulfúrico al 0,098%p/v de 500ml de volumen, con una solución de hidróxido de calcio, que posee 0,03 moles en un volumen desconocido. Si se sabe que no se agrega agua (volúmenes aditivos), y que el ph final de la solución formada es 12,824, cuál es el volumen de la solución de hidróxido usada?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "100ml",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "200ml",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "250ml",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "300ml",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "350ml",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: c) 250ml.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 147, tema \"conceptos_basicos_y_sistemas_materiales\")."
+  },
+  {
+    "id": "qui-hq-0093",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "reacciones",
+    "topic": "acido_base",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "El ácido láctico es un ácido monoprótico débil que está presente en la leche agria como resultado del metabolismo de ciertas bacterias, y que también se forma en las células como resultado de metabolismo anaerobio. Se sabe que una disolución 0,10M de ácido láctico tiene un ph de 2,44. Estando este ácido en un medio de ph=3,88. Qué se puede afirmar?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Predomina la especie molecular",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Predomina la especie disociada",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Está actuando como base",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Las concentraciones de la especie molecular y disociada son las mismas",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Predomina en forma de lactato",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: a) Predomina la especie molecular.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 148, tema \"acido_base\")."
+  },
+  {
+    "id": "qui-hq-0094",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "reacciones",
+    "topic": "acido_base",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Cuántos gramos de fosfato monoácido de sodio hay que agregar a una solución de 700ml de fosfato diácido de sodio al 3,6%p/v, si se quiere llegar a un ph final de 7,69? Datos: Kdis1=7,58×10⁻³, Kdis2=6,16×10⁻⁸, Kdis3=2,14×10⁻¹³",
+    "choices": [
+      {
+        "id": "a",
+        "text": "0,9g",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "90g",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "75g",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "9g",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Ninguna de las anteriores",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) 90g.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 153, tema \"acido_base\")."
+  },
+  {
+    "id": "qui-hq-0095",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "estructura",
+    "topic": "enlace_quimico",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "La fermentación genera alcohol etílico (C₂H₅OH) y dióxido de carbono (CO₂). Algunas veces, durante este proceso se acumula en forma de gas el dióxido de azufre (SO₂), que suele ser usado en las cubas o recipientes donde se fermenta la uva. Se puede afirmar que el CO₂ y el SO₂ , teniendo en cuenta los enlaces y la geometría molecular, son moléculas respectivamente:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Lineal polar y angular no polar",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Lineal no polar y angular polar",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Angular polar y lineal no polar",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Angular no polar y lineal polar",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) Lineal no polar y angular polar.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 163, tema \"enlace_quimico\")."
+  },
+  {
+    "id": "qui-hq-0096",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "reacciones",
+    "topic": "estequiometria",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "El sulfuro de aluminio reacciona con el agua según la siguiente reacción química no balanceada: + → + Si se ponen a reaccionar 3 moles del sulfuro de aluminio con 3 moles de agua, se puede afirmar que:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Ambos reaccionan completamente",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "El sulfuro de aluminio es el reactivo en exceso",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "El agua es el reactivo en exceso",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Se formarán 3 moles de la sal",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Se formarán 2 moles de la sal",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: b) El sulfuro de aluminio es el reactivo en exceso.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 164, tema \"estequiometria\")."
+  },
+  {
+    "id": "qui-hq-0097",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "quimica",
+    "block": "materia",
+    "topic": "conceptos_basicos_y_sistemas_materiales",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Se mezclan 2l de solución de ácido carbónico que posee 0,124g de soluto, con 1 litro de solución del mismo que posee 0,003 moles. Se le agrega además una cantidad de agua desconocida y se arriba a una solución cuyo ph final es 4,6. Dato: Ka=4,45×10⁻⁷. Cuánta agua se agregó?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "3,526l",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "1,54l",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "0,526l",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "2,54l",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "0l RESPUESTAS: TRABAJO PRÁCTICO 01: 1) Ver video 20) Ver video 38) Dan lo mismo: 13; sí 2) Ver video 21) Ver video 39) Ver video 3) Ver video 22) Ver video 40) Ver video 4) Ver video 23) Ver video 41) Ver video 5) Ver video 24) Ver video 42) Na, Rb, F 6) Ver video 25) Ver video 43) 0; VIIA; VIIA; VIIA; IA; IA; 7) Ver video 26) Ver video 8) Ver video 27) D VIIA; 0 9) Ver video 28) C 44) Ver video 10) Ver video 29) Ver video 45) F, Cl, Br, I 11) Ver video 30) F F V F 46) Ver video 12) Ver video 31) Ver video 47) Ver video 13) Ver video 32) Z=16; 6e-; 2e- 48) Ver video 14) Ver video 33) Ver video 49) Ver video 15) Ver video 34) 28 neutrones 50) Ver video 16) Ver video 35) Br-; Se-2; Rb+1; Sr+2 51) Ver video 17) Ver video 36) Ver video 18) Ver video 37) C y Cl son isótopos 33) Ver video 19) Ver video 34) Ver video 17) Ver video 35) Ver video TRABAJO PRÁCTICO 02: 18) Ver video 36) Ver video 19) Ver video 37) Ver video 1) Ver video 20) Ver video 38) Ver video 2) Ver video 21) Ver video 39) Ver video 3) Ver video 22) Ver video 40) Ver video 4) Ver video 23) Ver video 41) Ver video 5) Ver video 24) Ver video 42) Ver video 6) Ver video 25) Ver video 43) Ver video 7) Ver video 26) Ver video 44) Ver video 8) Ver video 27) Ver video 45) Ver video 9) Ver video 28) Ver video 46) Ver video 10) Ver video 29) Ver video 47) Ver video 11) Ver video 30) Ver video 12) Ver video 31) Ver video 13) Ver video 32) Ver video 14) Ver video 15) Ver video 16) Ver video TRABAJO PRÁCTICO 03: 1) L-G-L-L-S-G-S-S-G 2) Sublimación – condensación – Vaporización – fusion – sublimación 3) F F Q F Q Q F 7) Sólido – elemento; Gas 9) Filtración; destilación; 4) Exotérmico – – mezcla; Gas – decantación; compuesto; Gas – cromatografía; endotérmico – elemento; Liquido – tamización; imantación exotérmico – mezcla; Liquido – endotérmico. elemento; Gas – mezcla; 10) E 5) Ver video Gas – mezcla 11) Ver video 6) Filtración – 12) Compuesto – sustancia evaporación; 8) C simple TRABAJO PRÁCTICO 04: 3) Ver video 13) Ver video 4) Ver video 1) Ver video 49) Oxígeno es el limitante; 2) Ver video 28) 4400kg; 3200kg; 1,25mol de N₂O₅; 6,022×10²⁸átomos; 28litros TRABAJO PRÁCTICO 05: 6,022×10²⁸ moléculas 50) Ver video 1) 15,91uma 29) 1,5055×10²³ ; 0,25mol; 51) Etileno; 1,2116 moles 2) C₆H₆ 19,5g; 1,5055×10²³ 52) 12g; abierto 3) 158uma moléculas 53) 160g; 70g; 90g 4) 8×10²² átomos y 54) 3g 30) Ver video 55) Ver video 6,66×10²¹ moléculas 31) Ver video 56) 11,2g CaO 5) 64,7% 32) Ver video 57) 20g de MgO 6) Al₂O₃ 33) Ver video 58) Si cumple 7) 87, 89g 34) 9,36kg de NaCl y 59) Ver video 8) 2, 1, 1, 2 60) 5,4×10²³ átomos de 9) 2, 3, 1, 6 160,09 mol de HCl 10) 2 35) X=7 y 4,2154×10²⁴ sodio 11) 1, 9, 6, 7 61) 114,088g 12) 36g moléculas 62) 2,77mol; 1,67×10²⁴ 13) 15,44g de CO₂ 36) Reacción número 3 14) 6mol de CO 2 37) O₂ moléculas; 5,01×10²⁴ 15) 5,11g de etanol 38) 0,89mol H₂ y 1,797g de átomos 16) 4,6 mol de agua y 63) Ver video H₂; 5,41×10²³ moléculas 64) 69,7uma queda oxígeno sin de ZnCl₂ 65) 30g reaccionar 39) C 66) 6g de S 17) NaHCO₃ 40) 37,73g de MgCO₃ 67) 20g de AB 18) 2655 Bicicletas 41) B 68) 33g de FeS; 7/4 19) 0,913g de HNO₃ 42) 0,27 – 0,1 – 0,07 69) 12,5g de S; 100g de Cu; 20) 291,1g 43) 55,721g de sal; 0,54 5g de exceso de S 21) 1,69g; 4,5mol; mol de CO₂ 70) 319,22mol 44,8litros y 45,65litros 44) 100g de octano 71) 36,06% 22) 76,66kg y 82,5% 45) 35tn de CaO 72) E 23) 21,25g de C 46) 60kg de fósforo. 73) 26,17% y 35% 24) A 47) 0,702g 74) Fe₂O₃ 25) C 48) SO₂; 0,57mol; 12,8litros 75) 4,84g 26) 134,58g y 45,42g SO₂ 27) 4,76g de H₂ 76) Ver video 82) Ver video 88) 2 pastillas 77) Ver video 83) 111,96 mol de CO₂ 89) Ver video 78) F V F F 84) Ver video 90) Ver video 79) Ver video 85) Ver video 91) Ver video 80) Ver video 86) Ver video 81) Ver video 87) Ver video TRABAJO PRÁCTICO 06: 14) 23,22mmHg 25) 0,1538M; 7,808atm; 15) 102,8°C; -10°C 0,3077M 1) 40g/l; 1M 16) 0,97M 2) 0,75M; 1M; 0,68M; 2M 17) 0,54m 26) 0,040967mol 3) 0,025mol; 3mol; 18) Ver video 27) 133,84g de Zn; 1,6N; 19) 0,021; 1,23m 0,05mol; 0,005mol 20) Ver video 12,91% 4) No 21) 4ppm; si cumplen; 28) 0,5M; sobra 0,0436mol 5) 1,25kg; 5,26×10⁻⁵M 6) 15,1M 0,0112g de O₂ de H₂SO₄; 0,872N 7) 0,53L 22) 6,68M; 13,51m; 0,1956 29) 80ml 8) 0,64M 23) 0,33m; 0,173°C; 30) 8ml 9) 259g/l; 25,9%; 3,04M 31) 11,7M; 8,5448ml; 1N 10) 165,5g; 1M de Pb+2; 2M 100,173°C; 0,619°C; - 32) Falsa; falsa 0,619°C 33) E de NO₃- 24) 34450g/mol 34) 25ml 11) 0,172M 35) 23,13g 12) 60g/mol; 333,3g 9) Ver video 36) 0,027m 13) 175,37g/mol 10) B 11) C 17) B TRABAJO PRÁCTICO 07: 12) C 18) E 13) D 19) D 1) Ver video 14) B 20) C 2) B 15) C 21) C 3) B y c 16) A 22) Ver video 4) -1, +7, 0, +1 23) Ver video 5) Ver video 12) 0,8423g 24) Ver video 6) -2, +6, +4, +2 13) 6 y 8 7) B 14) Ver video 23) Ver video 8) Ver video 15) Ver video 24) 6,56 16) Ver video 25) 7,1 y 7,1 TRABAJO PRÁCTICO 08: 17) Ver video 26) 0 18) 3 27) 3,74 1) Ver video 19) 12 28) =; >; <; <; < 2) 0,16M 20) 3,37 29) Ver video 3) Ver video 21) 10,13 30) 0,1274mol 4) Ver video 22) 5,12 31) 0,2511 5) Ver video 32) 4,83 6) V V V V V F 33) 5,2 7) B Y C 8) 1,93; 3,47; 11,42; 9,55 9) 4,75 10) 4,74 11) 4,76 TRABAJO PRÁCTICO 09: 1) Ver video 16) V V F V V 29) Ver video 2) D 17) Cis-trans; 12 carbonos 30) 0,219g 3) C 31) F V V 4) B sp2; 2 carbonos sp3; 3 32) F V F F 5) D oxigenos sp3 33) V V V V 6) C 18) Ver video 34) Ver video 7) B 19) Ver video 35) Ver video 8) B 20) Ver video 36) Ver video 9) C 21) Ver video 37) Ver video 10) Ver video 22) Ver video 38) Ver video 11) Todos menos h 23) C₆H₁₂ ciclohexano 39) Ver video 12) Ver video 24) V F V 40) Ver video 13) 9 sp3; 13 sp2; 5 quirales 25) V V F F 41) Ver video 14) F V F F V 26) Ver video 15) 2-penteno; sigma=14; 27) 1; 2; 5,11meq; cis-trans; sigma y pi pi=1 28) Ver video",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: c) 0,526l.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de HQ Apoyo — Química (integradores) (nº 165, tema \"conceptos_basicos_y_sistemas_materiales\")."
+  }
+]

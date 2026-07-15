@@ -1,0 +1,254 @@
+{
+  "importados": 97,
+  "porMateria": {
+    "quimica": 97
+  },
+  "excluidos": 34,
+  "porMotivo": {
+    "depende de figura (diferida a fase de imágenes)": 21,
+    "tipo unknown (requiere conversión estructural)": 9,
+    "corrupto (símbolos ilegibles)": 1,
+    "duplicado (dentro de la fuente)": 2,
+    "menos de 2 opciones parseadas": 1
+  },
+  "detalle": [
+    {
+      "number": 10,
+      "subject": "quimica",
+      "topic": "estequiometria",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 11,
+      "subject": "quimica",
+      "topic": "sin_clasificar",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 14,
+      "subject": "quimica",
+      "topic": "estequiometria",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 15,
+      "subject": "quimica",
+      "topic": "sin_clasificar",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 16,
+      "subject": "quimica",
+      "topic": "sin_clasificar",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 20,
+      "subject": "quimica",
+      "topic": "quimica_organica",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 21,
+      "subject": "quimica",
+      "topic": "estequiometria",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 29,
+      "subject": "quimica",
+      "topic": "soluciones",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 49,
+      "subject": "quimica",
+      "topic": "enlace_quimico",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 53,
+      "subject": "quimica",
+      "topic": "soluciones",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 60,
+      "subject": "quimica",
+      "topic": "estequiometria",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 62,
+      "subject": "quimica",
+      "topic": "conceptos_basicos_y_sistemas_materiales",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 64,
+      "subject": "quimica",
+      "topic": "teoria_atomica",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 68,
+      "subject": "quimica",
+      "topic": "equilibrio_quimico",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 75,
+      "subject": "quimica",
+      "topic": "conceptos_basicos_y_sistemas_materiales",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 76,
+      "subject": "quimica",
+      "topic": "sin_clasificar",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 79,
+      "subject": "quimica",
+      "topic": "estequiometria",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 86,
+      "subject": "quimica",
+      "topic": "acido_base",
+      "kind": "single_choice",
+      "reason": "corrupto (símbolos ilegibles)"
+    },
+    {
+      "number": 87,
+      "subject": "quimica",
+      "topic": "conceptos_basicos_y_sistemas_materiales",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 89,
+      "subject": "quimica",
+      "topic": "acido_base",
+      "kind": "single_choice",
+      "reason": "duplicado (dentro de la fuente)"
+    },
+    {
+      "number": 90,
+      "subject": "quimica",
+      "topic": "sin_clasificar",
+      "kind": "single_choice",
+      "reason": "menos de 2 opciones parseadas"
+    },
+    {
+      "number": 94,
+      "subject": "quimica",
+      "topic": "tabla_periodica",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 97,
+      "subject": "quimica",
+      "topic": "acido_base",
+      "kind": "single_choice",
+      "reason": "duplicado (dentro de la fuente)"
+    },
+    {
+      "number": 100,
+      "subject": "quimica",
+      "topic": "teoria_atomica",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 108,
+      "subject": "quimica",
+      "topic": "quimica_organica",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 122,
+      "subject": "quimica",
+      "topic": "estequiometria",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 125,
+      "subject": "quimica",
+      "topic": "soluciones",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 132,
+      "subject": "quimica",
+      "topic": "sin_clasificar",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 133,
+      "subject": "quimica",
+      "topic": "acido_base",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 146,
+      "subject": "quimica",
+      "topic": "acido_base",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 149,
+      "subject": "quimica",
+      "topic": "acido_base",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 157,
+      "subject": "quimica",
+      "topic": "sin_clasificar",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 159,
+      "subject": "quimica",
+      "topic": "estequiometria",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 161,
+      "subject": "quimica",
+      "topic": "conceptos_basicos_y_sistemas_materiales",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    }
+  ]
+}

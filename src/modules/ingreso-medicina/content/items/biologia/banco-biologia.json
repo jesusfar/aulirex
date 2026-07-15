@@ -22979,5 +22979,51 @@
       }
     ],
     "explanation": "Clave: 1) F · 2) V · 3) F · 4) V · 5) F · 6) V."
+  },
+  {
+    "id": "bio-caj-0001",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "biologia",
+    "block": "ecologia",
+    "topic": "ecologia",
+    "track": "teorico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Si al cabo de 240 minutos, la población se redujo a 4.000 bacterias, cuál es la constante k de la ecuación.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "– 0, 792",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "0,792",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "0,5 +++++",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "– 0,5",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Ninguna es correcta",
+        "correct": true
+      }
+    ],
+    "explanation": "Respuesta correcta: e) Ninguna es correcta. Primero que debemos hacer es pasar los 240 minutos a horas, sabiendo que en una hora hay 60 minutos, 240minutos=4h. Lo mejor para encontrar la solución correcta es utilizar la calculadora para reemplazar t=4h en la ecuación y las diferentes respuestas hasta obtener como resultado 4000. La opción correcta es la c",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de Cajal — Examen N°1 (nº 9, tema \"ecologia\")."
   }
 ]

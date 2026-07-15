@@ -1,0 +1,303 @@
+{
+  "importados": 25,
+  "porMateria": {
+    "quimica": 15,
+    "biologia": 1,
+    "fisica": 9
+  },
+  "excluidos": 41,
+  "porMotivo": {
+    "depende de figura (diferida a fase de imágenes)": 10,
+    "sin materia clasificada (revisar)": 6,
+    "tipo unknown (requiere conversión estructural)": 25
+  },
+  "detalle": [
+    {
+      "number": 3,
+      "subject": "quimica",
+      "topic": "conceptos_basicos_y_sistemas_materiales",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 5,
+      "subject": "quimica",
+      "topic": "teoria_atomica",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 6,
+      "subject": "quimica",
+      "topic": "teoria_atomica",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 8,
+      "subject": "sin_clasificar",
+      "topic": "sin_clasificar",
+      "kind": "single_choice",
+      "reason": "sin materia clasificada (revisar)"
+    },
+    {
+      "number": 9,
+      "subject": "quimica",
+      "topic": "teoria_atomica",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 10,
+      "subject": "fisica",
+      "topic": "funcion_lineal",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 12,
+      "subject": "quimica",
+      "topic": "teoria_atomica",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 14,
+      "subject": "quimica",
+      "topic": "teoria_atomica",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 16,
+      "subject": "fisica",
+      "topic": "funcion_lineal",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 18,
+      "subject": "sin_clasificar",
+      "topic": "sin_clasificar",
+      "kind": "single_choice",
+      "reason": "sin materia clasificada (revisar)"
+    },
+    {
+      "number": 19,
+      "subject": "quimica",
+      "topic": "estequiometria",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 20,
+      "subject": "quimica",
+      "topic": "teoria_atomica",
+      "kind": "single_choice",
+      "reason": "depende de figura (diferida a fase de imágenes)"
+    },
+    {
+      "number": 6,
+      "subject": "quimica",
+      "topic": "quimica_organica",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 5,
+      "subject": "biologia",
+      "topic": "genetica_mutaciones",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 26,
+      "subject": "quimica",
+      "topic": "estequiometria",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 27,
+      "subject": "biologia",
+      "topic": "membrana_plasmatica",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 34,
+      "subject": "quimica",
+      "topic": "estequiometria",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 36,
+      "subject": "biologia",
+      "topic": "membrana_plasmatica",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 1,
+      "subject": "fisica",
+      "topic": "pasaje_de_unidades",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 2,
+      "subject": "quimica",
+      "topic": "estequiometria",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 3,
+      "subject": "fisica",
+      "topic": "funcion_lineal",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 4,
+      "subject": "fisica",
+      "topic": "funcion_lineal",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 5,
+      "subject": "fisica",
+      "topic": "funcion_lineal",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 6,
+      "subject": "fisica",
+      "topic": "funcion_lineal",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 7,
+      "subject": "sin_clasificar",
+      "topic": "sin_clasificar",
+      "kind": "unknown",
+      "reason": "sin materia clasificada (revisar)"
+    },
+    {
+      "number": 8,
+      "subject": "biologia",
+      "topic": "ecologia",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 10,
+      "subject": "biologia",
+      "topic": "ecologia",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 11,
+      "subject": "sin_clasificar",
+      "topic": "sin_clasificar",
+      "kind": "unknown",
+      "reason": "sin materia clasificada (revisar)"
+    },
+    {
+      "number": 12,
+      "subject": "fisica",
+      "topic": "funcion_lineal",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 13,
+      "subject": "fisica",
+      "topic": "funcion_lineal",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 14,
+      "subject": "fisica",
+      "topic": "funcion_lineal",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 15,
+      "subject": "fisica",
+      "topic": "funcion_lineal",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 16,
+      "subject": "fisica",
+      "topic": "funcion_lineal",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 17,
+      "subject": "fisica",
+      "topic": "funcion_lineal",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 18,
+      "subject": "fisica",
+      "topic": "funcion_lineal",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 19,
+      "subject": "sin_clasificar",
+      "topic": "sin_clasificar",
+      "kind": "single_choice",
+      "reason": "sin materia clasificada (revisar)"
+    },
+    {
+      "number": 23,
+      "subject": "fisica",
+      "topic": "funcion_lineal",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 25,
+      "subject": "biologia",
+      "topic": "membrana_plasmatica",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 28,
+      "subject": "fisica",
+      "topic": "funcion_lineal",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 29,
+      "subject": "fisica",
+      "topic": "funcion_lineal",
+      "kind": "unknown",
+      "reason": "tipo unknown (requiere conversión estructural)"
+    },
+    {
+      "number": 38,
+      "subject": "sin_clasificar",
+      "topic": "sin_clasificar",
+      "kind": "single_choice",
+      "reason": "sin materia clasificada (revisar)"
+    }
+  ]
+}

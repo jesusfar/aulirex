@@ -29154,5 +29154,419 @@
     "version": 1,
     "status": "active",
     "authorNote": "Importado del preguntero (nº 36, sección \"Electrodinámica\")."
+  },
+  {
+    "id": "fis-caj-0001",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Determinar la ecuación de la recta que pasa por el punto ( 1; – 1 ) y es perpendicular a la recta 2y + x − 4 = 0",
+    "choices": [
+      {
+        "id": "a",
+        "text": "y + 3 = 2x",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "y − 3 = −2x",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "y + 3 = − 1 x",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "y = 2x − 3",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Ninguna opción es correcta",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: a) y + 3 = 2x.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de Cajal — Examen N°1 (nº 20, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-caj-0002",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Dos rectas son perpendiculares cuando:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Tienen la misma pendiente",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Tienen sus pendientes recíprocas",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Tienen sus pendientes recíprocas y cambiadas de signo",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Tienen la misma abscisa al origen",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Ninguna opción es la correcta",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: c) Tienen sus pendientes recíprocas y cambiadas de signo.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de Cajal — Examen N°1 (nº 21, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-caj-0003",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "El Espacio y ámbito de aprendizaje de la carrera de medicina cuales son los dos hospitales escuelas más importantes",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Maternidad y HNC",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "SAN ROQUE Y HNC",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "RAWSON Y MISERICORDIA",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "TODOS SON CORRECTOS",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "SOLO b es correcta",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: a) Maternidad y HNC.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de Cajal — Examen N°1 (nº 31, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-caj-0004",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Los distintos tipos de aprendizaje son:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Conceptual, procedimental y actitudinal",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Visual, auditivo, kinestésico o mixto",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Superficial o profundo",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "a y c son correctas",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "a, b y c son correctas",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: d) a y c son correctas.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de Cajal — Examen N°1 (nº 33, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-caj-0005",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Entre las actividades prácticas que se desarrollan en las clases de medicina se encuentran los “Consultorios externos”. Señale que opción corresponde a esta actividad.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Promover el aprendizaje sobre diagnóstico y manejo de pacientes en situaciones de urgencia.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Espacios para discutir sobre problemática salud-enfermedad",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Participación limitada a pequeñas intervenciones guiadas por el docente",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Sólo aprender a entablar la relación médico-paciente",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "c y d son correctas",
+        "correct": true
+      }
+    ],
+    "explanation": "Respuesta correcta: e) c y d son correctas.",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de Cajal — Examen N°1 (nº 34, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-caj-0006",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Según la estructura del Gobierno Universitario ¿Quién preside el Concejo Directivo y tiene la representación de la Facultad a su cargo? Señale la opción correcta:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "El Decano.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "El Rector.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "El Vicerrector.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "La Asamblea Universitaria.",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "B y c son correctas.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: a) El Decano..",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de Cajal — Examen N°1 (nº 36, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-caj-0007",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Dentro de las estrategias metacognitivas tenemos:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Estrategias de autoevaluación.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Estrategias cognitivas.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Estrategias de autorregulación.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Ninguna es correcta.",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "todas son correctas",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: a) Estrategias de autoevaluación..",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de Cajal — Examen N°1 (nº 37, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-caj-0008",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "Pablo tiene que rendir un parcial teórico de Anatomía en tres días, comienza a estudiar retomando los contenidos previos, lee, memoriza y siente que no puede relacionar lo previo con lo nuevo. ¿Qué tipo de Aprendizaje ha realizado Pablo? Señala la opción correcta:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Aprendizaje Procedimental y Profundo.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Aprendizaje Conceptual y Superficial.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Aprendizaje Conceptual y Profundo.",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Aprendizaje Actitudinal y Superficial.",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Aprendizaje Actitudinal y Profundo.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: c) Aprendizaje Conceptual y Profundo..",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de Cajal — Examen N°1 (nº 39, tema \"funcion_lineal\")."
+  },
+  {
+    "id": "fis-caj-0009",
+    "institutions": [
+      "UNC"
+    ],
+    "subject": "fisica",
+    "block": "funciones",
+    "topic": "funcion_lineal",
+    "track": "practico",
+    "type": "single_choice",
+    "frequency": "media",
+    "difficulty": 2,
+    "stem": "La reforma del 18 marca la entrada de la universidad de Córdoba en la modernidad, obteniendo diferentes logros. Cuáles fueron los dos más importantes:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Co-gobierno estudiantil y Autonomía Universitaria.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Docencia libre.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Concursos con jurados con participación estudiantil.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Investigación, extensión y compromiso con la sociedad.",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "A, b y d son correctas.",
+        "correct": false
+      }
+    ],
+    "explanation": "Respuesta correcta: a) Co-gobierno estudiantil y Autonomía Universitaria..",
+    "source": "original",
+    "version": 1,
+    "status": "active",
+    "authorNote": "Importado de Cajal — Examen N°1 (nº 40, tema \"funcion_lineal\")."
   }
 ]
