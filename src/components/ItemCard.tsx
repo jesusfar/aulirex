@@ -53,6 +53,16 @@ export function ItemCard({ item, onAnswered, onNext, exam = false }: ItemCardPro
     [item.id],
   );
 
+  // Opciones de elección barajadas y estables por ítem: evita que la respuesta
+  // correcta quede siempre en la misma posición (los bancos suelen traerla
+  // primera). La calificación usa `id`/`correct`, no la posición, así que el
+  // orden de presentación es libre. Aplica a single_choice/true_false y multi.
+  const displayChoices = useMemo(
+    () => shuffle(item.choices ?? []),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [item.id],
+  );
+
   function moveStep(i: number, delta: number) {
     setOrder((prev) => {
       const j = i + delta;
@@ -175,7 +185,7 @@ export function ItemCard({ item, onAnswered, onNext, exam = false }: ItemCardPro
 
         {(item.type === 'single_choice' || item.type === 'true_false') && (
           <ul className="mt-5 space-y-3">
-            {item.choices?.map((c, idx) => (
+            {displayChoices.map((c, idx) => (
               <li key={c.id}>
                 <button
                   type="button"
@@ -202,7 +212,7 @@ export function ItemCard({ item, onAnswered, onNext, exam = false }: ItemCardPro
 
         {item.type === 'multiple_response' && (
           <ul className="mt-5 space-y-3">
-            {item.choices?.map((c) => {
+            {displayChoices.map((c) => {
               const picked = multi.has(c.id);
               return (
                 <li key={c.id}>
