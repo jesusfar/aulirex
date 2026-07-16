@@ -1364,7 +1364,9 @@ class Component extends DCLogic {
 
   applyDecorVisibility(){
     const off = this.isMobile;
-    if(this.decorGroup) this.decorGroup.visible = !off;
+    // El decor (vaso, fernet, cooler, estetoscopio, etc.) se muestra también en
+    // mobile; solo el esqueleto (foto) sigue oculto en pantallas chicas.
+    if(this.decorGroup) this.decorGroup.visible = true;
     if(this.skeleton)   this.skeleton.visible   = !off;
     if(this.skelLight)  this.skelLight.visible   = !off;
     if(this.walkEl)     this.walkEl.style.display = off ? 'none' : '';
