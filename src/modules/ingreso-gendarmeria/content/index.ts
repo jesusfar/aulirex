@@ -9,6 +9,7 @@ import { items as lengua } from './items/lengua';
 import { items as historia } from './items/historia';
 import { items as civica } from './items/instruccion-civica';
 import { items as institucional } from './institucional';
+import { generatedItems } from './templates';
 
 import { fetchRemoteItems } from './remote';
 import { isSupabaseConfigured } from '../../../lib/supabase';
@@ -17,6 +18,7 @@ export { allMisconceptions, misconceptionById } from './misconceptions';
 
 export const curatedItems: Item[] = [
   ...matematica,
+  ...generatedItems, // plantillas de matemática con números aleatorios por sesión
   ...fisica,
   ...lengua,
   ...historia,
